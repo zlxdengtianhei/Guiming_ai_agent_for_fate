@@ -1,0 +1,26 @@
+# Railway ignore file for frontend
+# This file is in frontend directory, so paths are relative to frontend
+
+# Ignore backend
+../backend/
+../database/
+../external/
+../rag/
+../scripts/
+../sql/
+../test/
+../profile/
+../functions/
+
+# Ignore root files
+../*.py
+../*.md
+../*.sh
+../.gitignore
+../vercel.json
+../nixpacks.toml
+../railway.json
+../start.sh
+../Procfile
+../runtime.txt
+
