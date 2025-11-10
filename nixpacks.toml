@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = { python = "311", pip = "latest" }
+nixPkgs = ["python311", "pip"]
 
 [phases.install]
 cmds = [
