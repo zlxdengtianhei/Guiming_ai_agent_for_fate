@@ -2,13 +2,14 @@
 
 # Railway deployment script for Tarot Agent Backend
 # This script starts the FastAPI backend application
+# Dependencies should already be installed during build phase
 
 set -e  # Exit on error
 
 echo "🚀 Starting Tarot Agent Backend..."
 
 # Navigate to backend directory
-cd backend
+cd backend || { echo "❌ Backend directory not found"; exit 1; }
 
 # Check if Python is available
 if ! command -v python3 &> /dev/null; then
@@ -16,21 +17,10 @@ if ! command -v python3 &> /dev/null; then
     exit 1
 fi
 
-# Install dependencies if requirements.txt exists
-if [ -f "requirements.txt" ]; then
-    echo "📦 Installing Python dependencies..."
+# Verify uvicorn is installed
+if ! command -v uvicorn &> /dev/null; then
+    echo "❌ uvicorn is not installed. Installing dependencies..."
     pip install --no-cache-dir -r requirements.txt
-fi
-
-# Install dependencies from pyproject.toml if it exists (using uv if available, otherwise pip)
-if [ -f "pyproject.toml" ]; then
-    if command -v uv &> /dev/null; then
-        echo "📦 Installing dependencies using uv..."
-        uv sync
-    else
-        echo "📦 Installing dependencies using pip..."
-        pip install --no-cache-dir -e .
-    fi
 fi
 
 # Get port from Railway environment variable, default to 8000
