@@ -13,6 +13,9 @@ output/
 *.sh
 !start.sh
 !Procfile
+# Allow Railway config files
+!nixpacks.toml
+!runtime.txt
 
 # Python
 __pycache__/
