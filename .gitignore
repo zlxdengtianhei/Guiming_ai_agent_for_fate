@@ -2,6 +2,7 @@
 *.md
 !RAILWAY_SETUP.md
 !ENV_SETUP_GUIDE.md
+!FRONTEND_DEPLOY_GUIDE.md
 !README.md
 
 # Ignore all log files
