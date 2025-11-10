@@ -123,7 +123,7 @@ export default function ReadingDetailPage() {
 
   // 转换卡牌数据格式
   // 后端返回的cards数组，每个card包含：card_id, card_name_en, card_name_cn, position, position_order, is_reversed, image_url
-  const cards: CardData[] = (reading.cards || reading.selected_cards || []).map((card: any) => ({
+  const cards: CardData[] = (reading.cards || []).map((card: any) => ({
     card_id: card.card_id || card.id || '',
     card_name_en: card.card_name_en || card.name || '',
     card_name_cn: card.card_name_cn || '',
