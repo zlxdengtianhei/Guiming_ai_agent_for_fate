@@ -1,5 +1,7 @@
-# Ignore all markdown files
+# Ignore all markdown files (except setup guides)
 *.md
+!RAILWAY_SETUP.md
+!README.md
 
 # Ignore all log files
 *.log
@@ -12,6 +14,7 @@ output/
 # Ignore all shell scripts (except deployment scripts)
 *.sh
 !start.sh
+!setup_railway_vars.sh
 !Procfile
 # Allow Railway config files
 !nixpacks.toml
