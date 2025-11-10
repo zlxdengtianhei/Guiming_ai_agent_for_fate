@@ -519,7 +519,7 @@ export default function HomePage() {
                     <CardDescription className="text-center">
                       {t('questionPlaceholder')}
                       <Button 
-                        variant="link" 
+                        variant="ghost" 
                         className="ml-2 text-sm text-amber-300/70 hover:text-amber-300"
                         onClick={() => setShowTarotExplanation(!showTarotExplanation)}
                       >
