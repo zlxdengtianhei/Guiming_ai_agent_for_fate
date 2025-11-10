@@ -141,8 +141,8 @@ export default function ReadingDetailPage() {
     ? reading.interpretation 
     : reading.interpretation?.final_interpretation || ''
 
-  // 获取意象描述
-  const imageryText = reading.imagery_description || ''
+  // 获取意象描述（可能存储在 metadata 中）
+  const imageryText = (reading.metadata?.imagery_description || reading.interpretation?.imagery_description || '') as string
 
   return (
     <ProtectedRoute>
