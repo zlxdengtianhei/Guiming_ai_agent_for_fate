@@ -71,17 +71,11 @@ export function ThreeCardSpread({ cards, positions, onCardClick }: ThreeCardSpre
   return (
     <div className="w-full flex flex-col items-center">
       <div 
-        className="relative rounded-lg p-4 border border-purple-500/20 min-h-[300px] w-full max-w-3xl mx-auto overflow-hidden"
-        style={{
-          backgroundImage: 'url(/database/images/background/backgroud.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
+        className="relative rounded-lg p-4 border border-purple-500/20 w-full max-w-3xl mx-auto overflow-hidden"
       >
         <div className="absolute inset-0 bg-[var(--bg-secondary)]/60 backdrop-blur-[1px]"></div>
         
-        <div className="relative z-10 flex gap-6 overflow-x-auto pb-4 scrollbar-custom justify-center">
+        <div className="relative z-10 flex gap-6 overflow-x-auto pb-2 scrollbar-custom justify-center">
           {sortedCards.map((card, index) => {
             return (
               <div
@@ -93,7 +87,7 @@ export function ThreeCardSpread({ cards, positions, onCardClick }: ThreeCardSpre
               >
                 <div className="relative w-48 h-36">
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-purple-500/30 via-transparent to-amber-400/25 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm" />
-                  <div className="relative z-10 w-full h-full rounded-2xl border border-purple-400/40 bg-[var(--bg-tertiary)]/85 backdrop-blur-sm shadow-[0_15px_35px_rgba(15,23,42,0.55)] overflow-hidden">
+                  <div className="relative z-10 w-full h-full rounded-2xl border-t border-b border-l border-r border-purple-400/40 bg-[var(--bg-tertiary)]/85 backdrop-blur-sm shadow-[0_15px_35px_rgba(15,23,42,0.55)] overflow-hidden">
                     {card.image_url ? (
                       <CardImage
                         imageUrl={card.image_url}
@@ -132,22 +126,9 @@ export function ThreeCardSpread({ cards, positions, onCardClick }: ThreeCardSpre
             )
           })}
         </div>
-
-        <div className="relative z-10 flex justify-center gap-2 mt-4">
-          {sortedCards.map((_, index) => (
-            <button
-              key={index}
-              className={`w-2 h-2 rounded-full transition-all ${
-                index === selectedIndex ? 'bg-purple-500 w-6' : 'bg-purple-500/50'
-              }`}
-              onClick={() => handleCardClick(index)}
-              aria-label={`Go to card ${index + 1}`}
-            />
-          ))}
-        </div>
       </div>
 
-      <p className="text-xs text-[var(--text-muted)] text-center mt-2">
+      <p className="text-xs text-[var(--text-muted)] text-center mt-1">
         {t('swipeHint') || '点击卡牌查看详情，左右滑动切换'}
       </p>
     </div>

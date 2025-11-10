@@ -141,8 +141,8 @@ export default function ReadingDetailPage() {
     ? reading.interpretation 
     : reading.interpretation?.final_interpretation || ''
 
-  // 获取意象描述（可能存储在 metadata 中）
-  const imageryText = (reading.metadata?.imagery_description || reading.interpretation?.imagery_description || '') as string
+  // 获取意象描述（直接从reading对象获取imagery_description字段）
+  const imageryText = reading.imagery_description || ''
 
   return (
     <ProtectedRoute>
@@ -168,8 +168,8 @@ export default function ReadingDetailPage() {
 
             {/* 卡牌展示 */}
             {cards.length > 0 && (
-              <Card variant="glow" glowColor="purple" className="w-full relative overflow-hidden" style={{
-                backgroundImage: 'url(/database/images/background/backgroud.png)',
+              <Card variant="glow" glowColor="purple" className="w-full relative overflow-hidden hover:shadow-[0_0_20px_rgba(124,58,237,0.3),0_0_20px_rgba(34,197,94,0.2)]" style={{
+                backgroundImage: 'url(/database/images/background/backgroud3.png)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
@@ -179,7 +179,7 @@ export default function ReadingDetailPage() {
                   <CardHeader className="text-center">
                     <CardTitle className="text-2xl">{t('selectedCards') || '抽取的卡牌'}</CardTitle>
                   </CardHeader>
-                  <CardContent className="flex justify-center">
+                  <CardContent className="flex justify-center pb-4">
                   {spreadType === 'three_card' ? (
                     <ThreeCardSpread 
                       cards={cards} 
@@ -201,30 +201,32 @@ export default function ReadingDetailPage() {
             {imageryText && (
               <Card 
                 variant="glow" 
-                glowColor="gold" 
-                className="w-full cursor-pointer transition-all hover:border-gold-500/50 relative overflow-hidden !bg-transparent"
+                glowColor="blue" 
+                className="w-full cursor-pointer transition-all hover:border-blue-500/50 animate-fadeIn relative overflow-hidden !bg-transparent !border-blue-500/20 hover:shadow-[0_0_20px_rgba(59,130,246,0.3),0_0_20px_rgba(255,255,255,0.1)]"
                 style={{
-                  backgroundImage: `url('/database/images/background/backgroud1.png')`,
+                  backgroundImage: `url('/database/images/background/backgroud2.png')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat',
                 }}
                 onClick={() => setIsImageryModalOpen(true)}
               >
-                <div className="absolute inset-0 bg-[var(--bg-secondary)]/70 backdrop-blur-[1px]"></div>
+                <div className="absolute inset-0 bg-[var(--bg-secondary)]/60 backdrop-blur-[1px]"></div>
                 <div className="relative z-10">
                   <CardHeader>
-                    <CardTitle className="text-xl">{t('imageryDescription') || '意象描述'}</CardTitle>
+                    <CardTitle className="text-xl flex items-center justify-between">
+                      <span>{t('imageryDescription') || '牌阵意象'}</span>
+                      <span className="text-base font-medium text-[var(--text-primary)]">
+                        {t('clickToViewDetails') || '点击查看详情'}
+                      </span>
+                    </CardTitle>
                   </CardHeader>
-                  <CardContent>
-                    <div className="prose prose-invert max-w-none">
-                      <p className="text-[var(--text-primary)] whitespace-pre-wrap break-words line-clamp-3">
+                  <CardContent className="min-h-[180px] flex items-center">
+                    <div className="w-full">
+                      <p className="text-[var(--text-primary)] whitespace-pre-wrap break-words leading-relaxed line-clamp-2">
                         {imageryText}
                       </p>
                     </div>
-                    <Button variant="outline" size="sm" className="mt-4">
-                      {t('viewFull') || '查看完整内容'}
-                    </Button>
                   </CardContent>
                 </div>
               </Card>
@@ -234,26 +236,58 @@ export default function ReadingDetailPage() {
             {interpretationText && (
               <Card 
                 variant="glow" 
-                glowColor="purple" 
-                className="w-full relative overflow-hidden !bg-transparent"
+                glowColor="gold" 
+                className="w-full animate-fadeIn relative overflow-hidden !bg-transparent !border-amber-500/20 hover:shadow-[0_0_20px_rgba(245,158,11,0.3),0_0_20px_rgba(0,0,0,0.05)]"
                 style={{
-                  backgroundImage: `url('/database/images/background/backgroud3.png')`,
+                  backgroundImage: `url('/database/images/background/backgroud1.png')`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat',
                 }}
               >
-                <div className="absolute inset-0 bg-[var(--bg-secondary)]/70 backdrop-blur-[1px]"></div>
+                <div className="absolute inset-0 bg-[var(--bg-secondary)]/60 backdrop-blur-[1px]"></div>
                 <div className="relative z-10">
-                  <CardHeader>
-                    <CardTitle className="text-2xl">{t('interpretation') || '占卜解读'}</CardTitle>
+                  <CardHeader 
+                    className="cursor-pointer transition-all hover:bg-[var(--bg-secondary)]"
+                    onClick={() => setIsInterpretationModalOpen(true)}
+                  >
+                    <CardTitle className="text-2xl flex items-center justify-between">
+                      <span>{t('interpretation') || '占卜解读'}</span>
+                      <span className="text-base font-medium text-[var(--text-primary)]">
+                        {t('clickToViewDetails') || '点击查看详情'}
+                      </span>
+                    </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <div 
-                      className="prose prose-invert max-w-none text-[var(--text-primary)]"
-                      style={{ maxHeight: '600px', overflowY: 'auto' }}
+                      ref={(el) => {
+                        if (el) {
+                          el.scrollTop = el.scrollHeight
+                        }
+                      }}
+                      className="prose prose-invert max-w-none rounded-lg px-6 py-4 min-h-[220px] max-h-[340px] overflow-y-auto scrollbar-gold"
+                      onClick={(e) => e.stopPropagation()}
                     >
-                      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                      <ReactMarkdown 
+                        remarkPlugins={[remarkGfm]}
+                        components={{
+                          h1: ({node, ...props}) => <h1 className="text-3xl font-bold mb-4 text-[var(--text-primary)]" {...props} />,
+                          h2: ({node, ...props}) => <h2 className="text-2xl font-bold mb-3 text-[var(--text-primary)]" {...props} />,
+                          h3: ({node, ...props}) => <h3 className="text-xl font-bold mb-2 text-[var(--text-primary)]" {...props} />,
+                          p: ({node, ...props}) => <p className="mb-4 text-[var(--text-primary)] leading-relaxed" {...props} />,
+                          ul: ({node, ...props}) => <ul className="list-disc list-inside mb-4 text-[var(--text-primary)]" {...props} />,
+                          ol: ({node, ...props}) => <ol className="list-decimal list-inside mb-4 text-[var(--text-primary)]" {...props} />,
+                          li: ({node, ...props}) => <li className="mb-1 text-[var(--text-primary)]" {...props} />,
+                          hr: ({node, ...props}) => <hr className="my-4 border-[var(--border-color)]" {...props} />,
+                          blockquote: ({node, ...props}) => <blockquote className="border-l-4 border-amber-500/50 pl-4 italic text-[var(--text-secondary)]" {...props} />,
+                          code: ({node, inline, ...props}: any) => 
+                            inline ? (
+                              <code className="bg-[var(--bg-tertiary)] px-1 py-0.5 rounded text-sm text-[var(--text-primary)]" {...props} />
+                            ) : (
+                              <code className="block bg-[var(--bg-tertiary)] p-2 rounded text-sm text-[var(--text-primary)] overflow-x-auto" {...props} />
+                            ),
+                        }}
+                      >
                         {interpretationText}
                       </ReactMarkdown>
                     </div>

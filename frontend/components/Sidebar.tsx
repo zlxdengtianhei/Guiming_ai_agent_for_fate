@@ -268,14 +268,14 @@ export function Sidebar({ children }: SidebarProps) {
 
   return (
     <div className="flex h-screen bg-[var(--bg-primary)]">
-      {/* Mobile hamburger button */}
+      {/* Mobile hamburger button - 缩小图标尺寸 */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-6 left-6 z-50 p-3 rounded-lg bg-[var(--bg-secondary)] shadow-lg border border-[var(--border-color)] md:hidden hover:bg-[var(--bg-tertiary)] transition-all duration-200"
+        className="fixed top-4 left-4 z-50 p-1.5 rounded-md bg-[var(--bg-secondary)]/90 shadow-lg border border-[var(--border-color)] md:hidden hover:bg-[var(--bg-tertiary)] transition-all duration-200"
         aria-label="Toggle sidebar"
       >
         <svg
-          className="h-5 w-5 text-[var(--text-primary)]"
+          className="h-4 w-4 text-[var(--text-primary)]"
           fill="none"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -305,7 +305,9 @@ export function Sidebar({ children }: SidebarProps) {
           'fixed top-0 left-0 h-full bg-[var(--bg-secondary)] border-r border-[var(--border-color)] z-40 transition-all duration-300 ease-in-out flex flex-col',
           isOpen ? 'translate-x-0' : '-translate-x-full',
           'md:translate-x-0 md:static md:z-auto',
-          isCollapsed ? 'w-20' : 'w-64'
+          isCollapsed ? 'w-20' : 'w-64',
+          // 手机端竖屏时，侧边栏打开时主内容区域需要调整
+          'md:relative'
         )}
       >
         {/* Header */}
@@ -518,8 +520,12 @@ export function Sidebar({ children }: SidebarProps) {
         </div>
       </aside>
 
-      {/* Main content */}
-      <main className="flex-1 overflow-auto">
+      {/* Main content - 手机端竖屏时，侧边栏打开时调整布局 */}
+      <main className={cn(
+        'flex-1 overflow-auto',
+        // 手机端竖屏时，侧边栏打开时主内容区域需要添加左边距避免被遮挡
+        isOpen && 'md:ml-0'
+      )}>
         {children}
       </main>
     </div>

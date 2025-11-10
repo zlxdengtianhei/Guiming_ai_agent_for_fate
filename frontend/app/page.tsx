@@ -511,7 +511,7 @@ function HomePageContent() {
             <div className="flex flex-col space-y-6">
               {/* 问题输入框 - 只在idle状态显示完整版本 */}
               {currentStep === 'idle' ? (
-                <Card variant="mystical" glowColor="gold" className="w-full sticky top-4 z-10">
+                <Card variant="mystical" glowColor="purple" className="w-full">
                   <CardHeader className="text-center">
                     <CardTitle className="text-3xl font-bold bg-gradient-to-r from-amber-300 via-purple-300 to-amber-300 bg-clip-text text-transparent">
                       {t('whatToAskToday')}
@@ -559,7 +559,7 @@ function HomePageContent() {
                 </Card>
               ) : (
                 /* 占卜进行中或完成后 - 显示简洁的问题显示 */
-                <Card variant="mystical" glowColor="gold" className="w-full sticky top-4 z-10">
+                <Card variant="mystical" glowColor="purple" className="w-full">
                 <CardContent className="p-4">
                   <div className="flex flex-col gap-3">
                     <div>
@@ -604,8 +604,8 @@ function HomePageContent() {
 
               {/* 卡牌展示 */}
               {(displayedCards.length > 0 || currentStep === 'cards_selected' || currentStep === 'pattern_analyzed' || currentStep === 'rag_retrieved') && (
-                <Card variant="glow" glowColor="purple" className="w-full relative overflow-hidden" style={{
-                  backgroundImage: 'url(/database/images/background/backgroud.png)',
+                <Card variant="glow" glowColor="purple" className="w-full relative overflow-hidden hover:shadow-[0_0_20px_rgba(124,58,237,0.3),0_0_20px_rgba(34,197,94,0.2)]" style={{
+                  backgroundImage: 'url(/database/images/background/backgroud3.png)',
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat',
@@ -622,7 +622,7 @@ function HomePageContent() {
                       )}
                     </CardTitle>
                   </CardHeader>
-                  <CardContent className="flex justify-center relative">
+                  <CardContent className="flex justify-center relative pb-4">
                     {displayedCards.length > 0 ? (
                       <div className="w-full">
                         {spreadType === 'three_card' ? (
@@ -667,11 +667,11 @@ function HomePageContent() {
               {showImageryBox && (
                 <Card 
                   variant="glow" 
-                  glowColor="purple" 
-                  className="w-full cursor-pointer transition-all hover:border-purple-500/50 animate-fadeIn relative overflow-hidden !bg-transparent !border-purple-500/20"
+                  glowColor="blue" 
+                  className="w-full cursor-pointer transition-all hover:border-blue-500/50 animate-fadeIn relative overflow-hidden !bg-transparent !border-blue-500/20 hover:shadow-[0_0_20px_rgba(59,130,246,0.3),0_0_20px_rgba(255,255,255,0.1)]"
                   style={{ 
                     animationDelay: '0.2s',
-                    backgroundImage: `url('/database/images/background/backgroud.png')`,
+                    backgroundImage: `url('/database/images/background/backgroud2.png')`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
@@ -697,7 +697,7 @@ function HomePageContent() {
                           )}
                         </span>
                         {imageryDescription && imageryDescription.length > 0 && (
-                          <span className="text-sm text-[var(--text-muted)]">
+                          <span className="text-base font-medium text-[var(--text-primary)]">
                             {t('clickToViewDetails') || '点击查看详情'}
                           </span>
                         )}
@@ -728,10 +728,10 @@ function HomePageContent() {
                 <Card 
                   variant="glow" 
                   glowColor="gold" 
-                  className={`w-full animate-fadeIn relative overflow-hidden !bg-transparent !border-amber-500/20 ${!hasUserInteracted && !isImageryExpanded ? 'border-2 border-amber-500/50' : ''}`}
+                  className={`w-full animate-fadeIn relative overflow-hidden !bg-transparent !border-amber-500/20 hover:shadow-[0_0_20px_rgba(245,158,11,0.3),0_0_20px_rgba(0,0,0,0.05)] ${!hasUserInteracted && !isImageryExpanded ? 'border-2 border-amber-500/50' : ''}`}
                   style={{ 
                     animationDelay: '0.2s',
-                    backgroundImage: `url('/database/images/background/backgroud.png')`,
+                    backgroundImage: `url('/database/images/background/backgroud1.png')`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
@@ -759,7 +759,7 @@ function HomePageContent() {
                           )}
                         </span>
                         {interpretationDisplay && interpretationDisplay.length > 0 && (
-                          <span className="text-sm text-[var(--text-muted)]">
+                          <span className="text-base font-medium text-[var(--text-primary)]">
                             {t('clickToViewDetails') || '点击查看详情'}
                           </span>
                         )}
@@ -770,7 +770,7 @@ function HomePageContent() {
                       <div 
                         ref={interpretationBoxRef}
                         onScroll={handleInterpretationScroll}
-                        className="bg-[var(--bg-primary)] rounded-lg p-4 border border-amber-500/20 min-h-[220px] max-h-[340px] overflow-y-auto scrollbar-gold"
+                        className="rounded-lg px-6 py-4 min-h-[220px] max-h-[340px] overflow-y-auto scrollbar-gold"
                         onClick={(e) => e.stopPropagation()}
                       >
                         <div className="prose prose-invert max-w-none">
@@ -804,7 +804,7 @@ function HomePageContent() {
                         </div>
                         </div>
                       ) : (
-                        <div className="bg-[var(--bg-primary)] rounded-lg p-4 border border-amber-500/20 min-h-[200px] flex flex-col items-center justify-center gap-3">
+                        <div className="rounded-lg px-6 py-4 min-h-[200px] flex flex-col items-center justify-center gap-3">
                           <TarotLoader size="md" />
                           <p className="text-[var(--text-secondary)] italic">
                             {getInterpretationStatus()}
