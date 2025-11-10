@@ -4,7 +4,10 @@
 
 import axios from 'axios'
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+// 临时硬编码用于测试 405 错误
+// TODO: 测试完成后恢复为环境变量
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://guimingaiagentforfate-production.up.railway.app'
+// const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
 
 export const apiClient = axios.create({
   baseURL: API_URL,
