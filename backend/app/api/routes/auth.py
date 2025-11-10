@@ -18,12 +18,17 @@ router = APIRouter()
 def get_frontend_url(request: Request) -> str:
     """
     从请求头中动态获取前端URL
-    优先级：Origin头 > Referer头 > 配置中的FRONTEND_URL > 默认值
+    优先级：配置中的FRONTEND_URL（如果设置了且不是localhost）> Origin头 > Referer头 > 默认值
     
     注意：在生产环境中，应该设置 FRONTEND_URL 环境变量，确保即使请求头缺失，
     也能使用正确的部署URL而不是 localhost。
     """
-    # 优先从Origin头获取（最可靠，来自实际请求）
+    # 优先使用配置中的FRONTEND_URL（如果设置了且不是localhost）
+    # 这样可以确保生产环境始终使用正确的URL，不受请求头影响
+    if settings.frontend_url and settings.frontend_url != "http://localhost:3000":
+        return settings.frontend_url
+    
+    # 其次从Origin头获取（最可靠，来自实际请求）
     origin = request.headers.get("origin")
     if origin:
         # 提取协议和主机（包含端口）
@@ -31,17 +36,12 @@ def get_frontend_url(request: Request) -> str:
         if parsed.scheme and parsed.netloc:
             return f"{parsed.scheme}://{parsed.netloc}"
     
-    # 其次从Referer头获取
+    # 再次从Referer头获取
     referer = request.headers.get("referer")
     if referer:
         parsed = urlparse(referer)
         if parsed.scheme and parsed.netloc:
             return f"{parsed.scheme}://{parsed.netloc}"
-    
-    # 使用配置中的FRONTEND_URL（从环境变量读取）
-    # 在生产环境中，应该设置此环境变量为部署的URL
-    if settings.frontend_url and settings.frontend_url != "http://localhost:3000":
-        return settings.frontend_url
     
     # 最后回退到默认值（仅用于开发环境）
     return settings.frontend_url
@@ -168,6 +168,12 @@ async def signup(request: SignUpRequest, http_request: Request):
         # 设置重定向 URL 到前端的回调页面（从请求头动态获取）
         frontend_url = get_frontend_url(http_request)
         email_redirect_to = f"{frontend_url}/auth/callback"
+        
+        # 记录调试信息
+        import logging
+        logger = logging.getLogger(__name__)
+        logger.info(f"Signup - Frontend URL: {frontend_url}, Email redirect to: {email_redirect_to}")
+        logger.info(f"Signup - FRONTEND_URL env var: {settings.frontend_url}")
         
         response = supabase.auth.sign_up({
             "email": request.email,

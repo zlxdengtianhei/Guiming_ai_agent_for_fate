@@ -246,21 +246,28 @@ export interface TarotReadingRequest {
 }
 
 export interface TarotReadingResponse {
-  reading_id: string
+  reading_id?: string
+  id?: string
   question: string
-  question_analysis: Record<string, any>
+  question_analysis?: Record<string, any>
   spread_type: string
   significator?: Record<string, any>
   cards: Array<{
     card_id: string
-    name: string
+    card_name_en?: string
+    card_name_cn?: string
+    name?: string
     suit?: string
     number?: number
     is_reversed: boolean
     position?: string
+    position_order?: number
+    image_url?: string
   }>
-  interpretation: Record<string, any>
-  metadata: Record<string, any>
+  interpretation?: string | Record<string, any>
+  imagery_description?: string
+  metadata?: Record<string, any>
+  created_at?: string
 }
 
 // Auth API
