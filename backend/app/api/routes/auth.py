@@ -7,7 +7,6 @@ from fastapi import APIRouter, HTTPException, Depends, Header, Request
 from pydantic import BaseModel, EmailStr
 from typing import Optional
 import httpx
-import os
 from urllib.parse import urlparse
 from app.core.database import get_supabase, get_supabase_service
 from app.core.config import settings
@@ -19,9 +18,12 @@ router = APIRouter()
 def get_frontend_url(request: Request) -> str:
     """
     从请求头中动态获取前端URL
-    优先级：Origin头 > Referer头 > 环境变量 > 默认值
+    优先级：Origin头 > Referer头 > 配置中的FRONTEND_URL > 默认值
+    
+    注意：在生产环境中，应该设置 FRONTEND_URL 环境变量，确保即使请求头缺失，
+    也能使用正确的部署URL而不是 localhost。
     """
-    # 优先从Origin头获取
+    # 优先从Origin头获取（最可靠，来自实际请求）
     origin = request.headers.get("origin")
     if origin:
         # 提取协议和主机（包含端口）
@@ -36,8 +38,13 @@ def get_frontend_url(request: Request) -> str:
         if parsed.scheme and parsed.netloc:
             return f"{parsed.scheme}://{parsed.netloc}"
     
-    # 最后使用环境变量或默认值
-    return os.getenv("FRONTEND_URL", "http://localhost:3000")
+    # 使用配置中的FRONTEND_URL（从环境变量读取）
+    # 在生产环境中，应该设置此环境变量为部署的URL
+    if settings.frontend_url and settings.frontend_url != "http://localhost:3000":
+        return settings.frontend_url
+    
+    # 最后回退到默认值（仅用于开发环境）
+    return settings.frontend_url
 
 
 class SignUpRequest(BaseModel):

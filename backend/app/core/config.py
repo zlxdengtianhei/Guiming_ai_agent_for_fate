@@ -62,6 +62,12 @@ class Settings(BaseSettings):
         env="CORS_ORIGINS",
         exclude=True  # Don't include in model output
     )
+    # Frontend URL for email verification links (used in auth routes)
+    frontend_url: str = Field(
+        default="http://localhost:3000",
+        env="FRONTEND_URL",
+        description="Frontend URL for email verification redirects. Should be set to production URL in production environment."
+    )
     api_v1_prefix: str = "/api/v1"
     
     @property
