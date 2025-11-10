@@ -1,6 +1,7 @@
 # Ignore all markdown files (except setup guides)
 *.md
 !RAILWAY_SETUP.md
+!ENV_SETUP_GUIDE.md
 !README.md
 
 # Ignore all log files
