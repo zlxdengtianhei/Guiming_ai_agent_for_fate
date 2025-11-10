@@ -36,7 +36,7 @@ const positionLabelMap: Record<string, TranslationKey> = {
   'environment': 'environment',
   'hopes_and_fears': 'hope',
   'outcome': 'outcome',
-}
+} as const
 
 export function CelticCrossSpread({ cards, onCardClick }: CelticCrossSpreadProps) {
   const { t } = useLanguage()
@@ -64,7 +64,20 @@ export function CelticCrossSpread({ cards, onCardClick }: CelticCrossSpreadProps
   }
 
   const getPositionLabelKey = (position: string): TranslationKey | undefined => {
-    return positionLabelMap[position]
+    const key = positionLabelMap[position]
+    if (key && typeof key === 'string') {
+      return key as TranslationKey
+    }
+    return undefined
+  }
+
+  // Helper function to safely get translated label
+  const getTranslatedLabel = (position: string): string => {
+    const labelKey = getPositionLabelKey(position)
+    if (labelKey) {
+      return t(labelKey)
+    }
+    return position
   }
 
   // 中心十字的6张牌
@@ -84,8 +97,7 @@ export function CelticCrossSpread({ cards, onCardClick }: CelticCrossSpreadProps
           <div className="flex items-center justify-center h-full">
             <div className="flex items-center justify-center gap-4 flex-wrap">
               {sortedCards.map((card) => {
-                const labelKey = getPositionLabelKey(card.position)
-                const label = labelKey ? t(labelKey) : card.position
+                const label = getTranslatedLabel(card.position)
                 return (
                   <CardItem
                     key={card.card_id}
@@ -117,8 +129,7 @@ export function CelticCrossSpread({ cards, onCardClick }: CelticCrossSpreadProps
             </div>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4 justify-items-center">
               {sortedCards.map((card) => {
-                const positionLabelKey = getPositionLabelKey(card.position)
-                const positionLabel = positionLabelKey ? t(positionLabelKey) : card.position
+                const positionLabel = getTranslatedLabel(card.position)
                 return (
                   <div
                     key={card.card_id}
