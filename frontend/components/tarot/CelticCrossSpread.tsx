@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Card } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
 import { useLanguage } from '@/contexts/LanguageContext'
+import { TranslationKey } from '@/lib/i18n'
 import { CardImage } from './CardImage'
 
 interface CardData {
@@ -24,7 +25,7 @@ interface CelticCrossSpreadProps {
 // 凯尔特十字布局位置映射
 // 中心十字 (The Cross): 前6张牌
 // 权杖/高塔 (The Staff/Tower): 后4张牌，垂直排列在右侧
-const positionLabelMap: Record<string, string> = {
+const positionLabelMap: Record<string, TranslationKey> = {
   'cover': 'situation',
   'crossing': 'challenge',
   'basis': 'past',
@@ -62,8 +63,8 @@ export function CelticCrossSpread({ cards, onCardClick }: CelticCrossSpreadProps
     setSelectedCard(null)
   }
 
-  const getPositionLabel = (position: string) => {
-    return positionLabelMap[position] || position
+  const getPositionLabelKey = (position: string): TranslationKey | undefined => {
+    return positionLabelMap[position]
   }
 
   // 中心十字的6张牌
@@ -82,18 +83,22 @@ export function CelticCrossSpread({ cards, onCardClick }: CelticCrossSpreadProps
         {!isExpanded ? (
           <div className="flex items-center justify-center h-full">
             <div className="flex items-center justify-center gap-4 flex-wrap">
-              {sortedCards.map((card) => (
-                <CardItem
-                  key={card.card_id}
-                  card={card}
-                  label={t(getPositionLabel(card.position)) || card.position}
-                  reversedLabel={t('reversed')}
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    handleCardClick(card)
-                  }}
-                />
-              ))}
+              {sortedCards.map((card) => {
+                const labelKey = getPositionLabelKey(card.position)
+                const label = labelKey ? t(labelKey) : card.position
+                return (
+                  <CardItem
+                    key={card.card_id}
+                    card={card}
+                    label={label}
+                    reversedLabel={t('reversed')}
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      handleCardClick(card)
+                    }}
+                  />
+                )
+              })}
             </div>
           </div>
         ) : (
@@ -112,7 +117,8 @@ export function CelticCrossSpread({ cards, onCardClick }: CelticCrossSpreadProps
             </div>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4 justify-items-center">
               {sortedCards.map((card) => {
-                const positionLabel = t(getPositionLabel(card.position)) || card.position
+                const positionLabelKey = getPositionLabelKey(card.position)
+                const positionLabel = positionLabelKey ? t(positionLabelKey) : card.position
                 return (
                   <div
                     key={card.card_id}

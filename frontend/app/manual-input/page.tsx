@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { Suspense, useState, useEffect } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { tarotAPI, TarotReadingResponse } from '@/lib/api'
 import { Button } from '@/components/ui/Button'
@@ -14,7 +14,7 @@ import { Alert } from '@/components/ui/Alert'
 import { Badge } from '@/components/ui/Badge'
 import { TarotLoader } from '@/components/ui/TarotLoader'
 
-export default function ManualInputPage() {
+function ManualInputPageContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const spreadType = searchParams.get('spread') || 'three_card'
@@ -198,3 +198,16 @@ export default function ManualInputPage() {
   )
 }
 
+export default function ManualInputPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen flex items-center justify-center bg-[var(--bg-primary)]">
+          <TarotLoader size="lg" />
+        </div>
+      }
+    >
+      <ManualInputPageContent />
+    </Suspense>
+  )
+}

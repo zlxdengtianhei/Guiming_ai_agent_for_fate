@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect, useCallback } from 'react'
+import { Suspense, useState, useRef, useEffect, useCallback } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useAuth } from '@/contexts/AuthContext'
 import { useLanguage } from '@/contexts/LanguageContext'
@@ -41,7 +41,7 @@ interface CardData {
   image_url?: string
 }
 
-export default function HomePage() {
+function HomePageContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const selectedSpread = searchParams.get('spread') as 'three_card' | 'celtic_cross' | null
@@ -868,5 +868,19 @@ export default function HomePage() {
         </div>
       </Sidebar>
     </ProtectedRoute>
+  )
+}
+
+export default function HomePage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen flex items-center justify-center bg-[var(--bg-primary)]">
+          <TarotLoader size="lg" />
+        </div>
+      }
+    >
+      <HomePageContent />
+    </Suspense>
   )
 }
