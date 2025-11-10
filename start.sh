@@ -20,7 +20,7 @@ fi
 # Verify uvicorn is installed
 if ! command -v uvicorn &> /dev/null; then
     echo "❌ uvicorn is not installed. Installing dependencies..."
-    pip install --no-cache-dir -r requirements.txt
+    pip install --no-cache-dir -r requirements.txt || pip install --no-cache-dir -r backend/requirements.txt
 fi
 
 # Get port from Railway environment variable, default to 8000
