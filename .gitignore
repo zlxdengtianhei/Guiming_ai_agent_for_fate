@@ -9,8 +9,10 @@
 output/
 **/output/
 
-# Ignore all shell scripts
+# Ignore all shell scripts (except deployment scripts)
 *.sh
+!start.sh
+!Procfile
 
 # Python
 __pycache__/
