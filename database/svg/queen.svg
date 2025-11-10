@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- 王后 - 简约王冠 -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" stroke-opacity="0.7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 皇冠轮廓 -->
+    <path d="M 30 58 L 38 40 L 50 48 L 62 40 L 70 58 Z" />
+    <line x1="30" y1="58" x2="70" y2="58" />
+
+    <!-- 中央心形宝石 -->
+    <path d="M 50 46 Q 47 42 44 45 Q 44 50 50 54 Q 56 50 56 45 Q 53 42 50 46" />
+
+    <!-- 边缘宝石 -->
+    <circle cx="38" cy="44" r="2" />
+    <circle cx="62" cy="44" r="2" />
+  </g>
+</svg>
+

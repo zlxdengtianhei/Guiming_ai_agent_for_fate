@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- 侍从 - 简约卷轴 -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" stroke-opacity="0.7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 卷轴主体 -->
+    <path d="M 35 32 Q 30 36 35 40 V 62 Q 30 66 35 70 H 65 Q 70 66 65 62 V 40 Q 70 36 65 32 Z" />
+
+    <!-- 卷轴内页 -->
+    <line x1="35" y1="44" x2="65" y2="44" />
+    <line x1="35" y1="52" x2="65" y2="52" />
+    <line x1="35" y1="60" x2="65" y2="60" />
+  </g>
+</svg>
+

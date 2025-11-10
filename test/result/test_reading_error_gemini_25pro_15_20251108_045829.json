@@ -1,0 +1,26 @@
+{
+  "test_timestamp": "2025-11-08T04:58:28.847477",
+  "model_preset": "gemini_25pro_15",
+  "preset_name": "Gemini 2.5 Pro (意象+解读) + Gemini 1.5 (问题分析)",
+  "question": "算一下我朋友的人生走势，什么时候发财，什么时候结婚，难度是high",
+  "user_profile": {
+    "age": 28,
+    "gender": "female",
+    "zodiac_sign": "Leo",
+    "appearance_type": "wands",
+    "personality_type": "wands",
+    "preferred_source": "pkt",
+    "preferred_spread": null,
+    "language": "zh"
+  },
+  "steps": [],
+  "reading_id": null,
+  "final_result": null,
+  "total_time_ms": 0,
+  "errors": [
+    {
+      "error": "Error code: 400 - {'error': {'message': 'google/gemini-1.5-flash is not a valid model ID', 'code': 400}, 'user_id': 'user_2tOnrVZCBGFKGFGTaKzpFYhoH2q'}",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/lexuanzhang/code/tarot_agent/test/test_model_presets.py\", line 76, in test_model_preset\n    result = await service.create_reading(\n  File \"/Users/lexuanzhang/code/tarot_agent/backend/app/services/tarot/reading_service.py\", line 102, in create_reading\n    question_analysis_result = await self.question_analyzer.analyze_question_with_details(\n  File \"/Users/lexuanzhang/code/tarot_agent/backend/app/services/tarot/question_analyzer.py\", line 361, in analyze_question_with_details\n    analysis_result = await self._call_llm_for_analysis(\n  File \"/Users/lexuanzhang/code/tarot_agent/backend/app/services/tarot/question_analyzer.py\", line 206, in _call_llm_for_analysis\n    response = self.openai_client.chat.completions.create(\n  File \"/Users/lexuanzhang/Library/Python/3.9/lib/python/site-packages/openai/_utils/_utils.py\", line 286, in wrapper\n    return func(*args, **kwargs)\n  File \"/Users/lexuanzhang/Library/Python/3.9/lib/python/site-packages/openai/resources/chat/completions/completions.py\", line 1156, in create\n    return self._post(\n  File \"/Users/lexuanzhang/Library/Python/3.9/lib/python/site-packages/openai/_base_client.py\", line 1259, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n  File \"/Users/lexuanzhang/Library/Python/3.9/lib/python/site-packages/openai/_base_client.py\", line 1047, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.BadRequestError: Error code: 400 - {'error': {'message': 'google/gemini-1.5-flash is not a valid model ID', 'code': 400}, 'user_id': 'user_2tOnrVZCBGFKGFGTaKzpFYhoH2q'}\n"
+    }
+  ]
+}

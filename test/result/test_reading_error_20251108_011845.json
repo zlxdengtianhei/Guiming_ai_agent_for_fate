@@ -1,0 +1,23 @@
+{
+  "test_timestamp": "2025-11-08T01:18:45.984731",
+  "question": "我的父亲11月运势如何",
+  "user_profile": {
+    "age": 28,
+    "gender": "female",
+    "zodiac_sign": "Leo",
+    "appearance_type": "wands",
+    "personality_type": "wands",
+    "preferred_source": "pkt",
+    "preferred_spread": null
+  },
+  "steps": [],
+  "reading_id": null,
+  "final_result": null,
+  "total_time_ms": 0,
+  "errors": [
+    {
+      "error": "create_reading() got an unexpected keyword argument 'use_rag_for_pattern'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/lexuanzhang/code/tarot_agent/test/test_complete_reading_with_logging.py\", line 65, in test_complete_reading_with_logging\n    result = await service.create_reading(\nTypeError: create_reading() got an unexpected keyword argument 'use_rag_for_pattern'\n"
+    }
+  ]
+}

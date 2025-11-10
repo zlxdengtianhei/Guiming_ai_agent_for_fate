@@ -1,0 +1,2402 @@
+{
+  "test_timestamp": "2025-11-08T01:18:49.514077",
+  "question": "我的父亲11月运势如何",
+  "user_profile": {
+    "age": 28,
+    "gender": "female",
+    "zodiac_sign": "Leo",
+    "appearance_type": "wands",
+    "personality_type": "wands",
+    "preferred_source": "pkt",
+    "preferred_spread": null
+  },
+  "steps": [
+    {
+      "step_name": "question_analysis",
+      "step_order": 2,
+      "input_data": {
+        "question": "我的父亲11月运势如何",
+        "user_profile": {
+          "age": 28,
+          "gender": "female",
+          "zodiac_sign": "Leo",
+          "appearance_type": "wands",
+          "personality_type": "wands",
+          "preferred_source": "pkt",
+          "preferred_spread": null
+        },
+        "user_selected_spread": null
+      },
+      "output_data": {
+        "analysis": {
+          "reasoning": "这是一个关于父亲运势的简单问题，三牌占卜可以清晰回答过去-现在-未来的运势变化",
+          "complexity": "simple",
+          "question_type": "general",
+          "question_domain": "general",
+          "question_summary": "分析父亲在11月的整体运势",
+          "recommended_spread": "three_card",
+          "auto_selected_spread": true
+        },
+        "llm_response": "{\n    \"question_domain\": \"general\",\n    \"complexity\": \"simple\",\n    \"question_type\": \"general\",\n    \"recommended_spread\": \"three_card\",\n    \"reasoning\": \"这是一个关于父亲运势的简单问题，三牌占卜可以清晰回答过去-现在-未来的运势变化\",\n    \"question_summary\": \"分析父亲在11月的整体运势\"\n}"
+      },
+      "prompt_type": "question_analysis",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师。请分析以下问题，并返回JSON格式的分析结果。\n\n## 问题：\n我的父亲11月运势如何\n\n## 用户信息（可选）：\n年龄: 28\n性别: female\n星座: Leo\n性格类型: wands\n外貌类型: wands\n\n## 分析要求：\n1. **问题领域**：识别问题所属领域，从以下选项中选择其一：\n   - 'love': 爱情、关系、情感\n   - 'career': 职业、工作、事业\n   - 'health': 健康、身体、康复\n   - 'finance': 财务、金钱、物质\n   - 'personal_growth': 个人成长、精神、自我探索\n   - 'general': 一般生活、综合问题\n\n2. **问题复杂度**（如果用户未指定占卜方式）：\n   - 'simple': 简单问题，可以用三牌占卜回答\n   - 'moderate': 中等复杂度，默认推荐三牌占卜\n   - 'complex': 复杂问题，需要凯尔特十字深入分析\n\n3. **提问类型**：\n   - 'specific_event': 具体事件（如：会得到这份工作吗？）\n   - 'relationship': 关系问题（如：我们的关系会如何发展？）\n   - 'choice': 选择问题（如：应该选择哪个方向？）\n   - 'general': 一般性问题（如：我的未来会怎样？）\n\n4. **推荐占卜方式**（如果用户未指定）：\n   - 'three_card': 三牌占卜\n   - 'celtic_cross': 凯尔特十字\n   - 'work_cycle': 工作循环（如果需要持续建议）\n   - 'other': 其他（说明原因）\n\n## 输出格式（JSON）：\n{\n    \"question_domain\": \"love\",\n    \"complexity\": \"simple\",\n    \"question_type\": \"relationship\",\n    \"recommended_spread\": \"three_card\",\n    \"reasoning\": \"这是一个关于关系的简单问题，三牌占卜可以清晰回答过去-现在-未来的发展\",\n    \"question_summary\": \"简要总结问题核心\"\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "rag_queries": null,
+      "model_used": "gpt-4o-mini",
+      "temperature": 0.3,
+      "processing_time_ms": 2219,
+      "tokens_used": null,
+      "created_at": "2025-11-08T00:18:51.82638+00:00"
+    },
+    {
+      "step_name": "pattern_analysis",
+      "step_order": 6,
+      "input_data": {
+        "spread_type": "three_card",
+        "selected_cards": [
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+            "position": "past",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords",
+            "position_order": 1,
+            "position_description": "过去的影响"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "0e55cfd8-c348-4dd5-b28c-31c42397bdec",
+            "position": "present",
+            "card_number": 6,
+            "is_reversed": true,
+            "card_name_cn": "恋人",
+            "card_name_en": "The Lovers",
+            "position_order": 2,
+            "position_description": "当前状况"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "80f898e8-c948-4efd-b91a-2487f90085da",
+            "position": "future",
+            "card_number": 13,
+            "is_reversed": false,
+            "card_name_cn": "王后 圣杯",
+            "card_name_en": "Queen of Cups",
+            "position_order": 3,
+            "position_description": "未来趋势"
+          }
+        ],
+        "analysis_method": "code_based",
+        "question_domain": "general"
+      },
+      "output_data": {
+        "analysis": {
+          "analysis_method": "code_based",
+          "number_patterns": {
+            "number_jumps": [
+              "数字跳跃：5 → 13（间隔8）"
+            ],
+            "same_numbers": [],
+            "major_numbers": [
+              6
+            ],
+            "number_sequences": []
+          },
+          "reversed_patterns": {
+            "count": 1,
+            "positions": [
+              "present"
+            ],
+            "interpretation": "逆位牌适中（1张），表示能量混合，需要平衡正逆位的影响"
+          },
+          "suit_distribution": {
+            "cups_count": 1,
+            "major_count": 1,
+            "wands_count": 0,
+            "swords_count": 1,
+            "interpretation": "元素分布：权杖0、圣杯1、宝剑1、星币0，cups元素较多",
+            "pentacles_count": 0
+          },
+          "special_combinations": [],
+          "major_arcana_patterns": {
+            "count": 1,
+            "meaning": "只有1张大阿卡纳（The Lovers），表示单一重大主题",
+            "positions": [
+              "present"
+            ]
+          },
+          "position_relationships": {
+            "time_flow": "过去 → 现在 → 未来：Five of Swords → The Lovers → Queen of Cups",
+            "support_conflict": "所有牌都是不同花色，表示元素多样，可能存在冲突或平衡",
+            "causal_relationships": [
+              "past → present",
+              "present → future"
+            ]
+          }
+        }
+      },
+      "prompt_type": null,
+      "prompt_content": null,
+      "rag_queries": null,
+      "model_used": null,
+      "temperature": null,
+      "processing_time_ms": 0,
+      "tokens_used": null,
+      "created_at": "2025-11-08T00:18:52.094714+00:00"
+    },
+    {
+      "step_name": "rag_retrieval",
+      "step_order": 7,
+      "input_data": {
+        "spread_type": "three_card",
+        "selected_cards": [
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+            "position": "past",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords",
+            "position_order": 1,
+            "position_description": "过去的影响"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "0e55cfd8-c348-4dd5-b28c-31c42397bdec",
+            "position": "present",
+            "card_number": 6,
+            "is_reversed": true,
+            "card_name_cn": "恋人",
+            "card_name_en": "The Lovers",
+            "position_order": 2,
+            "position_description": "当前状况"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "80f898e8-c948-4efd-b91a-2487f90085da",
+            "position": "future",
+            "card_number": 13,
+            "is_reversed": false,
+            "card_name_cn": "王后 圣杯",
+            "card_name_en": "Queen of Cups",
+            "position_order": 3,
+            "position_description": "未来趋势"
+          }
+        ]
+      },
+      "output_data": {
+        "spread_method": {
+          "rag_text": "[method_steps] To perform a three-card spread in Tarot divination, follow these steps:\n\n1. **Preparation**: Begin by ensuring your mind is clear. Focus on your question or intention, or simply concentrate on the Significator if no specific question is posed.\n\n2. **Shuffling**: Shuffle the entire deck thoroughly while maintaining your focus. You may also turn some cards upside down to introduce reversals.\n\n3. **Cutting the Deck**: Have the Querent cut the deck with their left hand to further engage their energy in the reading.\n\n4. **Dealing the Cards**: Draw three cards from the shuffled deck and lay them out in a row, face up. Each card will represent a different aspect of the inquiry:\n   - **Card 1**: Past influences or background.\n   - **Card 2**: Present situation or current influences.\n   - **Card 3**: Future outcome or potential developments.\n\n5. **Interpretation**: Analyze each card individually, considering its position and how it relates to the question. Look for combinations and connections between the cards to deepen the interpretation.\n\n6. **Reflection**: After interpreting the cards, take a moment to reflect on the overall message and how it applies to the Querent's situation. \n\nThis method allows for a concise yet insightful reading, providing clarity on the past, present, and future.\n\n[position_interpretation] In a three-card spread, the positions typically represent the following:\n\n1. **First Card (Significator)**: This card reflects the current situation or the Querent's present state regarding the question or issue at hand.\n\n2. **Second Card (Crossing Card)**: This card is placed across the first and indicates obstacles or challenges that the Querent may face. A favorable card here suggests that the obstacles are not serious, while an unfavorable card may indicate significant challenges.\n\n3. **Third Card (Crowning Card)**: Positioned above the Significator, this card represents the Querent's aim or ideal in the matter, as well as the best possible outcome that has not yet been realized. It reflects aspirations and potential achievements under the current circumstances.\n\n[psychological_background] In a three-card spread using a psychological approach, each card can represent different aspects of the querent's psyche or situation:\n\n1. **Past Influences**: The first card reflects past experiences or influences that shape the current situation. It may reveal underlying beliefs or emotional patterns that need to be acknowledged.\n\n2. **Present Situation**: The second card represents the current state of mind or emotional landscape. It highlights the querent's present challenges, strengths, or opportunities for growth.\n\n3. **Future Guidance**: The third card offers insight into potential outcomes or advice for moving forward. It encourages the querent to integrate the lessons from the past and present to foster personal development.\n\nThis spread emphasizes the balance between consciousness (the Magician) and intuition (the High Priestess), guiding the querent towards self-awareness and empowerment.\n\n[traditional_method] The three-card spread is a simple and traditional method of Tarot divination that can provide insights into past, present, and future situations. While the context provided does not specifically detail the three-card spread, it aligns with the principles of simplicity in divination mentioned. \n\nIn a typical three-card spread:\n1. **First Card**: Represents the past influences or events related to the question.\n2. **Second Card**: Reflects the present situation or current influences.\n3. **Third Card**: Indicates potential future outcomes or advice.\n\nThis method allows for a straightforward interpretation while still offering depth through the individual meanings of each card.",
+          "citations": [
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0284#1",
+              "similarity": 0.621696174144745
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0104#1",
+              "similarity": 0.620455965941438
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0101#1",
+              "similarity": 0.609357357025146
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0103#2",
+              "similarity": 0.602821504397051
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0309#1",
+              "similarity": 0.592379212379456
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0099#1",
+              "similarity": 0.614483778373864
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0095#1",
+              "similarity": 0.602792429591132
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.592918641008267
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0310#1",
+              "similarity": 0.584965695742886
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0269#1",
+              "similarity": 0.625906642607462
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0097#1",
+              "similarity": 0.597326887131891
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0285#2",
+              "similarity": 0.593251382902373
+            }
+          ],
+          "query_count": 4,
+          "query_types": [
+            "method_steps",
+            "position_interpretation",
+            "psychological_background",
+            "traditional_method"
+          ],
+          "spread_type": "three_card"
+        },
+        "card_information": {
+          "0e55cfd8-c348-4dd5-b28c-31c42397bdec": {
+            "arcana": "major",
+            "position": "present",
+            "rag_text": "[basic_upright_reversed_symbolic_meaning] The Lovers card reversed signifies a breakdown of ideals associated with love and relationships. It often indicates a love affair or friendship that has soured, marked by jealousy and a loss of trust. This card can represent the end of a relationship, internal or external pressures threatening a bond, or infatuation where individuals deceive themselves about the depth of their feelings. Overall, it reflects disconnection, misalignment in values, and the potential for superficiality in romantic engagements.\n\n[visual_description] The Lovers tarot card features two human figures, male and female, unveiled before each other, reminiscent of Adam and Eve in paradise. Behind the man is the Tree of Life, while the Tree of the Knowledge of Good and Evil is behind the woman, with a serpent entwined around it. The scene is illuminated by a bright sun at the zenith, and a great winged figure with arms extended pours down influences upon them. The imagery suggests themes of youth, virginity, innocence, and love.\n\n[position_and_psychological_meaning] The Lovers card, in its present position, symbolizes the emergence of individuality and the ability to make choices based on personal desires and responsibilities rather than external influences. Psychologically, it represents the integration of one's inner self, highlighting the importance of love and relationships in personal development. This card suggests a deep connection between partners, where their union fosters growth and healing, leading to a greater understanding of oneself and the world. It also reflects the balance between passion and responsibility, emphasizing the need for conscious decision-making in matters of the heart.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.701381143804098
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0074#1",
+                "similarity": 0.68589361222185
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.63799784153668
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0067#1",
+                "similarity": 0.636383314024905
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.623829420551308
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0031#2",
+                "similarity": 0.622968110884447
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.62084712038602
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0086#1",
+                "similarity": 0.606811673464133
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0080#1",
+                "similarity": 0.605758023948435
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.604054010156036
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0222#1",
+                "similarity": 0.575669041196226
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0011#1",
+                "similarity": 0.565068594805174
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0052#1",
+                "similarity": 0.561084611383551
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0295#1",
+                "similarity": 0.542078224296677
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0070#1",
+                "similarity": 0.535329298237839
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0269#1",
+                "similarity": 0.529033382092926
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0361#1",
+                "similarity": 0.528424922040099
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0153#1",
+                "similarity": 0.527260717480101
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.503986954689026
+              }
+            ],
+            "is_reversed": true,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_symbolic_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "恋人",
+            "card_name_en": "The Lovers"
+          },
+          "80f898e8-c948-4efd-b91a-2487f90085da": {
+            "arcana": "minor",
+            "position": "future",
+            "rag_text": "[basic_upright_reversed_suit_meaning] The Queen of Cups upright represents emotional balance, creativity, and compassion. She embodies the ability to blend imagination with action, indicating a strong connection to both the inner self and the outer world. This card signifies nurturing, intuition, and the importance of emotional intelligence in relationships. It encourages the querent to trust their feelings and to express love and care towards others, highlighting the significance of empathy and understanding in social interactions.\n\n[visual_description] The Queen of Cups card typically features a serene woman seated on a throne adorned with cherubic mermaids. She is depicted with flowing robes that merge with water at her feet, symbolizing her deep emotional connection to the outer world and others. The imagery conveys a balance of imagination and action, reflecting her nurturing and intuitive nature. The overall aesthetic is one of calmness and emotional depth, emphasizing her role as a compassionate and creative figure.\n\n[position_and_psychological_meaning] The Queen of Cups in a future position suggests a deepening of emotional intelligence and intuition. Psychologically, this card represents a nurturing and empathetic aspect of the self, indicating that the individual may become more in tune with their feelings and the emotions of others. It encourages self-reflection and the exploration of one's inner world, promoting healing and emotional balance. This card often signifies the importance of compassion, both towards oneself and others, and may indicate a future where emotional connections and supportive relationships play a crucial role in personal growth.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0210#1",
+                "similarity": 0.620364629008504
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.614332946290515
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#2",
+                "similarity": 0.607458150831352
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0080#1",
+                "similarity": 0.605027169738288
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.602372205398811
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0229#1",
+                "similarity": 0.60025149583817
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.591729080184048
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.591167436450859
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.585844484842492
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.583909086934545
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0244#2",
+                "similarity": 0.615483173939615
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.597908818846416
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0295#1",
+                "similarity": 0.561631917953495
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0299#1",
+                "similarity": 0.548677033028249
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0304#1",
+                "similarity": 0.547747340932656
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0246#1",
+                "similarity": 0.547350222809661
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#1",
+                "similarity": 0.536569301673091
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_suit_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "王后 圣杯",
+            "card_name_en": "Queen of Cups"
+          },
+          "d148cb52-6b57-4d68-8d19-80c1e2b80142": {
+            "arcana": "minor",
+            "position": "past",
+            "rag_text": "[basic_upright_reversed_suit_meaning] The Five of Swords upright signifies conflict, defeat, and loss. It often represents a situation where one may achieve victory at a high cost, leading to feelings of emptiness or regret. This card embodies themes of betrayal, dishonor, and the consequences of aggressive behavior. In the context of the Air element and the suit of Swords, it emphasizes the mental and intellectual struggles associated with conflict, highlighting the need for reflection on one's actions and their impact on relationships.\n\n[visual_description] The Five of Swords typically depicts a scene of conflict and defeat. In the image, a figure stands triumphantly over two fallen opponents, holding three swords. The background often shows a desolate landscape, symbolizing the aftermath of conflict. The expressions of the defeated figures convey pain and sorrow, emphasizing the card's themes of loss and strife. The overall tone is one of tension and emotional turmoil, reflecting the card's association with conflict and the consequences of victory at a cost.\n\n[position_and_psychological_meaning] In the past position, the Five of Swords indicates a period of conflict, defeat, or betrayal. Psychologically, it reflects feelings of loss and the impact of negative experiences on the individual's self-esteem and mental state. This card suggests that the person may have faced a situation where they felt defeated or manipulated, leading to a sense of isolation and mistrust. It highlights the internal struggle of reconciling past hurts and the need to confront these painful memories to move forward. The emphasis is on the emotional scars left by conflict and the challenge of overcoming feelings of resentment or victimhood.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.605089252732172
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.604832302659935
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.590993393541174
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.580745950803886
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0179#1",
+                "similarity": 0.579821653978087
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.576701597565128
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0241#1",
+                "similarity": 0.572234732571904
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0081#1",
+                "similarity": 0.551535004194382
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0085#1",
+                "similarity": 0.54989942016016
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.549137841242155
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0174#1",
+                "similarity": 0.613004551767765
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.575888232727972
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#1",
+                "similarity": 0.565740074769279
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.56543224269961
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0290#1",
+                "similarity": 0.548935169108505
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0218#2",
+                "similarity": 0.538433661834324
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0240#1",
+                "similarity": 0.526498731792139
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0232#1",
+                "similarity": 0.525248543180521
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_suit_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords"
+          }
+        },
+        "card_relationships": {
+          "rag_text": "[number_patterns] In the context of Tarot card number patterns, the Five of Swords corresponds to the number 5, The Lovers corresponds to the number 6, and the Queen of Cups corresponds to the number 2 (as Queens are often associated with the number 2 in the context provided). \n\nThus, the sequence of numbers in this spread is 5 (Five of Swords), 6 (The Lovers), and 2 (Queen of Cups).\n\n[suit_distribution] In a Tarot spread, if you find an imbalance between the Cups and Swords suits, it indicates a tension between emotional (Cups) and intellectual or conflict-driven (Swords) experiences. A predominance of Cups suggests a focus on feelings, relationships, and receptivity, while a dominance of Swords points to active thoughts, challenges, and decision-making. Balancing these elements involves integrating emotional insights with rational thought, fostering a holistic approach to the situation at hand.\n\n[major_arcana_pattern] In a Tarot spread, a single Major Arcana card represents significant archetypal themes or life lessons. It often indicates a pivotal moment or a profound influence in the querent's life. The Major Arcana cards embody universal experiences and spiritual truths, suggesting that the situation at hand is not just about everyday concerns but rather about deeper, transformative processes. The interpretation of this card should focus on its symbolism and how it relates to the querent's current journey, emphasizing the importance of the lesson or insight it brings.\n\n[reversed_pattern] In a Tarot spread, a reversed card typically indicates a blockage or distortion of the card's upright meaning. It suggests that the qualities associated with the card are not being fully realized or are being channeled in an unexpected direction. For example, a reversed Fool may signify a failure to trust one's instincts or a reluctance to take risks due to fear. Overall, reversed cards provide a deeper understanding of the situation by highlighting challenges, internal conflicts, or the need for reevaluation. They can also indicate the end of relationships or the superficiality of certain connections, depending on the surrounding cards.\n\n[card_relationships] In this sequence, the Five of Swords in the past indicates a period of conflict, betrayal, or a sense of defeat, suggesting that previous interactions may have been marked by strife or competition. The Lovers in the present signifies a choice or a deep connection, emphasizing the importance of harmony and partnership in your current situation. It suggests that you may be navigating a significant relationship or decision that requires balance and mutual respect. The Queen of Cups in the future points to emotional maturity, compassion, and intuition. This card suggests that you will embody nurturing qualities, fostering emotional connections and understanding in your relationships moving forward. Overall, this sequence reflects a journey from conflict to connection, culminating in emotional depth and care.",
+          "citations": [
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0096#1",
+              "similarity": 0.626896671385575
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0365#1",
+              "similarity": 0.62016520019409
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0351#1",
+              "similarity": 0.618793876458692
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0305#2",
+              "similarity": 0.61333471139232
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0069#3",
+              "similarity": 0.580809097097152
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0181#1",
+              "similarity": 0.642018079757695
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0180#1",
+              "similarity": 0.640429475333064
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0182#1",
+              "similarity": 0.624616481340915
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0022#1",
+              "similarity": 0.601940918315814
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0186#2",
+              "similarity": 0.65842562987576
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0012#1",
+              "similarity": 0.611032972747153
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0069#1",
+              "similarity": 0.603163170437439
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0091#1",
+              "similarity": 0.59921836853029
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0170#1",
+              "similarity": 0.590748597294264
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0031#2",
+              "similarity": 0.654879487724182
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0191#1",
+              "similarity": 0.654701907003158
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0223#1",
+              "similarity": 0.653619050979633
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0082#1",
+              "similarity": 0.603877699606291
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0078#1",
+              "similarity": 0.601951861846891
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0315#1",
+              "similarity": 0.638300118294371
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0218#2",
+              "similarity": 0.634403903317575
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0079#1",
+              "similarity": 0.601349699738568
+            }
+          ],
+          "query_count": 5,
+          "query_types": [
+            "number_patterns",
+            "suit_distribution",
+            "major_arcana_pattern",
+            "reversed_pattern",
+            "card_relationships"
+          ]
+        }
+      },
+      "prompt_type": null,
+      "prompt_content": null,
+      "rag_queries": [
+        {
+          "type": "method_steps",
+          "query": "three_card spread tarot divination method how to use steps",
+          "result": {
+            "text": "To perform a three-card spread in Tarot divination, follow these steps:\n\n1. **Preparation**: Begin by ensuring your mind is clear. Focus on your question or intention, or simply concentrate on the Significator if no specific question is posed.\n\n2. **Shuffling**: Shuffle the entire deck thoroughly while maintaining your focus. You may also turn some cards upside down to introduce reversals.\n\n3. **Cutting the Deck**: Have the Querent cut the deck with their left hand to further engage their energy in the reading.\n\n4. **Dealing the Cards**: Draw three cards from the shuffled deck and lay them out in a row, face up. Each card will represent a different aspect of the inquiry:\n   - **Card 1**: Past influences or background.\n   - **Card 2**: Present situation or current influences.\n   - **Card 3**: Future outcome or potential developments.\n\n5. **Interpretation**: Analyze each card individually, considering its position and how it relates to the question. Look for combinations and connections between the cards to deepen the interpretation.\n\n6. **Reflection**: After interpreting the cards, take a moment to reflect on the overall message and how it applies to the Querent's situation. \n\nThis method allows for a concise yet insightful reading, providing clarity on the past, present, and future.",
+            "debug": {
+              "latency_ms": 7498,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0284#1",
+                "pkt-section-0104#1",
+                "pkt-section-0101#1",
+                "pkt-section-0103#2",
+                "78degrees-section-0309#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0284#1",
+                "similarity": 0.621696174144745
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0104#1",
+                "similarity": 0.620455965941438
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0101#1",
+                "similarity": 0.609357357025146
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0103#2",
+                "similarity": 0.602821504397051
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0309#1",
+                "similarity": 0.592379212379456
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "position_interpretation",
+          "query": "three_card spread tarot card positions meaning interpretation",
+          "result": {
+            "text": "In a three-card spread, the positions typically represent the following:\n\n1. **First Card (Significator)**: This card reflects the current situation or the Querent's present state regarding the question or issue at hand.\n\n2. **Second Card (Crossing Card)**: This card is placed across the first and indicates obstacles or challenges that the Querent may face. A favorable card here suggests that the obstacles are not serious, while an unfavorable card may indicate significant challenges.\n\n3. **Third Card (Crowning Card)**: Positioned above the Significator, this card represents the Querent's aim or ideal in the matter, as well as the best possible outcome that has not yet been realized. It reflects aspirations and potential achievements under the current circumstances.",
+            "debug": {
+              "latency_ms": 4746,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0099#1",
+                "pkt-section-0104#1",
+                "pkt-section-0095#1",
+                "78degrees-section-0282#1",
+                "78degrees-section-0310#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0099#1",
+                "similarity": 0.614483778373864
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0104#1",
+                "similarity": 0.610608908984921
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.602792429591132
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0282#1",
+                "similarity": 0.592918641008267
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0310#1",
+                "similarity": 0.584965695742886
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "psychological_background",
+          "query": "three_card spread tarot psychological approach interpretation",
+          "result": {
+            "text": "In a three-card spread using a psychological approach, each card can represent different aspects of the querent's psyche or situation:\n\n1. **Past Influences**: The first card reflects past experiences or influences that shape the current situation. It may reveal underlying beliefs or emotional patterns that need to be acknowledged.\n\n2. **Present Situation**: The second card represents the current state of mind or emotional landscape. It highlights the querent's present challenges, strengths, or opportunities for growth.\n\n3. **Future Guidance**: The third card offers insight into potential outcomes or advice for moving forward. It encourages the querent to integrate the lessons from the past and present to foster personal development.\n\nThis spread emphasizes the balance between consciousness (the Magician) and intuition (the High Priestess), guiding the querent towards self-awareness and empowerment.",
+            "debug": {
+              "latency_ms": 4237,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0269#1",
+                "78degrees-section-0282#1",
+                "pkt-section-0104#1",
+                "pkt-section-0095#1",
+                "pkt-section-0103#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0269#1",
+                "similarity": 0.625906642607462
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0282#1",
+                "similarity": 0.595814627533718
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0104#1",
+                "similarity": 0.590916289523312
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.588850761124447
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0103#2",
+                "similarity": 0.585566823015573
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "traditional_method",
+          "query": "three_card spread tarot traditional divination method ancient celtic",
+          "result": {
+            "text": "The three-card spread is a simple and traditional method of Tarot divination that can provide insights into past, present, and future situations. While the context provided does not specifically detail the three-card spread, it aligns with the principles of simplicity in divination mentioned. \n\nIn a typical three-card spread:\n1. **First Card**: Represents the past influences or events related to the question.\n2. **Second Card**: Reflects the present situation or current influences.\n3. **Third Card**: Indicates potential future outcomes or advice.\n\nThis method allows for a straightforward interpretation while still offering depth through the individual meanings of each card.",
+            "debug": {
+              "latency_ms": 3159,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0097#1",
+                "pkt-section-0101#1",
+                "78degrees-section-0309#1",
+                "78degrees-section-0285#2",
+                "pkt-section-0104#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0097#1",
+                "similarity": 0.597326887131891
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0101#1",
+                "similarity": 0.595294643009352
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0309#1",
+                "similarity": 0.59447764224081
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0285#2",
+                "similarity": 0.593251382902373
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0104#1",
+                "similarity": 0.59210465142616
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "number_patterns",
+          "query": "tarot card number patterns same numbers sequences in spread Five of Swords, The Lovers, Queen of Cups",
+          "result": {
+            "text": "In the context of Tarot card number patterns, the Five of Swords corresponds to the number 5, The Lovers corresponds to the number 6, and the Queen of Cups corresponds to the number 2 (as Queens are often associated with the number 2 in the context provided). \n\nThus, the sequence of numbers in this spread is 5 (Five of Swords), 6 (The Lovers), and 2 (Queen of Cups).",
+            "debug": {
+              "latency_ms": 2697,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0096#1",
+                "78degrees-section-0365#1",
+                "78degrees-section-0351#1",
+                "78degrees-section-0305#2",
+                "pkt-section-0069#3"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0096#1",
+                "similarity": 0.626896671385575
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0365#1",
+                "similarity": 0.62016520019409
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0351#1",
+                "similarity": 0.618793876458692
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.61333471139232
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0069#3",
+                "similarity": 0.580809097097152
+              }
+            ]
+          }
+        },
+        {
+          "type": "suit_distribution",
+          "query": "tarot card suit distribution element balance cups, swords in spread",
+          "result": {
+            "text": "In a Tarot spread, if you find an imbalance between the Cups and Swords suits, it indicates a tension between emotional (Cups) and intellectual or conflict-driven (Swords) experiences. A predominance of Cups suggests a focus on feelings, relationships, and receptivity, while a dominance of Swords points to active thoughts, challenges, and decision-making. Balancing these elements involves integrating emotional insights with rational thought, fostering a holistic approach to the situation at hand.",
+            "debug": {
+              "latency_ms": 3172,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0181#1",
+                "78degrees-section-0180#1",
+                "78degrees-section-0182#1",
+                "pkt-section-0069#3",
+                "pkt-section-0022#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0181#1",
+                "similarity": 0.642018079757695
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.640429475333064
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0182#1",
+                "similarity": 0.624616481340915
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0069#3",
+                "similarity": 0.61325899441594
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0022#1",
+                "similarity": 0.601940918315814
+              }
+            ]
+          }
+        },
+        {
+          "type": "major_arcana_pattern",
+          "query": "tarot major arcana pattern meaning 1 major arcana cards in spread interpretation",
+          "result": {
+            "text": "In a Tarot spread, a single Major Arcana card represents significant archetypal themes or life lessons. It often indicates a pivotal moment or a profound influence in the querent's life. The Major Arcana cards embody universal experiences and spiritual truths, suggesting that the situation at hand is not just about everyday concerns but rather about deeper, transformative processes. The interpretation of this card should focus on its symbolism and how it relates to the querent's current journey, emphasizing the importance of the lesson or insight it brings.",
+            "debug": {
+              "latency_ms": 3641,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0186#2",
+                "78degrees-section-0012#1",
+                "pkt-section-0069#1",
+                "pkt-section-0091#1",
+                "78degrees-section-0170#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0186#2",
+                "similarity": 0.65842562987576
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0012#1",
+                "similarity": 0.611032972747153
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0069#1",
+                "similarity": 0.603163170437439
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0091#1",
+                "similarity": 0.59921836853029
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0170#1",
+                "similarity": 0.590748597294264
+              }
+            ]
+          }
+        },
+        {
+          "type": "reversed_pattern",
+          "query": "tarot reversed cards pattern meaning 1 reversed cards in spread interpretation",
+          "result": {
+            "text": "In a Tarot spread, a reversed card typically indicates a blockage or distortion of the card's upright meaning. It suggests that the qualities associated with the card are not being fully realized or are being channeled in an unexpected direction. For example, a reversed Fool may signify a failure to trust one's instincts or a reluctance to take risks due to fear. Overall, reversed cards provide a deeper understanding of the situation by highlighting challenges, internal conflicts, or the need for reevaluation. They can also indicate the end of relationships or the superficiality of certain connections, depending on the surrounding cards.",
+            "debug": {
+              "latency_ms": 3414,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0031#2",
+                "78degrees-section-0191#1",
+                "78degrees-section-0223#1",
+                "pkt-section-0082#1",
+                "pkt-section-0078#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0031#2",
+                "similarity": 0.654879487724182
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.654701907003158
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.653619050979633
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.603877699606291
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.601951861846891
+              }
+            ]
+          }
+        },
+        {
+          "type": "card_relationships",
+          "query": "tarot card relationships sequence meaning Five of Swords (past), The Lovers (present), Queen of Cups (future)",
+          "result": {
+            "text": "In this sequence, the Five of Swords in the past indicates a period of conflict, betrayal, or a sense of defeat, suggesting that previous interactions may have been marked by strife or competition. The Lovers in the present signifies a choice or a deep connection, emphasizing the importance of harmony and partnership in your current situation. It suggests that you may be navigating a significant relationship or decision that requires balance and mutual respect. The Queen of Cups in the future points to emotional maturity, compassion, and intuition. This card suggests that you will embody nurturing qualities, fostering emotional connections and understanding in your relationships moving forward. Overall, this sequence reflects a journey from conflict to connection, culminating in emotional depth and care.",
+            "debug": {
+              "latency_ms": 3656,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0305#2",
+                "78degrees-section-0351#1",
+                "78degrees-section-0315#1",
+                "78degrees-section-0218#2",
+                "pkt-section-0079#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.656383533966058
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0351#1",
+                "similarity": 0.641775784651263
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.638300118294371
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0218#2",
+                "similarity": 0.634403903317575
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.601349699738568
+              }
+            ]
+          }
+        },
+        {
+          "type": "basic_upright_reversed_suit_meaning",
+          "query": "Five of Swords tarot card upright meaning divinatory upright air element thought suit meaning",
+          "result": {
+            "text": "The Five of Swords upright signifies conflict, defeat, and loss. It often represents a situation where one may achieve victory at a high cost, leading to feelings of emptiness or regret. This card embodies themes of betrayal, dishonor, and the consequences of aggressive behavior. In the context of the Air element and the suit of Swords, it emphasizes the mental and intellectual struggles associated with conflict, highlighting the need for reflection on one's actions and their impact on relationships.",
+            "debug": {
+              "latency_ms": 2888,
+              "num_results": 10,
+              "top_doc_ids": [
+                "pkt-section-0084#1",
+                "78degrees-section-0305#2",
+                "78degrees-section-0180#1",
+                "78degrees-section-0237#1",
+                "78degrees-section-0179#1",
+                "pkt-section-0082#1",
+                "78degrees-section-0241#1",
+                "pkt-section-0081#1",
+                "pkt-section-0085#1",
+                "pkt-section-0087#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.605089252732172
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.604832302659935
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.590993393541174
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.580745950803886
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0179#1",
+                "similarity": 0.579821653978087
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.576701597565128
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0241#1",
+                "similarity": 0.572234732571904
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0081#1",
+                "similarity": 0.551535004194382
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0085#1",
+                "similarity": 0.54989942016016
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.549137841242155
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "type": "visual_description",
+          "query": "Five of Swords tarot card description image visual appearance",
+          "result": {
+            "text": "The Five of Swords typically depicts a scene of conflict and defeat. In the image, a figure stands triumphantly over two fallen opponents, holding three swords. The background often shows a desolate landscape, symbolizing the aftermath of conflict. The expressions of the defeated figures convey pain and sorrow, emphasizing the card's themes of loss and strife. The overall tone is one of tension and emotional turmoil, reflecting the card's association with conflict and the consequences of victory at a cost.",
+            "debug": {
+              "latency_ms": 2992,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0305#2",
+                "78degrees-section-0237#1",
+                "78degrees-section-0174#1",
+                "pkt-section-0082#1",
+                "pkt-section-0084#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.659589411093699
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.618506320982042
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0174#1",
+                "similarity": 0.613004551767765
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.611223647971694
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.586588091857312
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "type": "position_and_psychological_meaning",
+          "query": "Five of Swords tarot card past position meaning psychological meaning psychological interpretation",
+          "result": {
+            "text": "In the past position, the Five of Swords indicates a period of conflict, defeat, or betrayal. Psychologically, it reflects feelings of loss and the impact of negative experiences on the individual's self-esteem and mental state. This card suggests that the person may have faced a situation where they felt defeated or manipulated, leading to a sense of isolation and mistrust. It highlights the internal struggle of reconciling past hurts and the need to confront these painful memories to move forward. The emphasis is on the emotional scars left by conflict and the challenge of overcoming feelings of resentment or victimhood.",
+            "debug": {
+              "latency_ms": 3616,
+              "num_results": 10,
+              "top_doc_ids": [
+                "78degrees-section-0305#2",
+                "78degrees-section-0237#1",
+                "78degrees-section-0302#1",
+                "78degrees-section-0305#1",
+                "78degrees-section-0350#1",
+                "78degrees-section-0290#1",
+                "pkt-section-0082#1",
+                "78degrees-section-0218#2",
+                "78degrees-section-0240#1",
+                "78degrees-section-0232#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.592670180160961
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.582575301510028
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.575888232727972
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#1",
+                "similarity": 0.565740074769279
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.56543224269961
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0290#1",
+                "similarity": 0.548935169108505
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.546237040463203
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0218#2",
+                "similarity": 0.538433661834324
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0240#1",
+                "similarity": 0.526498731792139
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0232#1",
+                "similarity": 0.525248543180521
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "type": "basic_upright_reversed_symbolic_meaning",
+          "query": "The Lovers tarot card reversed meaning divinatory reversed symbolic meaning symbolism archetype",
+          "result": {
+            "text": "The Lovers card reversed signifies a breakdown of ideals associated with love and relationships. It often indicates a love affair or friendship that has soured, marked by jealousy and a loss of trust. This card can represent the end of a relationship, internal or external pressures threatening a bond, or infatuation where individuals deceive themselves about the depth of their feelings. Overall, it reflects disconnection, misalignment in values, and the potential for superficiality in romantic engagements.",
+            "debug": {
+              "latency_ms": 3626,
+              "num_results": 10,
+              "top_doc_ids": [
+                "78degrees-section-0223#1",
+                "78degrees-section-0074#1",
+                "pkt-section-0078#1",
+                "78degrees-section-0067#1",
+                "78degrees-section-0266#1",
+                "78degrees-section-0031#2",
+                "pkt-section-0079#1",
+                "pkt-section-0086#1",
+                "pkt-section-0080#1",
+                "pkt-section-0084#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.701381143804098
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0074#1",
+                "similarity": 0.68589361222185
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.63799784153668
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0067#1",
+                "similarity": 0.636383314024905
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.623829420551308
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0031#2",
+                "similarity": 0.622968110884447
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.62084712038602
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0086#1",
+                "similarity": 0.606811673464133
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0080#1",
+                "similarity": 0.605758023948435
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.604054010156036
+              }
+            ]
+          },
+          "card_id": "0e55cfd8-c348-4dd5-b28c-31c42397bdec",
+          "card_name_en": "The Lovers"
+        },
+        {
+          "type": "visual_description",
+          "query": "The Lovers tarot card description image visual appearance",
+          "result": {
+            "text": "The Lovers tarot card features two human figures, male and female, unveiled before each other, reminiscent of Adam and Eve in paradise. Behind the man is the Tree of Life, while the Tree of the Knowledge of Good and Evil is behind the woman, with a serpent entwined around it. The scene is illuminated by a bright sun at the zenith, and a great winged figure with arms extended pours down influences upon them. The imagery suggests themes of youth, virginity, innocence, and love.",
+            "debug": {
+              "latency_ms": 2732,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0074#1",
+                "78degrees-section-0067#1",
+                "78degrees-section-0222#1",
+                "pkt-section-0011#1",
+                "pkt-section-0052#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0074#1",
+                "similarity": 0.639086532865009
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0067#1",
+                "similarity": 0.578463068191644
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0222#1",
+                "similarity": 0.575669041196226
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0011#1",
+                "similarity": 0.565068594805174
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0052#1",
+                "similarity": 0.561084611383551
+              }
+            ]
+          },
+          "card_id": "0e55cfd8-c348-4dd5-b28c-31c42397bdec",
+          "card_name_en": "The Lovers"
+        },
+        {
+          "type": "position_and_psychological_meaning",
+          "query": "The Lovers tarot card present position meaning psychological meaning psychological interpretation",
+          "result": {
+            "text": "The Lovers card, in its present position, symbolizes the emergence of individuality and the ability to make choices based on personal desires and responsibilities rather than external influences. Psychologically, it represents the integration of one's inner self, highlighting the importance of love and relationships in personal development. This card suggests a deep connection between partners, where their union fosters growth and healing, leading to a greater understanding of oneself and the world. It also reflects the balance between passion and responsibility, emphasizing the need for conscious decision-making in matters of the heart.",
+            "debug": {
+              "latency_ms": 3422,
+              "num_results": 10,
+              "top_doc_ids": [
+                "78degrees-section-0074#1",
+                "78degrees-section-0067#1",
+                "78degrees-section-0222#1",
+                "78degrees-section-0295#1",
+                "78degrees-section-0070#1",
+                "78degrees-section-0269#1",
+                "78degrees-section-0361#1",
+                "78degrees-section-0153#1",
+                "pkt-section-0079#1",
+                "pkt-section-0077#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0074#1",
+                "similarity": 0.623281546244355
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0067#1",
+                "similarity": 0.544753313064575
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0222#1",
+                "similarity": 0.543398797512054
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0295#1",
+                "similarity": 0.542078224296677
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0070#1",
+                "similarity": 0.535329298237839
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0269#1",
+                "similarity": 0.529033382092926
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0361#1",
+                "similarity": 0.528424922040099
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0153#1",
+                "similarity": 0.527260717480101
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.507575676522466
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.503986954689026
+              }
+            ]
+          },
+          "card_id": "0e55cfd8-c348-4dd5-b28c-31c42397bdec",
+          "card_name_en": "The Lovers"
+        },
+        {
+          "type": "basic_upright_reversed_suit_meaning",
+          "query": "Queen of Cups tarot card upright meaning divinatory upright water element emotion suit meaning",
+          "result": {
+            "text": "The Queen of Cups upright represents emotional balance, creativity, and compassion. She embodies the ability to blend imagination with action, indicating a strong connection to both the inner self and the outer world. This card signifies nurturing, intuition, and the importance of emotional intelligence in relationships. It encourages the querent to trust their feelings and to express love and care towards others, highlighting the significance of empathy and understanding in social interactions.",
+            "debug": {
+              "latency_ms": 2189,
+              "num_results": 10,
+              "top_doc_ids": [
+                "78degrees-section-0210#1",
+                "pkt-section-0079#1",
+                "78degrees-section-0359#2",
+                "pkt-section-0080#1",
+                "78degrees-section-0191#1",
+                "78degrees-section-0229#1",
+                "78degrees-section-0180#1",
+                "pkt-section-0078#1",
+                "pkt-section-0076#1",
+                "pkt-section-0084#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0210#1",
+                "similarity": 0.620364629008504
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.614332946290515
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#2",
+                "similarity": 0.607458150831352
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0080#1",
+                "similarity": 0.605027169738288
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.602372205398811
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0229#1",
+                "similarity": 0.60025149583817
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.591729080184048
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.591167436450859
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.585844484842492
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.583909086934545
+              }
+            ]
+          },
+          "card_id": "80f898e8-c948-4efd-b91a-2487f90085da",
+          "card_name_en": "Queen of Cups"
+        },
+        {
+          "type": "visual_description",
+          "query": "Queen of Cups tarot card description image visual appearance",
+          "result": {
+            "text": "The Queen of Cups card typically features a serene woman seated on a throne adorned with cherubic mermaids. She is depicted with flowing robes that merge with water at her feet, symbolizing her deep emotional connection to the outer world and others. The imagery conveys a balance of imagination and action, reflecting her nurturing and intuitive nature. The overall aesthetic is one of calmness and emotional depth, emphasizing her role as a compassionate and creative figure.",
+            "debug": {
+              "latency_ms": 2219,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0210#1",
+                "pkt-section-0076#1",
+                "pkt-section-0079#1",
+                "78degrees-section-0244#2",
+                "pkt-section-0077#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0210#1",
+                "similarity": 0.653426291925975
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.624527174965364
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.622774857961389
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0244#2",
+                "similarity": 0.615483173939615
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.597908818846416
+              }
+            ]
+          },
+          "card_id": "80f898e8-c948-4efd-b91a-2487f90085da",
+          "card_name_en": "Queen of Cups"
+        },
+        {
+          "type": "position_and_psychological_meaning",
+          "query": "Queen of Cups tarot card future position meaning psychological meaning psychological interpretation",
+          "result": {
+            "text": "The Queen of Cups in a future position suggests a deepening of emotional intelligence and intuition. Psychologically, this card represents a nurturing and empathetic aspect of the self, indicating that the individual may become more in tune with their feelings and the emotions of others. It encourages self-reflection and the exploration of one's inner world, promoting healing and emotional balance. This card often signifies the importance of compassion, both towards oneself and others, and may indicate a future where emotional connections and supportive relationships play a crucial role in personal growth.",
+            "debug": {
+              "latency_ms": 2488,
+              "num_results": 10,
+              "top_doc_ids": [
+                "78degrees-section-0295#1",
+                "pkt-section-0079#1",
+                "78degrees-section-0299#1",
+                "78degrees-section-0304#1",
+                "78degrees-section-0246#1",
+                "pkt-section-0077#1",
+                "78degrees-section-0359#2",
+                "78degrees-section-0359#1",
+                "pkt-section-0078#1",
+                "pkt-section-0076#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0295#1",
+                "similarity": 0.561631917953495
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.560848796494126
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0299#1",
+                "similarity": 0.548677033028249
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0304#1",
+                "similarity": 0.547747340932656
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0246#1",
+                "similarity": 0.547350222809661
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.546746524974498
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#2",
+                "similarity": 0.538899096184916
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#1",
+                "similarity": 0.536569301673091
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.533428645151016
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.532812674762707
+              }
+            ]
+          },
+          "card_id": "80f898e8-c948-4efd-b91a-2487f90085da",
+          "card_name_en": "Queen of Cups"
+        }
+      ],
+      "model_used": null,
+      "temperature": null,
+      "processing_time_ms": 62405,
+      "tokens_used": null,
+      "created_at": "2025-11-08T00:19:54.618576+00:00"
+    },
+    {
+      "step_name": "final_interpretation",
+      "step_order": 8,
+      "input_data": {
+        "question": "我的父亲11月运势如何",
+        "spread_method": {
+          "rag_text": "[method_steps] To perform a three-card spread in Tarot divination, follow these steps:\n\n1. **Preparation**: Begin by ensuring your mind is clear. Focus on your question or intention, or simply concentrate on the Significator if no specific question is posed.\n\n2. **Shuffling**: Shuffle the entire deck thoroughly while maintaining your focus. You may also turn some cards upside down to introduce reversals.\n\n3. **Cutting the Deck**: Have the Querent cut the deck with their left hand to further engage their energy in the reading.\n\n4. **Dealing the Cards**: Draw three cards from the shuffled deck and lay them out in a row, face up. Each card will represent a different aspect of the inquiry:\n   - **Card 1**: Past influences or background.\n   - **Card 2**: Present situation or current influences.\n   - **Card 3**: Future outcome or potential developments.\n\n5. **Interpretation**: Analyze each card individually, considering its position and how it relates to the question. Look for combinations and connections between the cards to deepen the interpretation.\n\n6. **Reflection**: After interpreting the cards, take a moment to reflect on the overall message and how it applies to the Querent's situation. \n\nThis method allows for a concise yet insightful reading, providing clarity on the past, present, and future.\n\n[position_interpretation] In a three-card spread, the positions typically represent the following:\n\n1. **First Card (Significator)**: This card reflects the current situation or the Querent's present state regarding the question or issue at hand.\n\n2. **Second Card (Crossing Card)**: This card is placed across the first and indicates obstacles or challenges that the Querent may face. A favorable card here suggests that the obstacles are not serious, while an unfavorable card may indicate significant challenges.\n\n3. **Third Card (Crowning Card)**: Positioned above the Significator, this card represents the Querent's aim or ideal in the matter, as well as the best possible outcome that has not yet been realized. It reflects aspirations and potential achievements under the current circumstances.\n\n[psychological_background] In a three-card spread using a psychological approach, each card can represent different aspects of the querent's psyche or situation:\n\n1. **Past Influences**: The first card reflects past experiences or influences that shape the current situation. It may reveal underlying beliefs or emotional patterns that need to be acknowledged.\n\n2. **Present Situation**: The second card represents the current state of mind or emotional landscape. It highlights the querent's present challenges, strengths, or opportunities for growth.\n\n3. **Future Guidance**: The third card offers insight into potential outcomes or advice for moving forward. It encourages the querent to integrate the lessons from the past and present to foster personal development.\n\nThis spread emphasizes the balance between consciousness (the Magician) and intuition (the High Priestess), guiding the querent towards self-awareness and empowerment.\n\n[traditional_method] The three-card spread is a simple and traditional method of Tarot divination that can provide insights into past, present, and future situations. While the context provided does not specifically detail the three-card spread, it aligns with the principles of simplicity in divination mentioned. \n\nIn a typical three-card spread:\n1. **First Card**: Represents the past influences or events related to the question.\n2. **Second Card**: Reflects the present situation or current influences.\n3. **Third Card**: Indicates potential future outcomes or advice.\n\nThis method allows for a straightforward interpretation while still offering depth through the individual meanings of each card.",
+          "citations": [
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0284#1",
+              "similarity": 0.621696174144745
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0104#1",
+              "similarity": 0.620455965941438
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0101#1",
+              "similarity": 0.609357357025146
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0103#2",
+              "similarity": 0.602821504397051
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0309#1",
+              "similarity": 0.592379212379456
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0099#1",
+              "similarity": 0.614483778373864
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0095#1",
+              "similarity": 0.602792429591132
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.592918641008267
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0310#1",
+              "similarity": 0.584965695742886
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0269#1",
+              "similarity": 0.625906642607462
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0097#1",
+              "similarity": 0.597326887131891
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0285#2",
+              "similarity": 0.593251382902373
+            }
+          ],
+          "query_count": 4,
+          "query_types": [
+            "method_steps",
+            "position_interpretation",
+            "psychological_background",
+            "traditional_method"
+          ],
+          "spread_type": "three_card"
+        },
+        "selected_cards": [
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+            "position": "past",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords",
+            "position_order": 1,
+            "position_description": "过去的影响"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "0e55cfd8-c348-4dd5-b28c-31c42397bdec",
+            "position": "present",
+            "card_number": 6,
+            "is_reversed": true,
+            "card_name_cn": "恋人",
+            "card_name_en": "The Lovers",
+            "position_order": 2,
+            "position_description": "当前状况"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "80f898e8-c948-4efd-b91a-2487f90085da",
+            "position": "future",
+            "card_number": 13,
+            "is_reversed": false,
+            "card_name_cn": "王后 圣杯",
+            "card_name_en": "Queen of Cups",
+            "position_order": 3,
+            "position_description": "未来趋势"
+          }
+        ],
+        "card_information": {
+          "0e55cfd8-c348-4dd5-b28c-31c42397bdec": {
+            "arcana": "major",
+            "position": "present",
+            "rag_text": "[basic_upright_reversed_symbolic_meaning] The Lovers card reversed signifies a breakdown of ideals associated with love and relationships. It often indicates a love affair or friendship that has soured, marked by jealousy and a loss of trust. This card can represent the end of a relationship, internal or external pressures threatening a bond, or infatuation where individuals deceive themselves about the depth of their feelings. Overall, it reflects disconnection, misalignment in values, and the potential for superficiality in romantic engagements.\n\n[visual_description] The Lovers tarot card features two human figures, male and female, unveiled before each other, reminiscent of Adam and Eve in paradise. Behind the man is the Tree of Life, while the Tree of the Knowledge of Good and Evil is behind the woman, with a serpent entwined around it. The scene is illuminated by a bright sun at the zenith, and a great winged figure with arms extended pours down influences upon them. The imagery suggests themes of youth, virginity, innocence, and love.\n\n[position_and_psychological_meaning] The Lovers card, in its present position, symbolizes the emergence of individuality and the ability to make choices based on personal desires and responsibilities rather than external influences. Psychologically, it represents the integration of one's inner self, highlighting the importance of love and relationships in personal development. This card suggests a deep connection between partners, where their union fosters growth and healing, leading to a greater understanding of oneself and the world. It also reflects the balance between passion and responsibility, emphasizing the need for conscious decision-making in matters of the heart.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.701381143804098
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0074#1",
+                "similarity": 0.68589361222185
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.63799784153668
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0067#1",
+                "similarity": 0.636383314024905
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.623829420551308
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0031#2",
+                "similarity": 0.622968110884447
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.62084712038602
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0086#1",
+                "similarity": 0.606811673464133
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0080#1",
+                "similarity": 0.605758023948435
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.604054010156036
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0222#1",
+                "similarity": 0.575669041196226
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0011#1",
+                "similarity": 0.565068594805174
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0052#1",
+                "similarity": 0.561084611383551
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0295#1",
+                "similarity": 0.542078224296677
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0070#1",
+                "similarity": 0.535329298237839
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0269#1",
+                "similarity": 0.529033382092926
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0361#1",
+                "similarity": 0.528424922040099
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0153#1",
+                "similarity": 0.527260717480101
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.503986954689026
+              }
+            ],
+            "is_reversed": true,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_symbolic_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "恋人",
+            "card_name_en": "The Lovers"
+          },
+          "80f898e8-c948-4efd-b91a-2487f90085da": {
+            "arcana": "minor",
+            "position": "future",
+            "rag_text": "[basic_upright_reversed_suit_meaning] The Queen of Cups upright represents emotional balance, creativity, and compassion. She embodies the ability to blend imagination with action, indicating a strong connection to both the inner self and the outer world. This card signifies nurturing, intuition, and the importance of emotional intelligence in relationships. It encourages the querent to trust their feelings and to express love and care towards others, highlighting the significance of empathy and understanding in social interactions.\n\n[visual_description] The Queen of Cups card typically features a serene woman seated on a throne adorned with cherubic mermaids. She is depicted with flowing robes that merge with water at her feet, symbolizing her deep emotional connection to the outer world and others. The imagery conveys a balance of imagination and action, reflecting her nurturing and intuitive nature. The overall aesthetic is one of calmness and emotional depth, emphasizing her role as a compassionate and creative figure.\n\n[position_and_psychological_meaning] The Queen of Cups in a future position suggests a deepening of emotional intelligence and intuition. Psychologically, this card represents a nurturing and empathetic aspect of the self, indicating that the individual may become more in tune with their feelings and the emotions of others. It encourages self-reflection and the exploration of one's inner world, promoting healing and emotional balance. This card often signifies the importance of compassion, both towards oneself and others, and may indicate a future where emotional connections and supportive relationships play a crucial role in personal growth.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0210#1",
+                "similarity": 0.620364629008504
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.614332946290515
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#2",
+                "similarity": 0.607458150831352
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0080#1",
+                "similarity": 0.605027169738288
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.602372205398811
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0229#1",
+                "similarity": 0.60025149583817
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.591729080184048
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.591167436450859
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.585844484842492
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.583909086934545
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0244#2",
+                "similarity": 0.615483173939615
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.597908818846416
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0295#1",
+                "similarity": 0.561631917953495
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0299#1",
+                "similarity": 0.548677033028249
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0304#1",
+                "similarity": 0.547747340932656
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0246#1",
+                "similarity": 0.547350222809661
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#1",
+                "similarity": 0.536569301673091
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_suit_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "王后 圣杯",
+            "card_name_en": "Queen of Cups"
+          },
+          "d148cb52-6b57-4d68-8d19-80c1e2b80142": {
+            "arcana": "minor",
+            "position": "past",
+            "rag_text": "[basic_upright_reversed_suit_meaning] The Five of Swords upright signifies conflict, defeat, and loss. It often represents a situation where one may achieve victory at a high cost, leading to feelings of emptiness or regret. This card embodies themes of betrayal, dishonor, and the consequences of aggressive behavior. In the context of the Air element and the suit of Swords, it emphasizes the mental and intellectual struggles associated with conflict, highlighting the need for reflection on one's actions and their impact on relationships.\n\n[visual_description] The Five of Swords typically depicts a scene of conflict and defeat. In the image, a figure stands triumphantly over two fallen opponents, holding three swords. The background often shows a desolate landscape, symbolizing the aftermath of conflict. The expressions of the defeated figures convey pain and sorrow, emphasizing the card's themes of loss and strife. The overall tone is one of tension and emotional turmoil, reflecting the card's association with conflict and the consequences of victory at a cost.\n\n[position_and_psychological_meaning] In the past position, the Five of Swords indicates a period of conflict, defeat, or betrayal. Psychologically, it reflects feelings of loss and the impact of negative experiences on the individual's self-esteem and mental state. This card suggests that the person may have faced a situation where they felt defeated or manipulated, leading to a sense of isolation and mistrust. It highlights the internal struggle of reconciling past hurts and the need to confront these painful memories to move forward. The emphasis is on the emotional scars left by conflict and the challenge of overcoming feelings of resentment or victimhood.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.605089252732172
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.604832302659935
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.590993393541174
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.580745950803886
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0179#1",
+                "similarity": 0.579821653978087
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.576701597565128
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0241#1",
+                "similarity": 0.572234732571904
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0081#1",
+                "similarity": 0.551535004194382
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0085#1",
+                "similarity": 0.54989942016016
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.549137841242155
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0174#1",
+                "similarity": 0.613004551767765
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.575888232727972
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#1",
+                "similarity": 0.565740074769279
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.56543224269961
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0290#1",
+                "similarity": 0.548935169108505
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0218#2",
+                "similarity": 0.538433661834324
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0240#1",
+                "similarity": 0.526498731792139
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0232#1",
+                "similarity": 0.525248543180521
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_suit_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords"
+          }
+        },
+        "pattern_analysis": {
+          "analysis_method": "code_based",
+          "number_patterns": {
+            "number_jumps": [
+              "数字跳跃：5 → 13（间隔8）"
+            ],
+            "same_numbers": [],
+            "major_numbers": [
+              6
+            ],
+            "number_sequences": []
+          },
+          "reversed_patterns": {
+            "count": 1,
+            "positions": [
+              "present"
+            ],
+            "interpretation": "逆位牌适中（1张），表示能量混合，需要平衡正逆位的影响"
+          },
+          "suit_distribution": {
+            "cups_count": 1,
+            "major_count": 1,
+            "wands_count": 0,
+            "swords_count": 1,
+            "interpretation": "元素分布：权杖0、圣杯1、宝剑1、星币0，cups元素较多",
+            "pentacles_count": 0
+          },
+          "special_combinations": [],
+          "major_arcana_patterns": {
+            "count": 1,
+            "meaning": "只有1张大阿卡纳（The Lovers），表示单一重大主题",
+            "positions": [
+              "present"
+            ]
+          },
+          "position_relationships": {
+            "time_flow": "过去 → 现在 → 未来：Five of Swords → The Lovers → Queen of Cups",
+            "support_conflict": "所有牌都是不同花色，表示元素多样，可能存在冲突或平衡",
+            "causal_relationships": [
+              "past → present",
+              "present → future"
+            ]
+          }
+        },
+        "question_analysis": {
+          "reasoning": "这是一个关于父亲运势的简单问题，三牌占卜可以清晰回答过去-现在-未来的运势变化",
+          "complexity": "simple",
+          "question_type": "general",
+          "question_domain": "general",
+          "question_summary": "分析父亲在11月的整体运势",
+          "recommended_spread": "three_card",
+          "auto_selected_spread": true
+        }
+      },
+      "output_data": {
+        "llm_response": "## 整体解读\n在11月，你父亲可能会经历从过去的冲突和分歧，向更和谐和情感平衡的状态过渡。尽管当前可能存在关系或情感上的挑战，最终将迎来情感上的成熟和理解。\n\n## 位置解读\n\n1. **过去 - 五剑（Five of Swords）**\n   - 五剑代表过去的冲突、失败或损失。这可能意味着你父亲曾经历过一段充满争执或竞争的时期，可能在工作或个人关系中感到失落或不满。这张牌提醒他要从过去的经历中吸取教训，以便在未来做出更明智的决策。\n\n2. **现在 - 恋人（The Lovers）[逆位]**\n   - 逆位的恋人暗示着目前在关系或情感上可能出现了不和谐或决策上的困难。你父亲可能正面临与他人之间的误解或信任问题。这段时期需要他重新审视自己的价值观，努力修复或改善当前的关系。\n\n3. **未来 - 圣杯王后（Queen of Cups）**\n   - 圣杯王后象征着未来的情感平衡和同理心。你父亲将逐渐发展出更深的情感理解力，展现出关怀和敏感的特质。这将有助于他在未来的关系中更加和谐，并能更好地理解他人的情感需求。\n\n## 关系分析\n牌阵中的时间线从过去的冲突（五剑），到当前的关系挑战（逆位的恋人），再到未来的情感成熟（圣杯王后）。过去的冲突可能为目前的关系问题埋下了伏笔，而这些问题需要通过情感的理解与沟通来解决。圣杯王后预示着如果他能从中学到经验并开放心扉，他将能在未来的关系中更好地表现出关怀与温暖。\n\n## 模式解释\n- **数字模式**：牌阵中的数字5（五剑）、6（恋人）和2（圣杯王后）反映了一种从混乱（5）到和谐（6），再到情感的平衡（2）的过渡。这表明在11月，你父亲的生活可能会从动荡走向稳定。\n- **花色分布**：圣杯的出现强调了情感和关系在这个月的重要性。过去的剑牌表明需要运用理智和策略来解决问题，而圣杯王后则引导他向内心探索，更加关注情感的表达。\n\n## 个性化建议\n建议你父亲在11月多关注内心的感受和他人与自己的关系。他可以尝试通过沟通来解决当前的误解，尤其是在家庭和亲密关系中。同时，鼓励他培养情感上的敏感度和同理心，学习用更开放和理解的方式来对待周围的人。这将帮助他在未来建立更深厚和稳定的关系。",
+        "interpretation": {
+          "advice": null,
+          "references": [
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Five of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Five of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Five of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Five of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Five of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Five of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Five of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Five of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Five of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Five of Swords"
+            }
+          ],
+          "overall_summary": "## 整体解读\n在11月，你父亲可能会经历从过去的冲突和分歧，向更和谐和情感平衡的状态过渡。尽管当前可能存在关系或情感上的挑战，最终将迎来情感上的成熟和理解。\n\n## 位置解读\n\n1. **过去 - 五剑（Five of Swords）**\n   - 五剑代表过去的冲突、失败或损失。这可能意味着你父亲曾经历过一段充满争执或竞争的时期，可能在工作或个人关系中感到失落或不满。这张牌提醒他要从过去的经历中吸取教训，以便在未来做出更明智的决策。\n\n2. **现在 - 恋人（The Lovers）[逆位]**\n   - 逆位的恋人暗示着目前在关系或情感上可能出现了不和谐或决策上的困难。你父亲可能正面临与他人之间的误解或信任问题。这段时期需要他重新审视自己的价值观，努力修复或改善当前的关系。\n\n3. **未来 - 圣杯王后（Queen of Cups）**\n   - 圣杯王后象征着未来的情感平衡和同理心。你父亲将逐渐发展出更深的情感理解力，展现出关怀和敏感的特质。这将有助于他在未来的关系中更加和谐，并能更好地理解他人的情感需求。\n\n## 关系分析\n牌阵中的时间线从过去的冲突（五剑），到当前的关系挑",
+          "pattern_explanation": "元素分布：权杖0、圣杯1、宝剑1、星币0，cups元素较多",
+          "relationship_analysis": "过去 → 现在 → 未来：Five of Swords → The Lovers → Queen of Cups",
+          "interpretation_metadata": null,
+          "position_interpretations": [
+            {
+              "position": "past",
+              "card_name_cn": "五 宝剑",
+              "card_name_en": "Five of Swords",
+              "relationships": null,
+              "interpretation": "[basic_upright_reversed_suit_meaning] The Five of Swords upright signifies conflict, defeat, and loss. It often represents a situation where one may achieve victory at a high cost, leading to feelings of emptiness or regret. This card embodies themes of betrayal, dishonor, and the consequences of aggressive behavior. In the context of the Air element and the suit of Swords, it emphasizes the mental and intellectual struggles associated with conflict, highlighting the need for reflection on one's actions and their impact on relationships.\n\n[visual_description] The Five of Swords typically depicts a scene of conflict and defeat. In the image, a figure stands triumphantly over two fallen opponents, holding three swords. The background often shows a desolate landscape, symbolizing the aftermath of conflict. The expressions of the defeated figures convey pain and sorrow, emphasizing the card's themes of loss and strife. The overall tone is one of tension and emotional turmoil, reflecting the card's association with conflict and the consequences of victory at a cost.\n\n[position_and_psychological_meaning] In the past position, the Five of Swords indicates a period of conflict, defeat, or betrayal. Psychologically, it reflects feelings of loss and the impact of negative experiences on the individual's self-esteem and mental state. This card suggests that the person may have faced a situation where they felt defeated or manipulated, leading to a sense of isolation and mistrust. It highlights the internal struggle of reconciling past hurts and the need to confront these painful memories to move forward. The emphasis is on the emotional scars left by conflict and the challenge of overcoming feelings of resentment or victimhood.",
+              "position_order": 1
+            },
+            {
+              "position": "present",
+              "card_name_cn": "恋人",
+              "card_name_en": "The Lovers",
+              "relationships": null,
+              "interpretation": "[basic_upright_reversed_symbolic_meaning] The Lovers card reversed signifies a breakdown of ideals associated with love and relationships. It often indicates a love affair or friendship that has soured, marked by jealousy and a loss of trust. This card can represent the end of a relationship, internal or external pressures threatening a bond, or infatuation where individuals deceive themselves about the depth of their feelings. Overall, it reflects disconnection, misalignment in values, and the potential for superficiality in romantic engagements.\n\n[visual_description] The Lovers tarot card features two human figures, male and female, unveiled before each other, reminiscent of Adam and Eve in paradise. Behind the man is the Tree of Life, while the Tree of the Knowledge of Good and Evil is behind the woman, with a serpent entwined around it. The scene is illuminated by a bright sun at the zenith, and a great winged figure with arms extended pours down influences upon them. The imagery suggests themes of youth, virginity, innocence, and love.\n\n[position_and_psychological_meaning] The Lovers card, in its present position, symbolizes the emergence of individuality and the ability to make choices based on personal desires and responsibilities rather than external influences. Psychologically, it represents the integration of one's inner self, highlighting the importance of love and relationships in personal development. This card suggests a deep connection between partners, where their union fosters growth and healing, leading to a greater understanding of oneself and the world. It also reflects the balance between passion and responsibility, emphasizing the need for conscious decision-making in matters of the heart.",
+              "position_order": 2
+            },
+            {
+              "position": "future",
+              "card_name_cn": "王后 圣杯",
+              "card_name_en": "Queen of Cups",
+              "relationships": null,
+              "interpretation": "[basic_upright_reversed_suit_meaning] The Queen of Cups upright represents emotional balance, creativity, and compassion. She embodies the ability to blend imagination with action, indicating a strong connection to both the inner self and the outer world. This card signifies nurturing, intuition, and the importance of emotional intelligence in relationships. It encourages the querent to trust their feelings and to express love and care towards others, highlighting the significance of empathy and understanding in social interactions.\n\n[visual_description] The Queen of Cups card typically features a serene woman seated on a throne adorned with cherubic mermaids. She is depicted with flowing robes that merge with water at her feet, symbolizing her deep emotional connection to the outer world and others. The imagery conveys a balance of imagination and action, reflecting her nurturing and intuitive nature. The overall aesthetic is one of calmness and emotional depth, emphasizing her role as a compassionate and creative figure.\n\n[position_and_psychological_meaning] The Queen of Cups in a future position suggests a deepening of emotional intelligence and intuition. Psychologically, this card represents a nurturing and empathetic aspect of the self, indicating that the individual may become more in tune with their feelings and the emotions of others. It encourages self-reflection and the exploration of one's inner world, promoting healing and emotional balance. This card often signifies the importance of compassion, both towards oneself and others, and may indicate a future where emotional connections and supportive relationships play a crucial role in personal growth.",
+              "position_order": 3
+            }
+          ]
+        }
+      },
+      "prompt_type": "final_interpretation",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师，精通PKT和78 Degrees of Wisdom的传统解读方法。\n\n## 用户问题：\n我的父亲11月运势如何\n\n## 问题分析：\n- 领域：general\n- 复杂度：simple\n- 问题类型：general\n\n## 用户信息：\n年龄: 28\n性别: female\n星座: Leo\n\n## 占卜方式：\nthree_card - [method_steps] To perform a three-card spread in Tarot divination, follow these steps:\n\n1. **Preparation**: Begin by ensuring your mind is clear. Focus on your question or intention, or simply concentrate on the Significator if no specific question is posed.\n\n2. **Shuffling**: Shuffle the entire dec\n\n## 牌阵信息：\n1. past: Five of Swords\n   含义: [basic_upright_reversed_suit_meaning] The Five of Swords upright signifies conflict, defeat, and loss. It often represents a situation where one may achieve victory at a high cost, leading to feelings...\n2. present: The Lovers [逆位]\n   含义: [basic_upright_reversed_symbolic_meaning] The Lovers card reversed signifies a breakdown of ideals associated with love and relationships. It often indicates a love affair or friendship that has soure...\n3. future: Queen of Cups\n   含义: [basic_upright_reversed_suit_meaning] The Queen of Cups upright represents emotional balance, creativity, and compassion. She embodies the ability to blend imagination with action, indicating a strong...\n\n## 牌型分析结果：\n位置关系：过去 → 现在 → 未来：Five of Swords → The Lovers → Queen of Cups\n花色分布：元素分布：权杖0、圣杯1、宝剑1、星币0，cups元素较多\n大阿卡纳模式：只有1张大阿卡纳（The Lovers），表示单一重大主题\n逆位模式：逆位牌适中（1张），表示能量混合，需要平衡正逆位的影响\n\n## 牌之间的关系和模式（RAG检索）：\n[number_patterns] In the context of Tarot card number patterns, the Five of Swords corresponds to the number 5, The Lovers corresponds to the number 6, and the Queen of Cups corresponds to the number 2 (as Queens are often associated with the number 2 in the context provided). \n\nThus, the sequence of numbers in this spread is 5 (Five of Swords), 6 (The Lovers), and 2 (Queen of Cups).\n\n[suit_distribution] In a Tarot spread, if you find an imbalance between the Cups and Swords suits, it indicates a tension between emotional (Cups) and intellectual or conflict-driven (Swords) experiences. A predominance of Cups suggests a focus on feelings, relationships, and receptivity, while a dominance of Swords points to active thoughts, challenges, and decision-making. Balancing these elements involves integrating emotional insights with rational thought, fostering a holistic approach to the situation at hand.\n\n[major_arcana_pattern] In a Tarot spread, a single Major Arcana card represents significant archetypal themes or life lessons. It often indicates a pivotal moment or a profound influence in the querent's life. The Major Arcana cards embody universal experiences and spiritual truths, suggesting that the situation at hand is not just about everyday concerns but rather about deeper, transformative processes. The interpretation of this card should focus on its symbolism and how it relates to the querent's current journey, emphasizing the importance of the lesson or insight it brings.\n\n[reversed_pattern] In a Tarot spread, a reversed card typically indicates a blockage or distortion of the card's upright meaning. It suggests that the qualities associated with the card are not being fully realized or are being channeled in an unexpected direction. For example, a reversed Fool may signify a failure to trust one's instincts or a reluctance to take risks due to fear. Overall, reversed cards provide a deeper understanding of the situation by highlighting challenges, internal conflicts, or the need for reevaluation. They can also indicate the end of relationships or the superficiality of certain connections, depending on the surrounding cards.\n\n[card_relationships] In this sequence, the Five of Swords in the past indicates a period of conflict, betrayal, or a sense of defeat, suggesting that previous interactions may have been marked by strife or competition. The Lovers in the present signifies a choice or a deep connection, emphasizing the importance of harmony and partnership in your current situation. It suggests that you may be navigating a significant relationship or decision that requires balance and mutual respect. The Queen of Cups in the future points to emotional maturity, compassion, and intuition. This card suggests that you will embody nurturing qualities, fostering emotional connections and understanding in your relationships moving forward. Overall, this sequence reflects a journey from conflict to connection, culminating in emotional depth and care.\n\n## 解读要求：\n请提供一个全面的塔罗占卜解读，包含：\n1. **整体解读**：2-3句话的整体摘要\n2. **位置解读**：对每个位置进行详细解读，结合卡牌的基本含义和位置的含义\n3. **关系分析**：分析牌之间的关系（时间线、因果、支持/对抗）\n4. **模式解释**：解释数字模式、花色分布、特殊组合的含义\n5. **个性化建议**：基于用户信息和问题，提供具体建议\n\n请用中文输出，使用Markdown格式。",
+      "rag_queries": null,
+      "model_used": "gpt-4o",
+      "temperature": 0.7,
+      "processing_time_ms": 13618,
+      "tokens_used": null,
+      "created_at": "2025-11-08T00:20:08.350761+00:00"
+    }
+  ],
+  "reading_id": "e534087b-b00a-49dc-a664-d9b8313377b7",
+  "final_result": {
+    "reading_id": "e534087b-b00a-49dc-a664-d9b8313377b7",
+    "question": "我的父亲11月运势如何",
+    "spread_type": "three_card",
+    "significator": null,
+    "cards_count": 3,
+    "pattern_analysis_method": "code_based",
+    "interpretation_summary": "## 整体解读\n在11月，你父亲可能会经历从过去的冲突和分歧，向更和谐和情感平衡的状态过渡。尽管当前可能存在关系或情感上的挑战，最终将迎来情感上的成熟和理解。\n\n## 位置解读\n\n1. **过去 - 五剑（Five of Swords）**\n   - 五剑代表过去的冲突、失败或损失。这可能意味着你父亲曾经历过一段充满争执或竞争的时期，可能在工作或个人关系中感到失落或不满。这张牌提醒他要从过去的经历",
+    "metadata": {
+      "created_at": "2025-11-08T00:20:08.426285",
+      "processing_time_ms": 78912,
+      "pattern_analysis_method": "code_based"
+    }
+  },
+  "total_time_ms": 79052,
+  "errors": [],
+  "reading_record": {
+    "id": "e534087b-b00a-49dc-a664-d9b8313377b7",
+    "question": "我的父亲11月运势如何",
+    "status": "completed",
+    "current_step": "interpretation",
+    "question_domain": "general",
+    "question_complexity": "simple",
+    "spread_type": "three_card",
+    "significator_card_id": null,
+    "has_pattern_analysis": true,
+    "has_interpretation": true,
+    "created_at": "2025-11-08T00:18:49.514141+00:00"
+  },
+  "cards": [
+    {
+      "id": "a96b8429-f474-4b20-a703-e483690295c7",
+      "reading_id": "e534087b-b00a-49dc-a664-d9b8313377b7",
+      "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+      "position": "past",
+      "is_reversed": false,
+      "position_order": 1,
+      "created_at": "2025-11-08T00:18:52.019098+00:00",
+      "position_description": "过去的影响",
+      "card_selected_at": "2025-11-08T00:18:51.985719+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "71d852f6-fe5b-4509-bc20-8647d4ee1b59",
+      "reading_id": "e534087b-b00a-49dc-a664-d9b8313377b7",
+      "card_id": "0e55cfd8-c348-4dd5-b28c-31c42397bdec",
+      "position": "present",
+      "is_reversed": true,
+      "position_order": 2,
+      "created_at": "2025-11-08T00:18:52.019098+00:00",
+      "position_description": "当前状况",
+      "card_selected_at": "2025-11-08T00:18:51.985755+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "9829aa04-cace-42ac-a8b1-b351a103632a",
+      "reading_id": "e534087b-b00a-49dc-a664-d9b8313377b7",
+      "card_id": "80f898e8-c948-4efd-b91a-2487f90085da",
+      "position": "future",
+      "is_reversed": false,
+      "position_order": 3,
+      "created_at": "2025-11-08T00:18:52.019098+00:00",
+      "position_description": "未来趋势",
+      "card_selected_at": "2025-11-08T00:18:51.985757+00:00",
+      "related_positions": null
+    }
+  ]
+}

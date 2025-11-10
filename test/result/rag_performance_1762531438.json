@@ -1,0 +1,27 @@
+{
+  "embedding": {
+    "first_embedding_ms": 791.4371490478516,
+    "cached_embedding_ms": 686.8541240692139,
+    "different_query_ms": 662.7440452575684
+  },
+  "vector_search": {
+    "embedding_ms": 462.0039463043213,
+    "vector_search_ms": 299.44777488708496,
+    "balanced_search_ms": 128.9527416229248,
+    "num_results": 5
+  },
+  "llm": {
+    "llm_generation_ms": 3006.347179412842,
+    "answer_length": 655
+  },
+  "full_rag": {
+    "total_time_ms": 5061.811923980713,
+    "reported_latency_ms": 5061,
+    "num_results": 5
+  },
+  "parallel": {
+    "serial_time_ms": 25990.643978118896,
+    "parallel_time_ms": 17646.78931236267,
+    "speedup": 1.4728256521944667
+  }
+}

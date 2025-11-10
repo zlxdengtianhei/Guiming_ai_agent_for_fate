@@ -1,0 +1,341 @@
+================================================================================
+RAG Research Results
+================================================================================
+
+Query: What are the differences between performing a 3-card spread and a Celtic Cross spread, especially in terms of interpretation?
+Timestamp: 20251108_021014
+
+Search Statistics:
+--------------------------------------------------------------------------------
+Total Results: 20
+Latency: 1036ms
+
+================================================================================
+Retrieved Chunks
+================================================================================
+
+
+--- Chunk 1 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0298#1
+Similarity: 0.6608
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 298
+}
+
+Text:
+--------------------------------------------------------------------------------
+Finally, the Outcome. This card brings together all the others. More, it balances them out and shows which influences are strongest, and how they work together to produce the result. Sometimes the Outcome will be an event. Then the important question becomes how it came about, not just what it is. If the subject finds it an unpleasant event, then she or he can look at the other cards to see what influences are pushing in that direction, with the hope of changing the situation. If the Outcome appears desirable then a similar study can help increase those influences, already strong, which are tending towards that result. The Celtic Cross, like any spread, consists of a fixed number of cards. If the reader and subject find the mixture ambivalent, they can either turn over some more cards without a fixed pattern, or else do a further reading. In turning over extra cards I usually stick to no more than five (sometimes asking the subject to choose a number), though at times the initial reading has served as the basis for turning over most of the deck. Usually, beginning readers find it more difficult to interpret cards at random and therefore avoid using them. Sometimes we may do further readings to get information about a specific card in the first reading. We might have a question about a person referred to in the Near Future position. In this situation some readers will use the card in question as the Significator for the new reading, just as the original Significator helped the person to concentrate on him or herself, so the new card helps the person focus on the par¬ ticular question. Before leaving the Celtic Cross I would like to present a sample reading done by me some months before writing
+--------------------------------------------------------------------------------
+
+
+--- Chunk 2 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0285#2
+Similarity: 0.6340
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 285
+}
+
+Text:
+--------------------------------------------------------------------------------
+the ones I use. I'hey follow the traditional system, with certain changes. In every way of laying out the Celtic Cross the first two cards form a small cross of their own with the first one, the ‘cover' card, lying directly on top of the Significator and the second lying horizontally across it.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 3 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0308#1
+Similarity: 0.6194
+Metadata: {
+  "card_name": "Eight of Pentacles",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 308
+}
+
+Text:
+--------------------------------------------------------------------------------
+(‘"lake a careful approach, work at setting everything up before you do anything' or ‘Things won't work out with this person. You’ll find your own self again if you let him go.’) People sometimes find themselves left with the question, ‘What should I do?’ While the Tarot does not often give suggestions as concrete as ‘Study pottery', or ‘Visit your gran¬ dmother* it may indicate the sort of action or approach a person needs, leaving the specific details to the individual. As a simple example, the Eight of Pentacles can advise a person ‘Keep working at what you are doing. It will take time, but it eventually will bring good results.’ There are other, more subtle, questions that people some¬ times ask themselves after a Celtic Cross reading: What if I followed a different set of influences? What if I didn't take this particular attitude to the future, or looked to something diffe¬ rent in my past? How would that change the outcome? In other words, what are the possible changes I can make? To emphasize the possibilities of advice I have devised a new layout for the cards. Based partly on the Celtic Cross and partly on my own arrangement of the Major Arcana, it carries three innovations. First, its whole outlook leans towards advice rather than description. Second, it is open ended; after the reader has reached the last position she or he can lay out more cards, up to ten times the original amount. Of course the reader can do this in any reading, but not in definite positions. The structure of the Work Cycle, as I call this spread, allows the reader to repeat, and keep repeating, the original posi¬ tions. The effect is to let the reader look at the situation from different sides.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 4 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0310#1
+Similarity: 0.6121
+Metadata: {
+  "card_name": "the star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 310
+}
+
+Text:
+--------------------------------------------------------------------------------
+This line forms the basic cycle, and the reading may stop with these nine cards. However, if after interpreting this line, the reader and subject desire more information or simply another approach, the reader turns over a second line of seven directly below the first, and so on, until the meaning becomes clear. In each line the first two cards for the starting point. Their specific meanings derive from the Celtic Cross, the first being Past Experience, interpreted similarly to the Basis card in the older form. The second is Expectations, the person's attitude to the future. In practice, w'e interpret this card in much the same way as the Hopes and Fears position of the Celtic Cross. Together, the two cards show what has happened and what the person hopes, fears, or simply believes will happen. The next three cards depart more strongly from the older system. They show what I call the Work - situations, influences, or attitudes the person can use or must overcome. In the Cross the positions represent fairly fixed patterns. This is the way it is. The Work cards indicate possibilities, even opportunities. It emphasizes how the person creates the situa¬ tion - and can change it. When I began this form of reading I assigned a meaning to each position. The card in the centre indicated Self, the one in the left Others, and the one on the right Events. 1 soon found it better to give no specific quality to any of them, but rather to interpret them together as simply what the person has to work with in the situation, a combination of possibilities. At the same time the three designations are worth remembering, for one or more of them may help to pinpoint the meaning in specific readings.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 5 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0314#1
+Similarity: 0.6053
+Metadata: {
+  "card_name": "the star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 314
+}
+
+Text:
+--------------------------------------------------------------------------------
+Besides the new information gained, this method helps answer a question many people ask about Tarot readings: l If I did it again, different cards would appear, so how can these cards really mean anything? The answer is that the new cards will look at the same situation from a new point of view. Very often, if a reader sets out a Celtic Cross, then mixes the cards and does it over again, many of the same or similar cards will appear in the second reading. In one pair of readings I did for a married couple (with someone else's reading in between) six out of the ten cards were the same, and the Environment card in the woman’s reading was the one used as the Significator for the man. The Work Cycle, because it actually prevents the same cards from appearing, tends more to show different sides to the question. Sometimes the second line will almost mirror the first, indicating that the situation is heading so strongly in this direction that the person will not easily change it. At other times, however, the Outcome-Result will show a definite alternative to the first line, and then the reader must look to the starting points and to the Work cards. Once I did a reading for a woman with a jealous lover. Theoretically the two did not expect each other to be monogamous but the woman knew that if she went with someone else - and someone else had come along - her lover would be upset. She wanted advice on what to do and we did a Work Cycle (see Fig. 63).
+--------------------------------------------------------------------------------
+
+
+--- Chunk 6 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0285#1
+Similarity: 0.6008
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 285
+}
+
+Text:
+--------------------------------------------------------------------------------
+Now the reader takes over, and here again people disagree about how to put the deck back together. Some simply pick up the pile on the right with the left hand, place it over the middle pile and then put these two piles over the pile on the left. Others hold their left hand a few inches over each pile until a warmth seems to rise from one of them. They then place this pile over the other two. Either way, when the deck has re-formed, the reader, using the right hand, begins to turn over the cards in whatever pattern he or she has decided to follow. Hundreds of patterns exist. Of the three presented here, one I made up, while the other two are variations on traditional themes. Almost any book on Tarot will give further patterns. Over the years this pattern has proved the most popular. The Cross derives its name from its shape, a cross of equal arms (one card on each side of the centre), with four cards lined up as a ‘Staff’ beside it (see Fig. 59, p.147). As we might expect, commentators disagree on the meaning of particular positions and how to describe them. Some, such as Waite and Eden Gray, provide a sort of ritual for the reader to pronounce while laying out the cards: ‘This covers him’ or ‘This lies beneath him’. Others prefer more conventional phraseology. It does not matter which system we use as long as we remain constant. The meanings described below are the ones I use. I'hey follow the traditional system, with certain changes. In every way of laying out the Celtic Cross the first two cards form a small cross of their own with the first one, the ‘cover' card, lying directly on top of the
+--------------------------------------------------------------------------------
+
+
+--- Chunk 7 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0309#1
+Similarity: 0.5775
+Metadata: {
+  "card_name": "the Fool",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 309
+}
+
+Text:
+--------------------------------------------------------------------------------
+The third innovation involves reading cards in combina¬ tions. In many readings (though certainly not all; see the Tree of Life method below) the cards are read individually, even though we attempt to combine the meanings, as in the Cross. In the Work Cycle, however, the positions include the idea of combinations. Readers who know Volume One of this book will remember that my interpretation of the Major Arcana divides the trumps into the Fool plus three lines of seven cards each, with each line showing a different stage of development. They may also remember that each line breaks down further into three parts. The first two cards signify the starting point for the line - the archetypes or basic qualities the person must use in going through the experiences shown in that line. The middle three stand for the basic work of the line - what the person must assimilate or overcome. The final two cards show the result. Thus, in the first line the Magician and the High Priestess indicate the basic archetypes of life. The Empress, the Emperor, and the I lierophant show the different aspects of the outer world facing us as we grow up. The Lovers and the Chariot symbolize the development of the successful individual. The Work Cycle borrows and adapts this tripartite structure. The reading begins w'ith choosing the Significator and mixing the cards in the same manner as with the Celtic Cross. Similarly, the first two cards from a small cross, interpreted much the same way as in the older method of reading, with perhaps more emphasis on the crossing card being an outcome or development of the Centre card. After the small cross the reader turns over seven cards in a row below the Significator rather than around it, with the
+--------------------------------------------------------------------------------
+
+
+--- Chunk 8 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0298#2
+Similarity: 0.5737
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 298
+}
+
+Text:
+--------------------------------------------------------------------------------
+the original Significator helped the person to concentrate on him or herself, so the new card helps the person focus on the par¬ ticular question. Before leaving the Celtic Cross I would like to present a sample reading done by me some months before writing this book. (I should state that the subject gave her consent for it to be included.)
+--------------------------------------------------------------------------------
+
+
+--- Chunk 9 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0287#1
+Similarity: 0.5712
+Metadata: {
+  "card_name": "the death",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 287
+}
+
+Text:
+--------------------------------------------------------------------------------
+Another example will help illustrate this most valuable part of a Celtic Cross reading. The Ace of Cups in the Centre would indicate a time of happiness in a person’s life, or more precisely a chance of happiness, since the Aces represent opportunities. If the Ten of Cups crossed the Ace the two would imply that the person recognizes the opportunities and will use them. But if the Four of Cups should cross the Ace a different meaning will emerge, showing an apathetic attitude that prevents the person appreciating what life offers him or her. The apathy, however, would not cancel out the oppor¬ tunity. I have stressed the small cross because of its importance. In some readings the first two cards can tell the whole story, with the others filling in details. As described in Fart One the terms ’vertical and horizontal time’ derive from symbolic interpreta- tions of the crucifixion, where Eternity, embodied in Christ as the Son of God, intersected the ‘horizontal’ movement of history, that is, the death of one human being. For Christian mystics the fact of the crucifixion allows them - through meditation on the cross and other methods of identification with Christ - to bring a sense of ‘vertical’ time into the horizontal facts of their own physical existences. In many other cultures the image of a cross symbolizes the four horizontal directions along the surface of the earth, while the centre, the meeting place of the four, suggests the essentially vertical direction of the centre. The cross, therefore, also sym¬ bolizes the Tarot itself, the four arms being the four suits and the centre the Major Arcana.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 10 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0309#2
+Similarity: 0.5519
+Metadata: {
+  "card_name": "the Fool",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 309
+}
+
+Text:
+--------------------------------------------------------------------------------
+in the older method of reading, with perhaps more emphasis on the crossing card being an outcome or development of the Centre card. After the small cross the reader turns over seven cards in a row below the Significator rather than around it, with the Significator and Cross standing above the middle card. (Sec Fig. 61).
+--------------------------------------------------------------------------------
+
+
+--- Chunk 11 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0360#1
+Similarity: 0.5452
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 360
+}
+
+Text:
+--------------------------------------------------------------------------------
+What period does a reading cover? With the Celtic Cross or the Work Cycles, the answer can range from a few days to years, not just forwards, but backwards as well. Sometimes, for an adult, the reading can reach back to childhood. The Tree of Life, too, though it usually shows an overview of the whole life, can sometimes show a shorter period if the person is going through a time of intense change. The different periods of time covered especially in the shorter readings, depend on two things. First, the person's situation and the question asked. Some things, practical or legal matters and certain emotional situations, can bring forth an answer that makes itself apparent within a few days. With others - the working out of emotional conflicts, deep relation¬ ships, spiritual or artistic development - it can take a long time before the reading fulfils itself. This does not mean that the readings will not ‘come true’ for years. We are not speaking of predictions, but of continuing patterns that slowly unfold as time passes. Second, the different levels a person may touch when mixing the cards. Sometimes he or she may evoke surface situations which last only a short time. At other times the person may mix the cards and somehow go to the very centre of experience. And even here, the reading may show the deep past, or it may reflect the person’s potential for future develop¬ ment. The level reached may not depend at all on the attitude of the person mixing the cards. Usually this approach does make a difference. Someone who sees a reading as a joke or a game will most likely produce a shallow reading; the person who thinks deeply of a question, mixes the cards carefully, and tries to sense
+--------------------------------------------------------------------------------
+
+
+--- Chunk 12 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0284#1
+Similarity: 0.5380
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 284
+}
+
+Text:
+--------------------------------------------------------------------------------
+takes experience and a strong feeling for the cards to help indicate the correct interpretation. Even very practised readers will often find the alternatives confusing. After the choice of Significator comes the mixing. If the person is not asking a particular question I instruct him or her to empty the mind and concentrate on the hands, or simply on the Significator. If the reading does concern a specific question I ask the person to focus on that and even say the question out loud to fix it more firmly in the mind. The method of shuffling does not matter, except that it must be thorough and some of the cards must become turned around to allow reversed meanings to emerge. One method I sometimes recommend is to lay the cards on the table or floor (many readers always do their readings on the silk scarf they use to wrap the deck), then with both hands scatter them all around, like a child playing in the mud. Then I tell the person to bring the cards back together. Besides its thoroughness this method carries a nice symbolism. Any Tarot reading repre¬ sents a personal pattern emerging from the chaos of possible combinations. Even if we only read ten cards the whole deck bears the imprint of the person who last mixed them. By scat¬ tering the deck we return it to chaos; when we bring it back together, it carries the new pattern. With the cards mixed the subject must separate them into three piles in the following way. Using the left hand he or she must remove a pile from the top and place it to the left, then from that pile again remove a pile from the top and lay it down on the left.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 13 ---
+Source: pkt.txt
+Chunk ID: pkt-section-0099#1
+Similarity: 0.5220
+Metadata: {
+  "source_file": "pkt.txt",
+  "section_number": 99
+}
+
+Text:
+--------------------------------------------------------------------------------
+Turn up the SECOND CARD and lay it across the FIRST, saying: This crosses him. It shews the nature of the obstacles in the matter. If it is a favourable card, the opposing forces will not be serious, or it may indicate that something good in itself will not be productive of good in the particular connexion. Turn up the THIRD CARD; place it above the Significator, and say: This crowns him. It represents (a) the Querent's aim or ideal in the matter; (b) the best that can be achieved under the circumstances, but that which has not yet been made actual. Turn up the FOURTH CARD; place it below the Significator, and say: This is beneath him. It shews the foundation or basis of the matter, that which has already passed into actuality and which the Significator has made his own. Turn up the FIFTH CARD; place it on the side of the Significator from which he is looking, and say: This is behind him. It gives the influence that is just passed, or is now passing away. N.B.--If the Significator is a Trump or any small card that cannot be said to face either way, the Diviner must decide before beginning the operation which side he will take it as facing. Turn up the SIXTH CARD; place it on the side that the Significator is facing, and say: This is before him. It shews the influence that is coming into action and will operate in the near future. The cards are now disposed in the form of a cross, the Significator--covered by the First Card--being in the centre. The next four cards are turned up in succession and placed one above the other in a line, on the right hand side of the cross. The first of these,
+--------------------------------------------------------------------------------
+
+
+--- Chunk 14 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0269#1
+Similarity: 0.5126
+Metadata: {
+  "card_name": "fool",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 269
+}
+
+Text:
+--------------------------------------------------------------------------------
+explanations such as ‘best possible outcome’ for the positions. Following Crowley and others, several contemporary books have attempted to widen the meaning of the cards by linking them not only to astrology and the Qabalah but to the 1 Ching, Jungian psychology, Tantra, even Central American mythology. Such linking aids understanding, particularly for those people with a previous knowledge of the other system (it would be interesting to see a book about, say, gestalt psy¬ chology which explains its subject in terms of Tarot correspondence rather than the other way round). Still, the emphasis for any careful study of Tarot must remain with the cards themselves, and with their use in meditation and in readings. This section of the book hopes to give at least a sense of just how complex and deeply instructive a tool Tarot divination can be. Many people say that Tarot readings ‘scare’ them. What they mean by this is first a discomfort that anything should expose their experiences, as well as their inner fears and their hopes; and second, that a pack of cards should do so. They may approach the Tarot first as a game, especially if a friend or relative lays the cards so that they do not have to pay for the reading. They mix the cards, grinning a little, for they feel foolish; the reader lays them out, perhaps looking up the meanings in a book, and amazingly, out comes the new job, or the unfaithful lover or, if the reader approaches it a little more subtly, perhaps the fear of illness or a painful rebellion against a parent. ‘You’re making that up from what you know about me,’ they say, or ‘You could tell all that from looking at me, couldn’t you? You didn’t really get that from the cards.'
+--------------------------------------------------------------------------------
+
+
+--- Chunk 15 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0313#1
+Similarity: 0.5072
+Metadata: {
+  "card_name": "star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 313
+}
+
+Text:
+--------------------------------------------------------------------------------
+The last two positions in the line again feature the idea of combination. As the Outcome and the Result, they go beyond the Celtic Cross’s single use of Outcome to sum up the reading. The Outcome indicates the likely way things will develop. The Result, on the other hand, indicates the person’s reaction to this development, or the effect it will have on the person’s life. This effect can be either experience or attitude. For instance, it can indicate an event or further development that comes about because of the Outcome. The Five of Cups followed by the Eight of Cups would say that the person loses something, or something ends badly, and as a result of this, the person decides to leave, go somewhere new, or start a new phase in life. Or, the Result card can show the Outcome’s effect psy¬ chologically. A classic example is the Tower followed by the Star, indicating that an explosion in the person's life would lead to a release of hope and energy. This example also illustrates the potential great importance of seeing not just the Outcome, but what comes afterwards. If a reading showed only the Tower, and not the Star as a result of it, it would leave the subject with a sense of devastation. Very often the first line will give such a strong picture that the person will need no further information. At other times, however, the line may leave the person slightly confused, or simply wishing to see the situation from a different point of view. In this case, the reader may simply turn over another line directly under the first. The positions remain the same, and the seven cards still relate to the original small cross that set out the basic situation. And yet, because we
+--------------------------------------------------------------------------------
+
+
+--- Chunk 16 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0286#1
+Similarity: 0.5055
+Metadata: {
+  "card_name": "star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 286
+}
+
+Text:
+--------------------------------------------------------------------------------
+Now, the cover card usually stands for some basic influence on the subject, a general situation or starting point for the reading. The second card, which we always read right side up, despite how it comes off the deck, represents in traditional systems an ‘opposing influence’, something counter to the first. In practice, this ‘opposition’ may actually form a second influence supporting the first. For example, suppose the cover card was the Fool, indicat¬ ing a sense of following instincts despite what may seem the more sensible practice. If Temperance crossed it, we could call it an opposition, since Temperance usually refers to caution. But if the Knight of Wands crossed the Fool, the two cards would tend to support each other, and in fact the other cards might suggest a need for a more temperate influence to balance all that eagerness. In my work I have developed a slightly different way of looking at the first two cards, referring to them not as cover and ‘opposition’ but as ‘Centre’ and ‘crossing’. For their meanings I term them the ‘inner’ and ‘outer’ aspects, or some¬ times ‘vertical’ and ‘horizontal’ time, or simply ‘being’ and ‘doing’. The Centre card shows some basic quality of the person or the person’s situation. I'he crossing card then shows how that quality affects the person, or how it translates into action. Put another way, the first shows what the person is, the second how he or she acts. Consider the example in Fig. 57. The Fool would indicate a person with an inner tendency to take chances, to follow instinct. Temperance crossing it would mean that when it comes to action the person tends towards a more careful approach, blending instinctive energy with more practical considerations.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 17 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0288#1
+Similarity: 0.5018
+Metadata: {
+  "card_name": "the world",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 288
+}
+
+Text:
+--------------------------------------------------------------------------------
+In terms of readings, the cross symbolism can show the way in which a person’s substance, or inner being, can mix with the way that person acts in the world. It is worth repeating here the original example which suggested the symbolism of crossed time. The reading was done for a man unsure of the direction of his life. A long love affair was ending, his chosen career as a professional singer had not materialized. The reading began with the High Priestess crossed by the Hiero¬ phant. Now these cards, sometimes called the Papess and the Pope, at first glance represent contradictory values. The High Priestess stands for instinct, mystery, stillness, while the Hierophant, as the preacher of a doctrine by which people may guide their lives, stands for orthodoxy, planned behaviour, clarity. Therefore, it appeared that the two sym¬ bolized conflicting approaches to life. The more I looked at them, however, with their religious imagery, the more I thought of conjunctions, rather than opposites. The two seemed to prescribe almost a way of dealing with life. The High Priestess indicated that within himself this man carried qualities of instinct and understanding that might never fully emerge but could give his life substance. The Hierophant, on the other hand, showed that in his daily life he needed a more rational plan of action; he needed to organize and make definite decisions to achieve what he wanted. But these plans and practical steps would work best if backed by his own instincts and inner awareness rather than by socially- acceptable ideas of proper goals and behaviour. Just as I was trying to explain how these qualities could complement each other the man broke in to say how he saw them as constantly
+--------------------------------------------------------------------------------
+
+
+--- Chunk 18 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0293#1
+Similarity: 0.4942
+Metadata: {
+  "card_name": "Five of Wands",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 293
+}
+
+Text:
+--------------------------------------------------------------------------------
+The final arm of the Cross comes to the right of the central pattern. Lying opposite the Recent Past it bears the title ‘Near Future’. It shows some situation that the person will soon have to face. It does not carry the same totality as the Outcome; rather it forms yet another influence, in this case the influence of events. If a situation begins in a certain way but ends very differently, then the reason might lie in the Near Future bringing in some new situation or person to change the direc¬ tion. On the other hand, if the Outcome is very different in character from the Near Future this might indicate that the coming situation will have no lasting effect. For example, if the Five of Wands lies in the Near Future, and the Three of Cups in the Outcome, it can indicate that the person will go through a period of conflict with friends, but that this conflict will not last long, giving way to closer ties, and cooperation. Often such information can greatly help a person come through a difficult time by reassuring him or her that it will not last. And if the opposite should appear (that is, a happy situation will give way to a bad one) the reader can simply hope that the person can use this information well. Bad news is always less pleasant to give than good. After laying out the Cross the reader turns up the final four cards, one above the other, to the right of the Cross. The final pattern looks like this:
+--------------------------------------------------------------------------------
+
+
+--- Chunk 19 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0268#1
+Similarity: 0.4940
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 268
+}
+
+Text:
+--------------------------------------------------------------------------------
+More important than why they bothered to write about it is the simple fact that few esotericists have done much to dispel the image of divination as trivial. This disregard has even extended to the entire Minor Arcana. Because the Minor cards are associated with readings many serious books on Tarot treat them very lightly, if at all (White's remark applied only to the Major cards). Paul Foster Case's book The Tarot gives only the barest formulas in a kind of appendix at the back. Many others treat only the Major cards. Almost alone of modern esoteric studies Crowley’s The Book Of Thoth goes deeply into the Minor cards, linking them to a complex astrological system. As for methods of doing readings, the most important esoteric studies have given only the barest information, a few ‘spreads’ or designs for laying out the cards, with formula explanations for the different positions. Again, Crowley is the exception, presenting a characteristically complicated system of readings via an astrological ‘clock'. The impact of depth psychology and humanistic astrology has led many contemporary writers to seek a more serious use of divination. Unfortunately, by treating readings in such an offhand manner, the earlier writers have created a tradition of formulas which modern writers have found hard to shake off. Thus we still find the same sorts of explanations for the Minor cards, such as ‘All is not yet lost; good fortune is still possible’ (Douglas); and the same brief descriptions of spreads, with
+--------------------------------------------------------------------------------
+
+
+--- Chunk 20 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0349#1
+Similarity: 0.4933
+Metadata: {
+  "card_name": "Two of Pentacles",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 349
+}
+
+Text:
+--------------------------------------------------------------------------------
+So far, we have considered ways to bring the influence of single cards into our lives. But a reading contains many cards which work together. To make a reading come alive, I have found it valuable to create what I call a ‘mandala' - a pattern formed from several cards. These cards can include not only those from the reading but others whose qualities will support the direction the reading advises. This act of deliberately adding cards not in the reading extends again the balance between the conscious and the unconscious. The reading has reached into the unconscious areas of knowledge to present a picture of the situation as it exists now. Through the mandala, and through the introduction of new cards deliberately taken from the deck, we can extend or transform the situation. Here is an example of a mandala in which no extra cards were necessary. The reading itself provided all the images we needed. The following Work Cycle (Fig. 64) concerned a woman w'ho felt isolated from the people around her despite several apparently good friendships. The Cross illustrated the situation perfectly: Two of Pentacles crossed by Six of Swords. It showed her central situation of pretending to enjoy life and relations with others (Two of Pentacles) producing a sense of functioning (‘the swords do not weigh down the boat’) while she remained unable to connect with the people around her. She remained like the woman in the boat, wrapped in her shroud, silent.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Citations Summary
+================================================================================
+
+
+Source: 78_degrees_of_wisdom.txt
+  Count: 19
+  Chunk IDs: ['78degrees-section-0298#1', '78degrees-section-0285#2', '78degrees-section-0308#1', '78degrees-section-0310#1', '78degrees-section-0314#1', '78degrees-section-0285#1', '78degrees-section-0309#1', '78degrees-section-0298#2', '78degrees-section-0287#1', '78degrees-section-0309#2', '78degrees-section-0360#1', '78degrees-section-0284#1', '78degrees-section-0269#1', '78degrees-section-0313#1', '78degrees-section-0286#1', '78degrees-section-0288#1', '78degrees-section-0293#1', '78degrees-section-0268#1', '78degrees-section-0349#1']
+
+Source: pkt.txt
+  Count: 1
+  Chunk IDs: ['pkt-section-0099#1']

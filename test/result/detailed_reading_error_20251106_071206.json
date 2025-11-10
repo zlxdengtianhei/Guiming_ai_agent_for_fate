@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-11-06T07:12:02.589069",
+  "steps": [
+    {
+      "step": "输入问题",
+      "timestamp": "2025-11-06T07:12:02.599160",
+      "data": {
+        "question": "我这次比赛的结果会好吗",
+        "note": "用户询问比赛结果"
+      }
+    },
+    {
+      "step": "用户信息",
+      "timestamp": "2025-11-06T07:12:02.599222",
+      "data": {
+        "age": 25,
+        "gender": "male",
+        "zodiac_sign": "Sagittarius",
+        "appearance_type": "wands",
+        "personality_type": "wands",
+        "preferred_source": "pkt"
+      }
+    },
+    {
+      "step": "错误",
+      "timestamp": "2025-11-06T07:12:06.366867",
+      "data": {
+        "error_type": "APIError",
+        "error_message": "{'message': \"Could not find the 'significator_card_id' column of 'readings' in the schema cache\", 'code': 'PGRST204', 'hint': None, 'details': None}"
+      }
+    },
+    {
+      "step": "错误堆栈",
+      "timestamp": "2025-11-06T07:12:06.368789",
+      "data": {
+        "traceback": "Traceback (most recent call last):\n  File \"/Users/lexuanzhang/code/tarot_agent/backend/test_detailed_reading.py\", line 307, in test_detailed_reading\n    result = await service.create_reading(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/lexuanzhang/code/tarot_agent/backend/app/services/tarot/reading_service.py\", line 205, in create_reading\n    }).eq('id', reading_id).execute()\n                            ^^^^^^^^^\n  File \"/Users/lexuanzhang/code/tarot_agent/backend/venv/lib/python3.12/site-packages/postgrest/_sync/request_builder.py\", line 53, in execute\n    raise APIError(dict(json_obj))\npostgrest.exceptions.APIError: {'message': \"Could not find the 'significator_card_id' column of 'readings' in the schema cache\", 'code': 'PGRST204', 'hint': None, 'details': None}\n"
+      }
+    }
+  ],
+  "prompts": {
+    "question_analysis": {
+      "prompt": "你是一位经验丰富的塔罗占卜师。请分析以下问题，并返回JSON格式的分析结果。\n\n## 问题：\n我这次比赛的结果会好吗\n\n## 用户信息（可选）：\n年龄: 25\n性别: male\n星座: Sagittarius\n性格类型: wands\n外貌类型: wands\n\n## 分析要求：\n1. **问题领域**：识别问题所属领域，从以下选项中选择其一：\n   - 'love': 爱情、关系、情感\n   - 'career': 职业、工作、事业\n   - 'health': 健康、身体、康复\n   - 'finance': 财务、金钱、物质\n   - 'personal_growth': 个人成长、精神、自我探索\n   - 'general': 一般生活、综合问题\n\n2. **问题复杂度**（如果用户未指定占卜方式）：\n   - 'simple': 简单问题，可以用三牌占卜回答\n   - 'moderate': 中等复杂度，推荐三牌或凯尔特十字\n   - 'complex': 复杂问题，需要凯尔特十字深入分析\n\n3. **提问类型**：\n   - 'specific_event': 具体事件（如：会得到这份工作吗？）\n   - 'relationship': 关系问题（如：我们的关系会如何发展？）\n   - 'choice': 选择问题（如：应该选择哪个方向？）\n   - 'general': 一般性问题（如：我的未来会怎样？）\n\n4. **推荐占卜方式**（如果用户未指定）：\n   - 'three_card': 三牌占卜\n   - 'celtic_cross': 凯尔特十字\n   - 'work_cycle': 工作循环（如果需要持续建议）\n   - 'other': 其他（说明原因）\n\n## 输出格式（JSON）：\n{\n    \"question_domain\": \"love\",\n    \"complexity\": \"simple\",\n    \"question_type\": \"relationship\",\n    \"recommended_spread\": \"three_card\",\n    \"reasoning\": \"这是一个关于关系的简单问题，三牌占卜可以清晰回答过去-现在-未来的发展\",\n    \"question_summary\": \"简要总结问题核心\"\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "context": {
+        "question": "我这次比赛的结果会好吗",
+        "user_profile": {
+          "age": 25,
+          "gender": "male",
+          "zodiac_sign": "Sagittarius",
+          "appearance_type": "wands",
+          "personality_type": "wands",
+          "preferred_source": "pkt",
+          "preferred_spread": null
+        },
+        "user_selected_spread": null,
+        "analyze_complexity": true
+      },
+      "timestamp": "2025-11-06T07:12:02.858141"
+    }
+  },
+  "rag_queries": [],
+  "final_result": null
+}

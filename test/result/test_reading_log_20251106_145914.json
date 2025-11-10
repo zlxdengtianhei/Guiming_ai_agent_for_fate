@@ -1,0 +1,1749 @@
+{
+  "test_timestamp": "2025-11-06T14:57:59.597448",
+  "question": "我未来三个月的工作发展如何？",
+  "user_profile": {
+    "age": 28,
+    "gender": "female",
+    "zodiac_sign": "Leo",
+    "appearance_type": "wands",
+    "personality_type": "wands",
+    "preferred_source": "pkt",
+    "preferred_spread": null
+  },
+  "steps": [
+    {
+      "step_name": "question_analysis",
+      "step_order": 2,
+      "input_data": {
+        "question": "我未来三个月的工作发展如何？",
+        "user_profile": {
+          "age": 28,
+          "gender": "female",
+          "zodiac_sign": "Leo",
+          "appearance_type": "wands",
+          "personality_type": "wands",
+          "preferred_source": "pkt",
+          "preferred_spread": null
+        },
+        "user_selected_spread": null
+      },
+      "output_data": {
+        "analysis": {
+          "reasoning": "这是一个关于工作发展的中等复杂度问题，凯尔特十字可以深入分析未来三个月的多方面因素。",
+          "complexity": "moderate",
+          "question_type": "general",
+          "question_domain": "career",
+          "question_summary": "用户询问未来三个月的工作发展情况，涉及多个潜在因素和变化。",
+          "recommended_spread": "celtic_cross",
+          "auto_selected_spread": true
+        },
+        "llm_response": "{\n    \"question_domain\": \"career\",\n    \"complexity\": \"moderate\",\n    \"question_type\": \"general\",\n    \"recommended_spread\": \"celtic_cross\",\n    \"reasoning\": \"这是一个关于工作发展的中等复杂度问题，凯尔特十字可以深入分析未来三个月的多方面因素。\",\n    \"question_summary\": \"用户询问未来三个月的工作发展情况，涉及多个潜在因素和变化。\"\n}"
+      },
+      "prompt_type": "question_analysis",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师。请分析以下问题，并返回JSON格式的分析结果。\n\n## 问题：\n我未来三个月的工作发展如何？\n\n## 用户信息（可选）：\n年龄: 28\n性别: female\n星座: Leo\n性格类型: wands\n外貌类型: wands\n\n## 分析要求：\n1. **问题领域**：识别问题所属领域，从以下选项中选择其一：\n   - 'love': 爱情、关系、情感\n   - 'career': 职业、工作、事业\n   - 'health': 健康、身体、康复\n   - 'finance': 财务、金钱、物质\n   - 'personal_growth': 个人成长、精神、自我探索\n   - 'general': 一般生活、综合问题\n\n2. **问题复杂度**（如果用户未指定占卜方式）：\n   - 'simple': 简单问题，可以用三牌占卜回答\n   - 'moderate': 中等复杂度，推荐三牌或凯尔特十字\n   - 'complex': 复杂问题，需要凯尔特十字深入分析\n\n3. **提问类型**：\n   - 'specific_event': 具体事件（如：会得到这份工作吗？）\n   - 'relationship': 关系问题（如：我们的关系会如何发展？）\n   - 'choice': 选择问题（如：应该选择哪个方向？）\n   - 'general': 一般性问题（如：我的未来会怎样？）\n\n4. **推荐占卜方式**（如果用户未指定）：\n   - 'three_card': 三牌占卜\n   - 'celtic_cross': 凯尔特十字\n   - 'work_cycle': 工作循环（如果需要持续建议）\n   - 'other': 其他（说明原因）\n\n## 输出格式（JSON）：\n{\n    \"question_domain\": \"love\",\n    \"complexity\": \"simple\",\n    \"question_type\": \"relationship\",\n    \"recommended_spread\": \"three_card\",\n    \"reasoning\": \"这是一个关于关系的简单问题，三牌占卜可以清晰回答过去-现在-未来的发展\",\n    \"question_summary\": \"简要总结问题核心\"\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "rag_queries": null,
+      "model_used": "gpt-4o-mini",
+      "temperature": 0.3,
+      "processing_time_ms": 3278,
+      "tokens_used": null,
+      "created_at": "2025-11-06T13:58:03.447948+00:00"
+    },
+    {
+      "step_name": "pattern_analysis",
+      "step_order": 6,
+      "input_data": {
+        "use_rag": false,
+        "spread_type": "celtic_cross",
+        "selected_cards": [
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "62a2a4ff-34ef-4795-9472-edee23344369",
+            "position": "cover",
+            "card_number": 20,
+            "is_reversed": false,
+            "card_name_cn": "审判",
+            "card_name_en": "Judgement",
+            "position_order": 1,
+            "position_description": "覆盖Significator的牌，代表当前情况"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "5a3d48a3-e39b-4da5-9613-65592720e768",
+            "position": "crossing",
+            "card_number": 13,
+            "is_reversed": true,
+            "card_name_cn": "死神",
+            "card_name_en": "Death",
+            "position_order": 2,
+            "position_description": "横跨第一张牌的牌，代表阻碍或帮助"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "95ccda43-c539-4f8e-8411-51c2095e7c00",
+            "position": "basis",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "教皇",
+            "card_name_en": "The Hierophant",
+            "position_order": 3,
+            "position_description": "位于Significator下方的牌，代表基础或根源"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "8e1a94dc-0025-45ce-8ef4-9e453ea03d62",
+            "position": "behind",
+            "card_number": 6,
+            "is_reversed": false,
+            "card_name_cn": "六 权杖",
+            "card_name_en": "Six of Wands",
+            "position_order": 4,
+            "position_description": "代表过去的影响"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "0a0e3a6f-67df-4993-b432-363a5de693a4",
+            "position": "crowned",
+            "card_number": 3,
+            "is_reversed": false,
+            "card_name_cn": "三 权杖",
+            "card_name_en": "Three of Wands",
+            "position_order": 5,
+            "position_description": "代表可能的结果或目标"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "f00936c9-6913-426c-85ac-408f0176dddb",
+            "position": "before",
+            "card_number": 1,
+            "is_reversed": false,
+            "card_name_cn": "王牌 宝剑",
+            "card_name_en": "Ace of Swords",
+            "position_order": 6,
+            "position_description": "代表即将到来的未来"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+            "position": "self",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords",
+            "position_order": 7,
+            "position_description": "代表问卜者自身"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "cae29b2f-1208-4a15-8bd9-e28aceb70238",
+            "position": "environment",
+            "card_number": 8,
+            "is_reversed": true,
+            "card_name_cn": "八 权杖",
+            "card_name_en": "Eight of Wands",
+            "position_order": 8,
+            "position_description": "代表周围环境和他人影响"
+          },
+          {
+            "suit": "pentacles",
+            "arcana": "minor",
+            "card_id": "17141762-c470-4433-9261-81d1e4b906eb",
+            "position": "hopes_and_fears",
+            "card_number": 10,
+            "is_reversed": false,
+            "card_name_cn": "十 星币",
+            "card_name_en": "Ten of Pentacles",
+            "position_order": 9,
+            "position_description": "代表问卜者的希望和恐惧"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce",
+            "position": "outcome",
+            "card_number": 1,
+            "is_reversed": true,
+            "card_name_cn": "魔术师",
+            "card_name_en": "The Magician",
+            "position_order": 10,
+            "position_description": "代表最终结果"
+          }
+        ],
+        "question_domain": "career"
+      },
+      "output_data": {
+        "analysis": {
+          "model_used": "gpt-4o-mini",
+          "analysis_method": "direct_llm",
+          "number_patterns": {
+            "number_jumps": [],
+            "same_numbers": [],
+            "number_sequences": []
+          },
+          "reversed_patterns": {
+            "count": 2,
+            "positions": [
+              "2",
+              "10"
+            ],
+            "interpretation": "Death（逆位）可能表示对变革的抵触和不愿意放下过去，而The Magician（逆位）则可能暗示缺乏能力或资源来实现目标。"
+          },
+          "suit_distribution": {
+            "cups_count": 0,
+            "major_count": 5,
+            "wands_count": 3,
+            "swords_count": 2,
+            "interpretation": "权杖的数量较多，表明行动和动力占主导地位，剑的数量则代表思维和冲突，星币的出现则暗示物质和财务方面的关注。",
+            "pentacles_count": 1
+          },
+          "special_combinations": [],
+          "major_arcana_patterns": {
+            "count": 5,
+            "meaning": "大阿卡纳牌的出现显示出当前职业状况的重要性和深度，提示问卜者在职业生涯中面临重大转折和评估。",
+            "positions": [
+              "1",
+              "2",
+              "3",
+              "6",
+              "10"
+            ]
+          },
+          "position_relationships": {
+            "time_flow": "当前状态是Judgement，代表重生和评估，过去的Six of Wands显示出成功的影响，而未来的Ace of Swords则暗示新的思维和开始。",
+            "support_conflict": "Judgement与Death（逆位）形成冲突，可能暗示对变革的抵触，而The Hierophant则提供稳定的基础，支持当前的评估过程。",
+            "causal_relationships": [
+              "Six of Wands → Judgement: 过去的成功影响当前的评估。",
+              "Judgement → Three of Wands: 当前的评估将导致未来的扩展和探索。",
+              "Three of Wands → Ace of Swords: 未来的扩展将引导到新的思维和决策。"
+            ]
+          }
+        },
+        "llm_response": "{\n    \"position_relationships\": {\n        \"time_flow\": \"当前状态是Judgement，代表重生和评估，过去的Six of Wands显示出成功的影响，而未来的Ace of Swords则暗示新的思维和开始。\",\n        \"causal_relationships\": [\n            \"Six of Wands → Judgement: 过去的成功影响当前的评估。\",\n            \"Judgement → Three of Wands: 当前的评估将导致未来的扩展和探索。\",\n            \"Three of Wands → Ace of Swords: 未来的扩展将引导到新的思维和决策。\"\n        ],\n        \"support_conflict\": \"Judgement与Death（逆位）形成冲突，可能暗示对变革的抵触，而The Hierophant则提供稳定的基础，支持当前的评估过程。\"\n    },\n    \"number_patterns\": {\n        \"same_numbers\": [],\n        \"number_sequences\": [],\n        \"number_jumps\": []\n    },\n    \"suit_distribution\": {\n        \"wands_count\": 3,\n        \"cups_count\": 0,\n        \"swords_count\": 2,\n        \"pentacles_count\": 1,\n        \"major_count\": 5,\n        \"interpretation\": \"权杖的数量较多，表明行动和动力占主导地位，剑的数量则代表思维和冲突，星币的出现则暗示物质和财务方面的关注。\"\n    },\n    \"major_arcana_patterns\": {\n        \"count\": 5,\n        \"positions\": [\"1\", \"2\", \"3\", \"6\", \"10\"],\n        \"meaning\": \"大阿卡纳牌的出现显示出当前职业状况的重要性和深度，提示问卜者在职业生涯中面临重大转折和评估。\"\n    },\n    \"reversed_patterns\": {\n        \"count\": 2,\n        \"positions\": [\"2\", \"10\"],\n        \"interpretation\": \"Death（逆位）可能表示对变革的抵触和不愿意放下过去，而The Magician（逆位）则可能暗示缺乏能力或资源来实现目标。\"\n    },\n    \"special_combinations\": []\n}"
+      },
+      "prompt_type": "pattern_analysis",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师。请分析以下牌阵的模式和关系。\n\n## 占卜方式：celtic_cross\n## 问题领域：career\n\n## 牌阵信息：\n1. cover (覆盖Significator的牌，代表当前情况): Judgement (审判) - major (major)\n2. crossing (横跨第一张牌的牌，代表阻碍或帮助): Death (死神) - major (major) [逆位]\n3. basis (位于Significator下方的牌，代表基础或根源): The Hierophant (教皇) - major (major)\n4. behind (代表过去的影响): Six of Wands (六 权杖) - wands 6\n5. crowned (代表可能的结果或目标): Three of Wands (三 权杖) - wands 3\n6. before (代表即将到来的未来): Ace of Swords (王牌 宝剑) - swords 1\n7. self (代表问卜者自身): Five of Swords (五 宝剑) - swords 5\n8. environment (代表周围环境和他人影响): Eight of Wands (八 权杖) - wands 8 [逆位]\n9. hopes_and_fears (代表问卜者的希望和恐惧): Ten of Pentacles (十 星币) - pentacles 10\n10. outcome (代表最终结果): The Magician (魔术师) - major (major) [逆位]\n\n## 分析要求：\n1. **位置关系**：分析各位置之间的关系（时间线、因果、支持/对抗）\n2. **数字模式**：识别相同数字、数字序列、数字跳跃\n3. **花色分布**：分析各花色的分布和平衡\n4. **大阿卡纳模式**：分析大阿卡纳的位置和意义\n5. **逆位模式**：分析逆位牌的模式和含义\n6. **特殊组合**：识别宫廷牌组合、相同牌等特殊模式\n\n## 输出格式（JSON）：\n{\n    \"position_relationships\": {\n        \"time_flow\": \"描述时间线关系（如果有）\",\n        \"causal_relationships\": [\"原因→结果的关系列表\"],\n        \"support_conflict\": \"支持或对抗关系描述\"\n    },\n    \"number_patterns\": {\n        \"same_numbers\": [\"相同数字和含义说明\"],\n        \"number_sequences\": [\"数字序列和含义说明\"],\n        \"number_jumps\": [\"数字跳跃和含义说明\"]\n    },\n    \"suit_distribution\": {\n        \"wands_count\": 0,\n        \"cups_count\": 0,\n        \"swords_count\": 0,\n        \"pentacles_count\": 0,\n        \"major_count\": 0,\n        \"interpretation\": \"花色分布的含义解释\"\n    },\n    \"major_arcana_patterns\": {\n        \"count\": 0,\n        \"positions\": [\"大阿卡纳的位置列表\"],\n        \"meaning\": \"大阿卡纳模式的含义\"\n    },\n    \"reversed_patterns\": {\n        \"count\": 0,\n        \"positions\": [\"逆位牌的位置列表\"],\n        \"interpretation\": \"逆位模式的含义解释\"\n    },\n    \"special_combinations\": [\"特殊组合的描述列表\"]\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "rag_queries": null,
+      "model_used": "gpt-4o-mini",
+      "temperature": 0.5,
+      "processing_time_ms": 12851,
+      "tokens_used": null,
+      "created_at": "2025-11-06T13:58:16.804089+00:00"
+    },
+    {
+      "step_name": "rag_retrieval",
+      "step_order": 7,
+      "input_data": {
+        "spread_type": "celtic_cross",
+        "selected_cards": [
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "62a2a4ff-34ef-4795-9472-edee23344369",
+            "position": "cover",
+            "card_number": 20,
+            "is_reversed": false,
+            "card_name_cn": "审判",
+            "card_name_en": "Judgement",
+            "position_order": 1,
+            "position_description": "覆盖Significator的牌，代表当前情况"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "5a3d48a3-e39b-4da5-9613-65592720e768",
+            "position": "crossing",
+            "card_number": 13,
+            "is_reversed": true,
+            "card_name_cn": "死神",
+            "card_name_en": "Death",
+            "position_order": 2,
+            "position_description": "横跨第一张牌的牌，代表阻碍或帮助"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "95ccda43-c539-4f8e-8411-51c2095e7c00",
+            "position": "basis",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "教皇",
+            "card_name_en": "The Hierophant",
+            "position_order": 3,
+            "position_description": "位于Significator下方的牌，代表基础或根源"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "8e1a94dc-0025-45ce-8ef4-9e453ea03d62",
+            "position": "behind",
+            "card_number": 6,
+            "is_reversed": false,
+            "card_name_cn": "六 权杖",
+            "card_name_en": "Six of Wands",
+            "position_order": 4,
+            "position_description": "代表过去的影响"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "0a0e3a6f-67df-4993-b432-363a5de693a4",
+            "position": "crowned",
+            "card_number": 3,
+            "is_reversed": false,
+            "card_name_cn": "三 权杖",
+            "card_name_en": "Three of Wands",
+            "position_order": 5,
+            "position_description": "代表可能的结果或目标"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "f00936c9-6913-426c-85ac-408f0176dddb",
+            "position": "before",
+            "card_number": 1,
+            "is_reversed": false,
+            "card_name_cn": "王牌 宝剑",
+            "card_name_en": "Ace of Swords",
+            "position_order": 6,
+            "position_description": "代表即将到来的未来"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+            "position": "self",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords",
+            "position_order": 7,
+            "position_description": "代表问卜者自身"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "cae29b2f-1208-4a15-8bd9-e28aceb70238",
+            "position": "environment",
+            "card_number": 8,
+            "is_reversed": true,
+            "card_name_cn": "八 权杖",
+            "card_name_en": "Eight of Wands",
+            "position_order": 8,
+            "position_description": "代表周围环境和他人影响"
+          },
+          {
+            "suit": "pentacles",
+            "arcana": "minor",
+            "card_id": "17141762-c470-4433-9261-81d1e4b906eb",
+            "position": "hopes_and_fears",
+            "card_number": 10,
+            "is_reversed": false,
+            "card_name_cn": "十 星币",
+            "card_name_en": "Ten of Pentacles",
+            "position_order": 9,
+            "position_description": "代表问卜者的希望和恐惧"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce",
+            "position": "outcome",
+            "card_number": 1,
+            "is_reversed": true,
+            "card_name_cn": "魔术师",
+            "card_name_en": "The Magician",
+            "position_order": 10,
+            "position_description": "代表最终结果"
+          }
+        ]
+      },
+      "output_data": {
+        "spread_method": {
+          "rag_text": "The Celtic Cross spread is a popular Tarot divination method that provides a comprehensive overview of a situation. It typically consists of ten cards laid out in a specific pattern, each representing different aspects of the querent's life or question. \n\n1. **Present Position**: The current situation or the querent's state of mind.\n2. **Challenge**: The obstacle or challenge faced.\n3. **Past Influences**: Events or influences from the past that affect the present.\n4. **Future Influences**: Potential outcomes or influences in the near future.\n5. **Above (Conscious)**: The querent's conscious thoughts and aspirations.\n6. **Below (Subconscious)**: Underlying feelings or beliefs that may not be immediately apparent.\n7. **Advice**: Guidance on how to approach the situation.\n8. **External Influences**: How others or external factors may impact the situation.\n9. **Hopes and Fears**: The querent's inner hopes and fears regarding the situation.\n10. **Outcome**: The likely result based on the current path.\n\nEach card's interpretation draws on traditional symbolism and the querent's intuition, balancing the Magician's will and the High Priestess's intuition, as mentioned in the context. This spread allows for a holistic view, integrating various aspects of the querent's life and providing insights into their journey.",
+          "citations": [
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0056#2",
+              "similarity": 0.574281249897556
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0122#2",
+              "similarity": 0.569800368571242
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.56869162823831
+            }
+          ],
+          "spread_type": "celtic_cross"
+        },
+        "card_information": {
+          "0a0e3a6f-67df-4993-b432-363a5de693a4": {
+            "position": "crowned",
+            "rag_text": "In the crowned position, the Three of Wands signifies foresight, expansion, and the anticipation of future success. It represents the culmination of efforts and the readiness to explore new opportunities. This card suggests that you are in a position to take advantage of your current resources and insights, looking ahead with confidence and optimism. It encourages you to embrace your vision and prepare for the growth that lies ahead, as well as to consider the broader horizons that await you.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.539280740065532
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0044#2",
+                "similarity": 0.412706767755344
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0150#1",
+                "similarity": 0.375940747502998
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "三 权杖",
+            "card_name_en": "Three of Wands"
+          },
+          "17141762-c470-4433-9261-81d1e4b906eb": {
+            "position": "hopes_and_fears",
+            "rag_text": "In the hopes and fears position, the Ten of Pentacles suggests a desire for stability, security, and legacy within family and community. It embodies aspirations for long-term success and the fulfillment of material and emotional needs. Conversely, it may also reflect fears of stagnation, feeling trapped in a routine, or concerns about the sustainability of one's achievements and family dynamics. The card highlights the balance between appreciating what one has and the anxiety of losing it or not living up to expectations.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0256#2",
+                "similarity": 0.584975043541183
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0249#1",
+                "similarity": 0.581571236567873
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.522448881791577
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "十 星币",
+            "card_name_en": "Ten of Pentacles"
+          },
+          "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce": {
+            "position": "outcome",
+            "rag_text": "The Magician reversed typically signifies manipulation, deceit, or a lack of direction. It can indicate that the individual is misusing their skills or talents, leading to missed opportunities or unfulfilled potential. There may be a sense of frustration or feeling powerless, as well as a warning against trickery or superficiality in endeavors. This card suggests a need for introspection and a reevaluation of one's intentions and actions.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.64788512612759
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.632925309713204
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.621783509467071
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "魔术师",
+            "card_name_en": "The Magician"
+          },
+          "5a3d48a3-e39b-4da5-9613-65592720e768": {
+            "position": "crossing",
+            "rag_text": "The reversed Death card typically signifies resistance to change or transformation. It may indicate a fear of endings or an inability to let go of the past. In a crossing position, it suggests that the querent is struggling with a transition, feeling stuck or in denial about necessary changes in their life. This can lead to stagnation and an avoidance of growth. It encourages the need to confront fears and embrace the inevitability of change for progress.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.61785071651793
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.57204370844755
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.477300792932514
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "死神",
+            "card_name_en": "Death"
+          },
+          "62a2a4ff-34ef-4795-9472-edee23344369": {
+            "position": "cover",
+            "rag_text": "The Judgement card in the cover position typically signifies a time of reflection, evaluation, and awakening. It suggests that you are at a crossroads, where you must assess past actions and decisions to move forward. This card often indicates a call to action, transformation, and the potential for renewal or rebirth. It encourages you to embrace change and take responsibility for your choices, leading to personal growth and a new phase in your life.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.537198158335576
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.487738280757563
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.443793790227362
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "审判",
+            "card_name_en": "Judgement"
+          },
+          "8e1a94dc-0025-45ce-8ef4-9e453ea03d62": {
+            "position": "behind",
+            "rag_text": "The Six of Wands represents victory, recognition, and achievement. In an upright position, it signifies staying on top of challenges and enjoying the thrill of success. It reflects a sense of accomplishment and confidence, often in the context of public acknowledgment or victory in a competitive environment. However, it also suggests that while one may appear to be in control, there may be underlying contradictions or pressures that need to be addressed.\n\nIn a reversed position, the card indicates feelings of anxiety, indecision, or embarrassment, suggesting a struggle to maintain that sense of victory or control. It may reflect a fear of failure or a sense of being overwhelmed by the expectations that come with success.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0199#1",
+                "similarity": 0.69479099825649
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.678952196867713
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.599729824017851
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "六 权杖",
+            "card_name_en": "Six of Wands"
+          },
+          "95ccda43-c539-4f8e-8411-51c2095e7c00": {
+            "position": "basis",
+            "rag_text": "The Hierophant card typically represents tradition, spiritual guidance, and conformity to established norms. It signifies the importance of spiritual teachings, rituals, and the connection between the divine and the earthly. In a basis position, it may indicate a need for structure, adherence to beliefs, or seeking wisdom from a mentor or institution.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0080#1",
+                "similarity": 0.613115718325803
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0059#1",
+                "similarity": 0.604261690759216
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0016#1",
+                "similarity": 0.587058323236064
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "教皇",
+            "card_name_en": "The Hierophant"
+          },
+          "cae29b2f-1208-4a15-8bd9-e28aceb70238": {
+            "position": "environment",
+            "rag_text": "In the reversed position of the environment, the Eight of Wands suggests delays, obstacles, or a lack of progress in external circumstances. Communication may be hindered, and plans could be stalled. This card indicates a need for patience and reassessment of the situation, as the energy that typically drives swift movement is currently blocked or misdirected.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.561703283482204
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "八 权杖",
+            "card_name_en": "Eight of Wands"
+          },
+          "d148cb52-6b57-4d68-8d19-80c1e2b80142": {
+            "position": "self",
+            "rag_text": "In the self position, the Five of Swords suggests feelings of conflict, defeat, or betrayal. It may indicate that you are experiencing a sense of loss or are involved in a situation where winning comes at a high cost. This card can reflect internal struggles, where you may feel isolated or misunderstood, and it encourages you to consider the implications of your actions and the impact on your relationships. It serves as a reminder to seek resolution and avoid unnecessary conflict.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.597867179171187
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0311#1",
+                "similarity": 0.545203208923355
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0110#1",
+                "similarity": 0.320486786278465
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords"
+          },
+          "f00936c9-6913-426c-85ac-408f0176dddb": {
+            "position": "before",
+            "rag_text": "The Ace of Swords represents a gift of clarity, truth, and intellectual power. It signifies a breakthrough in understanding, the emergence of new ideas, and the ability to cut through confusion. This card embodies the potential for decisive action and the pursuit of justice, often indicating a time when one can harness their mental strength to confront challenges and assert their truth. It encourages the seeker to embrace their intellect and communicate effectively, as this energy is a divine gift that can lead to significant insights and revelations.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.547045485587284
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0017#2",
+                "similarity": 0.390590470748856
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0150#1",
+                "similarity": 0.358728806934619
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "王牌 宝剑",
+            "card_name_en": "Ace of Swords"
+          }
+        }
+      },
+      "prompt_type": null,
+      "prompt_content": null,
+      "rag_queries": [
+        {
+          "query": "Judgement tarot card meaning cover position",
+          "result": {
+            "text": "The Judgement card in the cover position typically signifies a time of reflection, evaluation, and awakening. It suggests that you are at a crossroads, where you must assess past actions and decisions to move forward. This card often indicates a call to action, transformation, and the potential for renewal or rebirth. It encourages you to embrace change and take responsibility for your choices, leading to personal growth and a new phase in your life.",
+            "debug": {
+              "latency_ms": 3652,
+              "num_results": 3,
+              "top_doc_ids": [
+                "pkt-section-0083#1",
+                "78degrees-section-0236#1",
+                "78degrees-section-0302#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.537198158335576
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.487738280757563
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.443793790227362
+              }
+            ]
+          },
+          "card_id": "62a2a4ff-34ef-4795-9472-edee23344369",
+          "card_name_en": "Judgement"
+        },
+        {
+          "query": "Death tarot card meaning reversed crossing position",
+          "result": {
+            "text": "The reversed Death card typically signifies resistance to change or transformation. It may indicate a fear of endings or an inability to let go of the past. In a crossing position, it suggests that the querent is struggling with a transition, feeling stuck or in denial about necessary changes in their life. This can lead to stagnation and an avoidance of growth. It encourages the need to confront fears and embrace the inevitability of change for progress.",
+            "debug": {
+              "latency_ms": 3559,
+              "num_results": 3,
+              "top_doc_ids": [
+                "pkt-section-0083#1",
+                "78degrees-section-0236#1",
+                "78degrees-section-0302#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.61785071651793
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.57204370844755
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.477300792932514
+              }
+            ]
+          },
+          "card_id": "5a3d48a3-e39b-4da5-9613-65592720e768",
+          "card_name_en": "Death"
+        },
+        {
+          "query": "The Hierophant tarot card meaning basis position",
+          "result": {
+            "text": "The Hierophant card typically represents tradition, spiritual guidance, and conformity to established norms. It signifies the importance of spiritual teachings, rituals, and the connection between the divine and the earthly. In a basis position, it may indicate a need for structure, adherence to beliefs, or seeking wisdom from a mentor or institution.",
+            "debug": {
+              "latency_ms": 2891,
+              "num_results": 3,
+              "top_doc_ids": [
+                "pkt-section-0080#1",
+                "78degrees-section-0059#1",
+                "pkt-section-0016#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0080#1",
+                "similarity": 0.613115718325803
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0059#1",
+                "similarity": 0.604261690759216
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0016#1",
+                "similarity": 0.587058323236064
+              }
+            ]
+          },
+          "card_id": "95ccda43-c539-4f8e-8411-51c2095e7c00",
+          "card_name_en": "The Hierophant"
+        },
+        {
+          "query": "Six of Wands tarot card meaning behind position",
+          "result": {
+            "text": "The Six of Wands represents victory, recognition, and achievement. In an upright position, it signifies staying on top of challenges and enjoying the thrill of success. It reflects a sense of accomplishment and confidence, often in the context of public acknowledgment or victory in a competitive environment. However, it also suggests that while one may appear to be in control, there may be underlying contradictions or pressures that need to be addressed.\n\nIn a reversed position, the card indicates feelings of anxiety, indecision, or embarrassment, suggesting a struggle to maintain that sense of victory or control. It may reflect a fear of failure or a sense of being overwhelmed by the expectations that come with success.",
+            "debug": {
+              "latency_ms": 3282,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0199#1",
+                "78degrees-section-0202#1",
+                "pkt-section-0073#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0199#1",
+                "similarity": 0.69479099825649
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.678952196867713
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.599729824017851
+              }
+            ]
+          },
+          "card_id": "8e1a94dc-0025-45ce-8ef4-9e453ea03d62",
+          "card_name_en": "Six of Wands"
+        },
+        {
+          "query": "Three of Wands tarot card meaning crowned position",
+          "result": {
+            "text": "In the crowned position, the Three of Wands signifies foresight, expansion, and the anticipation of future success. It represents the culmination of efforts and the readiness to explore new opportunities. This card suggests that you are in a position to take advantage of your current resources and insights, looking ahead with confidence and optimism. It encourages you to embrace your vision and prepare for the growth that lies ahead, as well as to consider the broader horizons that await you.",
+            "debug": {
+              "latency_ms": 2764,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0205#1",
+                "78degrees-section-0044#2",
+                "78degrees-section-0150#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.539280740065532
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0044#2",
+                "similarity": 0.412706767755344
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0150#1",
+                "similarity": 0.375940747502998
+              }
+            ]
+          },
+          "card_id": "0a0e3a6f-67df-4993-b432-363a5de693a4",
+          "card_name_en": "Three of Wands"
+        },
+        {
+          "query": "Ace of Swords tarot card meaning before position",
+          "result": {
+            "text": "The Ace of Swords represents a gift of clarity, truth, and intellectual power. It signifies a breakthrough in understanding, the emergence of new ideas, and the ability to cut through confusion. This card embodies the potential for decisive action and the pursuit of justice, often indicating a time when one can harness their mental strength to confront challenges and assert their truth. It encourages the seeker to embrace their intellect and communicate effectively, as this energy is a divine gift that can lead to significant insights and revelations.",
+            "debug": {
+              "latency_ms": 2735,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0205#1",
+                "78degrees-section-0017#2",
+                "78degrees-section-0150#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.547045485587284
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0017#2",
+                "similarity": 0.390590470748856
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0150#1",
+                "similarity": 0.358728806934619
+              }
+            ]
+          },
+          "card_id": "f00936c9-6913-426c-85ac-408f0176dddb",
+          "card_name_en": "Ace of Swords"
+        },
+        {
+          "query": "Five of Swords tarot card meaning self position",
+          "result": {
+            "text": "In the self position, the Five of Swords suggests feelings of conflict, defeat, or betrayal. It may indicate that you are experiencing a sense of loss or are involved in a situation where winning comes at a high cost. This card can reflect internal struggles, where you may feel isolated or misunderstood, and it encourages you to consider the implications of your actions and the impact on your relationships. It serves as a reminder to seek resolution and avoid unnecessary conflict.",
+            "debug": {
+              "latency_ms": 3057,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0302#1",
+                "78degrees-section-0311#1",
+                "pkt-section-0110#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.597867179171187
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0311#1",
+                "similarity": 0.545203208923355
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0110#1",
+                "similarity": 0.320486786278465
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "query": "Eight of Wands tarot card meaning reversed environment position",
+          "result": {
+            "text": "In the reversed position of the environment, the Eight of Wands suggests delays, obstacles, or a lack of progress in external circumstances. Communication may be hindered, and plans could be stalled. This card indicates a need for patience and reassessment of the situation, as the energy that typically drives swift movement is currently blocked or misdirected.",
+            "debug": {
+              "latency_ms": 2619,
+              "num_results": 1,
+              "top_doc_ids": [
+                "78degrees-section-0305#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.561703283482204
+              }
+            ]
+          },
+          "card_id": "cae29b2f-1208-4a15-8bd9-e28aceb70238",
+          "card_name_en": "Eight of Wands"
+        },
+        {
+          "query": "Ten of Pentacles tarot card meaning hopes_and_fears position",
+          "result": {
+            "text": "In the hopes and fears position, the Ten of Pentacles suggests a desire for stability, security, and legacy within family and community. It embodies aspirations for long-term success and the fulfillment of material and emotional needs. Conversely, it may also reflect fears of stagnation, feeling trapped in a routine, or concerns about the sustainability of one's achievements and family dynamics. The card highlights the balance between appreciating what one has and the anxiety of losing it or not living up to expectations.",
+            "debug": {
+              "latency_ms": 2593,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0256#2",
+                "78degrees-section-0249#1",
+                "pkt-section-0073#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0256#2",
+                "similarity": 0.584975043541183
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0249#1",
+                "similarity": 0.581571236567873
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.522448881791577
+              }
+            ]
+          },
+          "card_id": "17141762-c470-4433-9261-81d1e4b906eb",
+          "card_name_en": "Ten of Pentacles"
+        },
+        {
+          "query": "The Magician tarot card meaning reversed outcome position",
+          "result": {
+            "text": "The Magician reversed typically signifies manipulation, deceit, or a lack of direction. It can indicate that the individual is misusing their skills or talents, leading to missed opportunities or unfulfilled potential. There may be a sense of frustration or feeling powerless, as well as a warning against trickery or superficiality in endeavors. This card suggests a need for introspection and a reevaluation of one's intentions and actions.",
+            "debug": {
+              "latency_ms": 1751,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0223#1",
+                "78degrees-section-0266#1",
+                "pkt-section-0078#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.64788512612759
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.632925309713204
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.621783509467071
+              }
+            ]
+          },
+          "card_id": "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce",
+          "card_name_en": "The Magician"
+        },
+        {
+          "query": "celtic_cross spread tarot divination method interpretation",
+          "result": {
+            "text": "The Celtic Cross spread is a popular Tarot divination method that provides a comprehensive overview of a situation. It typically consists of ten cards laid out in a specific pattern, each representing different aspects of the querent's life or question. \n\n1. **Present Position**: The current situation or the querent's state of mind.\n2. **Challenge**: The obstacle or challenge faced.\n3. **Past Influences**: Events or influences from the past that affect the present.\n4. **Future Influences**: Potential outcomes or influences in the near future.\n5. **Above (Conscious)**: The querent's conscious thoughts and aspirations.\n6. **Below (Subconscious)**: Underlying feelings or beliefs that may not be immediately apparent.\n7. **Advice**: Guidance on how to approach the situation.\n8. **External Influences**: How others or external factors may impact the situation.\n9. **Hopes and Fears**: The querent's inner hopes and fears regarding the situation.\n10. **Outcome**: The likely result based on the current path.\n\nEach card's interpretation draws on traditional symbolism and the querent's intuition, balancing the Magician's will and the High Priestess's intuition, as mentioned in the context. This spread allows for a holistic view, integrating various aspects of the querent's life and providing insights into their journey.",
+            "debug": {
+              "latency_ms": 8019,
+              "num_results": 3,
+              "top_doc_ids": [
+                "pkt-section-0056#2",
+                "pkt-section-0122#2",
+                "78degrees-section-0282#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0056#2",
+                "similarity": 0.574281249897556
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0122#2",
+                "similarity": 0.569800368571242
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0282#1",
+                "similarity": 0.56869162823831
+              }
+            ]
+          },
+          "spread_type": "celtic_cross"
+        }
+      ],
+      "model_used": null,
+      "temperature": null,
+      "processing_time_ms": 36925,
+      "tokens_used": null,
+      "created_at": "2025-11-06T13:58:53.852434+00:00"
+    },
+    {
+      "step_name": "final_interpretation",
+      "step_order": 8,
+      "input_data": {
+        "question": "我未来三个月的工作发展如何？",
+        "spread_method": {
+          "rag_text": "The Celtic Cross spread is a popular Tarot divination method that provides a comprehensive overview of a situation. It typically consists of ten cards laid out in a specific pattern, each representing different aspects of the querent's life or question. \n\n1. **Present Position**: The current situation or the querent's state of mind.\n2. **Challenge**: The obstacle or challenge faced.\n3. **Past Influences**: Events or influences from the past that affect the present.\n4. **Future Influences**: Potential outcomes or influences in the near future.\n5. **Above (Conscious)**: The querent's conscious thoughts and aspirations.\n6. **Below (Subconscious)**: Underlying feelings or beliefs that may not be immediately apparent.\n7. **Advice**: Guidance on how to approach the situation.\n8. **External Influences**: How others or external factors may impact the situation.\n9. **Hopes and Fears**: The querent's inner hopes and fears regarding the situation.\n10. **Outcome**: The likely result based on the current path.\n\nEach card's interpretation draws on traditional symbolism and the querent's intuition, balancing the Magician's will and the High Priestess's intuition, as mentioned in the context. This spread allows for a holistic view, integrating various aspects of the querent's life and providing insights into their journey.",
+          "citations": [
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0056#2",
+              "similarity": 0.574281249897556
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0122#2",
+              "similarity": 0.569800368571242
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.56869162823831
+            }
+          ],
+          "spread_type": "celtic_cross"
+        },
+        "selected_cards": [
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "62a2a4ff-34ef-4795-9472-edee23344369",
+            "position": "cover",
+            "card_number": 20,
+            "is_reversed": false,
+            "card_name_cn": "审判",
+            "card_name_en": "Judgement",
+            "position_order": 1,
+            "position_description": "覆盖Significator的牌，代表当前情况"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "5a3d48a3-e39b-4da5-9613-65592720e768",
+            "position": "crossing",
+            "card_number": 13,
+            "is_reversed": true,
+            "card_name_cn": "死神",
+            "card_name_en": "Death",
+            "position_order": 2,
+            "position_description": "横跨第一张牌的牌，代表阻碍或帮助"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "95ccda43-c539-4f8e-8411-51c2095e7c00",
+            "position": "basis",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "教皇",
+            "card_name_en": "The Hierophant",
+            "position_order": 3,
+            "position_description": "位于Significator下方的牌，代表基础或根源"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "8e1a94dc-0025-45ce-8ef4-9e453ea03d62",
+            "position": "behind",
+            "card_number": 6,
+            "is_reversed": false,
+            "card_name_cn": "六 权杖",
+            "card_name_en": "Six of Wands",
+            "position_order": 4,
+            "position_description": "代表过去的影响"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "0a0e3a6f-67df-4993-b432-363a5de693a4",
+            "position": "crowned",
+            "card_number": 3,
+            "is_reversed": false,
+            "card_name_cn": "三 权杖",
+            "card_name_en": "Three of Wands",
+            "position_order": 5,
+            "position_description": "代表可能的结果或目标"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "f00936c9-6913-426c-85ac-408f0176dddb",
+            "position": "before",
+            "card_number": 1,
+            "is_reversed": false,
+            "card_name_cn": "王牌 宝剑",
+            "card_name_en": "Ace of Swords",
+            "position_order": 6,
+            "position_description": "代表即将到来的未来"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+            "position": "self",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords",
+            "position_order": 7,
+            "position_description": "代表问卜者自身"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "cae29b2f-1208-4a15-8bd9-e28aceb70238",
+            "position": "environment",
+            "card_number": 8,
+            "is_reversed": true,
+            "card_name_cn": "八 权杖",
+            "card_name_en": "Eight of Wands",
+            "position_order": 8,
+            "position_description": "代表周围环境和他人影响"
+          },
+          {
+            "suit": "pentacles",
+            "arcana": "minor",
+            "card_id": "17141762-c470-4433-9261-81d1e4b906eb",
+            "position": "hopes_and_fears",
+            "card_number": 10,
+            "is_reversed": false,
+            "card_name_cn": "十 星币",
+            "card_name_en": "Ten of Pentacles",
+            "position_order": 9,
+            "position_description": "代表问卜者的希望和恐惧"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce",
+            "position": "outcome",
+            "card_number": 1,
+            "is_reversed": true,
+            "card_name_cn": "魔术师",
+            "card_name_en": "The Magician",
+            "position_order": 10,
+            "position_description": "代表最终结果"
+          }
+        ],
+        "card_information": {
+          "0a0e3a6f-67df-4993-b432-363a5de693a4": {
+            "position": "crowned",
+            "rag_text": "In the crowned position, the Three of Wands signifies foresight, expansion, and the anticipation of future success. It represents the culmination of efforts and the readiness to explore new opportunities. This card suggests that you are in a position to take advantage of your current resources and insights, looking ahead with confidence and optimism. It encourages you to embrace your vision and prepare for the growth that lies ahead, as well as to consider the broader horizons that await you.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.539280740065532
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0044#2",
+                "similarity": 0.412706767755344
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0150#1",
+                "similarity": 0.375940747502998
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "三 权杖",
+            "card_name_en": "Three of Wands"
+          },
+          "17141762-c470-4433-9261-81d1e4b906eb": {
+            "position": "hopes_and_fears",
+            "rag_text": "In the hopes and fears position, the Ten of Pentacles suggests a desire for stability, security, and legacy within family and community. It embodies aspirations for long-term success and the fulfillment of material and emotional needs. Conversely, it may also reflect fears of stagnation, feeling trapped in a routine, or concerns about the sustainability of one's achievements and family dynamics. The card highlights the balance between appreciating what one has and the anxiety of losing it or not living up to expectations.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0256#2",
+                "similarity": 0.584975043541183
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0249#1",
+                "similarity": 0.581571236567873
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.522448881791577
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "十 星币",
+            "card_name_en": "Ten of Pentacles"
+          },
+          "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce": {
+            "position": "outcome",
+            "rag_text": "The Magician reversed typically signifies manipulation, deceit, or a lack of direction. It can indicate that the individual is misusing their skills or talents, leading to missed opportunities or unfulfilled potential. There may be a sense of frustration or feeling powerless, as well as a warning against trickery or superficiality in endeavors. This card suggests a need for introspection and a reevaluation of one's intentions and actions.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.64788512612759
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.632925309713204
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.621783509467071
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "魔术师",
+            "card_name_en": "The Magician"
+          },
+          "5a3d48a3-e39b-4da5-9613-65592720e768": {
+            "position": "crossing",
+            "rag_text": "The reversed Death card typically signifies resistance to change or transformation. It may indicate a fear of endings or an inability to let go of the past. In a crossing position, it suggests that the querent is struggling with a transition, feeling stuck or in denial about necessary changes in their life. This can lead to stagnation and an avoidance of growth. It encourages the need to confront fears and embrace the inevitability of change for progress.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.61785071651793
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.57204370844755
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.477300792932514
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "死神",
+            "card_name_en": "Death"
+          },
+          "62a2a4ff-34ef-4795-9472-edee23344369": {
+            "position": "cover",
+            "rag_text": "The Judgement card in the cover position typically signifies a time of reflection, evaluation, and awakening. It suggests that you are at a crossroads, where you must assess past actions and decisions to move forward. This card often indicates a call to action, transformation, and the potential for renewal or rebirth. It encourages you to embrace change and take responsibility for your choices, leading to personal growth and a new phase in your life.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.537198158335576
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.487738280757563
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.443793790227362
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "审判",
+            "card_name_en": "Judgement"
+          },
+          "8e1a94dc-0025-45ce-8ef4-9e453ea03d62": {
+            "position": "behind",
+            "rag_text": "The Six of Wands represents victory, recognition, and achievement. In an upright position, it signifies staying on top of challenges and enjoying the thrill of success. It reflects a sense of accomplishment and confidence, often in the context of public acknowledgment or victory in a competitive environment. However, it also suggests that while one may appear to be in control, there may be underlying contradictions or pressures that need to be addressed.\n\nIn a reversed position, the card indicates feelings of anxiety, indecision, or embarrassment, suggesting a struggle to maintain that sense of victory or control. It may reflect a fear of failure or a sense of being overwhelmed by the expectations that come with success.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0199#1",
+                "similarity": 0.69479099825649
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.678952196867713
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.599729824017851
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "六 权杖",
+            "card_name_en": "Six of Wands"
+          },
+          "95ccda43-c539-4f8e-8411-51c2095e7c00": {
+            "position": "basis",
+            "rag_text": "The Hierophant card typically represents tradition, spiritual guidance, and conformity to established norms. It signifies the importance of spiritual teachings, rituals, and the connection between the divine and the earthly. In a basis position, it may indicate a need for structure, adherence to beliefs, or seeking wisdom from a mentor or institution.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0080#1",
+                "similarity": 0.613115718325803
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0059#1",
+                "similarity": 0.604261690759216
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0016#1",
+                "similarity": 0.587058323236064
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "教皇",
+            "card_name_en": "The Hierophant"
+          },
+          "cae29b2f-1208-4a15-8bd9-e28aceb70238": {
+            "position": "environment",
+            "rag_text": "In the reversed position of the environment, the Eight of Wands suggests delays, obstacles, or a lack of progress in external circumstances. Communication may be hindered, and plans could be stalled. This card indicates a need for patience and reassessment of the situation, as the energy that typically drives swift movement is currently blocked or misdirected.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.561703283482204
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "八 权杖",
+            "card_name_en": "Eight of Wands"
+          },
+          "d148cb52-6b57-4d68-8d19-80c1e2b80142": {
+            "position": "self",
+            "rag_text": "In the self position, the Five of Swords suggests feelings of conflict, defeat, or betrayal. It may indicate that you are experiencing a sense of loss or are involved in a situation where winning comes at a high cost. This card can reflect internal struggles, where you may feel isolated or misunderstood, and it encourages you to consider the implications of your actions and the impact on your relationships. It serves as a reminder to seek resolution and avoid unnecessary conflict.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.597867179171187
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0311#1",
+                "similarity": 0.545203208923355
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0110#1",
+                "similarity": 0.320486786278465
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords"
+          },
+          "f00936c9-6913-426c-85ac-408f0176dddb": {
+            "position": "before",
+            "rag_text": "The Ace of Swords represents a gift of clarity, truth, and intellectual power. It signifies a breakthrough in understanding, the emergence of new ideas, and the ability to cut through confusion. This card embodies the potential for decisive action and the pursuit of justice, often indicating a time when one can harness their mental strength to confront challenges and assert their truth. It encourages the seeker to embrace their intellect and communicate effectively, as this energy is a divine gift that can lead to significant insights and revelations.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.547045485587284
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0017#2",
+                "similarity": 0.390590470748856
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0150#1",
+                "similarity": 0.358728806934619
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "王牌 宝剑",
+            "card_name_en": "Ace of Swords"
+          }
+        },
+        "pattern_analysis": {
+          "model_used": "gpt-4o-mini",
+          "analysis_method": "direct_llm",
+          "number_patterns": {
+            "number_jumps": [],
+            "same_numbers": [],
+            "number_sequences": []
+          },
+          "reversed_patterns": {
+            "count": 2,
+            "positions": [
+              "2",
+              "10"
+            ],
+            "interpretation": "Death（逆位）可能表示对变革的抵触和不愿意放下过去，而The Magician（逆位）则可能暗示缺乏能力或资源来实现目标。"
+          },
+          "suit_distribution": {
+            "cups_count": 0,
+            "major_count": 5,
+            "wands_count": 3,
+            "swords_count": 2,
+            "interpretation": "权杖的数量较多，表明行动和动力占主导地位，剑的数量则代表思维和冲突，星币的出现则暗示物质和财务方面的关注。",
+            "pentacles_count": 1
+          },
+          "special_combinations": [],
+          "major_arcana_patterns": {
+            "count": 5,
+            "meaning": "大阿卡纳牌的出现显示出当前职业状况的重要性和深度，提示问卜者在职业生涯中面临重大转折和评估。",
+            "positions": [
+              "1",
+              "2",
+              "3",
+              "6",
+              "10"
+            ]
+          },
+          "position_relationships": {
+            "time_flow": "当前状态是Judgement，代表重生和评估，过去的Six of Wands显示出成功的影响，而未来的Ace of Swords则暗示新的思维和开始。",
+            "support_conflict": "Judgement与Death（逆位）形成冲突，可能暗示对变革的抵触，而The Hierophant则提供稳定的基础，支持当前的评估过程。",
+            "causal_relationships": [
+              "Six of Wands → Judgement: 过去的成功影响当前的评估。",
+              "Judgement → Three of Wands: 当前的评估将导致未来的扩展和探索。",
+              "Three of Wands → Ace of Swords: 未来的扩展将引导到新的思维和决策。"
+            ]
+          }
+        },
+        "question_analysis": {
+          "reasoning": "这是一个关于工作发展的中等复杂度问题，凯尔特十字可以深入分析未来三个月的多方面因素。",
+          "complexity": "moderate",
+          "question_type": "general",
+          "question_domain": "career",
+          "question_summary": "用户询问未来三个月的工作发展情况，涉及多个潜在因素和变化。",
+          "recommended_spread": "celtic_cross",
+          "auto_selected_spread": true
+        }
+      },
+      "output_data": {
+        "llm_response": "### 整体解读\n\n在未来三个月中，职业发展将处于一个重要的转折点。你需要进行深入的反思和评估，迎接新的挑战和机遇。然而，可能会面临一些阻力和困惑，需要调整策略和方向以避免错失良机。\n\n### 位置解读\n\n1. **现状（Judgement）**: 目前你正处于一个反思和评估的阶段，这可能是由于近期的某些事件或成就所引发的。这是一个重新审视过去决定并作出更新选择的时刻。\n\n2. **阻碍（Death 逆位）**: 你可能对改变心生抗拒，或者难以放下过去的成就或失败。这种状态可能拖慢你的前进步伐，需要努力克服这种心理障碍。\n\n3. **根基（The Hierophant）**: 你的职业基础建立在传统和既定的制度之上，可能是依赖于某种形式的指导或规范。这表明你擅长在已有框架内发展，但可能需要突破这种框架以获得更大进展。\n\n4. **过去（Six of Wands）**: 近期你可能经历了一段成功时期，获得了认可和成就。这为你提供了信心和动力，但也可能导致对现状的固守。\n\n5. **可能性（Three of Wands）**: 未来有着广阔的拓展机会，尤其在探索新领域或合作方面。你已做好准备迎接新的挑战和机遇，期待着未来的成功。\n\n6. **未来（Ace of Swords）**: 即将迎来新的思维方式和突破。你将获得更清晰的洞察力，帮助你解决目前的困境，并为未来的发展奠定基础。\n\n7. **自我（Five of Swords）**: 目前你可能感到内心冲突，或经历一些不愉快的竞争和争执。这种状态可能导致内心的挫败感，需要找到和解的方式。\n\n8. **环境（Eight of Wands 逆位）**: 外部环境可能不如预期顺利，存在一些延误和障碍。这可能影响到你的计划和沟通进程，需要耐心和调整。\n\n9. **希望与恐惧（Ten of Pentacles）**: 你渴望职业上的稳定和长久的成功，但同时也担心无法实现这种愿景。这种矛盾心理需要通过实际行动和计划来平衡。\n\n10. **结果（The Magician 逆位）**: 结果可能会受到某些因素的限制，导致潜力未能充分发挥。需要注意避免自我欺骗或对能力的误用。\n\n### 关系分析\n\n- **时间线**: 从Six of Wands到Ace of Swords的过渡，说明你正从过去的成功走向新的明晰和突破。\n- **因果关系**: Judgement要求反思过去的成功（Six of Wands）和传统（The Hierophant），以克服对变革的抵触（Death 逆位）。\n- **支持/对抗**: Three of Wands为未来提供动力和方向，而Five of Swords和Eight of Wands逆位则可能造成内心和外部的阻碍。\n\n### 模式解释\n\n- **数字模式**: 出现了多个大阿卡纳牌，表明这段时间对你职业生涯的重大影响。\n- **花色分布**: 权杖和剑的出现说明行动和思考皆为关键，而星币则代表财务安全的隐忧。\n- **特殊组合**: Death逆位与The Magician逆位共同反映了对改变的抗拒和潜力的未能发挥。\n\n### 个性化建议\n\n1. **接受变革**: 勇于面对并接受职业上的变化，克服对变革的恐惧。\n2. **清晰思考**: 利用Ace of Swords带来的清晰感，制定明确的职业计划。\n3. **灵活调整**: 在面对外界阻碍时保持灵活，调整策略以适应环境变化。\n4. **信任自己**: 相信自己的能力，避免因外界影响而自我怀疑。",
+        "interpretation": {
+          "advice": null,
+          "references": [
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Judgement"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Judgement"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Judgement"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Death"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Death"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Death"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "The Hierophant"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "The Hierophant"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "The Hierophant"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Six of Wands"
+            }
+          ],
+          "overall_summary": "### 整体解读\n\n在未来三个月中，职业发展将处于一个重要的转折点。你需要进行深入的反思和评估，迎接新的挑战和机遇。然而，可能会面临一些阻力和困惑，需要调整策略和方向以避免错失良机。\n\n### 位置解读\n\n1. **现状（Judgement）**: 目前你正处于一个反思和评估的阶段，这可能是由于近期的某些事件或成就所引发的。这是一个重新审视过去决定并作出更新选择的时刻。\n\n2. **阻碍（Death 逆位）**: 你可能对改变心生抗拒，或者难以放下过去的成就或失败。这种状态可能拖慢你的前进步伐，需要努力克服这种心理障碍。\n\n3. **根基（The Hierophant）**: 你的职业基础建立在传统和既定的制度之上，可能是依赖于某种形式的指导或规范。这表明你擅长在已有框架内发展，但可能需要突破这种框架以获得更大进展。\n\n4. **过去（Six of Wands）**: 近期你可能经历了一段成功时期，获得了认可和成就。这为你提供了信心和动力，但也可能导致对现状的固守。\n\n5. **可能性（Three of Wands）**: 未来有着广阔的拓展机会，尤其在探索新领域或合作方面。你已做好准",
+          "pattern_explanation": "权杖的数量较多，表明行动和动力占主导地位，剑的数量则代表思维和冲突，星币的出现则暗示物质和财务方面的关注。",
+          "relationship_analysis": "当前状态是Judgement，代表重生和评估，过去的Six of Wands显示出成功的影响，而未来的Ace of Swords则暗示新的思维和开始。",
+          "interpretation_metadata": null,
+          "position_interpretations": [
+            {
+              "position": "cover",
+              "card_name_cn": "审判",
+              "card_name_en": "Judgement",
+              "relationships": null,
+              "interpretation": "The Judgement card in the cover position typically signifies a time of reflection, evaluation, and awakening. It suggests that you are at a crossroads, where you must assess past actions and decisions to move forward. This card often indicates a call to action, transformation, and the potential for renewal or rebirth. It encourages you to embrace change and take responsibility for your choices, leading to personal growth and a new phase in your life.",
+              "position_order": 1
+            },
+            {
+              "position": "crossing",
+              "card_name_cn": "死神",
+              "card_name_en": "Death",
+              "relationships": null,
+              "interpretation": "The reversed Death card typically signifies resistance to change or transformation. It may indicate a fear of endings or an inability to let go of the past. In a crossing position, it suggests that the querent is struggling with a transition, feeling stuck or in denial about necessary changes in their life. This can lead to stagnation and an avoidance of growth. It encourages the need to confront fears and embrace the inevitability of change for progress.",
+              "position_order": 2
+            },
+            {
+              "position": "basis",
+              "card_name_cn": "教皇",
+              "card_name_en": "The Hierophant",
+              "relationships": null,
+              "interpretation": "The Hierophant card typically represents tradition, spiritual guidance, and conformity to established norms. It signifies the importance of spiritual teachings, rituals, and the connection between the divine and the earthly. In a basis position, it may indicate a need for structure, adherence to beliefs, or seeking wisdom from a mentor or institution.",
+              "position_order": 3
+            },
+            {
+              "position": "behind",
+              "card_name_cn": "六 权杖",
+              "card_name_en": "Six of Wands",
+              "relationships": null,
+              "interpretation": "The Six of Wands represents victory, recognition, and achievement. In an upright position, it signifies staying on top of challenges and enjoying the thrill of success. It reflects a sense of accomplishment and confidence, often in the context of public acknowledgment or victory in a competitive environment. However, it also suggests that while one may appear to be in control, there may be underlying contradictions or pressures that need to be addressed.\n\nIn a reversed position, the card indicates feelings of anxiety, indecision, or embarrassment, suggesting a struggle to maintain that sense of victory or control. It may reflect a fear of failure or a sense of being overwhelmed by the expectations that come with success.",
+              "position_order": 4
+            },
+            {
+              "position": "crowned",
+              "card_name_cn": "三 权杖",
+              "card_name_en": "Three of Wands",
+              "relationships": null,
+              "interpretation": "In the crowned position, the Three of Wands signifies foresight, expansion, and the anticipation of future success. It represents the culmination of efforts and the readiness to explore new opportunities. This card suggests that you are in a position to take advantage of your current resources and insights, looking ahead with confidence and optimism. It encourages you to embrace your vision and prepare for the growth that lies ahead, as well as to consider the broader horizons that await you.",
+              "position_order": 5
+            },
+            {
+              "position": "before",
+              "card_name_cn": "王牌 宝剑",
+              "card_name_en": "Ace of Swords",
+              "relationships": null,
+              "interpretation": "The Ace of Swords represents a gift of clarity, truth, and intellectual power. It signifies a breakthrough in understanding, the emergence of new ideas, and the ability to cut through confusion. This card embodies the potential for decisive action and the pursuit of justice, often indicating a time when one can harness their mental strength to confront challenges and assert their truth. It encourages the seeker to embrace their intellect and communicate effectively, as this energy is a divine gift that can lead to significant insights and revelations.",
+              "position_order": 6
+            },
+            {
+              "position": "self",
+              "card_name_cn": "五 宝剑",
+              "card_name_en": "Five of Swords",
+              "relationships": null,
+              "interpretation": "In the self position, the Five of Swords suggests feelings of conflict, defeat, or betrayal. It may indicate that you are experiencing a sense of loss or are involved in a situation where winning comes at a high cost. This card can reflect internal struggles, where you may feel isolated or misunderstood, and it encourages you to consider the implications of your actions and the impact on your relationships. It serves as a reminder to seek resolution and avoid unnecessary conflict.",
+              "position_order": 7
+            },
+            {
+              "position": "environment",
+              "card_name_cn": "八 权杖",
+              "card_name_en": "Eight of Wands",
+              "relationships": null,
+              "interpretation": "In the reversed position of the environment, the Eight of Wands suggests delays, obstacles, or a lack of progress in external circumstances. Communication may be hindered, and plans could be stalled. This card indicates a need for patience and reassessment of the situation, as the energy that typically drives swift movement is currently blocked or misdirected.",
+              "position_order": 8
+            },
+            {
+              "position": "hopes_and_fears",
+              "card_name_cn": "十 星币",
+              "card_name_en": "Ten of Pentacles",
+              "relationships": null,
+              "interpretation": "In the hopes and fears position, the Ten of Pentacles suggests a desire for stability, security, and legacy within family and community. It embodies aspirations for long-term success and the fulfillment of material and emotional needs. Conversely, it may also reflect fears of stagnation, feeling trapped in a routine, or concerns about the sustainability of one's achievements and family dynamics. The card highlights the balance between appreciating what one has and the anxiety of losing it or not living up to expectations.",
+              "position_order": 9
+            },
+            {
+              "position": "outcome",
+              "card_name_cn": "魔术师",
+              "card_name_en": "The Magician",
+              "relationships": null,
+              "interpretation": "The Magician reversed typically signifies manipulation, deceit, or a lack of direction. It can indicate that the individual is misusing their skills or talents, leading to missed opportunities or unfulfilled potential. There may be a sense of frustration or feeling powerless, as well as a warning against trickery or superficiality in endeavors. This card suggests a need for introspection and a reevaluation of one's intentions and actions.",
+              "position_order": 10
+            }
+          ]
+        }
+      },
+      "prompt_type": "final_interpretation",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师，精通PKT和78 Degrees of Wisdom的传统解读方法。\n\n## 用户问题：\n我未来三个月的工作发展如何？\n\n## 问题分析：\n- 领域：career\n- 复杂度：moderate\n- 问题类型：general\n\n## 用户信息：\n年龄: 28\n性别: female\n星座: Leo\n\n## 占卜方式：\nceltic_cross - The Celtic Cross spread is a popular Tarot divination method that provides a comprehensive overview of a situation. It typically consists of ten cards laid out in a specific pattern, each representing different aspects of the querent's life or question. \n\n1. **Present Position**: The current situati\n\n## 牌阵信息：\n1. cover: Judgement\n   含义: The Judgement card in the cover position typically signifies a time of reflection, evaluation, and awakening. It suggests that you are at a crossroads, where you must assess past actions and decisions...\n2. crossing: Death [逆位]\n   含义: The reversed Death card typically signifies resistance to change or transformation. It may indicate a fear of endings or an inability to let go of the past. In a crossing position, it suggests that th...\n3. basis: The Hierophant\n   含义: The Hierophant card typically represents tradition, spiritual guidance, and conformity to established norms. It signifies the importance of spiritual teachings, rituals, and the connection between the...\n4. behind: Six of Wands\n   含义: The Six of Wands represents victory, recognition, and achievement. In an upright position, it signifies staying on top of challenges and enjoying the thrill of success. It reflects a sense of accompli...\n5. crowned: Three of Wands\n   含义: In the crowned position, the Three of Wands signifies foresight, expansion, and the anticipation of future success. It represents the culmination of efforts and the readiness to explore new opportunit...\n6. before: Ace of Swords\n   含义: The Ace of Swords represents a gift of clarity, truth, and intellectual power. It signifies a breakthrough in understanding, the emergence of new ideas, and the ability to cut through confusion. This ...\n7. self: Five of Swords\n   含义: In the self position, the Five of Swords suggests feelings of conflict, defeat, or betrayal. It may indicate that you are experiencing a sense of loss or are involved in a situation where winning come...\n8. environment: Eight of Wands [逆位]\n   含义: In the reversed position of the environment, the Eight of Wands suggests delays, obstacles, or a lack of progress in external circumstances. Communication may be hindered, and plans could be stalled. ...\n9. hopes_and_fears: Ten of Pentacles\n   含义: In the hopes and fears position, the Ten of Pentacles suggests a desire for stability, security, and legacy within family and community. It embodies aspirations for long-term success and the fulfillme...\n10. outcome: The Magician [逆位]\n   含义: The Magician reversed typically signifies manipulation, deceit, or a lack of direction. It can indicate that the individual is misusing their skills or talents, leading to missed opportunities or unfu...\n\n## 牌型分析结果：\n位置关系：当前状态是Judgement，代表重生和评估，过去的Six of Wands显示出成功的影响，而未来的Ace of Swords则暗示新的思维和开始。\n花色分布：权杖的数量较多，表明行动和动力占主导地位，剑的数量则代表思维和冲突，星币的出现则暗示物质和财务方面的关注。\n大阿卡纳模式：大阿卡纳牌的出现显示出当前职业状况的重要性和深度，提示问卜者在职业生涯中面临重大转折和评估。\n逆位模式：Death（逆位）可能表示对变革的抵触和不愿意放下过去，而The Magician（逆位）则可能暗示缺乏能力或资源来实现目标。\n\n## 解读要求：\n请提供一个全面的塔罗占卜解读，包含：\n1. **整体解读**：2-3句话的整体摘要\n2. **位置解读**：对每个位置进行详细解读，结合卡牌的基本含义和位置的含义\n3. **关系分析**：分析牌之间的关系（时间线、因果、支持/对抗）\n4. **模式解释**：解释数字模式、花色分布、特殊组合的含义\n5. **个性化建议**：基于用户信息和问题，提供具体建议\n\n请用中文输出，使用Markdown格式。",
+      "rag_queries": null,
+      "model_used": "gpt-4o",
+      "temperature": 0.7,
+      "processing_time_ms": 19972,
+      "tokens_used": null,
+      "created_at": "2025-11-06T13:59:13.937205+00:00"
+    }
+  ],
+  "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+  "final_result": {
+    "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+    "question": "我未来三个月的工作发展如何？",
+    "spread_type": "celtic_cross",
+    "significator": {
+      "card_name_en": "Page of Wands",
+      "card_name_cn": "侍从 权杖",
+      "selection_reason": "根据年龄(28岁)和性别(female)选择Page；性格类型(wands)决定花色"
+    },
+    "cards_count": 10,
+    "pattern_analysis_method": "direct_llm",
+    "interpretation_summary": "### 整体解读\n\n在未来三个月中，职业发展将处于一个重要的转折点。你需要进行深入的反思和评估，迎接新的挑战和机遇。然而，可能会面临一些阻力和困惑，需要调整策略和方向以避免错失良机。\n\n### 位置解读\n\n1. **现状（Judgement）**: 目前你正处于一个反思和评估的阶段，这可能是由于近期的某些事件或成就所引发的。这是一个重新审视过去决定并作出更新选择的时刻。\n\n2. **阻碍（Deat",
+    "metadata": {
+      "created_at": "2025-11-06T13:59:14.030235",
+      "processing_time_ms": 74432,
+      "pattern_analysis_method": "direct_llm"
+    }
+  },
+  "total_time_ms": 74584,
+  "errors": [],
+  "reading_record": {
+    "id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+    "question": "我未来三个月的工作发展如何？",
+    "status": "completed",
+    "current_step": "interpretation",
+    "question_domain": "career",
+    "question_complexity": "moderate",
+    "spread_type": "celtic_cross",
+    "significator_card_id": "93e36fbf-fd1b-44d8-b369-f3d9ac907ca9",
+    "has_pattern_analysis": true,
+    "has_interpretation": true,
+    "created_at": "2025-11-06T13:57:59.597722+00:00"
+  },
+  "cards": [
+    {
+      "id": "3f7723ac-f112-48df-a8b8-965cd25bb0c3",
+      "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+      "card_id": "62a2a4ff-34ef-4795-9472-edee23344369",
+      "position": "cover",
+      "is_reversed": false,
+      "position_order": 1,
+      "created_at": "2025-11-06T13:58:03.833704+00:00",
+      "position_description": "覆盖Significator的牌，代表当前情况",
+      "card_selected_at": "2025-11-06T13:58:03.792912+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "73151b76-9c36-4c8b-ac74-4f3349f5e384",
+      "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+      "card_id": "5a3d48a3-e39b-4da5-9613-65592720e768",
+      "position": "crossing",
+      "is_reversed": true,
+      "position_order": 2,
+      "created_at": "2025-11-06T13:58:03.833704+00:00",
+      "position_description": "横跨第一张牌的牌，代表阻碍或帮助",
+      "card_selected_at": "2025-11-06T13:58:03.792923+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "6608c46b-79c4-4fbb-86b7-453b307dd63a",
+      "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+      "card_id": "95ccda43-c539-4f8e-8411-51c2095e7c00",
+      "position": "basis",
+      "is_reversed": false,
+      "position_order": 3,
+      "created_at": "2025-11-06T13:58:03.833704+00:00",
+      "position_description": "位于Significator下方的牌，代表基础或根源",
+      "card_selected_at": "2025-11-06T13:58:03.792925+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "d3d7d392-8c41-4076-8c7a-560d114736b6",
+      "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+      "card_id": "8e1a94dc-0025-45ce-8ef4-9e453ea03d62",
+      "position": "behind",
+      "is_reversed": false,
+      "position_order": 4,
+      "created_at": "2025-11-06T13:58:03.833704+00:00",
+      "position_description": "代表过去的影响",
+      "card_selected_at": "2025-11-06T13:58:03.792927+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "75efde80-334d-4ac1-bd85-493e9c1aa53d",
+      "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+      "card_id": "0a0e3a6f-67df-4993-b432-363a5de693a4",
+      "position": "crowned",
+      "is_reversed": false,
+      "position_order": 5,
+      "created_at": "2025-11-06T13:58:03.833704+00:00",
+      "position_description": "代表可能的结果或目标",
+      "card_selected_at": "2025-11-06T13:58:03.792928+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "ff335b83-c6cc-450c-939e-7da004071ff8",
+      "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+      "card_id": "f00936c9-6913-426c-85ac-408f0176dddb",
+      "position": "before",
+      "is_reversed": false,
+      "position_order": 6,
+      "created_at": "2025-11-06T13:58:03.833704+00:00",
+      "position_description": "代表即将到来的未来",
+      "card_selected_at": "2025-11-06T13:58:03.79293+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "65a4269d-dcbd-4f79-a702-2ff0caafd291",
+      "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+      "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+      "position": "self",
+      "is_reversed": false,
+      "position_order": 7,
+      "created_at": "2025-11-06T13:58:03.833704+00:00",
+      "position_description": "代表问卜者自身",
+      "card_selected_at": "2025-11-06T13:58:03.792932+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "5d8525b0-2403-441a-bc09-fd0d00d3a218",
+      "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+      "card_id": "cae29b2f-1208-4a15-8bd9-e28aceb70238",
+      "position": "environment",
+      "is_reversed": true,
+      "position_order": 8,
+      "created_at": "2025-11-06T13:58:03.833704+00:00",
+      "position_description": "代表周围环境和他人影响",
+      "card_selected_at": "2025-11-06T13:58:03.792933+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "42dc4689-0d73-47df-b160-5bda2b5a00d0",
+      "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+      "card_id": "17141762-c470-4433-9261-81d1e4b906eb",
+      "position": "hopes_and_fears",
+      "is_reversed": false,
+      "position_order": 9,
+      "created_at": "2025-11-06T13:58:03.833704+00:00",
+      "position_description": "代表问卜者的希望和恐惧",
+      "card_selected_at": "2025-11-06T13:58:03.792935+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "8d0061cc-620a-4c7a-b127-5fb715b8544c",
+      "reading_id": "3c8db4d5-91c1-427c-9b56-2161cf07dbb5",
+      "card_id": "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce",
+      "position": "outcome",
+      "is_reversed": true,
+      "position_order": 10,
+      "created_at": "2025-11-06T13:58:03.833704+00:00",
+      "position_description": "代表最终结果",
+      "card_selected_at": "2025-11-06T13:58:03.792936+00:00",
+      "related_positions": null
+    }
+  ]
+}

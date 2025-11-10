@@ -1,0 +1,342 @@
+================================================================================
+RAG Research Results
+================================================================================
+
+Query: 我在占卜解读结果时，要关注哪些方面的信息？
+Timestamp: 20251108_021403
+
+Search Statistics:
+--------------------------------------------------------------------------------
+Total Results: 20
+Latency: 874ms
+
+================================================================================
+Retrieved Chunks
+================================================================================
+
+
+--- Chunk 1 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0339#1
+Similarity: 0.3720
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 339
+}
+
+Text:
+--------------------------------------------------------------------------------
+unreasonable hope. To recognize such things helps us gain a clearer perspective. Maybe our past experience governs our behaviour or confuses what we expect from the future. Knowing this consciously can put us on the way to overcom¬ ing it. Or maybe the cards will show us someone else’s jealousy or vindictiveness; we can then take steps to free our¬ selves from that person's influence. Or, if the cards show love and support from someone, w’e know' we can trust that person. All these things require some sort of response to make them real. We cannot expect to make use of a person’s friendship if we do not make ourselves open to it. Wherever possible the reader should try to point out to the subject definite steps w'hich can be taken to make best use of the information. If the reader cannot recommend a concrete course of action then he or she should point out what area the subject needs to work on. Above all, the reader must learn to form a coherent pattern from the reading. Often, beginning readers will learn the cards and advance to the point where they can skilfully interpret each image in its specific position. At the end the subject finds him or herself with a jumble of different points and no clear idea of how' it all fits together. A good reader can sum up what the reading says in a few sentences. Usually I will try to do this at both the beginning and end of the reading, impressing on the subject’s mind the most important points. Does the Environment support or hinder? Do the person’s Expectations help or hurt? Will the Outcome bring a valuable Result? The subject needs these questions answered, not just in all their complexity, but also in as
+--------------------------------------------------------------------------------
+
+
+--- Chunk 2 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0354#1
+Similarity: 0.3713
+Metadata: {
+  "card_name": "Temperance",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 354
+}
+
+Text:
+--------------------------------------------------------------------------------
+To construct such a pattern, choose the most important cards from the reading and work from the centre out, trying to build the image organically. Place the cards needed for support at the bottom and the cards symbolizing goals at the top. Do not hesitate to introduce cards not found in the original reading if you find a strong need for qualities these cards represent. If you see a need for Temperance, for instance, place it below the centre; or if the reading shows a need for more developed will-power and discipline you might place the Chariot and the Nine of Pentacles side by side above the mandala, as the goal. In this way, you take charge of the reading, opening it to include what your intuition tells you the person needs. Most people consult a Tarot reading for specific information. Those who understand the cards a little more may look on the reading as a means of finding a direction. And those who follow a series of readings will see them as a method of keeping in harmony with the changing patterns of life. But to spend a long time reading cards for yourself and others is to discover many things beyond personal information. We have already seen some of these things. One is people's pessimistic reactions to readings. Another, more important, is the way Tarot readings require - and therefore create - a balance between subjective and objective, intuitive and rational, immediate impression and established knowledge, right and left side of the brain. We cannot create such a balance simply by wanting it. We have to let it grow. Tarot readings can help this happen.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 3 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0298#1
+Similarity: 0.3685
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 298
+}
+
+Text:
+--------------------------------------------------------------------------------
+Finally, the Outcome. This card brings together all the others. More, it balances them out and shows which influences are strongest, and how they work together to produce the result. Sometimes the Outcome will be an event. Then the important question becomes how it came about, not just what it is. If the subject finds it an unpleasant event, then she or he can look at the other cards to see what influences are pushing in that direction, with the hope of changing the situation. If the Outcome appears desirable then a similar study can help increase those influences, already strong, which are tending towards that result. The Celtic Cross, like any spread, consists of a fixed number of cards. If the reader and subject find the mixture ambivalent, they can either turn over some more cards without a fixed pattern, or else do a further reading. In turning over extra cards I usually stick to no more than five (sometimes asking the subject to choose a number), though at times the initial reading has served as the basis for turning over most of the deck. Usually, beginning readers find it more difficult to interpret cards at random and therefore avoid using them. Sometimes we may do further readings to get information about a specific card in the first reading. We might have a question about a person referred to in the Near Future position. In this situation some readers will use the card in question as the Significator for the new reading, just as the original Significator helped the person to concentrate on him or herself, so the new card helps the person focus on the par¬ ticular question. Before leaving the Celtic Cross I would like to present a sample reading done by me some months before writing
+--------------------------------------------------------------------------------
+
+
+--- Chunk 4 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0313#1
+Similarity: 0.3623
+Metadata: {
+  "card_name": "star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 313
+}
+
+Text:
+--------------------------------------------------------------------------------
+The last two positions in the line again feature the idea of combination. As the Outcome and the Result, they go beyond the Celtic Cross’s single use of Outcome to sum up the reading. The Outcome indicates the likely way things will develop. The Result, on the other hand, indicates the person’s reaction to this development, or the effect it will have on the person’s life. This effect can be either experience or attitude. For instance, it can indicate an event or further development that comes about because of the Outcome. The Five of Cups followed by the Eight of Cups would say that the person loses something, or something ends badly, and as a result of this, the person decides to leave, go somewhere new, or start a new phase in life. Or, the Result card can show the Outcome’s effect psy¬ chologically. A classic example is the Tower followed by the Star, indicating that an explosion in the person's life would lead to a release of hope and energy. This example also illustrates the potential great importance of seeing not just the Outcome, but what comes afterwards. If a reading showed only the Tower, and not the Star as a result of it, it would leave the subject with a sense of devastation. Very often the first line will give such a strong picture that the person will need no further information. At other times, however, the line may leave the person slightly confused, or simply wishing to see the situation from a different point of view. In this case, the reader may simply turn over another line directly under the first. The positions remain the same, and the seven cards still relate to the original small cross that set out the basic situation. And yet, because we
+--------------------------------------------------------------------------------
+
+
+--- Chunk 5 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0314#1
+Similarity: 0.3475
+Metadata: {
+  "card_name": "the star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 314
+}
+
+Text:
+--------------------------------------------------------------------------------
+Besides the new information gained, this method helps answer a question many people ask about Tarot readings: l If I did it again, different cards would appear, so how can these cards really mean anything? The answer is that the new cards will look at the same situation from a new point of view. Very often, if a reader sets out a Celtic Cross, then mixes the cards and does it over again, many of the same or similar cards will appear in the second reading. In one pair of readings I did for a married couple (with someone else's reading in between) six out of the ten cards were the same, and the Environment card in the woman’s reading was the one used as the Significator for the man. The Work Cycle, because it actually prevents the same cards from appearing, tends more to show different sides to the question. Sometimes the second line will almost mirror the first, indicating that the situation is heading so strongly in this direction that the person will not easily change it. At other times, however, the Outcome-Result will show a definite alternative to the first line, and then the reader must look to the starting points and to the Work cards. Once I did a reading for a woman with a jealous lover. Theoretically the two did not expect each other to be monogamous but the woman knew that if she went with someone else - and someone else had come along - her lover would be upset. She wanted advice on what to do and we did a Work Cycle (see Fig. 63).
+--------------------------------------------------------------------------------
+
+
+--- Chunk 6 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0340#1
+Similarity: 0.3442
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 340
+}
+
+Text:
+--------------------------------------------------------------------------------
+Along with coherency comes the need for a positive approach. It is not enough to depict things as they are. The person wants to know what to do, what not to do. If the cards show something good, the subject still needs to know how to help this along. And if they show' disaster the reader must say so, but can also say what, if anything, the person can do. What brings about this unpleasant Outcome? Can these influences be altered or avoided? How can the person coun¬ teract, or at least cushion it? What elements show other possibilities? Can we look for anything good to come out of it? If the Outcome arises from some particular course of action, should the person abandon it? When we do a Tarot reading for someone we take on the responsibility of trying to send that person in a positive direction. Beyond specific suggestions of do this rather than that, lies a wider area of possible action derived from the ways the suits balance each other. In the introduction to each suit we con¬ sidered its problems and the way we could ‘add’ other suits/ elements. In practice, this adding is often difficult to achieve, because it means breaking the pattern shown in the reading itself. For this very reason, however, it is worth trying in situa¬ tions where the reading shows a dead end if the person stays with the elements given.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 7 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0335#1
+Similarity: 0.3426
+Metadata: {
+  "card_name": "star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 335
+}
+
+Text:
+--------------------------------------------------------------------------------
+As the reader becomes more competent the readings will become more valuable. The primary thing we get from any reading is information, but the information can be of different kinds. For people with an awareness of the spiritual undercur¬ rents shaping all our lives the Tarot can show what particular shape these currents are taking at that moment. For others, readings may show the likely developments from some par¬ ticular situation or decision. Look for a new job, start a love affair, continue writing a novel - these are all mundane issues, seemingly far from the mystic concerns of the Major Arcana. Nevertheless, these are the things most people look at in Tarot readings; and in fact they are also the ways in which we truly develop, because they are the ways w'e involve ourselves in life. They form the reality rising out of the spiritual undercurrents. A Tarot reading can help us examine the consequences of such actions and decisions. Tarot readings, then, can give us information. But to act on that information, especially if it goes against our desires, remains very difficult.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 8 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0292#1
+Similarity: 0.3418
+Metadata: {
+  "card_name": "the Star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 292
+}
+
+Text:
+--------------------------------------------------------------------------------
+There is another way of comparing the Possible Outcome and the Outcome, especially if the two contradict each other (rather than complement, as in the examples above), or if they show a direct relationship, such as the same suit or number. In these situations I read the Possible Outcome as something that might have happened but will not. The task then is to look at the other cards for the reason why the outcome should happen instead. Suppose the Star lies in the person’s Possible Outcome, indicating that the person might emerge feeling very free, full of hope, open to life. Suppose then that the Devil comes up as the actual Outcome, indicating bondage to an oppressive situation. What has gone wrong? If, say, the Nine of Swords reversed lies in the position of Basis, this would give us a clue, for it would say that the person holds inside her or him a sense of shame and humiliation coming from past weaknesses and fears, and that the ‘imprisonment’ symbolized in the Nine prevents the person from realizing the potential of the Star. These examples will help us to see that the true meaning of a Tarot reading does not come from specific cards but rather from the configurations they form together.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 9 ---
+Source: pkt.txt
+Chunk ID: pkt-section-0077#2
+Similarity: 0.3395
+Metadata: {
+  "source_file": "pkt.txt",
+  "section_number": 77
+}
+
+Text:
+--------------------------------------------------------------------------------
+but there are other aspects. Divinatory Meanings: Concord, contentment, physical bien-etre; also victory, success, advantage; satisfaction for the Querent or person for whom the consultation is made. Reversed: Truth, loyalty, liberty; but the readings vary and include mistakes, imperfections, etc. The Pictorial Key to the Tarot, by A.E. Waite, ill. by Pamela Colman Smith [1911], at sacred-texts.com
+--------------------------------------------------------------------------------
+
+
+--- Chunk 10 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0298#2
+Similarity: 0.3339
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 298
+}
+
+Text:
+--------------------------------------------------------------------------------
+the original Significator helped the person to concentrate on him or herself, so the new card helps the person focus on the par¬ ticular question. Before leaving the Celtic Cross I would like to present a sample reading done by me some months before writing this book. (I should state that the subject gave her consent for it to be included.)
+--------------------------------------------------------------------------------
+
+
+--- Chunk 11 ---
+Source: pkt.txt
+Chunk ID: pkt-section-0104#1
+Similarity: 0.3325
+Metadata: {
+  "source_file": "pkt.txt",
+  "section_number": 104
+}
+
+Text:
+--------------------------------------------------------------------------------
+When the reading is over, according to the scheme set forth in the last method, it may happen-as in the previous case-that something remains doubtful, or it may be desired to carry the question further, which is done as follows:-- Take up the undealt cards which remain over, not having been used in the first operation with 42 cards. The latter are set aside in a heap, with the Querent, face upwards, on the top. The thirty-five cards, being shuffled and cut as before, are divided by dealing into six packets thus:-- Packet II consists of the SIX CARDS next following in order; Packet III consists of the FIVE CARDS following; Packet IV contains the next FOUR CARDS; Packet V contains Two CARDS; and Packet VI contains the last ELEVEN CARDS. The arrangement will then be as follows:-- Take up these packets successively; deal out the cards which they contain in six lines, which will be necessarily of unequal length. THE FIRST LINE stands for the house, the environment and so forth. THE SECOND LINE stands for the person or subject of the divination. THE THIRD LINE stands for what is passing outside, events, persons, etc. THE FOURTH LINE stands for a surprise, the unexpected, etc. THE FIFTH LINE stands for consolation, and may moderate all that is unfavourable in the preceding lines. THE SIXTH LINE is that which must be consulted to elucidate the enigmatic oracles of the others; apart from them it has no importance. These cards should all be read from left to right, beginning with the uppermost line. It should be stated in conclusion as to this divinatory part that there is no method of interpreting Tarot cards which is not applicable to ordinary playing-cards, but the additional court cards, and above all the Trumps Major,
+--------------------------------------------------------------------------------
+
+
+--- Chunk 12 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0361#1
+Similarity: 0.3314
+Metadata: {
+  "card_name": "the Lovers",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 361
+}
+
+Text:
+--------------------------------------------------------------------------------
+casual shuffler will suddenly find her or himself confronted with a powerful image of an entire life. For the reader such moments carry an intense excitement Even the question itself may not matter. People can ask about how their work is going, and receive an answer about their new- love affair, especially if that question occupies their mind more than the one they asked. Or, as in the case of the woman who found her sexuality blocked by conflicts with her father, the reading may answer the question by bringing up unexpected material from some other area. How do we know, then, what the reading tells us’ J Some things become obvious from the images of the cards. If we ask about w’ork and the Lovers and the Two of Cups appear, then the reading will probably concern not work but love. As a beginning reader, however, you cannot expect to uncover all subtleties. Experience alone will help you find your way to the heart of the labyrinth. As you continue w ith readings you will find yourself able to sense these things. And the heightened perception will carry over to other areas of your life as well.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 13 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0360#2
+Similarity: 0.3291
+Metadata: {
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 360
+}
+
+Text:
+--------------------------------------------------------------------------------
+person mixing the cards. Usually this approach does make a difference. Someone who sees a reading as a joke or a game will most likely produce a shallow reading; the person who thinks deeply of a question, mixes the cards carefully, and tries to sense the exact moment to stop and cut the deck, will usually produce a reading of some significance. Yet sometimes even such a careful approach will not go below the surface events of the immediate future, w'hile at other times the most
+--------------------------------------------------------------------------------
+
+
+--- Chunk 14 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0299#1
+Similarity: 0.3282
+Metadata: {
+  "card_name": "Death",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 299
+}
+
+Text:
+--------------------------------------------------------------------------------
+The reading was done for a woman who had just passed her bar exam, who had recently begun a new love affair, and in general appeared happy and excited about her life. Yet when I turned over the cards I received an immediate sense of sadness. Trusting the cards rather than my conscious impres¬ sions I asked the woman if she had been feeling sad recently. To my surprise she immediately said yes. The cards came out as follows. For the Significator the woman chose the Queen of Pentacles. The first two cards were the Three of Wands crossed by the Knight of Cups. The Basis was Death, the Recent Past the Nine of Swords, the Possible Outcome the Five of Swords reversed, and Near Future the World reversed. The Self was the Six of Cups reversed, the Environment the Three of Cups, the Hopes and Fears the Tower, the Hermit the Outcome. (See fig. 60). I began by giving the woman a general interpretation. She was going through a time of transition when many old patterns were dying out. The effect of this was frightening as well as exhilarating. The sadness came from realizing what she had lost, and also from the fact that she had grown up and cut her ties to her childhood. The situation would not resolve itself very quickly - there was even a chance it would develop badly, especially if she let the Near Future, showing stagna¬ tion, frighten her into a very negative attitude. The people around her, however, gave her a lot of support, even if ultimately she needed to work it out herself.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 15 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0349#1
+Similarity: 0.3278
+Metadata: {
+  "card_name": "Two of Pentacles",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 349
+}
+
+Text:
+--------------------------------------------------------------------------------
+So far, we have considered ways to bring the influence of single cards into our lives. But a reading contains many cards which work together. To make a reading come alive, I have found it valuable to create what I call a ‘mandala' - a pattern formed from several cards. These cards can include not only those from the reading but others whose qualities will support the direction the reading advises. This act of deliberately adding cards not in the reading extends again the balance between the conscious and the unconscious. The reading has reached into the unconscious areas of knowledge to present a picture of the situation as it exists now. Through the mandala, and through the introduction of new cards deliberately taken from the deck, we can extend or transform the situation. Here is an example of a mandala in which no extra cards were necessary. The reading itself provided all the images we needed. The following Work Cycle (Fig. 64) concerned a woman w'ho felt isolated from the people around her despite several apparently good friendships. The Cross illustrated the situation perfectly: Two of Pentacles crossed by Six of Swords. It showed her central situation of pretending to enjoy life and relations with others (Two of Pentacles) producing a sense of functioning (‘the swords do not weigh down the boat’) while she remained unable to connect with the people around her. She remained like the woman in the boat, wrapped in her shroud, silent.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 16 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0331#1
+Similarity: 0.3247
+Metadata: {
+  "card_name": "the World",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 331
+}
+
+Text:
+--------------------------------------------------------------------------------
+Below Imagination comes Malkuth. or Kingdom, meaning the World around the person. Here we see the external influences, other people, situations both personal and social/political. Usually, of course, indications of these outside forces will appear throughout the reading. In one reading the Emperor, as the woman’s domineering husband, appeared in the centre of her Health line, that is, in the exact centre of the Tree. However, the last line emphasizes outer influences, showing also the effect upon the subject. We can look at it as similar to the Environment of the Cross, but greatly expanded. Finally we come to Daath. Though we set it aside from the Tree when dealing out the cards, many readers will want to lay it out below Malkuth, thereby producing a symmetrical Tree as well as graphically showing how connections underlie all positions. Sometimes these cards will clearly refer to one particular situation shown above in one of the three triangles. Usually, we do not give the Daath cards a specific function as we do with the other lines. Like the Fool in the Major Arcana, it moves between all of them, joining things together, helping the general pattern become clearer in the reader's and sub¬ ject’s minds. The image of the entire Tree, seventy-eight brightly coloured cards, can be an astounding sight. I have sometimes taken photographs of it for myself and for the subject. I would recommend readers to make a chart of the Tree, marking the positions and the individual cards. Vlost people also find it valuable to make a cassette recording which they can play back later to help assimilate the tremendous amount of infor¬ mation. If the reader and the subject have begun a regular programme of readings, then a Tree of Life, written and recorded, can help make the
+--------------------------------------------------------------------------------
+
+
+--- Chunk 17 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0310#1
+Similarity: 0.3196
+Metadata: {
+  "card_name": "the star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 310
+}
+
+Text:
+--------------------------------------------------------------------------------
+This line forms the basic cycle, and the reading may stop with these nine cards. However, if after interpreting this line, the reader and subject desire more information or simply another approach, the reader turns over a second line of seven directly below the first, and so on, until the meaning becomes clear. In each line the first two cards for the starting point. Their specific meanings derive from the Celtic Cross, the first being Past Experience, interpreted similarly to the Basis card in the older form. The second is Expectations, the person's attitude to the future. In practice, w'e interpret this card in much the same way as the Hopes and Fears position of the Celtic Cross. Together, the two cards show what has happened and what the person hopes, fears, or simply believes will happen. The next three cards depart more strongly from the older system. They show what I call the Work - situations, influences, or attitudes the person can use or must overcome. In the Cross the positions represent fairly fixed patterns. This is the way it is. The Work cards indicate possibilities, even opportunities. It emphasizes how the person creates the situa¬ tion - and can change it. When I began this form of reading I assigned a meaning to each position. The card in the centre indicated Self, the one in the left Others, and the one on the right Events. 1 soon found it better to give no specific quality to any of them, but rather to interpret them together as simply what the person has to work with in the situation, a combination of possibilities. At the same time the three designations are worth remembering, for one or more of them may help to pinpoint the meaning in specific readings.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 18 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0308#1
+Similarity: 0.3186
+Metadata: {
+  "card_name": "Eight of Pentacles",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 308
+}
+
+Text:
+--------------------------------------------------------------------------------
+(‘"lake a careful approach, work at setting everything up before you do anything' or ‘Things won't work out with this person. You’ll find your own self again if you let him go.’) People sometimes find themselves left with the question, ‘What should I do?’ While the Tarot does not often give suggestions as concrete as ‘Study pottery', or ‘Visit your gran¬ dmother* it may indicate the sort of action or approach a person needs, leaving the specific details to the individual. As a simple example, the Eight of Pentacles can advise a person ‘Keep working at what you are doing. It will take time, but it eventually will bring good results.’ There are other, more subtle, questions that people some¬ times ask themselves after a Celtic Cross reading: What if I followed a different set of influences? What if I didn't take this particular attitude to the future, or looked to something diffe¬ rent in my past? How would that change the outcome? In other words, what are the possible changes I can make? To emphasize the possibilities of advice I have devised a new layout for the cards. Based partly on the Celtic Cross and partly on my own arrangement of the Major Arcana, it carries three innovations. First, its whole outlook leans towards advice rather than description. Second, it is open ended; after the reader has reached the last position she or he can lay out more cards, up to ten times the original amount. Of course the reader can do this in any reading, but not in definite positions. The structure of the Work Cycle, as I call this spread, allows the reader to repeat, and keep repeating, the original posi¬ tions. The effect is to let the reader look at the situation from different sides.
+--------------------------------------------------------------------------------
+
+
+--- Chunk 19 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0338#1
+Similarity: 0.3179
+Metadata: {
+  "card_name": "star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 338
+}
+
+Text:
+--------------------------------------------------------------------------------
+Some books advise readers never to read for themselves because of the lack of objectivity. For a long time I went to a friend for readings and she to me, because neither of us trusted ourselves to interpret our own cards honestly. When I started doing my own readings I still found it hard to overcome various mental tricks to avoid unpleasant images. My favourite worked as follows: I could not ignore the cards I did not like or simply declare them untrue or exaggerated. That would have seemed too obvious. Therefore I looked in the reading for some very positive image, such as the Ace of Cups, and said to myself, ‘Well, that can't be true, nothing so good could come out of this mess.’ And then I would dismiss the whole reading on the grounds that if this one card made no sense none of the others did. Another trick I discovered myself doing was to lay out the cards very casually, so if something bad came up I could think, ‘Well, I didn't really mean it, I didn’t do it seriously.' I could only read for myself when I began treating the readings in the same way I would anyone else’s, mixing the cards carefully, working at the images, trying to get some direction for action (or inaction). A reading will not always give a clear yes or no answer to a question. It may show simply a complex of trends and influences. Sometimes the reading does not involve a choice because of an ongoing situation which cannot easily be avoided. Then specific images and meanings become very important. The Tarot can help us pinpoint the important elements in the situation, the ones that need the most work to change, or bring about, the predicted outcome. People
+--------------------------------------------------------------------------------
+
+
+--- Chunk 20 ---
+Source: 78_degrees_of_wisdom.txt
+Chunk ID: 78degrees-section-0270#1
+Similarity: 0.3172
+Metadata: {
+  "card_name": "star",
+  "source_file": "78_degrees_of_wisdom.txt",
+  "section_number": 270
+}
+
+Text:
+--------------------------------------------------------------------------------
+The fact is, the future does scare most people. They do not expect anything good to happen. They will settle for things staying the same - a balance of pain and happiness with a large measure of boredom, frustration, and low-level misery; but even such stability appears unlikely. In most people's eyes things can only get worse, and probably will. Tarot readings teach us many things beyond the particular information we get from them. One of these is the pre- dominance of pessimism. If a person’s cards all come out positive, glowing with promised happiness, the person will probably say, ‘Oh yes? I'll believe it when 1 see it.’ But if just one card hints at trouble or illness the response changes to ‘I knew it, I knew it. What am I going to do?’ With such an attitude, imagine how the fear, and perhaps resentment, rises when the dread information comes to them from a pack of cards. There is another side to this question of accepting the cards. People who go to Tarot readers often do so with a ‘show-me’ attitude. Since they look at divination as something ‘magical’ (though not really knowing what that means) they want the reader to demonstrate magical powers. The value of the reading for them lies in how accurately it matches what they know to be true about their lives, plus, of course, a bit of fresh information. To make sure the reader is ‘honest’, they conceal as much of their lives as possible. I remember one woman w ho came for advice about her work. Throughout the reading she stared blankly at me or the cards, giving me no indications at all if what I said meant anything to her. Afterwards, however, she went over every card, explaining how it related
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Citations Summary
+================================================================================
+
+
+Source: 78_degrees_of_wisdom.txt
+  Count: 18
+  Chunk IDs: ['78degrees-section-0339#1', '78degrees-section-0354#1', '78degrees-section-0298#1', '78degrees-section-0313#1', '78degrees-section-0314#1', '78degrees-section-0340#1', '78degrees-section-0335#1', '78degrees-section-0292#1', '78degrees-section-0298#2', '78degrees-section-0361#1', '78degrees-section-0360#2', '78degrees-section-0299#1', '78degrees-section-0349#1', '78degrees-section-0331#1', '78degrees-section-0310#1', '78degrees-section-0308#1', '78degrees-section-0338#1', '78degrees-section-0270#1']
+
+Source: pkt.txt
+  Count: 2
+  Chunk IDs: ['pkt-section-0077#2', 'pkt-section-0104#1']

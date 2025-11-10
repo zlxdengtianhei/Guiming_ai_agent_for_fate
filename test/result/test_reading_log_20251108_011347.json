@@ -1,0 +1,2307 @@
+{
+  "test_timestamp": "2025-11-08T01:12:32.495100",
+  "question": "我的父亲11月运势如何",
+  "user_profile": {
+    "age": 28,
+    "gender": "female",
+    "zodiac_sign": "Leo",
+    "appearance_type": "wands",
+    "personality_type": "wands",
+    "preferred_source": "pkt",
+    "preferred_spread": null
+  },
+  "steps": [
+    {
+      "step_name": "question_analysis",
+      "step_order": 2,
+      "input_data": {
+        "question": "我的父亲11月运势如何",
+        "user_profile": {
+          "age": 28,
+          "gender": "female",
+          "zodiac_sign": "Leo",
+          "appearance_type": "wands",
+          "personality_type": "wands",
+          "preferred_source": "pkt",
+          "preferred_spread": null
+        },
+        "user_selected_spread": null
+      },
+      "output_data": {
+        "analysis": {
+          "reasoning": "这是一个关于运势的中等复杂度问题，三牌占卜可以提供关于父亲在11月的整体运势的清晰洞察。",
+          "complexity": "moderate",
+          "question_type": "general",
+          "question_domain": "general",
+          "question_summary": "分析父亲在11月的整体运势",
+          "recommended_spread": "three_card",
+          "auto_selected_spread": true
+        },
+        "llm_response": "{\n    \"question_domain\": \"general\",\n    \"complexity\": \"moderate\",\n    \"question_type\": \"general\",\n    \"recommended_spread\": \"three_card\",\n    \"reasoning\": \"这是一个关于运势的中等复杂度问题，三牌占卜可以提供关于父亲在11月的整体运势的清晰洞察。\",\n    \"question_summary\": \"分析父亲在11月的整体运势\"\n}"
+      },
+      "prompt_type": "question_analysis",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师。请分析以下问题，并返回JSON格式的分析结果。\n\n## 问题：\n我的父亲11月运势如何\n\n## 用户信息（可选）：\n年龄: 28\n性别: female\n星座: Leo\n性格类型: wands\n外貌类型: wands\n\n## 分析要求：\n1. **问题领域**：识别问题所属领域，从以下选项中选择其一：\n   - 'love': 爱情、关系、情感\n   - 'career': 职业、工作、事业\n   - 'health': 健康、身体、康复\n   - 'finance': 财务、金钱、物质\n   - 'personal_growth': 个人成长、精神、自我探索\n   - 'general': 一般生活、综合问题\n\n2. **问题复杂度**（如果用户未指定占卜方式）：\n   - 'simple': 简单问题，可以用三牌占卜回答\n   - 'moderate': 中等复杂度，默认推荐三牌占卜\n   - 'complex': 复杂问题，需要凯尔特十字深入分析\n\n3. **提问类型**：\n   - 'specific_event': 具体事件（如：会得到这份工作吗？）\n   - 'relationship': 关系问题（如：我们的关系会如何发展？）\n   - 'choice': 选择问题（如：应该选择哪个方向？）\n   - 'general': 一般性问题（如：我的未来会怎样？）\n\n4. **推荐占卜方式**（如果用户未指定）：\n   - 'three_card': 三牌占卜\n   - 'celtic_cross': 凯尔特十字\n   - 'work_cycle': 工作循环（如果需要持续建议）\n   - 'other': 其他（说明原因）\n\n## 输出格式（JSON）：\n{\n    \"question_domain\": \"love\",\n    \"complexity\": \"simple\",\n    \"question_type\": \"relationship\",\n    \"recommended_spread\": \"three_card\",\n    \"reasoning\": \"这是一个关于关系的简单问题，三牌占卜可以清晰回答过去-现在-未来的发展\",\n    \"question_summary\": \"简要总结问题核心\"\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "rag_queries": null,
+      "model_used": "gpt-4o-mini",
+      "temperature": 0.3,
+      "processing_time_ms": 2565,
+      "tokens_used": null,
+      "created_at": "2025-11-08T00:12:35.949611+00:00"
+    },
+    {
+      "step_name": "pattern_analysis",
+      "step_order": 6,
+      "input_data": {
+        "spread_type": "three_card",
+        "selected_cards": [
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "4f43c273-7133-432e-9618-24aa72233687",
+            "position": "past",
+            "card_number": 8,
+            "is_reversed": true,
+            "card_name_cn": "八 宝剑",
+            "card_name_en": "Eight of Swords",
+            "position_order": 1,
+            "position_description": "过去的影响"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "fc34b8a1-3118-43e1-9ffb-83512d3ec37e",
+            "position": "present",
+            "card_number": 9,
+            "is_reversed": false,
+            "card_name_cn": "九 权杖",
+            "card_name_en": "Nine of Wands",
+            "position_order": 2,
+            "position_description": "当前状况"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "62c85fd4-9920-48e3-85ab-8b14bac7c1b1",
+            "position": "future",
+            "card_number": 7,
+            "is_reversed": false,
+            "card_name_cn": "七 权杖",
+            "card_name_en": "Seven of Wands",
+            "position_order": 3,
+            "position_description": "未来趋势"
+          }
+        ],
+        "analysis_method": "code_based",
+        "question_domain": "general"
+      },
+      "output_data": {
+        "analysis": {
+          "analysis_method": "code_based",
+          "number_patterns": {
+            "number_jumps": [],
+            "same_numbers": [],
+            "number_sequences": [
+              "连续数字: 7 → 8",
+              "连续数字: 8 → 9"
+            ]
+          },
+          "reversed_patterns": {
+            "count": 1,
+            "positions": [
+              "past"
+            ],
+            "interpretation": "1张逆位牌(Eight of Swords)，表示该位置的阻碍或挑战"
+          },
+          "suit_distribution": {
+            "cups_count": 0,
+            "major_count": 0,
+            "wands_count": 2,
+            "swords_count": 1,
+            "interpretation": "权杖2张(火元素-行动); 宝剑1张(风元素-思想)",
+            "pentacles_count": 0
+          },
+          "special_combinations": [],
+          "major_arcana_patterns": {
+            "count": 0,
+            "meaning": "无大阿卡纳，关注日常事务",
+            "positions": []
+          },
+          "position_relationships": {
+            "time_flow": "past (Eight of Swords) → present (Nine of Wands) → future (Seven of Wands)",
+            "support_conflict": "逆位牌(1张)可能表示阻碍或挑战: Eight of Swords",
+            "causal_relationships": [
+              "past (Eight of Swords) → present (Nine of Wands)",
+              "present (Nine of Wands) → future (Seven of Wands)"
+            ]
+          }
+        }
+      },
+      "prompt_type": null,
+      "prompt_content": null,
+      "rag_queries": null,
+      "model_used": null,
+      "temperature": null,
+      "processing_time_ms": 0,
+      "tokens_used": null,
+      "created_at": "2025-11-08T00:12:36.513092+00:00"
+    },
+    {
+      "step_name": "rag_retrieval",
+      "step_order": 7,
+      "input_data": {
+        "spread_type": "three_card",
+        "selected_cards": [
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "4f43c273-7133-432e-9618-24aa72233687",
+            "position": "past",
+            "card_number": 8,
+            "is_reversed": true,
+            "card_name_cn": "八 宝剑",
+            "card_name_en": "Eight of Swords",
+            "position_order": 1,
+            "position_description": "过去的影响"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "fc34b8a1-3118-43e1-9ffb-83512d3ec37e",
+            "position": "present",
+            "card_number": 9,
+            "is_reversed": false,
+            "card_name_cn": "九 权杖",
+            "card_name_en": "Nine of Wands",
+            "position_order": 2,
+            "position_description": "当前状况"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "62c85fd4-9920-48e3-85ab-8b14bac7c1b1",
+            "position": "future",
+            "card_number": 7,
+            "is_reversed": false,
+            "card_name_cn": "七 权杖",
+            "card_name_en": "Seven of Wands",
+            "position_order": 3,
+            "position_description": "未来趋势"
+          }
+        ]
+      },
+      "output_data": {
+        "spread_method": {
+          "rag_text": "[method_steps] To perform a three-card spread in Tarot divination, follow these steps:\n\n1. **Prepare the Space**: Find a quiet space where you can focus without distractions.\n\n2. **Set Your Intention**: If you have a specific question, concentrate on it and say it out loud. If not, clear your mind and focus on the Significator.\n\n3. **Shuffle the Cards**: Shuffle the entire deck thoroughly while keeping your mind as blank as possible. This helps to avoid personal bias.\n\n4. **Draw the Cards**: After shuffling, draw three cards from the deck. You can either take them from the top or fan them out and select them intuitively.\n\n5. **Interpret the Cards**: Lay the three cards out in a row. Typically, the first card represents the past, the second the present, and the third the future. Interpret each card based on its position and meaning.\n\n6. **Combine Meanings**: Consider how the cards interact with each other to provide a deeper insight into your question or situation.\n\n7. **Reflect**: Take a moment to reflect on the reading and how it resonates with your current circumstances. \n\nThis method allows for a concise yet insightful reading, providing clarity on the situation at hand.\n\n[position_interpretation] In a three-card spread, the positions typically represent the following:\n\n1. **First Card (Significator)**: This card reflects the current situation or the Querent's present state regarding the question at hand.\n\n2. **Second Card (Crosses Him)**: This card indicates obstacles or challenges that the Querent may face. If it is a favorable card, it suggests that the opposing forces are not serious or that something positive may not yield the expected results.\n\n3. **Third Card (Crowns Him)**: This card symbolizes the Querent's aim or ideal in the matter, representing the best possible outcome under the current circumstances that has not yet been realized. \n\nEach card's meaning can be influenced by its position and the context of the reading.\n\n[psychological_background] In a three-card spread from a psychological perspective, each card can represent different aspects of the querent's psyche or situation:\n\n1. **Past Influences**: The first card reflects past experiences or influences that have shaped the current situation. It may reveal underlying beliefs or emotional patterns that need to be acknowledged.\n\n2. **Present Situation**: The second card represents the current state of mind or circumstances. This card can highlight conscious thoughts, feelings, or challenges that the querent is facing, emphasizing the need for awareness and introspection.\n\n3. **Future Guidance**: The third card offers insight into potential outcomes or advice for moving forward. It encourages the querent to integrate the lessons from the past and present to foster personal growth and transformation.\n\nThis approach aligns with the principles of the Magician (will) and the High Priestess (intuition), promoting a balance between conscious decision-making and intuitive understanding.\n\n[traditional_method] The three-card spread is a traditional Tarot divination method that can be traced back to ancient practices, including Celtic traditions. In this spread, three cards are drawn and typically represent the past, present, and future, providing insight into the Querent's situation. Each card's meaning is interpreted individually, but they can also be read in combination to reveal deeper connections and narratives. This method emphasizes simplicity and clarity, aligning with the belief that straightforward approaches yield the most truthful insights.",
+          "citations": [
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0284#1",
+              "similarity": 0.621696174144745
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0104#1",
+              "similarity": 0.620455965941438
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0101#1",
+              "similarity": 0.609357357025146
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0103#2",
+              "similarity": 0.602821504397051
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0309#1",
+              "similarity": 0.592379212379456
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0099#1",
+              "similarity": 0.614531416133983
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0095#1",
+              "similarity": 0.602878212928772
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.592980402498854
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0310#1",
+              "similarity": 0.585016906261444
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0269#1",
+              "similarity": 0.626007650197699
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0097#1",
+              "similarity": 0.597326887131891
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0285#2",
+              "similarity": 0.593251382902373
+            }
+          ],
+          "query_count": 4,
+          "query_types": [
+            "method_steps",
+            "position_interpretation",
+            "psychological_background",
+            "traditional_method"
+          ],
+          "spread_type": "three_card"
+        },
+        "card_information": {
+          "4f43c273-7133-432e-9618-24aa72233687": {
+            "position": "past",
+            "rag_text": "[basic_upright_reversed_suit_meaning] The Eight of Swords reversed signifies a desire for self-understanding and liberation from oppressive situations. It reflects a shift from confusion and isolation towards clarity and freedom. In the context of the air element and thought, it suggests overcoming mental barriers and gaining insight into one's circumstances, leading to empowerment and the ability to move forward.\n\n[visual_description] The Eight of Swords depicts a blindfolded woman standing in mud, symbolizing humiliation and shame. She is surrounded by swords, which represent oppression, but they do not physically confine her. The ropes binding her do not restrict her legs, indicating that she has the ability to leave her situation. The presence of a castle in the background symbolizes authority, while the blindfold signifies confusion and isolation from others in similar circumstances. Overall, the imagery conveys a sense of entrapment that is more psychological than physical.\n\n[position_and_psychological_meaning] In the past position, the Eight of Swords suggests a period of feeling trapped and restricted, often due to self-imposed limitations or negative thought patterns. Psychologically, it reflects a sense of confusion and isolation, where the individual may have felt powerless and unable to see a way out of their situation. The blindfold symbolizes a lack of clarity and awareness, indicating that the person may have been unaware of their own ability to change their circumstances. This card highlights the importance of recognizing that the barriers are often mental rather than physical, encouraging a journey towards self-discovery and liberation.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.636814155388722
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.635337349951627
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0228#1",
+                "similarity": 0.623867552761213
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.617328721801303
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.612685483316022
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.61208741032817
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0234#1",
+                "similarity": 0.610412652231394
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0351#1",
+                "similarity": 0.60452421321047
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0229#1",
+                "similarity": 0.600592058879376
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.584829544116828
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0174#1",
+                "similarity": 0.624467015266418
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.610976063550946
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.603962826256419
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#1",
+                "similarity": 0.572418987751023
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0240#1",
+                "similarity": 0.567833866606133
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0072#1",
+                "similarity": 0.545492638232079
+              }
+            ],
+            "is_reversed": true,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_suit_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "八 宝剑",
+            "card_name_en": "Eight of Swords"
+          },
+          "62c85fd4-9920-48e3-85ab-8b14bac7c1b1": {
+            "position": "future",
+            "rag_text": "[basic_upright_reversed_suit_meaning] The Seven of Wands, when upright, signifies a need to defend one's position and stand firm against challenges. It embodies the energy of the Fire element, representing action, courage, and determination. This card suggests that you may be facing competition or opposition, but it encourages you to assert yourself and maintain your ground. It reflects a dynamic situation where you must be proactive and resilient, often indicating a struggle that ultimately leads to personal growth and empowerment. The card also hints at the excitement of conflict and the adrenaline that comes with overcoming obstacles.\n\n[visual_description] The Seven of Wands typically depicts a figure standing on a hill or elevated position, holding a wand defensively while facing several other wands pointed towards them from below. This imagery suggests a sense of challenge or competition, where the individual must defend their position or beliefs against opposition. The background often features a landscape that emphasizes the height of the figure, symbolizing the struggle to maintain one's ground amidst adversity. The overall tone conveys determination and resilience in the face of challenges.\n\n[position_and_psychological_meaning] The Seven of Wands in the future position suggests a psychological state of resilience and determination. It indicates that you may face challenges or competition, but you possess the inner strength to stand your ground and defend your beliefs or position. This card reflects a mindset of perseverance, encouraging you to confront obstacles with confidence. It may also signify a need to assert yourself and maintain your boundaries, highlighting the importance of self-advocacy in the face of adversity. Overall, it emphasizes the psychological readiness to engage in struggles and emerge victorious.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0198#1",
+                "similarity": 0.662597616756115
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0203#1",
+                "similarity": 0.648112097270019
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.633399881923193
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0182#1",
+                "similarity": 0.632435955550431
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0199#1",
+                "similarity": 0.613795780313276
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0201#1",
+                "similarity": 0.612168381422479
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0071#1",
+                "similarity": 0.606416458465141
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.580589380948153
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.566162815644993
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0081#1",
+                "similarity": 0.565751824721804
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.606847488472025
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0174#1",
+                "similarity": 0.592505013495984
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0295#1",
+                "similarity": 0.587904407756734
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0217#1",
+                "similarity": 0.58651452225274
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.565404969679422
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.55834224472391
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.554443141023552
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0072#1",
+                "similarity": 0.539165666302284
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.538425012277823
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0066#1",
+                "similarity": 0.535534684125778
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_suit_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "七 权杖",
+            "card_name_en": "Seven of Wands"
+          },
+          "fc34b8a1-3118-43e1-9ffb-83512d3ec37e": {
+            "position": "present",
+            "rag_text": "[basic_upright_reversed_suit_meaning] The Nine of Wands, when upright, signifies resilience and strength in the face of adversity. It represents someone who has faced significant challenges and opposition but has emerged stronger and more determined. This card embodies the spirit of perseverance, indicating that while conflicts may persist, the individual is prepared to defend their position and resources. It reflects a readiness to continue fighting for one's goals, showcasing both physical and mental alertness. The energy of Fire in this card emphasizes action, courage, and the ability to overcome obstacles, suggesting that success is within reach despite ongoing struggles.\n\n[visual_description] The Nine of Wands typically depicts a strong figure, often muscular and keen-eyed, standing defensively with a bandage or injury, symbolizing resilience after facing opposition. Behind him are eight wands, which can represent both his resources and the challenges he has overcome. The overall imagery conveys a sense of strength, determination, and readiness to confront further challenges, embodying the themes of endurance and perseverance in the face of adversity.\n\n[position_and_psychological_meaning] The Nine of Wands represents resilience and perseverance in the face of adversity. Psychologically, it reflects a state of being battle-weary yet determined. The individual has faced significant challenges and opposition, leading to a strengthened sense of self. However, this card also indicates a tendency to become trapped in conflict, suggesting that while one is prepared to defend themselves, they may also be struggling with emotional fatigue and the weight of past struggles. It encourages the need for self-care and reflection on whether the ongoing fight is worth the toll it takes on one's well-being.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0198#1",
+                "similarity": 0.711295239097733
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0197#1",
+                "similarity": 0.666632413864141
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0203#1",
+                "similarity": 0.65221031593023
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.635098462981262
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.630643747410552
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0199#1",
+                "similarity": 0.62688792463161
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0188#1",
+                "similarity": 0.626372057985434
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0201#1",
+                "similarity": 0.621332460244767
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0071#1",
+                "similarity": 0.616817813610502
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.5726001433313
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0215#1",
+                "similarity": 0.597656726837158
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0216#2",
+                "similarity": 0.577604591846466
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0256#2",
+                "similarity": 0.577058484904951
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0232#1",
+                "similarity": 0.575490237129691
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.555772354224835
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0072#1",
+                "similarity": 0.555130653961823
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_suit_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "九 权杖",
+            "card_name_en": "Nine of Wands"
+          }
+        },
+        "card_relationships": {
+          "rag_text": "[number_patterns] In the context of Tarot card number patterns, the sequence you provided—Eight of Swords, Nine of Wands, and Seven of Wands—reflects a progression in the suit of Wands and Swords. \n\n- **Eight of Swords**: Represents feelings of restriction and mental entrapment.\n- **Nine of Wands**: Symbolizes resilience and perseverance despite challenges.\n- **Seven of Wands**: Indicates a need to defend one's position and stand firm against opposition.\n\nThe sequence shows a movement from mental constraints (Eight) to resilience (Nine) and then to the need for defense (Seven), suggesting a narrative of overcoming obstacles and asserting oneself.\n\n[suit_distribution] In a Tarot spread, if the distribution shows a dominance of Swords and Wands, it indicates a balance of active, yang energies. Swords represent intellect, conflict, and decision-making, while Wands symbolize creativity, action, and passion. This combination suggests a period of dynamic experiences involving both mental challenges and energetic pursuits. However, it may also highlight a potential imbalance if there are fewer Cups (emotional, receptive) and Pentacles (material, grounded) cards, indicating a need to address emotional and practical aspects of life.\n\n[reversed_pattern] In a Tarot spread, a reversed card typically indicates a blockage or distortion of the card's upright meaning. It suggests that the qualities associated with the card are not being fully realized or are being channeled in an unexpected direction. For example, if the Fool is reversed, it may signify a failure to trust one's instincts or a reluctance to take necessary risks due to fear or over-reliance on practical advice. Overall, reversed cards can reveal deeper insights, highlighting challenges, internal conflicts, or the need for reevaluation in the context of the reading.\n\n[card_relationships] In this sequence, the Eight of Swords in the past position indicates a period of feeling trapped or restricted, often due to self-imposed limitations or fears. Moving to the Nine of Wands in the present, this card suggests resilience and perseverance despite challenges; it reflects a readiness to defend one's position and the strength gained from past struggles. Finally, the Seven of Wands in the future position signifies a need to stand your ground and assert yourself against competition or opposition. Together, this sequence illustrates a journey from feeling confined to becoming empowered and ready to face future challenges with confidence.",
+          "citations": [
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0353#1",
+              "similarity": 0.633230886862822
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0351#1",
+              "similarity": 0.623083770275116
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0365#1",
+              "similarity": 0.614205718040466
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0096#1",
+              "similarity": 0.608936511937589
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0045#2",
+              "similarity": 0.565892569316323
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0180#1",
+              "similarity": 0.653203745281808
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0181#1",
+              "similarity": 0.652350048650802
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0182#1",
+              "similarity": 0.627058047862591
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0022#1",
+              "similarity": 0.613329025108969
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0098#1",
+              "similarity": 0.600620418879455
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0031#2",
+              "similarity": 0.654948451362322
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0191#1",
+              "similarity": 0.654691715678326
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0223#1",
+              "similarity": 0.653654159278803
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0082#1",
+              "similarity": 0.603905898216193
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0078#1",
+              "similarity": 0.601977557238575
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0302#1",
+              "similarity": 0.656672257980382
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0350#1",
+              "similarity": 0.648548719027411
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0218#1",
+              "similarity": 0.643601634717095
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0305#2",
+              "similarity": 0.641015031398249
+            }
+          ],
+          "query_count": 4,
+          "query_types": [
+            "number_patterns",
+            "suit_distribution",
+            "reversed_pattern",
+            "card_relationships"
+          ]
+        }
+      },
+      "prompt_type": null,
+      "prompt_content": null,
+      "rag_queries": [
+        {
+          "type": "method_steps",
+          "query": "three_card spread tarot divination method how to use steps",
+          "result": {
+            "text": "To perform a three-card spread in Tarot divination, follow these steps:\n\n1. **Prepare the Space**: Find a quiet space where you can focus without distractions.\n\n2. **Set Your Intention**: If you have a specific question, concentrate on it and say it out loud. If not, clear your mind and focus on the Significator.\n\n3. **Shuffle the Cards**: Shuffle the entire deck thoroughly while keeping your mind as blank as possible. This helps to avoid personal bias.\n\n4. **Draw the Cards**: After shuffling, draw three cards from the deck. You can either take them from the top or fan them out and select them intuitively.\n\n5. **Interpret the Cards**: Lay the three cards out in a row. Typically, the first card represents the past, the second the present, and the third the future. Interpret each card based on its position and meaning.\n\n6. **Combine Meanings**: Consider how the cards interact with each other to provide a deeper insight into your question or situation.\n\n7. **Reflect**: Take a moment to reflect on the reading and how it resonates with your current circumstances. \n\nThis method allows for a concise yet insightful reading, providing clarity on the situation at hand.",
+            "debug": {
+              "latency_ms": 6729,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0284#1",
+                "pkt-section-0104#1",
+                "pkt-section-0101#1",
+                "pkt-section-0103#2",
+                "78degrees-section-0309#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0284#1",
+                "similarity": 0.621696174144745
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0104#1",
+                "similarity": 0.620455965941438
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0101#1",
+                "similarity": 0.609357357025146
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0103#2",
+                "similarity": 0.602821504397051
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0309#1",
+                "similarity": 0.592379212379456
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "position_interpretation",
+          "query": "three_card spread tarot card positions meaning interpretation",
+          "result": {
+            "text": "In a three-card spread, the positions typically represent the following:\n\n1. **First Card (Significator)**: This card reflects the current situation or the Querent's present state regarding the question at hand.\n\n2. **Second Card (Crosses Him)**: This card indicates obstacles or challenges that the Querent may face. If it is a favorable card, it suggests that the opposing forces are not serious or that something positive may not yield the expected results.\n\n3. **Third Card (Crowns Him)**: This card symbolizes the Querent's aim or ideal in the matter, representing the best possible outcome under the current circumstances that has not yet been realized. \n\nEach card's meaning can be influenced by its position and the context of the reading.",
+            "debug": {
+              "latency_ms": 3194,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0099#1",
+                "pkt-section-0104#1",
+                "pkt-section-0095#1",
+                "78degrees-section-0282#1",
+                "78degrees-section-0310#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0099#1",
+                "similarity": 0.614531416133983
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0104#1",
+                "similarity": 0.610649036091685
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.602878212928772
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0282#1",
+                "similarity": 0.592980402498854
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0310#1",
+                "similarity": 0.585016906261444
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "psychological_background",
+          "query": "three_card spread tarot psychological approach interpretation",
+          "result": {
+            "text": "In a three-card spread from a psychological perspective, each card can represent different aspects of the querent's psyche or situation:\n\n1. **Past Influences**: The first card reflects past experiences or influences that have shaped the current situation. It may reveal underlying beliefs or emotional patterns that need to be acknowledged.\n\n2. **Present Situation**: The second card represents the current state of mind or circumstances. This card can highlight conscious thoughts, feelings, or challenges that the querent is facing, emphasizing the need for awareness and introspection.\n\n3. **Future Guidance**: The third card offers insight into potential outcomes or advice for moving forward. It encourages the querent to integrate the lessons from the past and present to foster personal growth and transformation.\n\nThis approach aligns with the principles of the Magician (will) and the High Priestess (intuition), promoting a balance between conscious decision-making and intuitive understanding.",
+            "debug": {
+              "latency_ms": 5155,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0269#1",
+                "78degrees-section-0282#1",
+                "pkt-section-0104#1",
+                "pkt-section-0095#1",
+                "pkt-section-0103#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0269#1",
+                "similarity": 0.626007650197699
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0282#1",
+                "similarity": 0.595934051154079
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0104#1",
+                "similarity": 0.591051865690728
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.588975787162781
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0103#2",
+                "similarity": 0.585674384671613
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "traditional_method",
+          "query": "three_card spread tarot traditional divination method ancient celtic",
+          "result": {
+            "text": "The three-card spread is a traditional Tarot divination method that can be traced back to ancient practices, including Celtic traditions. In this spread, three cards are drawn and typically represent the past, present, and future, providing insight into the Querent's situation. Each card's meaning is interpreted individually, but they can also be read in combination to reveal deeper connections and narratives. This method emphasizes simplicity and clarity, aligning with the belief that straightforward approaches yield the most truthful insights.",
+            "debug": {
+              "latency_ms": 2407,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0097#1",
+                "pkt-section-0101#1",
+                "78degrees-section-0309#1",
+                "78degrees-section-0285#2",
+                "pkt-section-0104#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0097#1",
+                "similarity": 0.597326887131891
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0101#1",
+                "similarity": 0.595294643009352
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0309#1",
+                "similarity": 0.59447764224081
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0285#2",
+                "similarity": 0.593251382902373
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0104#1",
+                "similarity": 0.59210465142616
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "number_patterns",
+          "query": "tarot card number patterns same numbers sequences in spread Eight of Swords, Nine of Wands, Seven of Wands",
+          "result": {
+            "text": "In the context of Tarot card number patterns, the sequence you provided—Eight of Swords, Nine of Wands, and Seven of Wands—reflects a progression in the suit of Wands and Swords. \n\n- **Eight of Swords**: Represents feelings of restriction and mental entrapment.\n- **Nine of Wands**: Symbolizes resilience and perseverance despite challenges.\n- **Seven of Wands**: Indicates a need to defend one's position and stand firm against opposition.\n\nThe sequence shows a movement from mental constraints (Eight) to resilience (Nine) and then to the need for defense (Seven), suggesting a narrative of overcoming obstacles and asserting oneself.",
+            "debug": {
+              "latency_ms": 3267,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0353#1",
+                "78degrees-section-0351#1",
+                "78degrees-section-0365#1",
+                "pkt-section-0096#1",
+                "pkt-section-0045#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0353#1",
+                "similarity": 0.633230886862822
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0351#1",
+                "similarity": 0.623083770275116
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0365#1",
+                "similarity": 0.614205718040466
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0096#1",
+                "similarity": 0.608936511937589
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0045#2",
+                "similarity": 0.565892569316323
+              }
+            ]
+          }
+        },
+        {
+          "type": "suit_distribution",
+          "query": "tarot card suit distribution element balance swords, wands in spread",
+          "result": {
+            "text": "In a Tarot spread, if the distribution shows a dominance of Swords and Wands, it indicates a balance of active, yang energies. Swords represent intellect, conflict, and decision-making, while Wands symbolize creativity, action, and passion. This combination suggests a period of dynamic experiences involving both mental challenges and energetic pursuits. However, it may also highlight a potential imbalance if there are fewer Cups (emotional, receptive) and Pentacles (material, grounded) cards, indicating a need to address emotional and practical aspects of life.",
+            "debug": {
+              "latency_ms": 3288,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0180#1",
+                "78degrees-section-0181#1",
+                "78degrees-section-0182#1",
+                "pkt-section-0022#1",
+                "pkt-section-0098#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.653203745281808
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0181#1",
+                "similarity": 0.652350048650802
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0182#1",
+                "similarity": 0.627058047862591
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0022#1",
+                "similarity": 0.613329025108969
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0098#1",
+                "similarity": 0.600620418879455
+              }
+            ]
+          }
+        },
+        {
+          "type": "reversed_pattern",
+          "query": "tarot reversed cards pattern meaning 1 reversed cards in spread interpretation",
+          "result": {
+            "text": "In a Tarot spread, a reversed card typically indicates a blockage or distortion of the card's upright meaning. It suggests that the qualities associated with the card are not being fully realized or are being channeled in an unexpected direction. For example, if the Fool is reversed, it may signify a failure to trust one's instincts or a reluctance to take necessary risks due to fear or over-reliance on practical advice. Overall, reversed cards can reveal deeper insights, highlighting challenges, internal conflicts, or the need for reevaluation in the context of the reading.",
+            "debug": {
+              "latency_ms": 3839,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0031#2",
+                "78degrees-section-0191#1",
+                "78degrees-section-0223#1",
+                "pkt-section-0082#1",
+                "pkt-section-0078#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0031#2",
+                "similarity": 0.654948451362322
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.654691715678326
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.653654159278803
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.603905898216193
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.601977557238575
+              }
+            ]
+          }
+        },
+        {
+          "type": "card_relationships",
+          "query": "tarot card relationships sequence meaning Eight of Swords (past), Nine of Wands (present), Seven of Wands (future)",
+          "result": {
+            "text": "In this sequence, the Eight of Swords in the past position indicates a period of feeling trapped or restricted, often due to self-imposed limitations or fears. Moving to the Nine of Wands in the present, this card suggests resilience and perseverance despite challenges; it reflects a readiness to defend one's position and the strength gained from past struggles. Finally, the Seven of Wands in the future position signifies a need to stand your ground and assert yourself against competition or opposition. Together, this sequence illustrates a journey from feeling confined to becoming empowered and ready to face future challenges with confidence.",
+            "debug": {
+              "latency_ms": 4082,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0351#1",
+                "78degrees-section-0302#1",
+                "78degrees-section-0350#1",
+                "78degrees-section-0218#1",
+                "78degrees-section-0305#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0351#1",
+                "similarity": 0.696883940325258
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.656672257980382
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.648548719027411
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0218#1",
+                "similarity": 0.643601634717095
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.641015031398249
+              }
+            ]
+          }
+        },
+        {
+          "type": "basic_upright_reversed_suit_meaning",
+          "query": "Eight of Swords tarot card meaning divinatory reversed meaning air element thought suit",
+          "result": {
+            "text": "The Eight of Swords reversed signifies a desire for self-understanding and liberation from oppressive situations. It reflects a shift from confusion and isolation towards clarity and freedom. In the context of the air element and thought, it suggests overcoming mental barriers and gaining insight into one's circumstances, leading to empowerment and the ability to move forward.",
+            "debug": {
+              "latency_ms": 1902,
+              "num_results": 10,
+              "top_doc_ids": [
+                "pkt-section-0084#1",
+                "78degrees-section-0350#1",
+                "78degrees-section-0228#1",
+                "78degrees-section-0191#1",
+                "78degrees-section-0237#1",
+                "pkt-section-0082#1",
+                "78degrees-section-0234#1",
+                "78degrees-section-0351#1",
+                "78degrees-section-0229#1",
+                "pkt-section-0083#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.636814155388722
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.635337349951627
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0228#1",
+                "similarity": 0.623867552761213
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.617328721801303
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.612685483316022
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.61208741032817
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0234#1",
+                "similarity": 0.610412652231394
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0351#1",
+                "similarity": 0.60452421321047
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0229#1",
+                "similarity": 0.600592058879376
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.584829544116828
+              }
+            ]
+          },
+          "card_id": "4f43c273-7133-432e-9618-24aa72233687",
+          "card_name_en": "Eight of Swords"
+        },
+        {
+          "type": "visual_description",
+          "query": "Eight of Swords tarot card description image visual appearance",
+          "result": {
+            "text": "The Eight of Swords depicts a blindfolded woman standing in mud, symbolizing humiliation and shame. She is surrounded by swords, which represent oppression, but they do not physically confine her. The ropes binding her do not restrict her legs, indicating that she has the ability to leave her situation. The presence of a castle in the background symbolizes authority, while the blindfold signifies confusion and isolation from others in similar circumstances. Overall, the imagery conveys a sense of entrapment that is more psychological than physical.",
+            "debug": {
+              "latency_ms": 3552,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0234#1",
+                "78degrees-section-0174#1",
+                "78degrees-section-0305#2",
+                "pkt-section-0082#1",
+                "pkt-section-0084#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0234#1",
+                "similarity": 0.636195816766968
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0174#1",
+                "similarity": 0.624467015266418
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.610976063550946
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.592403614973807
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.5896227535493
+              }
+            ]
+          },
+          "card_id": "4f43c273-7133-432e-9618-24aa72233687",
+          "card_name_en": "Eight of Swords"
+        },
+        {
+          "type": "position_and_psychological_meaning",
+          "query": "Eight of Swords tarot card past position meaning psychological meaning interpretation",
+          "result": {
+            "text": "In the past position, the Eight of Swords suggests a period of feeling trapped and restricted, often due to self-imposed limitations or negative thought patterns. Psychologically, it reflects a sense of confusion and isolation, where the individual may have felt powerless and unable to see a way out of their situation. The blindfold symbolizes a lack of clarity and awareness, indicating that the person may have been unaware of their own ability to change their circumstances. This card highlights the importance of recognizing that the barriers are often mental rather than physical, encouraging a journey towards self-discovery and liberation.",
+            "debug": {
+              "latency_ms": 3823,
+              "num_results": 10,
+              "top_doc_ids": [
+                "78degrees-section-0350#1",
+                "78degrees-section-0234#1",
+                "78degrees-section-0302#1",
+                "78degrees-section-0305#2",
+                "78degrees-section-0237#1",
+                "78degrees-section-0351#1",
+                "78degrees-section-0305#1",
+                "78degrees-section-0240#1",
+                "pkt-section-0082#1",
+                "pkt-section-0072#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.616029583452379
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0234#1",
+                "similarity": 0.609419071112936
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.603962826256419
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.587118341841995
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.583544507584959
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0351#1",
+                "similarity": 0.582301726066865
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#1",
+                "similarity": 0.572418987751023
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0240#1",
+                "similarity": 0.567833866606133
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.562679368970508
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0072#1",
+                "similarity": 0.545492638232079
+              }
+            ]
+          },
+          "card_id": "4f43c273-7133-432e-9618-24aa72233687",
+          "card_name_en": "Eight of Swords"
+        },
+        {
+          "type": "basic_upright_reversed_suit_meaning",
+          "query": "Nine of Wands tarot card meaning divinatory upright meaning fire element action suit",
+          "result": {
+            "text": "The Nine of Wands, when upright, signifies resilience and strength in the face of adversity. It represents someone who has faced significant challenges and opposition but has emerged stronger and more determined. This card embodies the spirit of perseverance, indicating that while conflicts may persist, the individual is prepared to defend their position and resources. It reflects a readiness to continue fighting for one's goals, showcasing both physical and mental alertness. The energy of Fire in this card emphasizes action, courage, and the ability to overcome obstacles, suggesting that success is within reach despite ongoing struggles.",
+            "debug": {
+              "latency_ms": 3571,
+              "num_results": 10,
+              "top_doc_ids": [
+                "78degrees-section-0198#1",
+                "78degrees-section-0197#1",
+                "78degrees-section-0203#1",
+                "78degrees-section-0202#1",
+                "78degrees-section-0180#1",
+                "78degrees-section-0199#1",
+                "78degrees-section-0188#1",
+                "78degrees-section-0201#1",
+                "pkt-section-0071#1",
+                "pkt-section-0073#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0198#1",
+                "similarity": 0.711295239097733
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0197#1",
+                "similarity": 0.666632413864141
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0203#1",
+                "similarity": 0.65221031593023
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.635098462981262
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.630643747410552
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0199#1",
+                "similarity": 0.62688792463161
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0188#1",
+                "similarity": 0.626372057985434
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0201#1",
+                "similarity": 0.621332460244767
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0071#1",
+                "similarity": 0.616817813610502
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.5726001433313
+              }
+            ]
+          },
+          "card_id": "fc34b8a1-3118-43e1-9ffb-83512d3ec37e",
+          "card_name_en": "Nine of Wands"
+        },
+        {
+          "type": "visual_description",
+          "query": "Nine of Wands tarot card description image visual appearance",
+          "result": {
+            "text": "The Nine of Wands typically depicts a strong figure, often muscular and keen-eyed, standing defensively with a bandage or injury, symbolizing resilience after facing opposition. Behind him are eight wands, which can represent both his resources and the challenges he has overcome. The overall imagery conveys a sense of strength, determination, and readiness to confront further challenges, embodying the themes of endurance and perseverance in the face of adversity.",
+            "debug": {
+              "latency_ms": 3307,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0198#1",
+                "78degrees-section-0202#1",
+                "78degrees-section-0197#1",
+                "pkt-section-0071#1",
+                "pkt-section-0073#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0198#1",
+                "similarity": 0.655189894392516
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.641588594534732
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0197#1",
+                "similarity": 0.6328949551049
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0071#1",
+                "similarity": 0.631896498927794
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.579930765034844
+              }
+            ]
+          },
+          "card_id": "fc34b8a1-3118-43e1-9ffb-83512d3ec37e",
+          "card_name_en": "Nine of Wands"
+        },
+        {
+          "type": "position_and_psychological_meaning",
+          "query": "Nine of Wands tarot card present position meaning psychological meaning interpretation",
+          "result": {
+            "text": "The Nine of Wands represents resilience and perseverance in the face of adversity. Psychologically, it reflects a state of being battle-weary yet determined. The individual has faced significant challenges and opposition, leading to a strengthened sense of self. However, this card also indicates a tendency to become trapped in conflict, suggesting that while one is prepared to defend themselves, they may also be struggling with emotional fatigue and the weight of past struggles. It encourages the need for self-care and reflection on whether the ongoing fight is worth the toll it takes on one's well-being.",
+            "debug": {
+              "latency_ms": 3756,
+              "num_results": 10,
+              "top_doc_ids": [
+                "78degrees-section-0197#1",
+                "78degrees-section-0198#1",
+                "78degrees-section-0202#1",
+                "78degrees-section-0215#1",
+                "pkt-section-0071#1",
+                "78degrees-section-0216#2",
+                "78degrees-section-0256#2",
+                "78degrees-section-0232#1",
+                "pkt-section-0079#1",
+                "pkt-section-0072#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0197#1",
+                "similarity": 0.635677971582293
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0198#1",
+                "similarity": 0.617966816667702
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.598875928059114
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0215#1",
+                "similarity": 0.597656726837158
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0071#1",
+                "similarity": 0.58916141358499
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0216#2",
+                "similarity": 0.577604591846466
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0256#2",
+                "similarity": 0.577058484904951
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0232#1",
+                "similarity": 0.575490237129691
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.555772354224835
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0072#1",
+                "similarity": 0.555130653961823
+              }
+            ]
+          },
+          "card_id": "fc34b8a1-3118-43e1-9ffb-83512d3ec37e",
+          "card_name_en": "Nine of Wands"
+        },
+        {
+          "type": "basic_upright_reversed_suit_meaning",
+          "query": "Seven of Wands tarot card meaning divinatory upright meaning fire element action suit",
+          "result": {
+            "text": "The Seven of Wands, when upright, signifies a need to defend one's position and stand firm against challenges. It embodies the energy of the Fire element, representing action, courage, and determination. This card suggests that you may be facing competition or opposition, but it encourages you to assert yourself and maintain your ground. It reflects a dynamic situation where you must be proactive and resilient, often indicating a struggle that ultimately leads to personal growth and empowerment. The card also hints at the excitement of conflict and the adrenaline that comes with overcoming obstacles.",
+            "debug": {
+              "latency_ms": 2951,
+              "num_results": 10,
+              "top_doc_ids": [
+                "78degrees-section-0198#1",
+                "78degrees-section-0203#1",
+                "78degrees-section-0180#1",
+                "78degrees-section-0182#1",
+                "78degrees-section-0199#1",
+                "78degrees-section-0201#1",
+                "pkt-section-0071#1",
+                "pkt-section-0073#1",
+                "pkt-section-0084#1",
+                "pkt-section-0081#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0198#1",
+                "similarity": 0.662597616756115
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0203#1",
+                "similarity": 0.648112097270019
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.633399881923193
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0182#1",
+                "similarity": 0.632435955550431
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0199#1",
+                "similarity": 0.613795780313276
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0201#1",
+                "similarity": 0.612168381422479
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0071#1",
+                "similarity": 0.606416458465141
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.580589380948153
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.566162815644993
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0081#1",
+                "similarity": 0.565751824721804
+              }
+            ]
+          },
+          "card_id": "62c85fd4-9920-48e3-85ab-8b14bac7c1b1",
+          "card_name_en": "Seven of Wands"
+        },
+        {
+          "type": "visual_description",
+          "query": "Seven of Wands tarot card description image visual appearance",
+          "result": {
+            "text": "The Seven of Wands typically depicts a figure standing on a hill or elevated position, holding a wand defensively while facing several other wands pointed towards them from below. This imagery suggests a sense of challenge or competition, where the individual must defend their position or beliefs against opposition. The background often features a landscape that emphasizes the height of the figure, symbolizing the struggle to maintain one's ground amidst adversity. The overall tone conveys determination and resilience in the face of challenges.",
+            "debug": {
+              "latency_ms": 2902,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0071#1",
+                "78degrees-section-0202#1",
+                "78degrees-section-0182#1",
+                "78degrees-section-0174#1",
+                "pkt-section-0073#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0071#1",
+                "similarity": 0.619415577001773
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.606847488472025
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0182#1",
+                "similarity": 0.597186958622156
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0174#1",
+                "similarity": 0.592505013495984
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.585635868554692
+              }
+            ]
+          },
+          "card_id": "62c85fd4-9920-48e3-85ab-8b14bac7c1b1",
+          "card_name_en": "Seven of Wands"
+        },
+        {
+          "type": "position_and_psychological_meaning",
+          "query": "Seven of Wands tarot card future position meaning psychological meaning interpretation",
+          "result": {
+            "text": "The Seven of Wands in the future position suggests a psychological state of resilience and determination. It indicates that you may face challenges or competition, but you possess the inner strength to stand your ground and defend your beliefs or position. This card reflects a mindset of perseverance, encouraging you to confront obstacles with confidence. It may also signify a need to assert yourself and maintain your boundaries, highlighting the importance of self-advocacy in the face of adversity. Overall, it emphasizes the psychological readiness to engage in struggles and emerge victorious.",
+            "debug": {
+              "latency_ms": 3376,
+              "num_results": 10,
+              "top_doc_ids": [
+                "78degrees-section-0295#1",
+                "78degrees-section-0217#1",
+                "78degrees-section-0305#2",
+                "78degrees-section-0350#1",
+                "78degrees-section-0202#1",
+                "78degrees-section-0255#1",
+                "pkt-section-0071#1",
+                "pkt-section-0072#1",
+                "pkt-section-0079#1",
+                "pkt-section-0066#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0295#1",
+                "similarity": 0.587904407756734
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0217#1",
+                "similarity": 0.58651452225274
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.565404969679422
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.55834224472391
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.55676983433489
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.554443141023552
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0071#1",
+                "similarity": 0.551562379160913
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0072#1",
+                "similarity": 0.539165666302284
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.538425012277823
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0066#1",
+                "similarity": 0.535534684125778
+              }
+            ]
+          },
+          "card_id": "62c85fd4-9920-48e3-85ab-8b14bac7c1b1",
+          "card_name_en": "Seven of Wands"
+        }
+      ],
+      "model_used": null,
+      "temperature": null,
+      "processing_time_ms": 61115,
+      "tokens_used": null,
+      "created_at": "2025-11-08T00:13:37.769882+00:00"
+    },
+    {
+      "step_name": "final_interpretation",
+      "step_order": 8,
+      "input_data": {
+        "question": "我的父亲11月运势如何",
+        "spread_method": {
+          "rag_text": "[method_steps] To perform a three-card spread in Tarot divination, follow these steps:\n\n1. **Prepare the Space**: Find a quiet space where you can focus without distractions.\n\n2. **Set Your Intention**: If you have a specific question, concentrate on it and say it out loud. If not, clear your mind and focus on the Significator.\n\n3. **Shuffle the Cards**: Shuffle the entire deck thoroughly while keeping your mind as blank as possible. This helps to avoid personal bias.\n\n4. **Draw the Cards**: After shuffling, draw three cards from the deck. You can either take them from the top or fan them out and select them intuitively.\n\n5. **Interpret the Cards**: Lay the three cards out in a row. Typically, the first card represents the past, the second the present, and the third the future. Interpret each card based on its position and meaning.\n\n6. **Combine Meanings**: Consider how the cards interact with each other to provide a deeper insight into your question or situation.\n\n7. **Reflect**: Take a moment to reflect on the reading and how it resonates with your current circumstances. \n\nThis method allows for a concise yet insightful reading, providing clarity on the situation at hand.\n\n[position_interpretation] In a three-card spread, the positions typically represent the following:\n\n1. **First Card (Significator)**: This card reflects the current situation or the Querent's present state regarding the question at hand.\n\n2. **Second Card (Crosses Him)**: This card indicates obstacles or challenges that the Querent may face. If it is a favorable card, it suggests that the opposing forces are not serious or that something positive may not yield the expected results.\n\n3. **Third Card (Crowns Him)**: This card symbolizes the Querent's aim or ideal in the matter, representing the best possible outcome under the current circumstances that has not yet been realized. \n\nEach card's meaning can be influenced by its position and the context of the reading.\n\n[psychological_background] In a three-card spread from a psychological perspective, each card can represent different aspects of the querent's psyche or situation:\n\n1. **Past Influences**: The first card reflects past experiences or influences that have shaped the current situation. It may reveal underlying beliefs or emotional patterns that need to be acknowledged.\n\n2. **Present Situation**: The second card represents the current state of mind or circumstances. This card can highlight conscious thoughts, feelings, or challenges that the querent is facing, emphasizing the need for awareness and introspection.\n\n3. **Future Guidance**: The third card offers insight into potential outcomes or advice for moving forward. It encourages the querent to integrate the lessons from the past and present to foster personal growth and transformation.\n\nThis approach aligns with the principles of the Magician (will) and the High Priestess (intuition), promoting a balance between conscious decision-making and intuitive understanding.\n\n[traditional_method] The three-card spread is a traditional Tarot divination method that can be traced back to ancient practices, including Celtic traditions. In this spread, three cards are drawn and typically represent the past, present, and future, providing insight into the Querent's situation. Each card's meaning is interpreted individually, but they can also be read in combination to reveal deeper connections and narratives. This method emphasizes simplicity and clarity, aligning with the belief that straightforward approaches yield the most truthful insights.",
+          "citations": [
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0284#1",
+              "similarity": 0.621696174144745
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0104#1",
+              "similarity": 0.620455965941438
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0101#1",
+              "similarity": 0.609357357025146
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0103#2",
+              "similarity": 0.602821504397051
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0309#1",
+              "similarity": 0.592379212379456
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0099#1",
+              "similarity": 0.614531416133983
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0095#1",
+              "similarity": 0.602878212928772
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.592980402498854
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0310#1",
+              "similarity": 0.585016906261444
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0269#1",
+              "similarity": 0.626007650197699
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0097#1",
+              "similarity": 0.597326887131891
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0285#2",
+              "similarity": 0.593251382902373
+            }
+          ],
+          "query_count": 4,
+          "query_types": [
+            "method_steps",
+            "position_interpretation",
+            "psychological_background",
+            "traditional_method"
+          ],
+          "spread_type": "three_card"
+        },
+        "selected_cards": [
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "4f43c273-7133-432e-9618-24aa72233687",
+            "position": "past",
+            "card_number": 8,
+            "is_reversed": true,
+            "card_name_cn": "八 宝剑",
+            "card_name_en": "Eight of Swords",
+            "position_order": 1,
+            "position_description": "过去的影响"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "fc34b8a1-3118-43e1-9ffb-83512d3ec37e",
+            "position": "present",
+            "card_number": 9,
+            "is_reversed": false,
+            "card_name_cn": "九 权杖",
+            "card_name_en": "Nine of Wands",
+            "position_order": 2,
+            "position_description": "当前状况"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "62c85fd4-9920-48e3-85ab-8b14bac7c1b1",
+            "position": "future",
+            "card_number": 7,
+            "is_reversed": false,
+            "card_name_cn": "七 权杖",
+            "card_name_en": "Seven of Wands",
+            "position_order": 3,
+            "position_description": "未来趋势"
+          }
+        ],
+        "card_information": {
+          "4f43c273-7133-432e-9618-24aa72233687": {
+            "position": "past",
+            "rag_text": "[basic_upright_reversed_suit_meaning] The Eight of Swords reversed signifies a desire for self-understanding and liberation from oppressive situations. It reflects a shift from confusion and isolation towards clarity and freedom. In the context of the air element and thought, it suggests overcoming mental barriers and gaining insight into one's circumstances, leading to empowerment and the ability to move forward.\n\n[visual_description] The Eight of Swords depicts a blindfolded woman standing in mud, symbolizing humiliation and shame. She is surrounded by swords, which represent oppression, but they do not physically confine her. The ropes binding her do not restrict her legs, indicating that she has the ability to leave her situation. The presence of a castle in the background symbolizes authority, while the blindfold signifies confusion and isolation from others in similar circumstances. Overall, the imagery conveys a sense of entrapment that is more psychological than physical.\n\n[position_and_psychological_meaning] In the past position, the Eight of Swords suggests a period of feeling trapped and restricted, often due to self-imposed limitations or negative thought patterns. Psychologically, it reflects a sense of confusion and isolation, where the individual may have felt powerless and unable to see a way out of their situation. The blindfold symbolizes a lack of clarity and awareness, indicating that the person may have been unaware of their own ability to change their circumstances. This card highlights the importance of recognizing that the barriers are often mental rather than physical, encouraging a journey towards self-discovery and liberation.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.636814155388722
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.635337349951627
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0228#1",
+                "similarity": 0.623867552761213
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.617328721801303
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.612685483316022
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.61208741032817
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0234#1",
+                "similarity": 0.610412652231394
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0351#1",
+                "similarity": 0.60452421321047
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0229#1",
+                "similarity": 0.600592058879376
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.584829544116828
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0174#1",
+                "similarity": 0.624467015266418
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.610976063550946
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.603962826256419
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#1",
+                "similarity": 0.572418987751023
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0240#1",
+                "similarity": 0.567833866606133
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0072#1",
+                "similarity": 0.545492638232079
+              }
+            ],
+            "is_reversed": true,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_suit_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "八 宝剑",
+            "card_name_en": "Eight of Swords"
+          },
+          "62c85fd4-9920-48e3-85ab-8b14bac7c1b1": {
+            "position": "future",
+            "rag_text": "[basic_upright_reversed_suit_meaning] The Seven of Wands, when upright, signifies a need to defend one's position and stand firm against challenges. It embodies the energy of the Fire element, representing action, courage, and determination. This card suggests that you may be facing competition or opposition, but it encourages you to assert yourself and maintain your ground. It reflects a dynamic situation where you must be proactive and resilient, often indicating a struggle that ultimately leads to personal growth and empowerment. The card also hints at the excitement of conflict and the adrenaline that comes with overcoming obstacles.\n\n[visual_description] The Seven of Wands typically depicts a figure standing on a hill or elevated position, holding a wand defensively while facing several other wands pointed towards them from below. This imagery suggests a sense of challenge or competition, where the individual must defend their position or beliefs against opposition. The background often features a landscape that emphasizes the height of the figure, symbolizing the struggle to maintain one's ground amidst adversity. The overall tone conveys determination and resilience in the face of challenges.\n\n[position_and_psychological_meaning] The Seven of Wands in the future position suggests a psychological state of resilience and determination. It indicates that you may face challenges or competition, but you possess the inner strength to stand your ground and defend your beliefs or position. This card reflects a mindset of perseverance, encouraging you to confront obstacles with confidence. It may also signify a need to assert yourself and maintain your boundaries, highlighting the importance of self-advocacy in the face of adversity. Overall, it emphasizes the psychological readiness to engage in struggles and emerge victorious.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0198#1",
+                "similarity": 0.662597616756115
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0203#1",
+                "similarity": 0.648112097270019
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.633399881923193
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0182#1",
+                "similarity": 0.632435955550431
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0199#1",
+                "similarity": 0.613795780313276
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0201#1",
+                "similarity": 0.612168381422479
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0071#1",
+                "similarity": 0.606416458465141
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.580589380948153
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0084#1",
+                "similarity": 0.566162815644993
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0081#1",
+                "similarity": 0.565751824721804
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.606847488472025
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0174#1",
+                "similarity": 0.592505013495984
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0295#1",
+                "similarity": 0.587904407756734
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0217#1",
+                "similarity": 0.58651452225274
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.565404969679422
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0350#1",
+                "similarity": 0.55834224472391
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.554443141023552
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0072#1",
+                "similarity": 0.539165666302284
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.538425012277823
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0066#1",
+                "similarity": 0.535534684125778
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_suit_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "七 权杖",
+            "card_name_en": "Seven of Wands"
+          },
+          "fc34b8a1-3118-43e1-9ffb-83512d3ec37e": {
+            "position": "present",
+            "rag_text": "[basic_upright_reversed_suit_meaning] The Nine of Wands, when upright, signifies resilience and strength in the face of adversity. It represents someone who has faced significant challenges and opposition but has emerged stronger and more determined. This card embodies the spirit of perseverance, indicating that while conflicts may persist, the individual is prepared to defend their position and resources. It reflects a readiness to continue fighting for one's goals, showcasing both physical and mental alertness. The energy of Fire in this card emphasizes action, courage, and the ability to overcome obstacles, suggesting that success is within reach despite ongoing struggles.\n\n[visual_description] The Nine of Wands typically depicts a strong figure, often muscular and keen-eyed, standing defensively with a bandage or injury, symbolizing resilience after facing opposition. Behind him are eight wands, which can represent both his resources and the challenges he has overcome. The overall imagery conveys a sense of strength, determination, and readiness to confront further challenges, embodying the themes of endurance and perseverance in the face of adversity.\n\n[position_and_psychological_meaning] The Nine of Wands represents resilience and perseverance in the face of adversity. Psychologically, it reflects a state of being battle-weary yet determined. The individual has faced significant challenges and opposition, leading to a strengthened sense of self. However, this card also indicates a tendency to become trapped in conflict, suggesting that while one is prepared to defend themselves, they may also be struggling with emotional fatigue and the weight of past struggles. It encourages the need for self-care and reflection on whether the ongoing fight is worth the toll it takes on one's well-being.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0198#1",
+                "similarity": 0.711295239097733
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0197#1",
+                "similarity": 0.666632413864141
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0203#1",
+                "similarity": 0.65221031593023
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0202#1",
+                "similarity": 0.635098462981262
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0180#1",
+                "similarity": 0.630643747410552
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0199#1",
+                "similarity": 0.62688792463161
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0188#1",
+                "similarity": 0.626372057985434
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0201#1",
+                "similarity": 0.621332460244767
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0071#1",
+                "similarity": 0.616817813610502
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0073#1",
+                "similarity": 0.5726001433313
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0215#1",
+                "similarity": 0.597656726837158
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0216#2",
+                "similarity": 0.577604591846466
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0256#2",
+                "similarity": 0.577058484904951
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0232#1",
+                "similarity": 0.575490237129691
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.555772354224835
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0072#1",
+                "similarity": 0.555130653961823
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 3,
+            "query_types": [
+              "basic_upright_reversed_suit_meaning",
+              "visual_description",
+              "position_and_psychological_meaning"
+            ],
+            "card_name_cn": "九 权杖",
+            "card_name_en": "Nine of Wands"
+          }
+        },
+        "pattern_analysis": {
+          "analysis_method": "code_based",
+          "number_patterns": {
+            "number_jumps": [],
+            "same_numbers": [],
+            "number_sequences": [
+              "连续数字: 7 → 8",
+              "连续数字: 8 → 9"
+            ]
+          },
+          "reversed_patterns": {
+            "count": 1,
+            "positions": [
+              "past"
+            ],
+            "interpretation": "1张逆位牌(Eight of Swords)，表示该位置的阻碍或挑战"
+          },
+          "suit_distribution": {
+            "cups_count": 0,
+            "major_count": 0,
+            "wands_count": 2,
+            "swords_count": 1,
+            "interpretation": "权杖2张(火元素-行动); 宝剑1张(风元素-思想)",
+            "pentacles_count": 0
+          },
+          "special_combinations": [],
+          "major_arcana_patterns": {
+            "count": 0,
+            "meaning": "无大阿卡纳，关注日常事务",
+            "positions": []
+          },
+          "position_relationships": {
+            "time_flow": "past (Eight of Swords) → present (Nine of Wands) → future (Seven of Wands)",
+            "support_conflict": "逆位牌(1张)可能表示阻碍或挑战: Eight of Swords",
+            "causal_relationships": [
+              "past (Eight of Swords) → present (Nine of Wands)",
+              "present (Nine of Wands) → future (Seven of Wands)"
+            ]
+          }
+        },
+        "question_analysis": {
+          "reasoning": "这是一个关于运势的中等复杂度问题，三牌占卜可以提供关于父亲在11月的整体运势的清晰洞察。",
+          "complexity": "moderate",
+          "question_type": "general",
+          "question_domain": "general",
+          "question_summary": "分析父亲在11月的整体运势",
+          "recommended_spread": "three_card",
+          "auto_selected_spread": true
+        }
+      },
+      "output_data": {
+        "llm_response": "## 整体解读\n\n在11月，你的父亲将经历一段从感到受限到重新获得力量和信心的旅程。过去的限制正在解开，他将逐渐展示出更强的韧性和抵抗力，迎接未来的挑战。\n\n## 位置解读\n\n1. **过去 (Eight of Swords [逆位])**：\n   - 这张牌逆位意味着你的父亲正在从一种被动的、受限的状态中解脱出来。过去可能有一些自我设限的想法或情境让他感到受困，但现在他逐渐意识到可以走出这些限制，开始寻求更大的自由和理解。\n\n2. **现在 (Nine of Wands)**：\n   - 九杖正位表明他当前正在经历一些挑战，但同时也展现出极大的韧性和顽强精神。他可能已经经历了一些困难，但并没有被打倒，相反，他为即将到来的进一步挑战做好了准备。他有足够的经验和智慧来面对当前的状况。\n\n3. **未来 (Seven of Wands)**：\n   - 七杖正位预示着即将面临需要自我捍卫的局面。他可能需要坚定立场，面对来自外界的竞争或压力。虽然情况可能要求他采取防守姿态，但这也是一个机会去展示他所拥有的力量和决心。\n\n## 关系分析\n\n这组牌反映了一个从被动到主动的转变过程。过去的八剑逆位表明你的父亲正在逐步摆脱心理上的束缚。九杖则暗示他已经积累了一定的经验来应对挑战，而七杖预示着他将需要进一步展示自己的坚韧和决心。整体上，这种逐步增强的力量表明他具备克服困难的潜力，并有能力捍卫自己的立场。\n\n## 模式解释\n\n- **数字模式**：八、九、七的顺序显示了一种从限制到力量的演变。八到九的过渡显示了从困境中崛起的过程，而九到七的转变则意味着通过保持坚定来面对新的挑战。\n- **花色分布**：权杖牌占主导，表明这个月将是一个充满活力和行动的时期。他需要用行动和激情来应对生活中的挑战。\n- **逆位模式**：只有一张逆位牌，强调了从过去的受限状态中解放的主题。\n\n## 个性化建议\n\n针对你父亲的11月运势，可以建议他：\n\n1. **自我反省**：继续保持对自己局限的反省，打破过去的束缚，勇敢地走出舒适区。\n2. **保持韧性**：面对当前的挑战时，保持坚定和自信。他已经具备足够的经验来应对这些状况。\n3. **捍卫立场**：准备好迎接来自外部的挑战，坚定自己的信念，展示他的实力和决心。\n4. **寻求支持**：适时地寻求他人的帮助和支持，这可以让他在面对困难时更加从容。",
+        "interpretation": {
+          "advice": null,
+          "references": [
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Eight of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Eight of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Eight of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Eight of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Eight of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Eight of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Eight of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Eight of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Eight of Swords"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Eight of Swords"
+            }
+          ],
+          "overall_summary": "## 整体解读\n\n在11月，你的父亲将经历一段从感到受限到重新获得力量和信心的旅程。过去的限制正在解开，他将逐渐展示出更强的韧性和抵抗力，迎接未来的挑战。\n\n## 位置解读\n\n1. **过去 (Eight of Swords [逆位])**：\n   - 这张牌逆位意味着你的父亲正在从一种被动的、受限的状态中解脱出来。过去可能有一些自我设限的想法或情境让他感到受困，但现在他逐渐意识到可以走出这些限制，开始寻求更大的自由和理解。\n\n2. **现在 (Nine of Wands)**：\n   - 九杖正位表明他当前正在经历一些挑战，但同时也展现出极大的韧性和顽强精神。他可能已经经历了一些困难，但并没有被打倒，相反，他为即将到来的进一步挑战做好了准备。他有足够的经验和智慧来面对当前的状况。\n\n3. **未来 (Seven of Wands)**：\n   - 七杖正位预示着即将面临需要自我捍卫的局面。他可能需要坚定立场，面对来自外界的竞争或压力。虽然情况可能要求他采取防守姿态，但这也是一个机会去展示他所拥有的力量和决心。\n\n## 关系分析\n\n这组牌反映了一个从被动到主动的转变过程。过去的八剑逆位",
+          "pattern_explanation": "权杖2张(火元素-行动); 宝剑1张(风元素-思想)",
+          "relationship_analysis": "past (Eight of Swords) → present (Nine of Wands) → future (Seven of Wands)",
+          "interpretation_metadata": null,
+          "position_interpretations": [
+            {
+              "position": "past",
+              "card_name_cn": "八 宝剑",
+              "card_name_en": "Eight of Swords",
+              "relationships": null,
+              "interpretation": "[basic_upright_reversed_suit_meaning] The Eight of Swords reversed signifies a desire for self-understanding and liberation from oppressive situations. It reflects a shift from confusion and isolation towards clarity and freedom. In the context of the air element and thought, it suggests overcoming mental barriers and gaining insight into one's circumstances, leading to empowerment and the ability to move forward.\n\n[visual_description] The Eight of Swords depicts a blindfolded woman standing in mud, symbolizing humiliation and shame. She is surrounded by swords, which represent oppression, but they do not physically confine her. The ropes binding her do not restrict her legs, indicating that she has the ability to leave her situation. The presence of a castle in the background symbolizes authority, while the blindfold signifies confusion and isolation from others in similar circumstances. Overall, the imagery conveys a sense of entrapment that is more psychological than physical.\n\n[position_and_psychological_meaning] In the past position, the Eight of Swords suggests a period of feeling trapped and restricted, often due to self-imposed limitations or negative thought patterns. Psychologically, it reflects a sense of confusion and isolation, where the individual may have felt powerless and unable to see a way out of their situation. The blindfold symbolizes a lack of clarity and awareness, indicating that the person may have been unaware of their own ability to change their circumstances. This card highlights the importance of recognizing that the barriers are often mental rather than physical, encouraging a journey towards self-discovery and liberation.",
+              "position_order": 1
+            },
+            {
+              "position": "present",
+              "card_name_cn": "九 权杖",
+              "card_name_en": "Nine of Wands",
+              "relationships": null,
+              "interpretation": "[basic_upright_reversed_suit_meaning] The Nine of Wands, when upright, signifies resilience and strength in the face of adversity. It represents someone who has faced significant challenges and opposition but has emerged stronger and more determined. This card embodies the spirit of perseverance, indicating that while conflicts may persist, the individual is prepared to defend their position and resources. It reflects a readiness to continue fighting for one's goals, showcasing both physical and mental alertness. The energy of Fire in this card emphasizes action, courage, and the ability to overcome obstacles, suggesting that success is within reach despite ongoing struggles.\n\n[visual_description] The Nine of Wands typically depicts a strong figure, often muscular and keen-eyed, standing defensively with a bandage or injury, symbolizing resilience after facing opposition. Behind him are eight wands, which can represent both his resources and the challenges he has overcome. The overall imagery conveys a sense of strength, determination, and readiness to confront further challenges, embodying the themes of endurance and perseverance in the face of adversity.\n\n[position_and_psychological_meaning] The Nine of Wands represents resilience and perseverance in the face of adversity. Psychologically, it reflects a state of being battle-weary yet determined. The individual has faced significant challenges and opposition, leading to a strengthened sense of self. However, this card also indicates a tendency to become trapped in conflict, suggesting that while one is prepared to defend themselves, they may also be struggling with emotional fatigue and the weight of past struggles. It encourages the need for self-care and reflection on whether the ongoing fight is worth the toll it takes on one's well-being.",
+              "position_order": 2
+            },
+            {
+              "position": "future",
+              "card_name_cn": "七 权杖",
+              "card_name_en": "Seven of Wands",
+              "relationships": null,
+              "interpretation": "[basic_upright_reversed_suit_meaning] The Seven of Wands, when upright, signifies a need to defend one's position and stand firm against challenges. It embodies the energy of the Fire element, representing action, courage, and determination. This card suggests that you may be facing competition or opposition, but it encourages you to assert yourself and maintain your ground. It reflects a dynamic situation where you must be proactive and resilient, often indicating a struggle that ultimately leads to personal growth and empowerment. The card also hints at the excitement of conflict and the adrenaline that comes with overcoming obstacles.\n\n[visual_description] The Seven of Wands typically depicts a figure standing on a hill or elevated position, holding a wand defensively while facing several other wands pointed towards them from below. This imagery suggests a sense of challenge or competition, where the individual must defend their position or beliefs against opposition. The background often features a landscape that emphasizes the height of the figure, symbolizing the struggle to maintain one's ground amidst adversity. The overall tone conveys determination and resilience in the face of challenges.\n\n[position_and_psychological_meaning] The Seven of Wands in the future position suggests a psychological state of resilience and determination. It indicates that you may face challenges or competition, but you possess the inner strength to stand your ground and defend your beliefs or position. This card reflects a mindset of perseverance, encouraging you to confront obstacles with confidence. It may also signify a need to assert yourself and maintain your boundaries, highlighting the importance of self-advocacy in the face of adversity. Overall, it emphasizes the psychological readiness to engage in struggles and emerge victorious.",
+              "position_order": 3
+            }
+          ]
+        }
+      },
+      "prompt_type": "final_interpretation",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师，精通PKT和78 Degrees of Wisdom的传统解读方法。\n\n## 用户问题：\n我的父亲11月运势如何\n\n## 问题分析：\n- 领域：general\n- 复杂度：moderate\n- 问题类型：general\n\n## 用户信息：\n年龄: 28\n性别: female\n星座: Leo\n\n## 占卜方式：\nthree_card - [method_steps] To perform a three-card spread in Tarot divination, follow these steps:\n\n1. **Prepare the Space**: Find a quiet space where you can focus without distractions.\n\n2. **Set Your Intention**: If you have a specific question, concentrate on it and say it out loud. If not, clear your mind a\n\n## 牌阵信息：\n1. past: Eight of Swords [逆位]\n   含义: [basic_upright_reversed_suit_meaning] The Eight of Swords reversed signifies a desire for self-understanding and liberation from oppressive situations. It reflects a shift from confusion and isolation...\n2. present: Nine of Wands\n   含义: [basic_upright_reversed_suit_meaning] The Nine of Wands, when upright, signifies resilience and strength in the face of adversity. It represents someone who has faced significant challenges and opposi...\n3. future: Seven of Wands\n   含义: [basic_upright_reversed_suit_meaning] The Seven of Wands, when upright, signifies a need to defend one's position and stand firm against challenges. It embodies the energy of the Fire element, represe...\n\n## 牌型分析结果：\n位置关系：past (Eight of Swords) → present (Nine of Wands) → future (Seven of Wands)\n花色分布：权杖2张(火元素-行动); 宝剑1张(风元素-思想)\n大阿卡纳模式：无大阿卡纳，关注日常事务\n逆位模式：1张逆位牌(Eight of Swords)，表示该位置的阻碍或挑战\n\n## 牌之间的关系和模式（RAG检索）：\n[number_patterns] In the context of Tarot card number patterns, the sequence you provided—Eight of Swords, Nine of Wands, and Seven of Wands—reflects a progression in the suit of Wands and Swords. \n\n- **Eight of Swords**: Represents feelings of restriction and mental entrapment.\n- **Nine of Wands**: Symbolizes resilience and perseverance despite challenges.\n- **Seven of Wands**: Indicates a need to defend one's position and stand firm against opposition.\n\nThe sequence shows a movement from mental constraints (Eight) to resilience (Nine) and then to the need for defense (Seven), suggesting a narrative of overcoming obstacles and asserting oneself.\n\n[suit_distribution] In a Tarot spread, if the distribution shows a dominance of Swords and Wands, it indicates a balance of active, yang energies. Swords represent intellect, conflict, and decision-making, while Wands symbolize creativity, action, and passion. This combination suggests a period of dynamic experiences involving both mental challenges and energetic pursuits. However, it may also highlight a potential imbalance if there are fewer Cups (emotional, receptive) and Pentacles (material, grounded) cards, indicating a need to address emotional and practical aspects of life.\n\n[reversed_pattern] In a Tarot spread, a reversed card typically indicates a blockage or distortion of the card's upright meaning. It suggests that the qualities associated with the card are not being fully realized or are being channeled in an unexpected direction. For example, if the Fool is reversed, it may signify a failure to trust one's instincts or a reluctance to take necessary risks due to fear or over-reliance on practical advice. Overall, reversed cards can reveal deeper insights, highlighting challenges, internal conflicts, or the need for reevaluation in the context of the reading.\n\n[card_relationships] In this sequence, the Eight of Swords in the past position indicates a period of feeling trapped or restricted, often due to self-imposed limitations or fears. Moving to the Nine of Wands in the present, this card suggests resilience and perseverance despite challenges; it reflects a readiness to defend one's position and the strength gained from past struggles. Finally, the Seven of Wands in the future position signifies a need to stand your ground and assert yourself against competition or opposition. Together, this sequence illustrates a journey from feeling confined to becoming empowered and ready to face future challenges with confidence.\n\n## 解读要求：\n请提供一个全面的塔罗占卜解读，包含：\n1. **整体解读**：2-3句话的整体摘要\n2. **位置解读**：对每个位置进行详细解读，结合卡牌的基本含义和位置的含义\n3. **关系分析**：分析牌之间的关系（时间线、因果、支持/对抗）\n4. **模式解释**：解释数字模式、花色分布、特殊组合的含义\n5. **个性化建议**：基于用户信息和问题，提供具体建议\n\n请用中文输出，使用Markdown格式。",
+      "rag_queries": null,
+      "model_used": "gpt-4o",
+      "temperature": 0.7,
+      "processing_time_ms": 9697,
+      "tokens_used": null,
+      "created_at": "2025-11-08T00:13:47.581945+00:00"
+    }
+  ],
+  "reading_id": "78818888-d96d-4d9b-82ae-0f832a644fa8",
+  "final_result": {
+    "reading_id": "78818888-d96d-4d9b-82ae-0f832a644fa8",
+    "question": "我的父亲11月运势如何",
+    "spread_type": "three_card",
+    "significator": null,
+    "cards_count": 3,
+    "pattern_analysis_method": "code_based",
+    "interpretation_summary": "## 整体解读\n\n在11月，你的父亲将经历一段从感到受限到重新获得力量和信心的旅程。过去的限制正在解开，他将逐渐展示出更强的韧性和抵抗力，迎接未来的挑战。\n\n## 位置解读\n\n1. **过去 (Eight of Swords [逆位])**：\n   - 这张牌逆位意味着你的父亲正在从一种被动的、受限的状态中解脱出来。过去可能有一些自我设限的想法或情境让他感到受困，但现在他逐渐意识到可以走出这些限制",
+    "metadata": {
+      "created_at": "2025-11-08T00:13:47.678924",
+      "processing_time_ms": 75183,
+      "pattern_analysis_method": "code_based"
+    }
+  },
+  "total_time_ms": 75329,
+  "errors": [],
+  "reading_record": {
+    "id": "78818888-d96d-4d9b-82ae-0f832a644fa8",
+    "question": "我的父亲11月运势如何",
+    "status": "completed",
+    "current_step": "interpretation",
+    "question_domain": "general",
+    "question_complexity": "moderate",
+    "spread_type": "three_card",
+    "significator_card_id": null,
+    "has_pattern_analysis": true,
+    "has_interpretation": true,
+    "created_at": "2025-11-08T00:12:32.495358+00:00"
+  },
+  "cards": [
+    {
+      "id": "cd6dc7ac-5738-436d-97f9-eaa1310b0fd6",
+      "reading_id": "78818888-d96d-4d9b-82ae-0f832a644fa8",
+      "card_id": "4f43c273-7133-432e-9618-24aa72233687",
+      "position": "past",
+      "is_reversed": true,
+      "position_order": 1,
+      "created_at": "2025-11-08T00:12:36.402182+00:00",
+      "position_description": "过去的影响",
+      "card_selected_at": "2025-11-08T00:12:36.370875+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "7fe2c386-2008-4442-9ee8-0b28b0ae950d",
+      "reading_id": "78818888-d96d-4d9b-82ae-0f832a644fa8",
+      "card_id": "fc34b8a1-3118-43e1-9ffb-83512d3ec37e",
+      "position": "present",
+      "is_reversed": false,
+      "position_order": 2,
+      "created_at": "2025-11-08T00:12:36.402182+00:00",
+      "position_description": "当前状况",
+      "card_selected_at": "2025-11-08T00:12:36.370892+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "d8882d11-7917-4eb7-bfe6-cd34efcfb4b3",
+      "reading_id": "78818888-d96d-4d9b-82ae-0f832a644fa8",
+      "card_id": "62c85fd4-9920-48e3-85ab-8b14bac7c1b1",
+      "position": "future",
+      "is_reversed": false,
+      "position_order": 3,
+      "created_at": "2025-11-08T00:12:36.402182+00:00",
+      "position_description": "未来趋势",
+      "card_selected_at": "2025-11-08T00:12:36.370895+00:00",
+      "related_positions": null
+    }
+  ]
+}

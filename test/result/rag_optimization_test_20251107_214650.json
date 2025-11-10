@@ -1,0 +1,30 @@
+{
+  "question": "我下个月运势如何",
+  "user_profile": {
+    "age": 30,
+    "gender": "male",
+    "zodiac_sign": "Scorpio",
+    "appearance_type": "swords",
+    "personality_type": "cups",
+    "preferred_source": "pkt",
+    "preferred_spread": null
+  },
+  "total_time_ms": 129259,
+  "total_time_seconds": 129.259,
+  "rag_analysis": null,
+  "reading_result": {
+    "reading_id": "458f0859-5b2b-43f7-8639-34595c64527c",
+    "spread_type": "three_card",
+    "question_analysis": {
+      "question_domain": "general",
+      "complexity": "moderate",
+      "question_type": "general",
+      "recommended_spread": "three_card",
+      "reasoning": "这是一个关于运势的中等复杂度问题，三牌占卜可以提供对下个月整体运势的清晰洞察。",
+      "question_summary": "分析下个月的整体运势",
+      "auto_selected_spread": true
+    },
+    "cards_count": 3,
+    "pattern_analysis_method": "direct_llm"
+  }
+}

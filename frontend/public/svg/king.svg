@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- 国王 - 简约皇冠 -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" stroke-opacity="0.7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 皇冠轮廓 -->
+    <path d="M 25 60 L 35 28 L 45 48 L 50 22 L 55 48 L 65 28 L 75 60 Z" />
+    <line x1="25" y1="60" x2="75" y2="60" />
+
+    <!-- 顶部十字装饰 -->
+    <line x1="50" y1="22" x2="50" y2="14" />
+    <line x1="46" y1="18" x2="54" y2="18" />
+
+    <!-- 中央宝石 -->
+    <circle cx="50" cy="48" r="4" />
+
+    <!-- 侧面宝石 -->
+    <circle cx="35" cy="40" r="3" />
+    <circle cx="65" cy="40" r="3" />
+  </g>
+</svg>
+

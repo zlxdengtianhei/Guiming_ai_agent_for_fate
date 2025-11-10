@@ -1,0 +1,2 @@
+"""Tarot Agent Backend Application"""
+

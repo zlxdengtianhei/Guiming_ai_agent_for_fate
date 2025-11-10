@@ -1,0 +1,54 @@
+# Ignore all markdown files
+*.md
+
+# Ignore all log files
+*.log
+*.out
+
+# Ignore output folders
+output/
+**/output/
+
+# Ignore all shell scripts
+*.sh
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Node
+node_modules/
+.next/
+.nuxt/
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+nohup.out
+

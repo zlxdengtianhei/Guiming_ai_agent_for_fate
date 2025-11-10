@@ -1,0 +1,25 @@
+{
+  "test_timestamp": "2025-11-10T03:10:54.523618",
+  "question": "算一下我朋友的人生走势，什么时候发财，什么时候结婚，难度是high",
+  "user_profile": {
+    "age": 28,
+    "gender": "female",
+    "zodiac_sign": "Leo",
+    "appearance_type": "wands",
+    "personality_type": "wands",
+    "preferred_source": "pkt",
+    "preferred_spread": null,
+    "language": "zh",
+    "significator_priority": "question_first"
+  },
+  "steps": [],
+  "reading_id": null,
+  "final_result": null,
+  "total_time_ms": 0,
+  "errors": [
+    {
+      "error": "'NoneType' object has no attribute 'values'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/lexuanzhang/code/tarot_agent/test/test_complete_reading_with_logging.py\", line 65, in test_complete_reading_with_logging\n    result = await service.create_reading(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/lexuanzhang/code/tarot_agent/backend/app/services/tarot/reading_service.py\", line 293, in create_reading\n    for card_info in card_information.values():\n                     ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'values'\n"
+    }
+  ]
+}

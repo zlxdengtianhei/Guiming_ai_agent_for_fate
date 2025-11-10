@@ -1,0 +1,1749 @@
+{
+  "test_timestamp": "2025-11-06T14:59:22.938119",
+  "question": "我未来三个月的工作发展如何？",
+  "user_profile": {
+    "age": 28,
+    "gender": "female",
+    "zodiac_sign": "Leo",
+    "appearance_type": "wands",
+    "personality_type": "wands",
+    "preferred_source": "pkt",
+    "preferred_spread": null
+  },
+  "steps": [
+    {
+      "step_name": "question_analysis",
+      "step_order": 2,
+      "input_data": {
+        "question": "我未来三个月的工作发展如何？",
+        "user_profile": {
+          "age": 28,
+          "gender": "female",
+          "zodiac_sign": "Leo",
+          "appearance_type": "wands",
+          "personality_type": "wands",
+          "preferred_source": "pkt",
+          "preferred_spread": null
+        },
+        "user_selected_spread": null
+      },
+      "output_data": {
+        "analysis": {
+          "reasoning": "这是一个关于职业发展的中等复杂度问题，凯尔特十字可以提供更全面的视角和深入的分析。",
+          "complexity": "moderate",
+          "question_type": "general",
+          "question_domain": "career",
+          "question_summary": "用户想了解未来三个月的工作发展情况",
+          "recommended_spread": "celtic_cross",
+          "auto_selected_spread": true
+        },
+        "llm_response": "{\n    \"question_domain\": \"career\",\n    \"complexity\": \"moderate\",\n    \"question_type\": \"general\",\n    \"recommended_spread\": \"celtic_cross\",\n    \"reasoning\": \"这是一个关于职业发展的中等复杂度问题，凯尔特十字可以提供更全面的视角和深入的分析。\",\n    \"question_summary\": \"用户想了解未来三个月的工作发展情况\"\n}"
+      },
+      "prompt_type": "question_analysis",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师。请分析以下问题，并返回JSON格式的分析结果。\n\n## 问题：\n我未来三个月的工作发展如何？\n\n## 用户信息（可选）：\n年龄: 28\n性别: female\n星座: Leo\n性格类型: wands\n外貌类型: wands\n\n## 分析要求：\n1. **问题领域**：识别问题所属领域，从以下选项中选择其一：\n   - 'love': 爱情、关系、情感\n   - 'career': 职业、工作、事业\n   - 'health': 健康、身体、康复\n   - 'finance': 财务、金钱、物质\n   - 'personal_growth': 个人成长、精神、自我探索\n   - 'general': 一般生活、综合问题\n\n2. **问题复杂度**（如果用户未指定占卜方式）：\n   - 'simple': 简单问题，可以用三牌占卜回答\n   - 'moderate': 中等复杂度，推荐三牌或凯尔特十字\n   - 'complex': 复杂问题，需要凯尔特十字深入分析\n\n3. **提问类型**：\n   - 'specific_event': 具体事件（如：会得到这份工作吗？）\n   - 'relationship': 关系问题（如：我们的关系会如何发展？）\n   - 'choice': 选择问题（如：应该选择哪个方向？）\n   - 'general': 一般性问题（如：我的未来会怎样？）\n\n4. **推荐占卜方式**（如果用户未指定）：\n   - 'three_card': 三牌占卜\n   - 'celtic_cross': 凯尔特十字\n   - 'work_cycle': 工作循环（如果需要持续建议）\n   - 'other': 其他（说明原因）\n\n## 输出格式（JSON）：\n{\n    \"question_domain\": \"love\",\n    \"complexity\": \"simple\",\n    \"question_type\": \"relationship\",\n    \"recommended_spread\": \"three_card\",\n    \"reasoning\": \"这是一个关于关系的简单问题，三牌占卜可以清晰回答过去-现在-未来的发展\",\n    \"question_summary\": \"简要总结问题核心\"\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "rag_queries": null,
+      "model_used": "gpt-4o-mini",
+      "temperature": 0.3,
+      "processing_time_ms": 2601,
+      "tokens_used": null,
+      "created_at": "2025-11-06T13:59:25.648654+00:00"
+    },
+    {
+      "step_name": "pattern_analysis",
+      "step_order": 6,
+      "input_data": {
+        "use_rag": false,
+        "spread_type": "celtic_cross",
+        "selected_cards": [
+          {
+            "suit": "pentacles",
+            "arcana": "minor",
+            "card_id": "6d9f7507-4320-4889-99f7-151c3e186f98",
+            "position": "cover",
+            "card_number": 2,
+            "is_reversed": true,
+            "card_name_cn": "二 星币",
+            "card_name_en": "Two of Pentacles",
+            "position_order": 1,
+            "position_description": "覆盖Significator的牌，代表当前情况"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "5b80fb8e-45a1-4c7d-b46a-794e32e298cf",
+            "position": "crossing",
+            "card_number": 15,
+            "is_reversed": true,
+            "card_name_cn": "恶魔",
+            "card_name_en": "The Devil",
+            "position_order": 2,
+            "position_description": "横跨第一张牌的牌，代表阻碍或帮助"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "0d0a40c7-aa70-4bb2-8039-715f903cb7ac",
+            "position": "basis",
+            "card_number": 14,
+            "is_reversed": false,
+            "card_name_cn": "国王 圣杯",
+            "card_name_en": "King of Cups",
+            "position_order": 3,
+            "position_description": "位于Significator下方的牌，代表基础或根源"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce",
+            "position": "behind",
+            "card_number": 1,
+            "is_reversed": true,
+            "card_name_cn": "魔术师",
+            "card_name_en": "The Magician",
+            "position_order": 4,
+            "position_description": "代表过去的影响"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "7a3f0019-6398-43cd-b4f3-d972338d04aa",
+            "position": "crowned",
+            "card_number": 14,
+            "is_reversed": true,
+            "card_name_cn": "国王 宝剑",
+            "card_name_en": "King of Swords",
+            "position_order": 5,
+            "position_description": "代表可能的结果或目标"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "d9b4771f-d323-4ed9-9950-bc1ebedf4f81",
+            "position": "before",
+            "card_number": 12,
+            "is_reversed": false,
+            "card_name_cn": "骑士 圣杯",
+            "card_name_en": "Knight of Cups",
+            "position_order": 6,
+            "position_description": "代表即将到来的未来"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "2b6819e5-79c6-46b0-856c-dd7737d3cc97",
+            "position": "self",
+            "card_number": 17,
+            "is_reversed": false,
+            "card_name_cn": "星星",
+            "card_name_en": "The Star",
+            "position_order": 7,
+            "position_description": "代表问卜者自身"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "5a3d48a3-e39b-4da5-9613-65592720e768",
+            "position": "environment",
+            "card_number": 13,
+            "is_reversed": true,
+            "card_name_cn": "死神",
+            "card_name_en": "Death",
+            "position_order": 8,
+            "position_description": "代表周围环境和他人影响"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "8ed3c737-15a3-4597-9d45-37ea10985968",
+            "position": "hopes_and_fears",
+            "card_number": 7,
+            "is_reversed": true,
+            "card_name_cn": "七 圣杯",
+            "card_name_en": "Seven of Cups",
+            "position_order": 9,
+            "position_description": "代表问卜者的希望和恐惧"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "247e14d7-00fd-4f30-8e6b-43ba52e56c1a",
+            "position": "outcome",
+            "card_number": 1,
+            "is_reversed": false,
+            "card_name_cn": "王牌 权杖",
+            "card_name_en": "Ace of Wands",
+            "position_order": 10,
+            "position_description": "代表最终结果"
+          }
+        ],
+        "question_domain": "career"
+      },
+      "output_data": {
+        "analysis": {
+          "model_used": "gpt-4o-mini",
+          "analysis_method": "direct_llm",
+          "number_patterns": {
+            "number_jumps": [],
+            "same_numbers": [
+              "14: 国王圣杯、国王宝剑",
+              "12: 骑士圣杯"
+            ],
+            "number_sequences": []
+          },
+          "reversed_patterns": {
+            "count": 3,
+            "positions": [
+              "1: 二星币",
+              "2: 恶魔",
+              "4: 魔术师"
+            ],
+            "interpretation": "逆位牌暗示着不平衡、内心的挣扎和潜在的失去控制，可能影响问卜者的职业决策和方向。"
+          },
+          "suit_distribution": {
+            "cups_count": 4,
+            "major_count": 5,
+            "wands_count": 1,
+            "swords_count": 2,
+            "interpretation": "花色分布显示情感（圣杯）在职业问题中占主导地位，其次是理智（宝剑）和物质（星币），而大阿卡纳的数量则强调了重要的生命转变和内在成长。",
+            "pentacles_count": 1
+          },
+          "special_combinations": [
+            "国王圣杯与国王宝剑的组合显示出情感与理智的结合，可能提示问卜者需要在情感和理性之间找到平衡。"
+          ],
+          "major_arcana_patterns": {
+            "count": 5,
+            "meaning": "大阿卡纳的出现表明问卜者在职业生涯中面临重要的转折点和内在的成长机会，尤其是从过去的影响到未来的希望。",
+            "positions": [
+              "2: 恶魔",
+              "3: 魔术师",
+              "7: 星星",
+              "8: 死神",
+              "5: 王牌权杖"
+            ]
+          },
+          "position_relationships": {
+            "time_flow": "当前状态（覆盖牌）与过去的影响（在后面位置）相互影响，未来的可能性（在前面位置）也受到当前状态的影响。",
+            "support_conflict": "国王圣杯可能支持问卜者的情感稳定，但恶魔的逆位则表明存在内心的挣扎与诱惑，可能影响职业发展。",
+            "causal_relationships": [
+              "恶魔（阻碍）→ 二星币（当前状态）",
+              "魔术师（过去影响）→ 国王圣杯（基础）",
+              "国王圣杯（基础）→ 国王宝剑（目标）",
+              "国王宝剑（目标）→ 骑士圣杯（未来）",
+              "骑士圣杯（未来）→ 王牌权杖（结果）"
+            ]
+          }
+        },
+        "llm_response": "{\n    \"position_relationships\": {\n        \"time_flow\": \"当前状态（覆盖牌）与过去的影响（在后面位置）相互影响，未来的可能性（在前面位置）也受到当前状态的影响。\",\n        \"causal_relationships\": [\"恶魔（阻碍）→ 二星币（当前状态）\", \"魔术师（过去影响）→ 国王圣杯（基础）\", \"国王圣杯（基础）→ 国王宝剑（目标）\", \"国王宝剑（目标）→ 骑士圣杯（未来）\", \"骑士圣杯（未来）→ 王牌权杖（结果）\"],\n        \"support_conflict\": \"国王圣杯可能支持问卜者的情感稳定，但恶魔的逆位则表明存在内心的挣扎与诱惑，可能影响职业发展。\"\n    },\n    \"number_patterns\": {\n        \"same_numbers\": [\"14: 国王圣杯、国王宝剑\", \"12: 骑士圣杯\"],\n        \"number_sequences\": [],\n        \"number_jumps\": []\n    },\n    \"suit_distribution\": {\n        \"wands_count\": 1,\n        \"cups_count\": 4,\n        \"swords_count\": 2,\n        \"pentacles_count\": 1,\n        \"major_count\": 5,\n        \"interpretation\": \"花色分布显示情感（圣杯）在职业问题中占主导地位，其次是理智（宝剑）和物质（星币），而大阿卡纳的数量则强调了重要的生命转变和内在成长。\"\n    },\n    \"major_arcana_patterns\": {\n        \"count\": 5,\n        \"positions\": [\"2: 恶魔\", \"3: 魔术师\", \"7: 星星\", \"8: 死神\", \"5: 王牌权杖\"],\n        \"meaning\": \"大阿卡纳的出现表明问卜者在职业生涯中面临重要的转折点和内在的成长机会，尤其是从过去的影响到未来的希望。\"\n    },\n    \"reversed_patterns\": {\n        \"count\": 3,\n        \"positions\": [\"1: 二星币\", \"2: 恶魔\", \"4: 魔术师\"],\n        \"interpretation\": \"逆位牌暗示着不平衡、内心的挣扎和潜在的失去控制，可能影响问卜者的职业决策和方向。\"\n    },\n    \"special_combinations\": [\"国王圣杯与国王宝剑的组合显示出情感与理智的结合，可能提示问卜者需要在情感和理性之间找到平衡。\"]\n}"
+      },
+      "prompt_type": "pattern_analysis",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师。请分析以下牌阵的模式和关系。\n\n## 占卜方式：celtic_cross\n## 问题领域：career\n\n## 牌阵信息：\n1. cover (覆盖Significator的牌，代表当前情况): Two of Pentacles (二 星币) - pentacles 2 [逆位]\n2. crossing (横跨第一张牌的牌，代表阻碍或帮助): The Devil (恶魔) - major (major) [逆位]\n3. basis (位于Significator下方的牌，代表基础或根源): King of Cups (国王 圣杯) - cups 14\n4. behind (代表过去的影响): The Magician (魔术师) - major (major) [逆位]\n5. crowned (代表可能的结果或目标): King of Swords (国王 宝剑) - swords 14 [逆位]\n6. before (代表即将到来的未来): Knight of Cups (骑士 圣杯) - cups 12\n7. self (代表问卜者自身): The Star (星星) - major (major)\n8. environment (代表周围环境和他人影响): Death (死神) - major (major) [逆位]\n9. hopes_and_fears (代表问卜者的希望和恐惧): Seven of Cups (七 圣杯) - cups 7 [逆位]\n10. outcome (代表最终结果): Ace of Wands (王牌 权杖) - wands 1\n\n## 分析要求：\n1. **位置关系**：分析各位置之间的关系（时间线、因果、支持/对抗）\n2. **数字模式**：识别相同数字、数字序列、数字跳跃\n3. **花色分布**：分析各花色的分布和平衡\n4. **大阿卡纳模式**：分析大阿卡纳的位置和意义\n5. **逆位模式**：分析逆位牌的模式和含义\n6. **特殊组合**：识别宫廷牌组合、相同牌等特殊模式\n\n## 输出格式（JSON）：\n{\n    \"position_relationships\": {\n        \"time_flow\": \"描述时间线关系（如果有）\",\n        \"causal_relationships\": [\"原因→结果的关系列表\"],\n        \"support_conflict\": \"支持或对抗关系描述\"\n    },\n    \"number_patterns\": {\n        \"same_numbers\": [\"相同数字和含义说明\"],\n        \"number_sequences\": [\"数字序列和含义说明\"],\n        \"number_jumps\": [\"数字跳跃和含义说明\"]\n    },\n    \"suit_distribution\": {\n        \"wands_count\": 0,\n        \"cups_count\": 0,\n        \"swords_count\": 0,\n        \"pentacles_count\": 0,\n        \"major_count\": 0,\n        \"interpretation\": \"花色分布的含义解释\"\n    },\n    \"major_arcana_patterns\": {\n        \"count\": 0,\n        \"positions\": [\"大阿卡纳的位置列表\"],\n        \"meaning\": \"大阿卡纳模式的含义\"\n    },\n    \"reversed_patterns\": {\n        \"count\": 0,\n        \"positions\": [\"逆位牌的位置列表\"],\n        \"interpretation\": \"逆位模式的含义解释\"\n    },\n    \"special_combinations\": [\"特殊组合的描述列表\"]\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "rag_queries": null,
+      "model_used": "gpt-4o-mini",
+      "temperature": 0.5,
+      "processing_time_ms": 12819,
+      "tokens_used": null,
+      "created_at": "2025-11-06T13:59:38.866307+00:00"
+    },
+    {
+      "step_name": "rag_retrieval",
+      "step_order": 7,
+      "input_data": {
+        "spread_type": "celtic_cross",
+        "selected_cards": [
+          {
+            "suit": "pentacles",
+            "arcana": "minor",
+            "card_id": "6d9f7507-4320-4889-99f7-151c3e186f98",
+            "position": "cover",
+            "card_number": 2,
+            "is_reversed": true,
+            "card_name_cn": "二 星币",
+            "card_name_en": "Two of Pentacles",
+            "position_order": 1,
+            "position_description": "覆盖Significator的牌，代表当前情况"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "5b80fb8e-45a1-4c7d-b46a-794e32e298cf",
+            "position": "crossing",
+            "card_number": 15,
+            "is_reversed": true,
+            "card_name_cn": "恶魔",
+            "card_name_en": "The Devil",
+            "position_order": 2,
+            "position_description": "横跨第一张牌的牌，代表阻碍或帮助"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "0d0a40c7-aa70-4bb2-8039-715f903cb7ac",
+            "position": "basis",
+            "card_number": 14,
+            "is_reversed": false,
+            "card_name_cn": "国王 圣杯",
+            "card_name_en": "King of Cups",
+            "position_order": 3,
+            "position_description": "位于Significator下方的牌，代表基础或根源"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce",
+            "position": "behind",
+            "card_number": 1,
+            "is_reversed": true,
+            "card_name_cn": "魔术师",
+            "card_name_en": "The Magician",
+            "position_order": 4,
+            "position_description": "代表过去的影响"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "7a3f0019-6398-43cd-b4f3-d972338d04aa",
+            "position": "crowned",
+            "card_number": 14,
+            "is_reversed": true,
+            "card_name_cn": "国王 宝剑",
+            "card_name_en": "King of Swords",
+            "position_order": 5,
+            "position_description": "代表可能的结果或目标"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "d9b4771f-d323-4ed9-9950-bc1ebedf4f81",
+            "position": "before",
+            "card_number": 12,
+            "is_reversed": false,
+            "card_name_cn": "骑士 圣杯",
+            "card_name_en": "Knight of Cups",
+            "position_order": 6,
+            "position_description": "代表即将到来的未来"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "2b6819e5-79c6-46b0-856c-dd7737d3cc97",
+            "position": "self",
+            "card_number": 17,
+            "is_reversed": false,
+            "card_name_cn": "星星",
+            "card_name_en": "The Star",
+            "position_order": 7,
+            "position_description": "代表问卜者自身"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "5a3d48a3-e39b-4da5-9613-65592720e768",
+            "position": "environment",
+            "card_number": 13,
+            "is_reversed": true,
+            "card_name_cn": "死神",
+            "card_name_en": "Death",
+            "position_order": 8,
+            "position_description": "代表周围环境和他人影响"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "8ed3c737-15a3-4597-9d45-37ea10985968",
+            "position": "hopes_and_fears",
+            "card_number": 7,
+            "is_reversed": true,
+            "card_name_cn": "七 圣杯",
+            "card_name_en": "Seven of Cups",
+            "position_order": 9,
+            "position_description": "代表问卜者的希望和恐惧"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "247e14d7-00fd-4f30-8e6b-43ba52e56c1a",
+            "position": "outcome",
+            "card_number": 1,
+            "is_reversed": false,
+            "card_name_cn": "王牌 权杖",
+            "card_name_en": "Ace of Wands",
+            "position_order": 10,
+            "position_description": "代表最终结果"
+          }
+        ]
+      },
+      "output_data": {
+        "spread_method": {
+          "rag_text": "The Celtic Cross spread is a popular Tarot divination method that provides a comprehensive overview of a situation. It typically consists of ten cards, each representing different aspects of the querent's life or question. \n\n1. **Present Situation**: The first card represents the current state or challenge.\n2. **Crossing Card**: The second card shows the immediate obstacle or influence affecting the situation.\n3. **Crowning Card**: The third card indicates the best possible outcome or goal.\n4. **Base of the Matter**: The fourth card reveals the underlying influences or root causes.\n5. **Past Influences**: The fifth card reflects past events that have shaped the current situation.\n6. **Future Influences**: The sixth card predicts upcoming events or influences.\n7. **Self-Perception**: The seventh card represents how the querent views themselves in relation to the situation.\n8. **Environment**: The eighth card shows how others perceive the querent or the external influences at play.\n9. **Hopes and Fears**: The ninth card reveals the querent's inner hopes and fears regarding the situation.\n10. **Outcome**: The tenth card provides insight into the likely outcome based on the current trajectory.\n\nThis spread encourages a balance between conscious will (represented by the Magician) and intuition (represented by the High Priestess), allowing for a deeper understanding of the querent's circumstances and potential paths forward.",
+          "citations": [
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0056#2",
+              "similarity": 0.574243350191716
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0122#2",
+              "similarity": 0.569779872894303
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.5686990870087
+            }
+          ],
+          "spread_type": "celtic_cross"
+        },
+        "card_information": {
+          "0d0a40c7-aa70-4bb2-8039-715f903cb7ac": {
+            "position": "basis",
+            "rag_text": "The King of Cups represents emotional maturity, compassion, and balance. In a basis position, it suggests a strong foundation of emotional intelligence and the ability to navigate complex feelings with wisdom. This card indicates a person who is in control of their emotions, capable of offering support and understanding to others while maintaining their own emotional stability. It encourages the use of empathy and intuition in decision-making, highlighting the importance of emotional depth in relationships and personal growth.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.494947583386742
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0044#2",
+                "similarity": 0.411445484498957
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0017#2",
+                "similarity": 0.404428409738235
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "国王 圣杯",
+            "card_name_en": "King of Cups"
+          },
+          "247e14d7-00fd-4f30-8e6b-43ba52e56c1a": {
+            "position": "outcome",
+            "rag_text": "In the outcome position, the Ace of Wands signifies a powerful surge of creative energy, inspiration, and new beginnings. It suggests that you are entering a phase where your passions and ideas can flourish, leading to exciting opportunities. This card embodies the potential for growth and the manifestation of your desires, urging you to take bold action and embrace the vitality of life. It indicates that the energy and strength needed to pursue your goals are readily available to you.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.60715576367642
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0044#2",
+                "similarity": 0.429343972841265
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0150#1",
+                "similarity": 0.379417873655685
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "王牌 权杖",
+            "card_name_en": "Ace of Wands"
+          },
+          "2b6819e5-79c6-46b0-856c-dd7737d3cc97": {
+            "position": "self",
+            "rag_text": "In the self position, the Star tarot card represents hope, inspiration, and a sense of renewal. It signifies a time of healing and clarity, encouraging you to trust in your intuition and the guidance of the universe. This card suggests that you are in a phase of self-discovery, where you can embrace your true self and envision a positive future. It encourages you to remain optimistic and to have faith in your path, as you align with your higher purpose and aspirations.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0032#1",
+                "similarity": 0.524199698722309
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0356#2",
+                "similarity": 0.50997246831574
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0081#2",
+                "similarity": 0.488304420259992
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "星星",
+            "card_name_en": "The Star"
+          },
+          "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce": {
+            "position": "behind",
+            "rag_text": "The reversed Magician card typically signifies a lack of direction, manipulation, or misuse of power. It can indicate that the individual is not utilizing their skills effectively or is failing to manifest their intentions. There may be a sense of disconnection from one's true potential, leading to feelings of inadequacy or frustration. This reversal suggests a need to reassess one's abilities and intentions, as well as to avoid deceitful behavior or overconfidence.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0032#1",
+                "similarity": 0.652637817358646
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0031#2",
+                "similarity": 0.638212914147303
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0108#1",
+                "similarity": 0.532865913681145
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "魔术师",
+            "card_name_en": "The Magician"
+          },
+          "5a3d48a3-e39b-4da5-9613-65592720e768": {
+            "position": "environment",
+            "rag_text": "In the reversed position, the Death card in the environment context often signifies resistance to change or transformation. It may indicate stagnation, fear of the unknown, or an inability to let go of the past. This can create an environment where growth is hindered, and individuals may struggle to adapt to new circumstances or opportunities. It suggests a need to confront and embrace change rather than avoid it.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.598772883415226
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "死神",
+            "card_name_en": "Death"
+          },
+          "5b80fb8e-45a1-4c7d-b46a-794e32e298cf": {
+            "position": "crossing",
+            "rag_text": "In the reversed position, the Devil card typically signifies liberation, breaking free from addiction, or overcoming negative influences. It suggests a release from bondage, whether it be emotional, physical, or psychological. In a crossing position, it may indicate challenges in fully embracing this freedom or a struggle to let go of unhealthy attachments. It encourages self-reflection and the need to confront fears or temptations that may hinder progress.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.553747498057412
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.490177048769155
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.420203293574059
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "恶魔",
+            "card_name_en": "The Devil"
+          },
+          "6d9f7507-4320-4889-99f7-151c3e186f98": {
+            "position": "cover",
+            "rag_text": "The Two of Pentacles reversed typically signifies imbalance and difficulty in managing multiple responsibilities or priorities. It can indicate a struggle to adapt to changing circumstances, leading to chaos or overwhelm. Financial instability or poor decision-making regarding resources may also be highlighted. This card suggests a need to reassess priorities and find a more sustainable approach to juggling commitments.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.699354874933933
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.687339449267876
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.663522322597799
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "二 星币",
+            "card_name_en": "Two of Pentacles"
+          },
+          "7a3f0019-6398-43cd-b4f3-d972338d04aa": {
+            "position": "crowned",
+            "rag_text": "The King of Swords reversed in a crowned position suggests a misuse of power and authority. It may indicate a leader who is manipulative, overly critical, or lacking in integrity. This card can also signify confusion in communication, where decisions are made without clarity or fairness. It warns against being overly harsh or detached, urging a need for empathy and understanding in leadership roles. Additionally, it may reflect internal conflict or a struggle with one's own thoughts and beliefs, leading to indecision or misguided actions.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.648464384949616
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.637523916358014
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.576887667179124
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "国王 宝剑",
+            "card_name_en": "King of Swords"
+          },
+          "8ed3c737-15a3-4597-9d45-37ea10985968": {
+            "position": "hopes_and_fears",
+            "rag_text": "In the reversed position of the Seven of Cups in the hopes and fears position, it suggests a fear of illusion and confusion regarding choices. It may indicate a desire for clarity and a realistic approach to decisions, as opposed to being overwhelmed by fantasies or unrealistic expectations. This card warns against the pitfalls of wishful thinking and encourages focusing on tangible goals rather than getting lost in daydreams. It reflects a hope for discernment and the ability to see through illusions to make informed choices.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.554635362465244
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.547322170356577
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.538716522531718
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "七 圣杯",
+            "card_name_en": "Seven of Cups"
+          },
+          "d9b4771f-d323-4ed9-9950-bc1ebedf4f81": {
+            "position": "before",
+            "rag_text": "The Knight of Cups represents a romantic, idealistic figure who is in touch with their emotions and intuition. This card often signifies a quest for love, creativity, and inspiration. It embodies the pursuit of dreams and the willingness to follow one's heart, often suggesting a journey or message related to emotional matters. The Knight is also seen as a messenger, bringing news of love or artistic endeavors.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.557335045496522
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0144#2",
+                "similarity": 0.481190353631973
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "骑士 圣杯",
+            "card_name_en": "Knight of Cups"
+          }
+        }
+      },
+      "prompt_type": null,
+      "prompt_content": null,
+      "rag_queries": [
+        {
+          "query": "Two of Pentacles tarot card meaning reversed cover position",
+          "result": {
+            "text": "The Two of Pentacles reversed typically signifies imbalance and difficulty in managing multiple responsibilities or priorities. It can indicate a struggle to adapt to changing circumstances, leading to chaos or overwhelm. Financial instability or poor decision-making regarding resources may also be highlighted. This card suggests a need to reassess priorities and find a more sustainable approach to juggling commitments.",
+            "debug": {
+              "latency_ms": 2612,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0266#1",
+                "pkt-section-0087#1",
+                "78degrees-section-0255#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.699354874933933
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.687339449267876
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.663522322597799
+              }
+            ]
+          },
+          "card_id": "6d9f7507-4320-4889-99f7-151c3e186f98",
+          "card_name_en": "Two of Pentacles"
+        },
+        {
+          "query": "The Devil tarot card meaning reversed crossing position",
+          "result": {
+            "text": "In the reversed position, the Devil card typically signifies liberation, breaking free from addiction, or overcoming negative influences. It suggests a release from bondage, whether it be emotional, physical, or psychological. In a crossing position, it may indicate challenges in fully embracing this freedom or a struggle to let go of unhealthy attachments. It encourages self-reflection and the need to confront fears or temptations that may hinder progress.",
+            "debug": {
+              "latency_ms": 3905,
+              "num_results": 3,
+              "top_doc_ids": [
+                "pkt-section-0083#1",
+                "78degrees-section-0236#1",
+                "78degrees-section-0302#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.553747498057412
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.490177048769155
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.420203293574059
+              }
+            ]
+          },
+          "card_id": "5b80fb8e-45a1-4c7d-b46a-794e32e298cf",
+          "card_name_en": "The Devil"
+        },
+        {
+          "query": "King of Cups tarot card meaning basis position",
+          "result": {
+            "text": "The King of Cups represents emotional maturity, compassion, and balance. In a basis position, it suggests a strong foundation of emotional intelligence and the ability to navigate complex feelings with wisdom. This card indicates a person who is in control of their emotions, capable of offering support and understanding to others while maintaining their own emotional stability. It encourages the use of empathy and intuition in decision-making, highlighting the importance of emotional depth in relationships and personal growth.",
+            "debug": {
+              "latency_ms": 3558,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0205#1",
+                "78degrees-section-0044#2",
+                "78degrees-section-0017#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.494947583386742
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0044#2",
+                "similarity": 0.411445484498957
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0017#2",
+                "similarity": 0.404428409738235
+              }
+            ]
+          },
+          "card_id": "0d0a40c7-aa70-4bb2-8039-715f903cb7ac",
+          "card_name_en": "King of Cups"
+        },
+        {
+          "query": "The Magician tarot card meaning reversed behind position",
+          "result": {
+            "text": "The reversed Magician card typically signifies a lack of direction, manipulation, or misuse of power. It can indicate that the individual is not utilizing their skills effectively or is failing to manifest their intentions. There may be a sense of disconnection from one's true potential, leading to feelings of inadequacy or frustration. This reversal suggests a need to reassess one's abilities and intentions, as well as to avoid deceitful behavior or overconfidence.",
+            "debug": {
+              "latency_ms": 2781,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0032#1",
+                "78degrees-section-0031#2",
+                "78degrees-section-0108#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0032#1",
+                "similarity": 0.652637817358646
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0031#2",
+                "similarity": 0.638212914147303
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0108#1",
+                "similarity": 0.532865913681145
+              }
+            ]
+          },
+          "card_id": "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce",
+          "card_name_en": "The Magician"
+        },
+        {
+          "query": "King of Swords tarot card meaning reversed crowned position",
+          "result": {
+            "text": "The King of Swords reversed in a crowned position suggests a misuse of power and authority. It may indicate a leader who is manipulative, overly critical, or lacking in integrity. This card can also signify confusion in communication, where decisions are made without clarity or fairness. It warns against being overly harsh or detached, urging a need for empathy and understanding in leadership roles. Additionally, it may reflect internal conflict or a struggle with one's own thoughts and beliefs, leading to indecision or misguided actions.",
+            "debug": {
+              "latency_ms": 3572,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0237#1",
+                "78degrees-section-0223#1",
+                "pkt-section-0078#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.648464384949616
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.637523916358014
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.576887667179124
+              }
+            ]
+          },
+          "card_id": "7a3f0019-6398-43cd-b4f3-d972338d04aa",
+          "card_name_en": "King of Swords"
+        },
+        {
+          "query": "Knight of Cups tarot card meaning before position",
+          "result": {
+            "text": "The Knight of Cups represents a romantic, idealistic figure who is in touch with their emotions and intuition. This card often signifies a quest for love, creativity, and inspiration. It embodies the pursuit of dreams and the willingness to follow one's heart, often suggesting a journey or message related to emotional matters. The Knight is also seen as a messenger, bringing news of love or artistic endeavors.",
+            "debug": {
+              "latency_ms": 2829,
+              "num_results": 2,
+              "top_doc_ids": [
+                "pkt-section-0082#1",
+                "78degrees-section-0144#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.557335045496522
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0144#2",
+                "similarity": 0.481190353631973
+              }
+            ]
+          },
+          "card_id": "d9b4771f-d323-4ed9-9950-bc1ebedf4f81",
+          "card_name_en": "Knight of Cups"
+        },
+        {
+          "query": "The Star tarot card meaning self position",
+          "result": {
+            "text": "In the self position, the Star tarot card represents hope, inspiration, and a sense of renewal. It signifies a time of healing and clarity, encouraging you to trust in your intuition and the guidance of the universe. This card suggests that you are in a phase of self-discovery, where you can embrace your true self and envision a positive future. It encourages you to remain optimistic and to have faith in your path, as you align with your higher purpose and aspirations.",
+            "debug": {
+              "latency_ms": 2294,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0032#1",
+                "78degrees-section-0356#2",
+                "78degrees-section-0081#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0032#1",
+                "similarity": 0.524199698722309
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0356#2",
+                "similarity": 0.50997246831574
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0081#2",
+                "similarity": 0.488304420259992
+              }
+            ]
+          },
+          "card_id": "2b6819e5-79c6-46b0-856c-dd7737d3cc97",
+          "card_name_en": "The Star"
+        },
+        {
+          "query": "Death tarot card meaning reversed environment position",
+          "result": {
+            "text": "In the reversed position, the Death card in the environment context often signifies resistance to change or transformation. It may indicate stagnation, fear of the unknown, or an inability to let go of the past. This can create an environment where growth is hindered, and individuals may struggle to adapt to new circumstances or opportunities. It suggests a need to confront and embrace change rather than avoid it.",
+            "debug": {
+              "latency_ms": 2636,
+              "num_results": 1,
+              "top_doc_ids": [
+                "78degrees-section-0305#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.598772883415226
+              }
+            ]
+          },
+          "card_id": "5a3d48a3-e39b-4da5-9613-65592720e768",
+          "card_name_en": "Death"
+        },
+        {
+          "query": "Seven of Cups tarot card meaning reversed hopes_and_fears position",
+          "result": {
+            "text": "In the reversed position of the Seven of Cups in the hopes and fears position, it suggests a fear of illusion and confusion regarding choices. It may indicate a desire for clarity and a realistic approach to decisions, as opposed to being overwhelmed by fantasies or unrealistic expectations. This card warns against the pitfalls of wishful thinking and encourages focusing on tangible goals rather than getting lost in daydreams. It reflects a hope for discernment and the ability to see through illusions to make informed choices.",
+            "debug": {
+              "latency_ms": 4009,
+              "num_results": 3,
+              "top_doc_ids": [
+                "pkt-section-0083#1",
+                "78degrees-section-0236#1",
+                "78degrees-section-0302#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.554635362465244
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.547322170356577
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.538716522531718
+              }
+            ]
+          },
+          "card_id": "8ed3c737-15a3-4597-9d45-37ea10985968",
+          "card_name_en": "Seven of Cups"
+        },
+        {
+          "query": "Ace of Wands tarot card meaning outcome position",
+          "result": {
+            "text": "In the outcome position, the Ace of Wands signifies a powerful surge of creative energy, inspiration, and new beginnings. It suggests that you are entering a phase where your passions and ideas can flourish, leading to exciting opportunities. This card embodies the potential for growth and the manifestation of your desires, urging you to take bold action and embrace the vitality of life. It indicates that the energy and strength needed to pursue your goals are readily available to you.",
+            "debug": {
+              "latency_ms": 4867,
+              "num_results": 3,
+              "top_doc_ids": [
+                "78degrees-section-0205#1",
+                "78degrees-section-0044#2",
+                "78degrees-section-0150#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.60715576367642
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0044#2",
+                "similarity": 0.429343972841265
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0150#1",
+                "similarity": 0.379417873655685
+              }
+            ]
+          },
+          "card_id": "247e14d7-00fd-4f30-8e6b-43ba52e56c1a",
+          "card_name_en": "Ace of Wands"
+        },
+        {
+          "query": "celtic_cross spread tarot divination method interpretation",
+          "result": {
+            "text": "The Celtic Cross spread is a popular Tarot divination method that provides a comprehensive overview of a situation. It typically consists of ten cards, each representing different aspects of the querent's life or question. \n\n1. **Present Situation**: The first card represents the current state or challenge.\n2. **Crossing Card**: The second card shows the immediate obstacle or influence affecting the situation.\n3. **Crowning Card**: The third card indicates the best possible outcome or goal.\n4. **Base of the Matter**: The fourth card reveals the underlying influences or root causes.\n5. **Past Influences**: The fifth card reflects past events that have shaped the current situation.\n6. **Future Influences**: The sixth card predicts upcoming events or influences.\n7. **Self-Perception**: The seventh card represents how the querent views themselves in relation to the situation.\n8. **Environment**: The eighth card shows how others perceive the querent or the external influences at play.\n9. **Hopes and Fears**: The ninth card reveals the querent's inner hopes and fears regarding the situation.\n10. **Outcome**: The tenth card provides insight into the likely outcome based on the current trajectory.\n\nThis spread encourages a balance between conscious will (represented by the Magician) and intuition (represented by the High Priestess), allowing for a deeper understanding of the querent's circumstances and potential paths forward.",
+            "debug": {
+              "latency_ms": 6996,
+              "num_results": 3,
+              "top_doc_ids": [
+                "pkt-section-0056#2",
+                "pkt-section-0122#2",
+                "78degrees-section-0282#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0056#2",
+                "similarity": 0.574243350191716
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0122#2",
+                "similarity": 0.569779872894303
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0282#1",
+                "similarity": 0.5686990870087
+              }
+            ]
+          },
+          "spread_type": "celtic_cross"
+        }
+      ],
+      "model_used": null,
+      "temperature": null,
+      "processing_time_ms": 40063,
+      "tokens_used": null,
+      "created_at": "2025-11-06T14:00:19.05185+00:00"
+    },
+    {
+      "step_name": "final_interpretation",
+      "step_order": 8,
+      "input_data": {
+        "question": "我未来三个月的工作发展如何？",
+        "spread_method": {
+          "rag_text": "The Celtic Cross spread is a popular Tarot divination method that provides a comprehensive overview of a situation. It typically consists of ten cards, each representing different aspects of the querent's life or question. \n\n1. **Present Situation**: The first card represents the current state or challenge.\n2. **Crossing Card**: The second card shows the immediate obstacle or influence affecting the situation.\n3. **Crowning Card**: The third card indicates the best possible outcome or goal.\n4. **Base of the Matter**: The fourth card reveals the underlying influences or root causes.\n5. **Past Influences**: The fifth card reflects past events that have shaped the current situation.\n6. **Future Influences**: The sixth card predicts upcoming events or influences.\n7. **Self-Perception**: The seventh card represents how the querent views themselves in relation to the situation.\n8. **Environment**: The eighth card shows how others perceive the querent or the external influences at play.\n9. **Hopes and Fears**: The ninth card reveals the querent's inner hopes and fears regarding the situation.\n10. **Outcome**: The tenth card provides insight into the likely outcome based on the current trajectory.\n\nThis spread encourages a balance between conscious will (represented by the Magician) and intuition (represented by the High Priestess), allowing for a deeper understanding of the querent's circumstances and potential paths forward.",
+          "citations": [
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0056#2",
+              "similarity": 0.574243350191716
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0122#2",
+              "similarity": 0.569779872894303
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.5686990870087
+            }
+          ],
+          "spread_type": "celtic_cross"
+        },
+        "selected_cards": [
+          {
+            "suit": "pentacles",
+            "arcana": "minor",
+            "card_id": "6d9f7507-4320-4889-99f7-151c3e186f98",
+            "position": "cover",
+            "card_number": 2,
+            "is_reversed": true,
+            "card_name_cn": "二 星币",
+            "card_name_en": "Two of Pentacles",
+            "position_order": 1,
+            "position_description": "覆盖Significator的牌，代表当前情况"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "5b80fb8e-45a1-4c7d-b46a-794e32e298cf",
+            "position": "crossing",
+            "card_number": 15,
+            "is_reversed": true,
+            "card_name_cn": "恶魔",
+            "card_name_en": "The Devil",
+            "position_order": 2,
+            "position_description": "横跨第一张牌的牌，代表阻碍或帮助"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "0d0a40c7-aa70-4bb2-8039-715f903cb7ac",
+            "position": "basis",
+            "card_number": 14,
+            "is_reversed": false,
+            "card_name_cn": "国王 圣杯",
+            "card_name_en": "King of Cups",
+            "position_order": 3,
+            "position_description": "位于Significator下方的牌，代表基础或根源"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce",
+            "position": "behind",
+            "card_number": 1,
+            "is_reversed": true,
+            "card_name_cn": "魔术师",
+            "card_name_en": "The Magician",
+            "position_order": 4,
+            "position_description": "代表过去的影响"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "7a3f0019-6398-43cd-b4f3-d972338d04aa",
+            "position": "crowned",
+            "card_number": 14,
+            "is_reversed": true,
+            "card_name_cn": "国王 宝剑",
+            "card_name_en": "King of Swords",
+            "position_order": 5,
+            "position_description": "代表可能的结果或目标"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "d9b4771f-d323-4ed9-9950-bc1ebedf4f81",
+            "position": "before",
+            "card_number": 12,
+            "is_reversed": false,
+            "card_name_cn": "骑士 圣杯",
+            "card_name_en": "Knight of Cups",
+            "position_order": 6,
+            "position_description": "代表即将到来的未来"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "2b6819e5-79c6-46b0-856c-dd7737d3cc97",
+            "position": "self",
+            "card_number": 17,
+            "is_reversed": false,
+            "card_name_cn": "星星",
+            "card_name_en": "The Star",
+            "position_order": 7,
+            "position_description": "代表问卜者自身"
+          },
+          {
+            "suit": "major",
+            "arcana": "major",
+            "card_id": "5a3d48a3-e39b-4da5-9613-65592720e768",
+            "position": "environment",
+            "card_number": 13,
+            "is_reversed": true,
+            "card_name_cn": "死神",
+            "card_name_en": "Death",
+            "position_order": 8,
+            "position_description": "代表周围环境和他人影响"
+          },
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "8ed3c737-15a3-4597-9d45-37ea10985968",
+            "position": "hopes_and_fears",
+            "card_number": 7,
+            "is_reversed": true,
+            "card_name_cn": "七 圣杯",
+            "card_name_en": "Seven of Cups",
+            "position_order": 9,
+            "position_description": "代表问卜者的希望和恐惧"
+          },
+          {
+            "suit": "wands",
+            "arcana": "minor",
+            "card_id": "247e14d7-00fd-4f30-8e6b-43ba52e56c1a",
+            "position": "outcome",
+            "card_number": 1,
+            "is_reversed": false,
+            "card_name_cn": "王牌 权杖",
+            "card_name_en": "Ace of Wands",
+            "position_order": 10,
+            "position_description": "代表最终结果"
+          }
+        ],
+        "card_information": {
+          "0d0a40c7-aa70-4bb2-8039-715f903cb7ac": {
+            "position": "basis",
+            "rag_text": "The King of Cups represents emotional maturity, compassion, and balance. In a basis position, it suggests a strong foundation of emotional intelligence and the ability to navigate complex feelings with wisdom. This card indicates a person who is in control of their emotions, capable of offering support and understanding to others while maintaining their own emotional stability. It encourages the use of empathy and intuition in decision-making, highlighting the importance of emotional depth in relationships and personal growth.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.494947583386742
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0044#2",
+                "similarity": 0.411445484498957
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0017#2",
+                "similarity": 0.404428409738235
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "国王 圣杯",
+            "card_name_en": "King of Cups"
+          },
+          "247e14d7-00fd-4f30-8e6b-43ba52e56c1a": {
+            "position": "outcome",
+            "rag_text": "In the outcome position, the Ace of Wands signifies a powerful surge of creative energy, inspiration, and new beginnings. It suggests that you are entering a phase where your passions and ideas can flourish, leading to exciting opportunities. This card embodies the potential for growth and the manifestation of your desires, urging you to take bold action and embrace the vitality of life. It indicates that the energy and strength needed to pursue your goals are readily available to you.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0205#1",
+                "similarity": 0.60715576367642
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0044#2",
+                "similarity": 0.429343972841265
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0150#1",
+                "similarity": 0.379417873655685
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "王牌 权杖",
+            "card_name_en": "Ace of Wands"
+          },
+          "2b6819e5-79c6-46b0-856c-dd7737d3cc97": {
+            "position": "self",
+            "rag_text": "In the self position, the Star tarot card represents hope, inspiration, and a sense of renewal. It signifies a time of healing and clarity, encouraging you to trust in your intuition and the guidance of the universe. This card suggests that you are in a phase of self-discovery, where you can embrace your true self and envision a positive future. It encourages you to remain optimistic and to have faith in your path, as you align with your higher purpose and aspirations.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0032#1",
+                "similarity": 0.524199698722309
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0356#2",
+                "similarity": 0.50997246831574
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0081#2",
+                "similarity": 0.488304420259992
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "星星",
+            "card_name_en": "The Star"
+          },
+          "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce": {
+            "position": "behind",
+            "rag_text": "The reversed Magician card typically signifies a lack of direction, manipulation, or misuse of power. It can indicate that the individual is not utilizing their skills effectively or is failing to manifest their intentions. There may be a sense of disconnection from one's true potential, leading to feelings of inadequacy or frustration. This reversal suggests a need to reassess one's abilities and intentions, as well as to avoid deceitful behavior or overconfidence.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0032#1",
+                "similarity": 0.652637817358646
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0031#2",
+                "similarity": 0.638212914147303
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0108#1",
+                "similarity": 0.532865913681145
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "魔术师",
+            "card_name_en": "The Magician"
+          },
+          "5a3d48a3-e39b-4da5-9613-65592720e768": {
+            "position": "environment",
+            "rag_text": "In the reversed position, the Death card in the environment context often signifies resistance to change or transformation. It may indicate stagnation, fear of the unknown, or an inability to let go of the past. This can create an environment where growth is hindered, and individuals may struggle to adapt to new circumstances or opportunities. It suggests a need to confront and embrace change rather than avoid it.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.598772883415226
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "死神",
+            "card_name_en": "Death"
+          },
+          "5b80fb8e-45a1-4c7d-b46a-794e32e298cf": {
+            "position": "crossing",
+            "rag_text": "In the reversed position, the Devil card typically signifies liberation, breaking free from addiction, or overcoming negative influences. It suggests a release from bondage, whether it be emotional, physical, or psychological. In a crossing position, it may indicate challenges in fully embracing this freedom or a struggle to let go of unhealthy attachments. It encourages self-reflection and the need to confront fears or temptations that may hinder progress.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.553747498057412
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.490177048769155
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.420203293574059
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "恶魔",
+            "card_name_en": "The Devil"
+          },
+          "6d9f7507-4320-4889-99f7-151c3e186f98": {
+            "position": "cover",
+            "rag_text": "The Two of Pentacles reversed typically signifies imbalance and difficulty in managing multiple responsibilities or priorities. It can indicate a struggle to adapt to changing circumstances, leading to chaos or overwhelm. Financial instability or poor decision-making regarding resources may also be highlighted. This card suggests a need to reassess priorities and find a more sustainable approach to juggling commitments.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.699354874933933
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.687339449267876
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.663522322597799
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "二 星币",
+            "card_name_en": "Two of Pentacles"
+          },
+          "7a3f0019-6398-43cd-b4f3-d972338d04aa": {
+            "position": "crowned",
+            "rag_text": "The King of Swords reversed in a crowned position suggests a misuse of power and authority. It may indicate a leader who is manipulative, overly critical, or lacking in integrity. This card can also signify confusion in communication, where decisions are made without clarity or fairness. It warns against being overly harsh or detached, urging a need for empathy and understanding in leadership roles. Additionally, it may reflect internal conflict or a struggle with one's own thoughts and beliefs, leading to indecision or misguided actions.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.648464384949616
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.637523916358014
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.576887667179124
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "国王 宝剑",
+            "card_name_en": "King of Swords"
+          },
+          "8ed3c737-15a3-4597-9d45-37ea10985968": {
+            "position": "hopes_and_fears",
+            "rag_text": "In the reversed position of the Seven of Cups in the hopes and fears position, it suggests a fear of illusion and confusion regarding choices. It may indicate a desire for clarity and a realistic approach to decisions, as opposed to being overwhelmed by fantasies or unrealistic expectations. This card warns against the pitfalls of wishful thinking and encourages focusing on tangible goals rather than getting lost in daydreams. It reflects a hope for discernment and the ability to see through illusions to make informed choices.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0083#1",
+                "similarity": 0.554635362465244
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#1",
+                "similarity": 0.547322170356577
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#2",
+                "similarity": 0.538716522531718
+              }
+            ],
+            "is_reversed": true,
+            "card_name_cn": "七 圣杯",
+            "card_name_en": "Seven of Cups"
+          },
+          "d9b4771f-d323-4ed9-9950-bc1ebedf4f81": {
+            "position": "before",
+            "rag_text": "The Knight of Cups represents a romantic, idealistic figure who is in touch with their emotions and intuition. This card often signifies a quest for love, creativity, and inspiration. It embodies the pursuit of dreams and the willingness to follow one's heart, often suggesting a journey or message related to emotional matters. The Knight is also seen as a messenger, bringing news of love or artistic endeavors.",
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0082#1",
+                "similarity": 0.557335045496522
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0144#2",
+                "similarity": 0.481190353631973
+              }
+            ],
+            "is_reversed": false,
+            "card_name_cn": "骑士 圣杯",
+            "card_name_en": "Knight of Cups"
+          }
+        },
+        "pattern_analysis": {
+          "model_used": "gpt-4o-mini",
+          "analysis_method": "direct_llm",
+          "number_patterns": {
+            "number_jumps": [],
+            "same_numbers": [
+              "14: 国王圣杯、国王宝剑",
+              "12: 骑士圣杯"
+            ],
+            "number_sequences": []
+          },
+          "reversed_patterns": {
+            "count": 3,
+            "positions": [
+              "1: 二星币",
+              "2: 恶魔",
+              "4: 魔术师"
+            ],
+            "interpretation": "逆位牌暗示着不平衡、内心的挣扎和潜在的失去控制，可能影响问卜者的职业决策和方向。"
+          },
+          "suit_distribution": {
+            "cups_count": 4,
+            "major_count": 5,
+            "wands_count": 1,
+            "swords_count": 2,
+            "interpretation": "花色分布显示情感（圣杯）在职业问题中占主导地位，其次是理智（宝剑）和物质（星币），而大阿卡纳的数量则强调了重要的生命转变和内在成长。",
+            "pentacles_count": 1
+          },
+          "special_combinations": [
+            "国王圣杯与国王宝剑的组合显示出情感与理智的结合，可能提示问卜者需要在情感和理性之间找到平衡。"
+          ],
+          "major_arcana_patterns": {
+            "count": 5,
+            "meaning": "大阿卡纳的出现表明问卜者在职业生涯中面临重要的转折点和内在的成长机会，尤其是从过去的影响到未来的希望。",
+            "positions": [
+              "2: 恶魔",
+              "3: 魔术师",
+              "7: 星星",
+              "8: 死神",
+              "5: 王牌权杖"
+            ]
+          },
+          "position_relationships": {
+            "time_flow": "当前状态（覆盖牌）与过去的影响（在后面位置）相互影响，未来的可能性（在前面位置）也受到当前状态的影响。",
+            "support_conflict": "国王圣杯可能支持问卜者的情感稳定，但恶魔的逆位则表明存在内心的挣扎与诱惑，可能影响职业发展。",
+            "causal_relationships": [
+              "恶魔（阻碍）→ 二星币（当前状态）",
+              "魔术师（过去影响）→ 国王圣杯（基础）",
+              "国王圣杯（基础）→ 国王宝剑（目标）",
+              "国王宝剑（目标）→ 骑士圣杯（未来）",
+              "骑士圣杯（未来）→ 王牌权杖（结果）"
+            ]
+          }
+        },
+        "question_analysis": {
+          "reasoning": "这是一个关于职业发展的中等复杂度问题，凯尔特十字可以提供更全面的视角和深入的分析。",
+          "complexity": "moderate",
+          "question_type": "general",
+          "question_domain": "career",
+          "question_summary": "用户想了解未来三个月的工作发展情况",
+          "recommended_spread": "celtic_cross",
+          "auto_selected_spread": true
+        }
+      },
+      "output_data": {
+        "llm_response": "### 整体解读\n在未来三个月，你的职业生涯将经历重要的转变。虽然目前面临一些不平衡和挑战，但你将释放出新的创造力和灵感，迎接全新的开始。\n\n### 位置解读\n\n1. **当前状态（Two of Pentacles [逆位]）**: 目前，你在工作中可能感到难以平衡多重任务或责任，导致一定程度的混乱和压力。需要调整并优先处理最重要的事项。\n\n2. **障碍（The Devil [逆位]）**: 你正在努力摆脱一些负面的影响或限制，这可能与工作中的某些有害习惯或情绪有关。这个过程将帮助你获得更大的自由和掌控感。\n\n3. **基础（King of Cups）**: 你具备良好的情感智慧和同理心，这为你在工作中处理复杂的人际关系和情绪挑战提供了坚实的基础。\n\n4. **过去的影响（The Magician [逆位]）**: 过去，你可能没有充分利用自己的技能或资源，导致一些错失的机会或方向迷失。需要反思并重新集中精力。\n\n5. **目标（King of Swords [逆位]）**: 在职业生涯中，你可能面临领导力的挑战或误用权力的倾向。需要避免过度批评和不公正的行为，以维持职业道德和诚信。\n\n6. **未来的可能性（Knight of Cups）**: 未来，你可能会受到新的创意和灵感的驱动，追求更具个人意义的工作。这将是一个充满理想和情感的阶段。\n\n7. **自我（The Star）**: 你目前充满希望和灵感，对未来充满信心。这种积极的心态将引导你实现职业目标。\n\n8. **环境（Death [逆位]）**: 你周围的环境可能对改变持抵触态度，导致停滞不前。需要鼓励变革和开放的心态。\n\n9. **希望与恐惧（Seven of Cups [逆位]）**: 你渴望在职业选择中获得清晰和确定性，同时又害怕被幻想和误导所困扰。需要寻求现实的视角。\n\n10. **结果（Ace of Wands）**: 你将迎来一个充满活力和创造力的阶段，新项目和机会将为你带来职业上的突破。\n\n### 关系分析\n从过去的逆位魔术师到未来的骑士圣杯，暗示着你需要从过去的迷失中走出来，迎接新的情感和创意机会。当前状态的逆位双星币与逆位魔鬼的相互作用，表明你正在努力重新找到平衡，并释放自己。结果位的权杖王牌显示出最终的突破和新开始。\n\n### 模式解释\n- **数字模式**: 出现了多张逆位牌，显示出目前的挑战和不平衡状态，但也标志着释放和突破的可能性。\n- **花色分布**: 圣杯的主导地位强调了情感和直觉在职业发展中的重要性，而宝剑和星币的出现则提醒你理智和物质的考量。\n- **大阿卡纳**: 多张大阿卡纳牌出现，表明你正处于职业生涯的重要转折点。\n\n### 个性化建议\n作为一个狮子座，你天生具有领导力和创造力。在接下来的三个月中，利用你的情感智慧和直觉来引导自己，避免被过度的压力和不平衡所困扰。关注那些能够激发你热情和灵感的项目，勇敢地迎接变化和挑战。通过释放旧的束缚，你将迎来一个充满活力和新机遇的职业阶段。",
+        "interpretation": {
+          "advice": null,
+          "references": [
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Two of Pentacles"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Two of Pentacles"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Two of Pentacles"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "The Devil"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "The Devil"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "The Devil"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "King of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "King of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "King of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "The Magician"
+            }
+          ],
+          "overall_summary": "### 整体解读\n在未来三个月，你的职业生涯将经历重要的转变。虽然目前面临一些不平衡和挑战，但你将释放出新的创造力和灵感，迎接全新的开始。\n\n### 位置解读\n\n1. **当前状态（Two of Pentacles [逆位]）**: 目前，你在工作中可能感到难以平衡多重任务或责任，导致一定程度的混乱和压力。需要调整并优先处理最重要的事项。\n\n2. **障碍（The Devil [逆位]）**: 你正在努力摆脱一些负面的影响或限制，这可能与工作中的某些有害习惯或情绪有关。这个过程将帮助你获得更大的自由和掌控感。\n\n3. **基础（King of Cups）**: 你具备良好的情感智慧和同理心，这为你在工作中处理复杂的人际关系和情绪挑战提供了坚实的基础。\n\n4. **过去的影响（The Magician [逆位]）**: 过去，你可能没有充分利用自己的技能或资源，导致一些错失的机会或方向迷失。需要反思并重新集中精力。\n\n5. **目标（King of Swords [逆位]）**: 在职业生涯中，你可能面临领导力的挑战或误用权力的倾向。需要避免过度批评和不公正的行为，以维持职业道德和诚信。",
+          "pattern_explanation": "花色分布显示情感（圣杯）在职业问题中占主导地位，其次是理智（宝剑）和物质（星币），而大阿卡纳的数量则强调了重要的生命转变和内在成长。",
+          "relationship_analysis": "当前状态（覆盖牌）与过去的影响（在后面位置）相互影响，未来的可能性（在前面位置）也受到当前状态的影响。",
+          "interpretation_metadata": null,
+          "position_interpretations": [
+            {
+              "position": "cover",
+              "card_name_cn": "二 星币",
+              "card_name_en": "Two of Pentacles",
+              "relationships": null,
+              "interpretation": "The Two of Pentacles reversed typically signifies imbalance and difficulty in managing multiple responsibilities or priorities. It can indicate a struggle to adapt to changing circumstances, leading to chaos or overwhelm. Financial instability or poor decision-making regarding resources may also be highlighted. This card suggests a need to reassess priorities and find a more sustainable approach to juggling commitments.",
+              "position_order": 1
+            },
+            {
+              "position": "crossing",
+              "card_name_cn": "恶魔",
+              "card_name_en": "The Devil",
+              "relationships": null,
+              "interpretation": "In the reversed position, the Devil card typically signifies liberation, breaking free from addiction, or overcoming negative influences. It suggests a release from bondage, whether it be emotional, physical, or psychological. In a crossing position, it may indicate challenges in fully embracing this freedom or a struggle to let go of unhealthy attachments. It encourages self-reflection and the need to confront fears or temptations that may hinder progress.",
+              "position_order": 2
+            },
+            {
+              "position": "basis",
+              "card_name_cn": "国王 圣杯",
+              "card_name_en": "King of Cups",
+              "relationships": null,
+              "interpretation": "The King of Cups represents emotional maturity, compassion, and balance. In a basis position, it suggests a strong foundation of emotional intelligence and the ability to navigate complex feelings with wisdom. This card indicates a person who is in control of their emotions, capable of offering support and understanding to others while maintaining their own emotional stability. It encourages the use of empathy and intuition in decision-making, highlighting the importance of emotional depth in relationships and personal growth.",
+              "position_order": 3
+            },
+            {
+              "position": "behind",
+              "card_name_cn": "魔术师",
+              "card_name_en": "The Magician",
+              "relationships": null,
+              "interpretation": "The reversed Magician card typically signifies a lack of direction, manipulation, or misuse of power. It can indicate that the individual is not utilizing their skills effectively or is failing to manifest their intentions. There may be a sense of disconnection from one's true potential, leading to feelings of inadequacy or frustration. This reversal suggests a need to reassess one's abilities and intentions, as well as to avoid deceitful behavior or overconfidence.",
+              "position_order": 4
+            },
+            {
+              "position": "crowned",
+              "card_name_cn": "国王 宝剑",
+              "card_name_en": "King of Swords",
+              "relationships": null,
+              "interpretation": "The King of Swords reversed in a crowned position suggests a misuse of power and authority. It may indicate a leader who is manipulative, overly critical, or lacking in integrity. This card can also signify confusion in communication, where decisions are made without clarity or fairness. It warns against being overly harsh or detached, urging a need for empathy and understanding in leadership roles. Additionally, it may reflect internal conflict or a struggle with one's own thoughts and beliefs, leading to indecision or misguided actions.",
+              "position_order": 5
+            },
+            {
+              "position": "before",
+              "card_name_cn": "骑士 圣杯",
+              "card_name_en": "Knight of Cups",
+              "relationships": null,
+              "interpretation": "The Knight of Cups represents a romantic, idealistic figure who is in touch with their emotions and intuition. This card often signifies a quest for love, creativity, and inspiration. It embodies the pursuit of dreams and the willingness to follow one's heart, often suggesting a journey or message related to emotional matters. The Knight is also seen as a messenger, bringing news of love or artistic endeavors.",
+              "position_order": 6
+            },
+            {
+              "position": "self",
+              "card_name_cn": "星星",
+              "card_name_en": "The Star",
+              "relationships": null,
+              "interpretation": "In the self position, the Star tarot card represents hope, inspiration, and a sense of renewal. It signifies a time of healing and clarity, encouraging you to trust in your intuition and the guidance of the universe. This card suggests that you are in a phase of self-discovery, where you can embrace your true self and envision a positive future. It encourages you to remain optimistic and to have faith in your path, as you align with your higher purpose and aspirations.",
+              "position_order": 7
+            },
+            {
+              "position": "environment",
+              "card_name_cn": "死神",
+              "card_name_en": "Death",
+              "relationships": null,
+              "interpretation": "In the reversed position, the Death card in the environment context often signifies resistance to change or transformation. It may indicate stagnation, fear of the unknown, or an inability to let go of the past. This can create an environment where growth is hindered, and individuals may struggle to adapt to new circumstances or opportunities. It suggests a need to confront and embrace change rather than avoid it.",
+              "position_order": 8
+            },
+            {
+              "position": "hopes_and_fears",
+              "card_name_cn": "七 圣杯",
+              "card_name_en": "Seven of Cups",
+              "relationships": null,
+              "interpretation": "In the reversed position of the Seven of Cups in the hopes and fears position, it suggests a fear of illusion and confusion regarding choices. It may indicate a desire for clarity and a realistic approach to decisions, as opposed to being overwhelmed by fantasies or unrealistic expectations. This card warns against the pitfalls of wishful thinking and encourages focusing on tangible goals rather than getting lost in daydreams. It reflects a hope for discernment and the ability to see through illusions to make informed choices.",
+              "position_order": 9
+            },
+            {
+              "position": "outcome",
+              "card_name_cn": "王牌 权杖",
+              "card_name_en": "Ace of Wands",
+              "relationships": null,
+              "interpretation": "In the outcome position, the Ace of Wands signifies a powerful surge of creative energy, inspiration, and new beginnings. It suggests that you are entering a phase where your passions and ideas can flourish, leading to exciting opportunities. This card embodies the potential for growth and the manifestation of your desires, urging you to take bold action and embrace the vitality of life. It indicates that the energy and strength needed to pursue your goals are readily available to you.",
+              "position_order": 10
+            }
+          ]
+        }
+      },
+      "prompt_type": "final_interpretation",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师，精通PKT和78 Degrees of Wisdom的传统解读方法。\n\n## 用户问题：\n我未来三个月的工作发展如何？\n\n## 问题分析：\n- 领域：career\n- 复杂度：moderate\n- 问题类型：general\n\n## 用户信息：\n年龄: 28\n性别: female\n星座: Leo\n\n## 占卜方式：\nceltic_cross - The Celtic Cross spread is a popular Tarot divination method that provides a comprehensive overview of a situation. It typically consists of ten cards, each representing different aspects of the querent's life or question. \n\n1. **Present Situation**: The first card represents the current state or ch\n\n## 牌阵信息：\n1. cover: Two of Pentacles [逆位]\n   含义: The Two of Pentacles reversed typically signifies imbalance and difficulty in managing multiple responsibilities or priorities. It can indicate a struggle to adapt to changing circumstances, leading t...\n2. crossing: The Devil [逆位]\n   含义: In the reversed position, the Devil card typically signifies liberation, breaking free from addiction, or overcoming negative influences. It suggests a release from bondage, whether it be emotional, p...\n3. basis: King of Cups\n   含义: The King of Cups represents emotional maturity, compassion, and balance. In a basis position, it suggests a strong foundation of emotional intelligence and the ability to navigate complex feelings wit...\n4. behind: The Magician [逆位]\n   含义: The reversed Magician card typically signifies a lack of direction, manipulation, or misuse of power. It can indicate that the individual is not utilizing their skills effectively or is failing to man...\n5. crowned: King of Swords [逆位]\n   含义: The King of Swords reversed in a crowned position suggests a misuse of power and authority. It may indicate a leader who is manipulative, overly critical, or lacking in integrity. This card can also s...\n6. before: Knight of Cups\n   含义: The Knight of Cups represents a romantic, idealistic figure who is in touch with their emotions and intuition. This card often signifies a quest for love, creativity, and inspiration. It embodies the ...\n7. self: The Star\n   含义: In the self position, the Star tarot card represents hope, inspiration, and a sense of renewal. It signifies a time of healing and clarity, encouraging you to trust in your intuition and the guidance ...\n8. environment: Death [逆位]\n   含义: In the reversed position, the Death card in the environment context often signifies resistance to change or transformation. It may indicate stagnation, fear of the unknown, or an inability to let go o...\n9. hopes_and_fears: Seven of Cups [逆位]\n   含义: In the reversed position of the Seven of Cups in the hopes and fears position, it suggests a fear of illusion and confusion regarding choices. It may indicate a desire for clarity and a realistic appr...\n10. outcome: Ace of Wands\n   含义: In the outcome position, the Ace of Wands signifies a powerful surge of creative energy, inspiration, and new beginnings. It suggests that you are entering a phase where your passions and ideas can fl...\n\n## 牌型分析结果：\n位置关系：当前状态（覆盖牌）与过去的影响（在后面位置）相互影响，未来的可能性（在前面位置）也受到当前状态的影响。\n花色分布：花色分布显示情感（圣杯）在职业问题中占主导地位，其次是理智（宝剑）和物质（星币），而大阿卡纳的数量则强调了重要的生命转变和内在成长。\n大阿卡纳模式：大阿卡纳的出现表明问卜者在职业生涯中面临重要的转折点和内在的成长机会，尤其是从过去的影响到未来的希望。\n逆位模式：逆位牌暗示着不平衡、内心的挣扎和潜在的失去控制，可能影响问卜者的职业决策和方向。\n\n## 解读要求：\n请提供一个全面的塔罗占卜解读，包含：\n1. **整体解读**：2-3句话的整体摘要\n2. **位置解读**：对每个位置进行详细解读，结合卡牌的基本含义和位置的含义\n3. **关系分析**：分析牌之间的关系（时间线、因果、支持/对抗）\n4. **模式解释**：解释数字模式、花色分布、特殊组合的含义\n5. **个性化建议**：基于用户信息和问题，提供具体建议\n\n请用中文输出，使用Markdown格式。",
+      "rag_queries": null,
+      "model_used": "gpt-4o",
+      "temperature": 0.7,
+      "processing_time_ms": 45775,
+      "tokens_used": null,
+      "created_at": "2025-11-06T14:01:04.955161+00:00"
+    }
+  ],
+  "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+  "final_result": {
+    "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+    "question": "我未来三个月的工作发展如何？",
+    "spread_type": "celtic_cross",
+    "significator": {
+      "card_name_en": "Page of Wands",
+      "card_name_cn": "侍从 权杖",
+      "selection_reason": "根据年龄(28岁)和性别(female)选择Page；性格类型(wands)决定花色"
+    },
+    "cards_count": 10,
+    "pattern_analysis_method": "direct_llm",
+    "interpretation_summary": "### 整体解读\n在未来三个月，你的职业生涯将经历重要的转变。虽然目前面临一些不平衡和挑战，但你将释放出新的创造力和灵感，迎接全新的开始。\n\n### 位置解读\n\n1. **当前状态（Two of Pentacles [逆位]）**: 目前，你在工作中可能感到难以平衡多重任务或责任，导致一定程度的混乱和压力。需要调整并优先处理最重要的事项。\n\n2. **障碍（The Devil [逆位]）**: 你",
+    "metadata": {
+      "created_at": "2025-11-06T14:01:05.036136",
+      "processing_time_ms": 102097,
+      "pattern_analysis_method": "direct_llm"
+    }
+  },
+  "total_time_ms": 102239,
+  "errors": [],
+  "reading_record": {
+    "id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+    "question": "我未来三个月的工作发展如何？",
+    "status": "completed",
+    "current_step": "interpretation",
+    "question_domain": "career",
+    "question_complexity": "moderate",
+    "spread_type": "celtic_cross",
+    "significator_card_id": "93e36fbf-fd1b-44d8-b369-f3d9ac907ca9",
+    "has_pattern_analysis": true,
+    "has_interpretation": true,
+    "created_at": "2025-11-06T13:59:22.938185+00:00"
+  },
+  "cards": [
+    {
+      "id": "9abdf285-e678-4488-a90e-74b381ef3f6b",
+      "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+      "card_id": "6d9f7507-4320-4889-99f7-151c3e186f98",
+      "position": "cover",
+      "is_reversed": true,
+      "position_order": 1,
+      "created_at": "2025-11-06T13:59:25.903696+00:00",
+      "position_description": "覆盖Significator的牌，代表当前情况",
+      "card_selected_at": "2025-11-06T13:59:25.865173+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "cf466535-1762-4923-a2aa-0c12efec5518",
+      "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+      "card_id": "5b80fb8e-45a1-4c7d-b46a-794e32e298cf",
+      "position": "crossing",
+      "is_reversed": true,
+      "position_order": 2,
+      "created_at": "2025-11-06T13:59:25.903696+00:00",
+      "position_description": "横跨第一张牌的牌，代表阻碍或帮助",
+      "card_selected_at": "2025-11-06T13:59:25.865197+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "ba2983d7-2440-4559-a83b-eb31b51cb921",
+      "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+      "card_id": "0d0a40c7-aa70-4bb2-8039-715f903cb7ac",
+      "position": "basis",
+      "is_reversed": false,
+      "position_order": 3,
+      "created_at": "2025-11-06T13:59:25.903696+00:00",
+      "position_description": "位于Significator下方的牌，代表基础或根源",
+      "card_selected_at": "2025-11-06T13:59:25.865199+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "39152fe1-fa99-40cb-94ef-9c222b030db9",
+      "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+      "card_id": "3d9b8b0a-ba0b-478a-ac84-dd63c64d42ce",
+      "position": "behind",
+      "is_reversed": true,
+      "position_order": 4,
+      "created_at": "2025-11-06T13:59:25.903696+00:00",
+      "position_description": "代表过去的影响",
+      "card_selected_at": "2025-11-06T13:59:25.8652+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "52668932-52e8-4d9e-b524-90c812a062b6",
+      "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+      "card_id": "7a3f0019-6398-43cd-b4f3-d972338d04aa",
+      "position": "crowned",
+      "is_reversed": true,
+      "position_order": 5,
+      "created_at": "2025-11-06T13:59:25.903696+00:00",
+      "position_description": "代表可能的结果或目标",
+      "card_selected_at": "2025-11-06T13:59:25.865203+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "222c6488-5169-4ca7-85aa-df07629e677c",
+      "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+      "card_id": "d9b4771f-d323-4ed9-9950-bc1ebedf4f81",
+      "position": "before",
+      "is_reversed": false,
+      "position_order": 6,
+      "created_at": "2025-11-06T13:59:25.903696+00:00",
+      "position_description": "代表即将到来的未来",
+      "card_selected_at": "2025-11-06T13:59:25.865204+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "666071f0-9380-4ec3-ada0-06326f14c6b0",
+      "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+      "card_id": "2b6819e5-79c6-46b0-856c-dd7737d3cc97",
+      "position": "self",
+      "is_reversed": false,
+      "position_order": 7,
+      "created_at": "2025-11-06T13:59:25.903696+00:00",
+      "position_description": "代表问卜者自身",
+      "card_selected_at": "2025-11-06T13:59:25.865205+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "bc456df3-a2ea-4d74-b3eb-c999927ebe37",
+      "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+      "card_id": "5a3d48a3-e39b-4da5-9613-65592720e768",
+      "position": "environment",
+      "is_reversed": true,
+      "position_order": 8,
+      "created_at": "2025-11-06T13:59:25.903696+00:00",
+      "position_description": "代表周围环境和他人影响",
+      "card_selected_at": "2025-11-06T13:59:25.86521+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "faa3c68c-f442-42ef-8df4-ec19117ad762",
+      "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+      "card_id": "8ed3c737-15a3-4597-9d45-37ea10985968",
+      "position": "hopes_and_fears",
+      "is_reversed": true,
+      "position_order": 9,
+      "created_at": "2025-11-06T13:59:25.903696+00:00",
+      "position_description": "代表问卜者的希望和恐惧",
+      "card_selected_at": "2025-11-06T13:59:25.865211+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "4cde702e-ecc2-4cc7-bb54-2248d5cf86a9",
+      "reading_id": "c1c1886c-f7b9-43b5-968a-8cb40d0c508a",
+      "card_id": "247e14d7-00fd-4f30-8e6b-43ba52e56c1a",
+      "position": "outcome",
+      "is_reversed": false,
+      "position_order": 10,
+      "created_at": "2025-11-06T13:59:25.903696+00:00",
+      "position_description": "代表最终结果",
+      "card_selected_at": "2025-11-06T13:59:25.865212+00:00",
+      "related_positions": null
+    }
+  ]
+}

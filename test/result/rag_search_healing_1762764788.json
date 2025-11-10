@@ -1,0 +1,205 @@
+{
+  "query": "steps for using tarot cards for psychological healing and meditation",
+  "timestamp": "2025-11-10T09:53:08.737274",
+  "search_stats": {
+    "total_chunks": 10,
+    "latency_ms": 1213,
+    "sources": {
+      "78_degrees_of_wisdom.txt": {
+        "count": 8,
+        "avg_similarity": 0.6147478766988997
+      },
+      "pkt.txt": {
+        "count": 2,
+        "avg_similarity": 0.5780943062909495
+      }
+    }
+  },
+  "chunks": [
+    {
+      "index": 1,
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0269#1",
+      "similarity": 0.640450990267253,
+      "text": "explanations such as ‘best possible outcome’ for the positions. Following Crowley and others, several contemporary books have attempted to widen the meaning of the cards by linking them not only to astrology and the Qabalah but to the 1 Ching, Jungian psychology, Tantra, even Central American mythology. Such linking aids understanding, particularly for those people with a previous knowledge of the other system (it would be interesting to see a book about, say, gestalt psy¬ chology which explains its subject in terms of Tarot correspondence rather than the other way round). Still, the emphasis for any careful study of Tarot must remain with the cards themselves, and with their use in meditation and in readings. This section of the book hopes to give at least a sense of just how complex and deeply instructive a tool Tarot divination can be. Many people say that Tarot readings ‘scare’ them. What they mean by this is first a discomfort that anything should expose their experiences, as well as their inner fears and their hopes; and second, that a pack of cards should do so. They may approach the Tarot first as a game, especially if a friend or relative lays the cards so that they do not have to pay for the reading. They mix the cards, grinning a little, for they feel foolish; the reader lays them out, perhaps looking up the meanings in a book, and amazingly, out comes the new job, or the unfaithful lover or, if the reader approaches it a little more subtly, perhaps the fear of illness or a painful rebellion against a parent. ‘You’re making that up from what you know about me,’ they say, or ‘You could tell all that from looking at me, couldn’t you? You didn’t really get that from the cards.'",
+      "metadata": {
+        "card_name": "fool",
+        "source_file": "78_degrees_of_wisdom.txt",
+        "section_number": 269
+      }
+    },
+    {
+      "index": 2,
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0346#1",
+      "similarity": 0.630380787276078,
+      "text": "acting out some situation with the figures in the picture. This may happen overwhelmingly, so that you find your whole being there instead of here. More likely you will experience it as a fantasy unrolling before you, with an awareness at the same time of yourself sitting on the floor or lying on the bed. Either way, it is difficult to describe in words these intense experiences. They carry both a personal and archetypal meaning, for while the cards bear pictures of deepest meaning, what we do with those images comes out of our own needs and experiences. Various people, such as F. D. Ouspensky and Joseph D’Agostino, have attempted to write down their own Tarot meditations as an example or guide. For me these descriptions do not really convey the experience of the card coming alive, of becoming a part of the picture. Each person will experience different things in these moments. For instance, with Strength you might find yourself running with the lion, or else the woman’s flowering wreath might wrap around you, or you might become the woman herself or the lion; or even, as happened to me once, the woman might release the lion to leap at you and claw and bite you. Here are some more hints. If you do not have a particular image you wish to work with, you can do a reading or simply go through the deck until a card grips you and pulls you into it. Then place it before you and begin with your normal meditation. Become aware of the picture, putting aside any ideas you might have about it. Keep your eyes closed or opened, depending on what works for you; most people find that at least when the fantasy starts they prefer their eyes closed. Try to",
+      "metadata": {
+        "card_name": "Strength",
+        "source_file": "78_degrees_of_wisdom.txt",
+        "section_number": 346
+      }
+    },
+    {
+      "index": 3,
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0344#2",
+      "similarity": 0.628751359656373,
+      "text": "putting yourself into a meditative state. There are a great many books and classes on this subject, and many people will find they need to try a few before they find the best method that works best for them. Though most of these techniques will adapt themselves to work with Tarot, those which involve visualization (as compared to those emphasizing chanting or total emptiness of mind) will transfer most easily.",
+      "metadata": {
+        "card_name": "the Emperor",
+        "source_file": "78_degrees_of_wisdom.txt",
+        "section_number": 344
+      }
+    },
+    {
+      "index": 4,
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0354#1",
+      "similarity": 0.628121614456177,
+      "text": "To construct such a pattern, choose the most important cards from the reading and work from the centre out, trying to build the image organically. Place the cards needed for support at the bottom and the cards symbolizing goals at the top. Do not hesitate to introduce cards not found in the original reading if you find a strong need for qualities these cards represent. If you see a need for Temperance, for instance, place it below the centre; or if the reading shows a need for more developed will-power and discipline you might place the Chariot and the Nine of Pentacles side by side above the mandala, as the goal. In this way, you take charge of the reading, opening it to include what your intuition tells you the person needs. Most people consult a Tarot reading for specific information. Those who understand the cards a little more may look on the reading as a means of finding a direction. And those who follow a series of readings will see them as a method of keeping in harmony with the changing patterns of life. But to spend a long time reading cards for yourself and others is to discover many things beyond personal information. We have already seen some of these things. One is people's pessimistic reactions to readings. Another, more important, is the way Tarot readings require - and therefore create - a balance between subjective and objective, intuitive and rational, immediate impression and established knowledge, right and left side of the brain. We cannot create such a balance simply by wanting it. We have to let it grow. Tarot readings can help this happen.",
+      "metadata": {
+        "card_name": "Temperance",
+        "source_file": "78_degrees_of_wisdom.txt",
+        "section_number": 354
+      }
+    },
+    {
+      "index": 5,
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0186#2",
+      "similarity": 0.611661154379283,
+      "text": "ed. These things emerge through interpretation of the Tarot's images, through joining ourselves to those images in medita¬ tion, and through seeing the combinations formed in readings. Taken separately, the cards of the Minor Arcana present us with a grand panorama of human experiences. Together, and in union with the archetypal Major cards, they draw us into ever wider knowledge of the changing wonder of life.",
+      "metadata": {
+        "card_name": "world",
+        "source_file": "78_degrees_of_wisdom.txt",
+        "section_number": 186
+      }
+    },
+    {
+      "index": 6,
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0345#1",
+      "similarity": 0.605237209484745,
+      "text": "Different people use different methods to bring the card into their meditations. Some start with the eyes closed and do not look at the card until they have reached a certain state; others do the opposite. They begin by staring at the card until they reach a certain unity with it, then close their eyes and let the images continue from there. Others hold the card at arm's length, then draw it slowly towards the solar plexus, ‘bringing it into the aura'. However you begin I recommend working with the images and the feelings arising from the card instead of the symbolism you have learned to associate with it. Let the picture affect you, allow your reactions to it to surface and then slide away from you before they block any further experience. I have sometimes found it useful to stare without focussing at the card, so that the symbols and forms dissolve into colour and shape. At other times, particularly when giving a meditation to someone else, I will ignore the actual picture and suggest some scene associated with it. For instance, for the Fool, instead of that particular person in his multi-coloured suit, I will use a simpler image of a mountain top and clear sunlight. It is more important to set the person, or yourself, in the scene than to follow the card exactly. Movement or posture can also help to evoke some cards. For the Magician you might stand or sit with one arm raised ‘towards heaven’ and the other pointing at the earth. Sometimes the meditation will go nu further than an awareness of the card, or a discovery of new ideas about it, and about your self. At other times you will find yourself ‘entering’ the card, that is, finding yourself within the image,",
+      "metadata": {
+        "card_name": "star",
+        "source_file": "78_degrees_of_wisdom.txt",
+        "section_number": 345
+      }
+    },
+    {
+      "index": 7,
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0284#1",
+      "similarity": 0.587056219577789,
+      "text": "takes experience and a strong feeling for the cards to help indicate the correct interpretation. Even very practised readers will often find the alternatives confusing. After the choice of Significator comes the mixing. If the person is not asking a particular question I instruct him or her to empty the mind and concentrate on the hands, or simply on the Significator. If the reading does concern a specific question I ask the person to focus on that and even say the question out loud to fix it more firmly in the mind. The method of shuffling does not matter, except that it must be thorough and some of the cards must become turned around to allow reversed meanings to emerge. One method I sometimes recommend is to lay the cards on the table or floor (many readers always do their readings on the silk scarf they use to wrap the deck), then with both hands scatter them all around, like a child playing in the mud. Then I tell the person to bring the cards back together. Besides its thoroughness this method carries a nice symbolism. Any Tarot reading repre¬ sents a personal pattern emerging from the chaos of possible combinations. Even if we only read ten cards the whole deck bears the imprint of the person who last mixed them. By scat¬ tering the deck we return it to chaos; when we bring it back together, it carries the new pattern. With the cards mixed the subject must separate them into three piles in the following way. Using the left hand he or she must remove a pile from the top and place it to the left, then from that pile again remove a pile from the top and lay it down on the left.",
+      "metadata": {
+        "source_file": "78_degrees_of_wisdom.txt",
+        "section_number": 284
+      }
+    },
+    {
+      "index": 8,
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0364#1",
+      "similarity": 0.5863236784935,
+      "text": "more involved with the pictures, developing our intuition, then sometimes we can get experiences of Certitude, of knowing the true meaning of something. While such experiences carry their own value, they serve us most by giving us a sense of direction. They help us perceive what we want to achieve. Finally, the practice of Tarot reading teaches us something else. Because the cards arc not neutral in their attitude to life, because they embody certain approaches and beliefs, and renounce others, they change us. We begin over time - always over time - to see the balance of things, the steady harmony within the constant shift and flow of life. We become aware of the Strangeness always waiting beyond our ordinary experience, we learn to recognize the gifts we receive from existence, and our own responsibility to understand and use them. Most of all, we begin to grasp the truth the Tarot always urges upon us - that the universe the whole universe, lives. And what we can know of ourselves we can know of everything. Air of Water 51 Book o/Thoth, The 124 Builders of the Adytum deck 9 Case, Paul Foster 11 Celtic Cross reading, The 140- 158,147 Sample reading 151-158,152 Crowley deck 7, 8, 9, 124, 137 Cups 48-70 King of 50-51 Queen of 52-53 Knight of 54-55 Page of 56-57 Ten of 20, 48,57-58 Nine of 58-59 Eight of 59-61 Seven of 61-62 Six of 62-63 Five of 63-64 Four of 65 Three of 66-67 Two of 67-68 Ace of 69 Earth, element of (see Pentacles) Emperor, The 73, 74 Empress, The 43 Fire, element of (see Wands) Fire of Fire 32 Fire of Water 55 Fool, The 67, 68, 84, 96.97, 104 Garden of Eden 25 Gate cards 20-21,43, 60, 64, 82, 85,95, 102, 104,",
+      "metadata": {
+        "card_name": "Emperor",
+        "source_file": "78_degrees_of_wisdom.txt",
+        "section_number": 364
+      }
+    },
+    {
+      "index": 9,
+      "source": "pkt.txt",
+      "chunk_id": "pkt-section-0103#2",
+      "similarity": 0.584594944812089,
+      "text": "mind as blank as possible while shuffling the cards. 3. Put out of the mind personal bias and preconceived ideas as far as possible, or your judgment will be tinctured thereby. 4. On this account it is more easy to divine correctly for a stranger than for yourself or a friend. The Pictorial Key to the Tarot, by A.E. Waite, ill. by Pamela Colman Smith [1911], at sacred-texts.com THE METHOD OF READING BY MEANS OF THIRTY-FIVE CARDS",
+      "metadata": {
+        "source_file": "pkt.txt",
+        "section_number": 103
+      }
+    },
+    {
+      "index": 10,
+      "source": "pkt.txt",
+      "chunk_id": "pkt-section-0097#1",
+      "similarity": 0.57159366776981,
+      "text": "We come now to the final and practical part of this division of our subject, being the way to consult and obtain oracles by means of Tarot cards. The modes of operation are rather numerous, and some of them are exceedingly involved. I set aside those last mentioned, because persons who are versed in such questions believe that the way of simplicity is the way of truth. I set aside also the operations which have been republished recently in that section of The Tarot of the Bohemians which is entitled \"The Divining Tarot\"; it may be recommended at its proper value to readers who wish to go further than the limits of this handbook. I offer in the first place a short process which has been used privately for many years past in England, Scotland and Ireland. I do not think that it has been published--certainly not in connexion with Tarot cards; I believe that it will serve all purposes, but I will add by way of variation-in the second place what used to be known in France as the Oracles of Julia Orsini. The Pictorial Key to the Tarot, by A.E. Waite, ill. by Pamela Colman Smith [1911], at sacred-texts.com This mode of divination is the most suitable for obtaining an answer to a definite question. The Diviner first selects a card to represent the person or, matter about which inquiry is made. This card is called the Significator. Should he wish to ascertain something in connexion with himself he takes the one which corresponds to his personal description. A Knight should be chosen as the Significator if the subject of inquiry is a man of forty years old and upward; a King should be chosen for any male who is under that age a Queen for a woman",
+      "metadata": {
+        "source_file": "pkt.txt",
+        "section_number": 97
+      }
+    }
+  ],
+  "citations": [
+    {
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0269#1",
+      "similarity": 0.640450990267253
+    },
+    {
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0346#1",
+      "similarity": 0.630380787276078
+    },
+    {
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0344#2",
+      "similarity": 0.628751359656373
+    },
+    {
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0354#1",
+      "similarity": 0.628121614456177
+    },
+    {
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0186#2",
+      "similarity": 0.611661154379283
+    },
+    {
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0345#1",
+      "similarity": 0.605237209484745
+    },
+    {
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0284#1",
+      "similarity": 0.587056219577789
+    },
+    {
+      "source": "78_degrees_of_wisdom.txt",
+      "chunk_id": "78degrees-section-0364#1",
+      "similarity": 0.5863236784935
+    },
+    {
+      "source": "pkt.txt",
+      "chunk_id": "pkt-section-0103#2",
+      "similarity": 0.584594944812089
+    },
+    {
+      "source": "pkt.txt",
+      "chunk_id": "pkt-section-0097#1",
+      "similarity": 0.57159366776981
+    }
+  ],
+  "debug": {
+    "top_doc_ids": [
+      "78degrees-section-0269#1",
+      "78degrees-section-0346#1",
+      "78degrees-section-0344#2",
+      "78degrees-section-0354#1",
+      "78degrees-section-0186#2",
+      "78degrees-section-0345#1",
+      "78degrees-section-0284#1",
+      "78degrees-section-0364#1",
+      "pkt-section-0103#2",
+      "pkt-section-0097#1"
+    ],
+    "latency_ms": 1213,
+    "num_results": 10
+  }
+}

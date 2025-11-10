@@ -1,0 +1,1939 @@
+{
+  "question": "我的父亲11月运势如何",
+  "summary": {
+    "total_queries": 28,
+    "queries_by_type": {
+      "method_steps": 1,
+      "position_interpretation": 1,
+      "psychological_background": 1,
+      "traditional_method": 1,
+      "number_patterns": 1,
+      "suit_distribution": 1,
+      "card_relationships": 1,
+      "basic_meaning": 3,
+      "visual_description": 3,
+      "upright_meaning": 3,
+      "reversed_meaning": 3,
+      "position_meaning": 3,
+      "psychological_meaning": 3,
+      "suit_element_meaning": 3
+    },
+    "total_unique_chunks": 50,
+    "duplicate_chunks_count": 29,
+    "similarity_stats": {
+      "min": 0.317390872862131,
+      "max": 0.703193545341512,
+      "avg": 0.5592272140689517
+    },
+    "source_distribution": {
+      "78_degrees_of_wisdom.txt": 72,
+      "pkt.txt": 48
+    },
+    "quality_distribution": {
+      "excellent": 12,
+      "good": 15,
+      "fair": 0,
+      "poor": 1
+    }
+  },
+  "query_result_mapping": [
+    {
+      "query_index": 1,
+      "query_type": "method_steps",
+      "card_name": null,
+      "query_text": "three_card spread tarot divination method how to use steps",
+      "num_results_retrieved": 1,
+      "top_doc_ids": [
+        "78degrees-section-0305#2"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0305#2",
+          "similarity": 0.496708959537211
+        }
+      ],
+      "result_text_preview": "To perform a three-card spread Tarot divination, follow these steps:\n\n1. **Set Your Intention**: Focus on a specific question or situation you want insight into.\n\n2. **Shuffle the Deck**: While concen...",
+      "latency_ms": 6503
+    },
+    {
+      "query_index": 2,
+      "query_type": "position_interpretation",
+      "card_name": null,
+      "query_text": "three_card spread tarot card positions meaning interpretation",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0191#1",
+        "78degrees-section-0327#1",
+        "78degrees-section-0125#2",
+        "78degrees-section-0359#2",
+        "pkt-section-0020#1"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0191#1",
+          "similarity": 0.539576530456543
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0327#1",
+          "similarity": 0.534003679037537
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0125#2",
+          "similarity": 0.516719100866429
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0359#2",
+          "similarity": 0.515454173088074
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0020#1",
+          "similarity": 0.452980044306515
+        }
+      ],
+      "result_text_preview": "In a three-card spread, the positions typically represent the following:\n\n1. **Past**: This card reflects past influences or events that have shaped the current situation.\n2. **Present**: This card in...",
+      "latency_ms": 3584
+    },
+    {
+      "query_index": 3,
+      "query_type": "psychological_background",
+      "card_name": null,
+      "query_text": "three_card spread tarot psychological approach interpretation",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0327#1",
+        "78degrees-section-0359#2",
+        "78degrees-section-0181#2",
+        "78degrees-section-0365#1",
+        "pkt-section-0020#1"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0327#1",
+          "similarity": 0.567135401622705
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0359#2",
+          "similarity": 0.521165728569031
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0181#2",
+          "similarity": 0.512090563774109
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0365#1",
+          "similarity": 0.511627793312073
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0020#1",
+          "similarity": 0.416577373947062
+        }
+      ],
+      "result_text_preview": "In a three-card spread using a psychological approach, each card can represent different aspects of the querent's psyche or emotional state. \n\n1. **First Card (Past Influences)**: This card reflects p...",
+      "latency_ms": 5834
+    },
+    {
+      "query_index": 4,
+      "query_type": "traditional_method",
+      "card_name": null,
+      "query_text": "three_card spread tarot traditional divination method ancient celtic",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0122#2",
+        "pkt-section-0056#2",
+        "78degrees-section-0282#1",
+        "pkt-section-0015#1",
+        "78degrees-section-0066#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0122#2",
+          "similarity": 0.584076861363206
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0056#2",
+          "similarity": 0.575727845685024
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0282#1",
+          "similarity": 0.559315869869369
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0015#1",
+          "similarity": 0.516090212334373
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0066#1",
+          "similarity": 0.515619189478134
+        }
+      ],
+      "result_text_preview": "In a traditional three-card spread, particularly in the context of ancient Celtic divination, each card represents a different aspect of the inquiry:\n\n1. **Past**: This card reflects influences or eve...",
+      "latency_ms": 3506
+    },
+    {
+      "query_index": 5,
+      "query_type": "number_patterns",
+      "card_name": null,
+      "query_text": "tarot card number patterns same numbers sequences in spread Four of Cups, Five of Swords, King of Pentacles",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0045#2",
+        "pkt-section-0095#1",
+        "78degrees-section-0218#1",
+        "78degrees-section-0255#1",
+        "pkt-section-0087#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0045#2",
+          "similarity": 0.608946655047737
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0095#1",
+          "similarity": 0.605185675002856
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0218#1",
+          "similarity": 0.577893451828936
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0255#1",
+          "similarity": 0.571601646256154
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0087#1",
+          "similarity": 0.571112939317864
+        }
+      ],
+      "result_text_preview": "In the spread featuring the Four of Cups, Five of Swords, and King of Pentacles, we can observe a numerical pattern based on the sequence of the cards:\n\n- **Four of Cups (4)**: Represents contemplatio...",
+      "latency_ms": 4416
+    },
+    {
+      "query_index": 6,
+      "query_type": "suit_distribution",
+      "card_name": null,
+      "query_text": "tarot card suit distribution element balance pentacles, swords, cups in spread",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0181#1",
+        "78degrees-section-0282#1",
+        "78degrees-section-0170#1",
+        "pkt-section-0015#1",
+        "pkt-section-0056#2"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0181#1",
+          "similarity": 0.668380637861453
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0282#1",
+          "similarity": 0.651834566945868
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0170#1",
+          "similarity": 0.59091180562973
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0015#1",
+          "similarity": 0.583902359008789
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0056#2",
+          "similarity": 0.555159303853471
+        }
+      ],
+      "result_text_preview": "In a Tarot spread, the distribution of suits can indicate the balance of elements in a reading. \n\n- **Wands (Fire)** and **Swords (Air)** represent active, 'yang' energies, suggesting action, conflict...",
+      "latency_ms": 6137
+    },
+    {
+      "query_index": 7,
+      "query_type": "card_relationships",
+      "card_name": null,
+      "query_text": "tarot card relationships sequence meaning Four of Cups (past), Five of Swords (present), King of Pentacles (future)",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0228#1",
+        "78degrees-section-0289#1",
+        "78degrees-section-0286#1",
+        "78degrees-section-0208#2",
+        "78degrees-section-0356#1"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0228#1",
+          "similarity": 0.56551887413522
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0289#1",
+          "similarity": 0.519200678062277
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0286#1",
+          "similarity": 0.513652159543148
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0208#2",
+          "similarity": 0.478749828450402
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0356#1",
+          "similarity": 0.472748342424832
+        }
+      ],
+      "result_text_preview": "In this sequence, the Four of Cups in the past suggests a period of contemplation or dissatisfaction, where emotional opportunities may have been overlooked. The Five of Swords in the present indicate...",
+      "latency_ms": 4493
+    },
+    {
+      "query_index": 8,
+      "query_type": "basic_meaning",
+      "card_name": "Four of Cups",
+      "query_text": "Four of Cups tarot card meaning divinatory meaning",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0359#2",
+        "78degrees-section-0191#1",
+        "78degrees-section-0125#2",
+        "78degrees-section-0158#1",
+        "pkt-section-0020#1"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0359#2",
+          "similarity": 0.529175074647372
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0191#1",
+          "similarity": 0.504699498695106
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0125#2",
+          "similarity": 0.502999990999707
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0158#1",
+          "similarity": 0.491279571728682
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0020#1",
+          "similarity": 0.401105105876925
+        }
+      ],
+      "result_text_preview": "The Four of Cups in a divinatory context often signifies contemplation, apathy, or reevaluation. It suggests a period of introspection where one may feel discontent or disconnected from their current ...",
+      "latency_ms": 2922
+    },
+    {
+      "query_index": 9,
+      "query_type": "visual_description",
+      "card_name": "Four of Cups",
+      "query_text": "Four of Cups tarot card description image visual appearance",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0079#1",
+        "pkt-section-0077#1",
+        "78degrees-section-0262#1",
+        "pkt-section-0076#1",
+        "78degrees-section-0315#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0079#1",
+          "similarity": 0.641503887355792
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0077#1",
+          "similarity": 0.615431446296914
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0262#1",
+          "similarity": 0.592373680159293
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0076#1",
+          "similarity": 0.591299961960312
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0315#1",
+          "similarity": 0.535344139794831
+        }
+      ],
+      "result_text_preview": "The Four of Cups typically depicts a figure sitting under a tree, appearing discontent or contemplative. Three cups are positioned in front of him, while a fourth cup is being offered by a hand emergi...",
+      "latency_ms": 2562
+    },
+    {
+      "query_index": 10,
+      "query_type": "upright_meaning",
+      "card_name": "Four of Cups",
+      "query_text": "Four of Cups tarot card upright meaning divinatory upright",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0079#1",
+        "pkt-section-0077#1",
+        "78degrees-section-0315#1",
+        "pkt-section-0086#1",
+        "78degrees-section-0262#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0079#1",
+          "similarity": 0.680527648988683
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0077#1",
+          "similarity": 0.60824682141086
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0315#1",
+          "similarity": 0.590529936269818
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0086#1",
+          "similarity": 0.572643126941195
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0262#1",
+          "similarity": 0.561297066366324
+        }
+      ],
+      "result_text_preview": "The Four of Cups upright signifies contemplation, apathy, and reevaluation. It often represents a period of introspection where one may feel disconnected or dissatisfied with current circumstances. Th...",
+      "latency_ms": 3595
+    },
+    {
+      "query_index": 11,
+      "query_type": "reversed_meaning",
+      "card_name": "Four of Cups",
+      "query_text": "Four of Cups tarot card reversed meaning divinatory reversed",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0078#1",
+        "78degrees-section-0220#1",
+        "78degrees-section-0223#1",
+        "78degrees-section-0266#1",
+        "pkt-section-0087#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0078#1",
+          "similarity": 0.703193545341512
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0220#1",
+          "similarity": 0.676877537145913
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0223#1",
+          "similarity": 0.671120245189608
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0266#1",
+          "similarity": 0.642392060614116
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0087#1",
+          "similarity": 0.616699640449921
+        }
+      ],
+      "result_text_preview": "The Four of Cups reversed signifies a shift towards acceptance and renewal after a period of discontent. It can indicate support from friends, new interests, and the realization of what truly matters ...",
+      "latency_ms": 3015
+    },
+    {
+      "query_index": 12,
+      "query_type": "position_meaning",
+      "card_name": "Four of Cups",
+      "query_text": "Four of Cups tarot card past position meaning interpretation",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0079#1",
+        "78degrees-section-0315#1",
+        "pkt-section-0077#1",
+        "78degrees-section-0262#1",
+        "pkt-section-0076#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0079#1",
+          "similarity": 0.636724789045007
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0315#1",
+          "similarity": 0.592709923225051
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0077#1",
+          "similarity": 0.565926577691641
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0262#1",
+          "similarity": 0.560726122877787
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0076#1",
+          "similarity": 0.520869330193684
+        }
+      ],
+      "result_text_preview": "The Four of Cups in the past position typically signifies a period of emotional withdrawal or contemplation. It suggests that the Querent may have experienced feelings of dissatisfaction or apathy reg...",
+      "latency_ms": 3174
+    },
+    {
+      "query_index": 13,
+      "query_type": "psychological_meaning",
+      "card_name": "Four of Cups",
+      "query_text": "Four of Cups tarot card psychological meaning psychological interpretation",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0079#1",
+        "pkt-section-0077#1",
+        "78degrees-section-0262#1",
+        "78degrees-section-0315#1",
+        "pkt-section-0076#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0079#1",
+          "similarity": 0.624609213334061
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0077#1",
+          "similarity": 0.586608816789534
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0262#1",
+          "similarity": 0.582330805589843
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0315#1",
+          "similarity": 0.577520063219067
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0076#1",
+          "similarity": 0.542826636349373
+        }
+      ],
+      "result_text_preview": "The Four of Cups often represents feelings of apathy, contemplation, and introspection. Psychologically, it can indicate a state of emotional withdrawal or dissatisfaction with current circumstances. ...",
+      "latency_ms": 3604
+    },
+    {
+      "query_index": 14,
+      "query_type": "suit_element_meaning",
+      "card_name": "Four of Cups",
+      "query_text": "Four of Cups tarot card water element emotion suit meaning",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0079#1",
+        "78degrees-section-0315#1",
+        "78degrees-section-0262#1",
+        "pkt-section-0077#1",
+        "pkt-section-0076#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0079#1",
+          "similarity": 0.588674433051867
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0315#1",
+          "similarity": 0.560886401971635
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0262#1",
+          "similarity": 0.558376083519233
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0077#1",
+          "similarity": 0.552933474850638
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0076#1",
+          "similarity": 0.528989327342291
+        }
+      ],
+      "result_text_preview": "The Four of Cups represents introspection and contemplation regarding emotional fulfillment. It often signifies a period of reevaluation, where one may feel discontent or disconnected from their curre...",
+      "latency_ms": 3508
+    },
+    {
+      "query_index": 15,
+      "query_type": "basic_meaning",
+      "card_name": "Five of Swords",
+      "query_text": "Five of Swords tarot card meaning divinatory meaning",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0237#1",
+        "pkt-section-0087#1",
+        "pkt-section-0078#1",
+        "pkt-section-0100#1",
+        "78degrees-section-0241#1"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0237#1",
+          "similarity": 0.603743135929112
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0087#1",
+          "similarity": 0.602691108228962
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0078#1",
+          "similarity": 0.581957980744479
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0100#1",
+          "similarity": 0.532085085138389
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0241#1",
+          "similarity": 0.53027143894009
+        }
+      ],
+      "result_text_preview": "The Five of Swords typically represents conflict, defeat, and loss. It signifies a situation where one may experience betrayal or a hollow victory, often at the expense of others. This card highlights...",
+      "latency_ms": 3075
+    },
+    {
+      "query_index": 16,
+      "query_type": "visual_description",
+      "card_name": "Five of Swords",
+      "query_text": "Five of Swords tarot card description image visual appearance",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0302#1",
+        "78degrees-section-0218#2",
+        "78degrees-section-0219#1",
+        "78degrees-section-0311#1",
+        "pkt-section-0110#1"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0302#1",
+          "similarity": 0.545804858207703
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0218#2",
+          "similarity": 0.542358425715064
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0219#1",
+          "similarity": 0.510433256626129
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0311#1",
+          "similarity": 0.494316994466427
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0110#1",
+          "similarity": 0.369205482649477
+        }
+      ],
+      "result_text_preview": "The Five of Swords typically depicts a scene of conflict and defeat. In the image, you might see a figure standing triumphantly over two defeated opponents, who are walking away in sorrow. The victori...",
+      "latency_ms": 2970
+    },
+    {
+      "query_index": 17,
+      "query_type": "upright_meaning",
+      "card_name": "Five of Swords",
+      "query_text": "Five of Swords tarot card upright meaning divinatory upright",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0302#1",
+        "78degrees-section-0218#2",
+        "78degrees-section-0311#1",
+        "78degrees-section-0219#1",
+        "pkt-section-0110#1"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0302#1",
+          "similarity": 0.549559810678934
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0218#2",
+          "similarity": 0.507639826254838
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0311#1",
+          "similarity": 0.504797489880768
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0219#1",
+          "similarity": 0.498822420624935
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0110#1",
+          "similarity": 0.367151065725226
+        }
+      ],
+      "result_text_preview": "The Five of Swords upright typically signifies conflict, tension, and defeat. It often represents a situation where one person may win at the expense of others, leading to feelings of betrayal or loss...",
+      "latency_ms": 3148
+    },
+    {
+      "query_index": 18,
+      "query_type": "reversed_meaning",
+      "card_name": "Five of Swords",
+      "query_text": "Five of Swords tarot card reversed meaning divinatory reversed",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0237#1",
+        "pkt-section-0078#1",
+        "78degrees-section-0266#1",
+        "pkt-section-0087#1",
+        "78degrees-section-0223#1"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0237#1",
+          "similarity": 0.678768615649271
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0078#1",
+          "similarity": 0.646189426467282
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0266#1",
+          "similarity": 0.622991077242687
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0087#1",
+          "similarity": 0.619300517335614
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0223#1",
+          "similarity": 0.616198062896746
+        }
+      ],
+      "result_text_preview": "The Five of Swords reversed indicates a potential for healing and communication after conflict. It suggests that while past disputes may have caused pain, there is an opportunity to address these issu...",
+      "latency_ms": 2481
+    },
+    {
+      "query_index": 19,
+      "query_type": "position_meaning",
+      "card_name": "Five of Swords",
+      "query_text": "Five of Swords tarot card present position meaning interpretation",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0079#1",
+        "78degrees-section-0262#1",
+        "78degrees-section-0315#1",
+        "pkt-section-0086#1",
+        "pkt-section-0088#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0079#1",
+          "similarity": 0.584557515843001
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0262#1",
+          "similarity": 0.543812377935291
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0315#1",
+          "similarity": 0.532973404768303
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0086#1",
+          "similarity": 0.528869986534134
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0088#1",
+          "similarity": 0.521584329416239
+        }
+      ],
+      "result_text_preview": "The Five of Swords typically represents conflict, tension, and defeat. In its present position, it suggests a situation where there may be a sense of betrayal or loss, often indicating that a victory ...",
+      "latency_ms": 4542
+    },
+    {
+      "query_index": 20,
+      "query_type": "psychological_meaning",
+      "card_name": "Five of Swords",
+      "query_text": "Five of Swords tarot card psychological meaning psychological interpretation",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0079#1",
+        "78degrees-section-0262#1",
+        "pkt-section-0076#1",
+        "78degrees-section-0315#1",
+        "78degrees-section-0236#2"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0079#1",
+          "similarity": 0.536631393727489
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0262#1",
+          "similarity": 0.527270483428583
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0076#1",
+          "similarity": 0.498210981328279
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0315#1",
+          "similarity": 0.495431542396545
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0236#2",
+          "similarity": 0.494037330150604
+        }
+      ],
+      "result_text_preview": "The Five of Swords often represents conflict, defeat, and the psychological toll of competition or betrayal. It can indicate feelings of isolation and the aftermath of a struggle where one may feel vi...",
+      "latency_ms": 4336
+    },
+    {
+      "query_index": 21,
+      "query_type": "suit_element_meaning",
+      "card_name": "Five of Swords",
+      "query_text": "Five of Swords tarot card air element thought suit meaning",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0241#1",
+        "78degrees-section-0242#1",
+        "78degrees-section-0237#1",
+        "pkt-section-0087#1",
+        "pkt-section-0095#1"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0241#1",
+          "similarity": 0.584093287451277
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0242#1",
+          "similarity": 0.575004985927941
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0237#1",
+          "similarity": 0.57226913305889
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0087#1",
+          "similarity": 0.501467987851264
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0095#1",
+          "similarity": 0.453968021037101
+        }
+      ],
+      "result_text_preview": "The Five of Swords represents conflict, defeat, and the harsh realities of competition. In the context of the air element, which governs thoughts and communication, this card signifies mental strife a...",
+      "latency_ms": 3506
+    },
+    {
+      "query_index": 22,
+      "query_type": "basic_meaning",
+      "card_name": "King of Pentacles",
+      "query_text": "King of Pentacles tarot card meaning divinatory meaning",
+      "num_results_retrieved": 1,
+      "top_doc_ids": [
+        "78degrees-section-0305#2"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0305#2",
+          "similarity": 0.477003513396003
+        }
+      ],
+      "result_text_preview": "The King of Pentacles represents stability, security, and financial success. In a divinatory context, this card signifies a person who is reliable, practical, and grounded, often embodying traits of l...",
+      "latency_ms": 2905
+    },
+    {
+      "query_index": 23,
+      "query_type": "visual_description",
+      "card_name": "King of Pentacles",
+      "query_text": "King of Pentacles tarot card description image visual appearance",
+      "num_results_retrieved": 0,
+      "top_doc_ids": [],
+      "citations": [],
+      "result_text_preview": "I don't have enough information to answer your question. Could you please rephrase or provide more context?",
+      "latency_ms": 525
+    },
+    {
+      "query_index": 24,
+      "query_type": "upright_meaning",
+      "card_name": "King of Pentacles",
+      "query_text": "King of Pentacles tarot card upright meaning divinatory upright",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0087#1",
+        "78degrees-section-0266#1",
+        "pkt-section-0078#1",
+        "78degrees-section-0255#1",
+        "78degrees-section-0082#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0087#1",
+          "similarity": 0.677470983040719
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0266#1",
+          "similarity": 0.620413377334282
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0078#1",
+          "similarity": 0.588102207440534
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0255#1",
+          "similarity": 0.579327404499058
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0082#1",
+          "similarity": 0.571247628778518
+        }
+      ],
+      "result_text_preview": "The King of Pentacles upright signifies financial stability, security, and success. It represents a person who is reliable, practical, and grounded, often associated with wealth and material abundance...",
+      "latency_ms": 3209
+    },
+    {
+      "query_index": 25,
+      "query_type": "reversed_meaning",
+      "card_name": "King of Pentacles",
+      "query_text": "King of Pentacles tarot card reversed meaning divinatory reversed",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "78degrees-section-0266#1",
+        "pkt-section-0087#1",
+        "pkt-section-0078#1",
+        "78degrees-section-0223#1",
+        "78degrees-section-0255#1"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0266#1",
+          "similarity": 0.698865377767727
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0087#1",
+          "similarity": 0.688396157776966
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0078#1",
+          "similarity": 0.672509909721002
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0223#1",
+          "similarity": 0.647853514680067
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0255#1",
+          "similarity": 0.623320221900944
+        }
+      ],
+      "result_text_preview": "The King of Pentacles reversed typically signifies a loss of control over finances, materialism, and a lack of stability. It can indicate greed, corruption, or a focus on wealth at the expense of rela...",
+      "latency_ms": 4618
+    },
+    {
+      "query_index": 26,
+      "query_type": "position_meaning",
+      "card_name": "King of Pentacles",
+      "query_text": "King of Pentacles tarot card future position meaning interpretation",
+      "num_results_retrieved": 1,
+      "top_doc_ids": [
+        "78degrees-section-0305#2"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0305#2",
+          "similarity": 0.533358248076343
+        }
+      ],
+      "result_text_preview": "The King of Pentacles in the future position suggests a time of stability, security, and material success. It indicates that you may achieve financial prosperity and establish a solid foundation in yo...",
+      "latency_ms": 6007
+    },
+    {
+      "query_index": 27,
+      "query_type": "psychological_meaning",
+      "card_name": "King of Pentacles",
+      "query_text": "King of Pentacles tarot card psychological meaning psychological interpretation",
+      "num_results_retrieved": 5,
+      "top_doc_ids": [
+        "pkt-section-0087#1",
+        "78degrees-section-0255#1",
+        "78degrees-section-0266#1",
+        "78degrees-section-0242#1",
+        "pkt-section-0095#1"
+      ],
+      "citations": [
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0087#1",
+          "similarity": 0.638107774088482
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0255#1",
+          "similarity": 0.609731972217564
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0266#1",
+          "similarity": 0.597385716126646
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0242#1",
+          "similarity": 0.544451594352726
+        },
+        {
+          "source": "pkt.txt",
+          "chunk_id": "pkt-section-0095#1",
+          "similarity": 0.544063660148601
+        }
+      ],
+      "result_text_preview": "The King of Pentacles represents stability, security, and a strong sense of responsibility. Psychologically, this card embodies traits such as practicality, discipline, and a focus on material success...",
+      "latency_ms": 3672
+    },
+    {
+      "query_index": 28,
+      "query_type": "suit_element_meaning",
+      "card_name": "King of Pentacles",
+      "query_text": "King of Pentacles tarot card earth element material suit meaning",
+      "num_results_retrieved": 2,
+      "top_doc_ids": [
+        "78degrees-section-0226#1",
+        "78degrees-section-0072#2"
+      ],
+      "citations": [
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0226#1",
+          "similarity": 0.4246764779091
+        },
+        {
+          "source": "78_degrees_of_wisdom.txt",
+          "chunk_id": "78degrees-section-0072#2",
+          "similarity": 0.317390872862131
+        }
+      ],
+      "result_text_preview": "The King of Pentacles represents stability, security, and success in the material realm. As a figure embodying the earth element, he signifies practicality, financial acumen, and a strong connection t...",
+      "latency_ms": 5359
+    }
+  ],
+  "duplicate_analysis": {
+    "total_duplicate_chunks": 29,
+    "duplicates": {
+      "78degrees-section-0305#2": [
+        {
+          "query_index": 0,
+          "query_type": "method_steps",
+          "card_name": "N/A",
+          "query": "three_card spread tarot divination method how to use steps",
+          "similarity": 0.496708959537211,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 21,
+          "query_type": "basic_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card meaning divinatory meaning",
+          "similarity": 0.477003513396003,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 25,
+          "query_type": "position_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card future position meaning interpretation",
+          "similarity": 0.533358248076343,
+          "source": "78_degrees_of_wisdom.txt"
+        }
+      ],
+      "78degrees-section-0191#1": [
+        {
+          "query_index": 1,
+          "query_type": "position_interpretation",
+          "card_name": "N/A",
+          "query": "three_card spread tarot card positions meaning interpretation",
+          "similarity": 0.539576530456543,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 7,
+          "query_type": "basic_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card meaning divinatory meaning",
+          "similarity": 0.504699498695106,
+          "source": "78_degrees_of_wisdom.txt"
+        }
+      ],
+      "78degrees-section-0327#1": [
+        {
+          "query_index": 1,
+          "query_type": "position_interpretation",
+          "card_name": "N/A",
+          "query": "three_card spread tarot card positions meaning interpretation",
+          "similarity": 0.534003679037537,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 2,
+          "query_type": "psychological_background",
+          "card_name": "N/A",
+          "query": "three_card spread tarot psychological approach interpretation",
+          "similarity": 0.567135401622705,
+          "source": "78_degrees_of_wisdom.txt"
+        }
+      ],
+      "78degrees-section-0125#2": [
+        {
+          "query_index": 1,
+          "query_type": "position_interpretation",
+          "card_name": "N/A",
+          "query": "three_card spread tarot card positions meaning interpretation",
+          "similarity": 0.516719100866429,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 7,
+          "query_type": "basic_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card meaning divinatory meaning",
+          "similarity": 0.502999990999707,
+          "source": "78_degrees_of_wisdom.txt"
+        }
+      ],
+      "78degrees-section-0359#2": [
+        {
+          "query_index": 1,
+          "query_type": "position_interpretation",
+          "card_name": "N/A",
+          "query": "three_card spread tarot card positions meaning interpretation",
+          "similarity": 0.515454173088074,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 2,
+          "query_type": "psychological_background",
+          "card_name": "N/A",
+          "query": "three_card spread tarot psychological approach interpretation",
+          "similarity": 0.521165728569031,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 7,
+          "query_type": "basic_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card meaning divinatory meaning",
+          "similarity": 0.529175074647372,
+          "source": "78_degrees_of_wisdom.txt"
+        }
+      ],
+      "pkt-section-0020#1": [
+        {
+          "query_index": 1,
+          "query_type": "position_interpretation",
+          "card_name": "N/A",
+          "query": "three_card spread tarot card positions meaning interpretation",
+          "similarity": 0.452980044306515,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 2,
+          "query_type": "psychological_background",
+          "card_name": "N/A",
+          "query": "three_card spread tarot psychological approach interpretation",
+          "similarity": 0.416577373947062,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 7,
+          "query_type": "basic_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card meaning divinatory meaning",
+          "similarity": 0.401105105876925,
+          "source": "pkt.txt"
+        }
+      ],
+      "pkt-section-0056#2": [
+        {
+          "query_index": 3,
+          "query_type": "traditional_method",
+          "card_name": "N/A",
+          "query": "three_card spread tarot traditional divination method ancient celtic",
+          "similarity": 0.575727845685024,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 5,
+          "query_type": "suit_distribution",
+          "card_name": "N/A",
+          "query": "tarot card suit distribution element balance pentacles, swords, cups in spread",
+          "similarity": 0.555159303853471,
+          "source": "pkt.txt"
+        }
+      ],
+      "78degrees-section-0282#1": [
+        {
+          "query_index": 3,
+          "query_type": "traditional_method",
+          "card_name": "N/A",
+          "query": "three_card spread tarot traditional divination method ancient celtic",
+          "similarity": 0.559315869869369,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 5,
+          "query_type": "suit_distribution",
+          "card_name": "N/A",
+          "query": "tarot card suit distribution element balance pentacles, swords, cups in spread",
+          "similarity": 0.651834566945868,
+          "source": "78_degrees_of_wisdom.txt"
+        }
+      ],
+      "pkt-section-0015#1": [
+        {
+          "query_index": 3,
+          "query_type": "traditional_method",
+          "card_name": "N/A",
+          "query": "three_card spread tarot traditional divination method ancient celtic",
+          "similarity": 0.516090212334373,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 5,
+          "query_type": "suit_distribution",
+          "card_name": "N/A",
+          "query": "tarot card suit distribution element balance pentacles, swords, cups in spread",
+          "similarity": 0.583902359008789,
+          "source": "pkt.txt"
+        }
+      ],
+      "pkt-section-0095#1": [
+        {
+          "query_index": 4,
+          "query_type": "number_patterns",
+          "card_name": "N/A",
+          "query": "tarot card number patterns same numbers sequences in spread Four of Cups, Five of Swords, King of Pentacles",
+          "similarity": 0.605185675002856,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 20,
+          "query_type": "suit_element_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card air element thought suit meaning",
+          "similarity": 0.453968021037101,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 26,
+          "query_type": "psychological_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card psychological meaning psychological interpretation",
+          "similarity": 0.544063660148601,
+          "source": "pkt.txt"
+        }
+      ],
+      "78degrees-section-0255#1": [
+        {
+          "query_index": 4,
+          "query_type": "number_patterns",
+          "card_name": "N/A",
+          "query": "tarot card number patterns same numbers sequences in spread Four of Cups, Five of Swords, King of Pentacles",
+          "similarity": 0.571601646256154,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 23,
+          "query_type": "upright_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card upright meaning divinatory upright",
+          "similarity": 0.579327404499058,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 24,
+          "query_type": "reversed_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card reversed meaning divinatory reversed",
+          "similarity": 0.623320221900944,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 26,
+          "query_type": "psychological_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card psychological meaning psychological interpretation",
+          "similarity": 0.609731972217564,
+          "source": "78_degrees_of_wisdom.txt"
+        }
+      ],
+      "pkt-section-0087#1": [
+        {
+          "query_index": 4,
+          "query_type": "number_patterns",
+          "card_name": "N/A",
+          "query": "tarot card number patterns same numbers sequences in spread Four of Cups, Five of Swords, King of Pentacles",
+          "similarity": 0.571112939317864,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 10,
+          "query_type": "reversed_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card reversed meaning divinatory reversed",
+          "similarity": 0.616699640449921,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 14,
+          "query_type": "basic_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card meaning divinatory meaning",
+          "similarity": 0.602691108228962,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 17,
+          "query_type": "reversed_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card reversed meaning divinatory reversed",
+          "similarity": 0.619300517335614,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 20,
+          "query_type": "suit_element_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card air element thought suit meaning",
+          "similarity": 0.501467987851264,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 23,
+          "query_type": "upright_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card upright meaning divinatory upright",
+          "similarity": 0.677470983040719,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 24,
+          "query_type": "reversed_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card reversed meaning divinatory reversed",
+          "similarity": 0.688396157776966,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 26,
+          "query_type": "psychological_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card psychological meaning psychological interpretation",
+          "similarity": 0.638107774088482,
+          "source": "pkt.txt"
+        }
+      ],
+      "pkt-section-0079#1": [
+        {
+          "query_index": 8,
+          "query_type": "visual_description",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card description image visual appearance",
+          "similarity": 0.641503887355792,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 9,
+          "query_type": "upright_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card upright meaning divinatory upright",
+          "similarity": 0.680527648988683,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 11,
+          "query_type": "position_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card past position meaning interpretation",
+          "similarity": 0.636724789045007,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 12,
+          "query_type": "psychological_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card psychological meaning psychological interpretation",
+          "similarity": 0.624609213334061,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 13,
+          "query_type": "suit_element_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card water element emotion suit meaning",
+          "similarity": 0.588674433051867,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 18,
+          "query_type": "position_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card present position meaning interpretation",
+          "similarity": 0.584557515843001,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 19,
+          "query_type": "psychological_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card psychological meaning psychological interpretation",
+          "similarity": 0.536631393727489,
+          "source": "pkt.txt"
+        }
+      ],
+      "pkt-section-0077#1": [
+        {
+          "query_index": 8,
+          "query_type": "visual_description",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card description image visual appearance",
+          "similarity": 0.615431446296914,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 9,
+          "query_type": "upright_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card upright meaning divinatory upright",
+          "similarity": 0.60824682141086,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 11,
+          "query_type": "position_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card past position meaning interpretation",
+          "similarity": 0.565926577691641,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 12,
+          "query_type": "psychological_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card psychological meaning psychological interpretation",
+          "similarity": 0.586608816789534,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 13,
+          "query_type": "suit_element_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card water element emotion suit meaning",
+          "similarity": 0.552933474850638,
+          "source": "pkt.txt"
+        }
+      ],
+      "78degrees-section-0262#1": [
+        {
+          "query_index": 8,
+          "query_type": "visual_description",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card description image visual appearance",
+          "similarity": 0.592373680159293,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 9,
+          "query_type": "upright_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card upright meaning divinatory upright",
+          "similarity": 0.561297066366324,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 11,
+          "query_type": "position_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card past position meaning interpretation",
+          "similarity": 0.560726122877787,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 12,
+          "query_type": "psychological_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card psychological meaning psychological interpretation",
+          "similarity": 0.582330805589843,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 13,
+          "query_type": "suit_element_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card water element emotion suit meaning",
+          "similarity": 0.558376083519233,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 18,
+          "query_type": "position_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card present position meaning interpretation",
+          "similarity": 0.543812377935291,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 19,
+          "query_type": "psychological_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card psychological meaning psychological interpretation",
+          "similarity": 0.527270483428583,
+          "source": "78_degrees_of_wisdom.txt"
+        }
+      ],
+      "pkt-section-0076#1": [
+        {
+          "query_index": 8,
+          "query_type": "visual_description",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card description image visual appearance",
+          "similarity": 0.591299961960312,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 11,
+          "query_type": "position_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card past position meaning interpretation",
+          "similarity": 0.520869330193684,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 12,
+          "query_type": "psychological_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card psychological meaning psychological interpretation",
+          "similarity": 0.542826636349373,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 13,
+          "query_type": "suit_element_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card water element emotion suit meaning",
+          "similarity": 0.528989327342291,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 19,
+          "query_type": "psychological_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card psychological meaning psychological interpretation",
+          "similarity": 0.498210981328279,
+          "source": "pkt.txt"
+        }
+      ],
+      "78degrees-section-0315#1": [
+        {
+          "query_index": 8,
+          "query_type": "visual_description",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card description image visual appearance",
+          "similarity": 0.535344139794831,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 9,
+          "query_type": "upright_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card upright meaning divinatory upright",
+          "similarity": 0.590529936269818,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 11,
+          "query_type": "position_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card past position meaning interpretation",
+          "similarity": 0.592709923225051,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 12,
+          "query_type": "psychological_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card psychological meaning psychological interpretation",
+          "similarity": 0.577520063219067,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 13,
+          "query_type": "suit_element_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card water element emotion suit meaning",
+          "similarity": 0.560886401971635,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 18,
+          "query_type": "position_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card present position meaning interpretation",
+          "similarity": 0.532973404768303,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 19,
+          "query_type": "psychological_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card psychological meaning psychological interpretation",
+          "similarity": 0.495431542396545,
+          "source": "78_degrees_of_wisdom.txt"
+        }
+      ],
+      "pkt-section-0086#1": [
+        {
+          "query_index": 9,
+          "query_type": "upright_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card upright meaning divinatory upright",
+          "similarity": 0.572643126941195,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 18,
+          "query_type": "position_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card present position meaning interpretation",
+          "similarity": 0.528869986534134,
+          "source": "pkt.txt"
+        }
+      ],
+      "pkt-section-0078#1": [
+        {
+          "query_index": 10,
+          "query_type": "reversed_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card reversed meaning divinatory reversed",
+          "similarity": 0.703193545341512,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 14,
+          "query_type": "basic_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card meaning divinatory meaning",
+          "similarity": 0.581957980744479,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 17,
+          "query_type": "reversed_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card reversed meaning divinatory reversed",
+          "similarity": 0.646189426467282,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 23,
+          "query_type": "upright_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card upright meaning divinatory upright",
+          "similarity": 0.588102207440534,
+          "source": "pkt.txt"
+        },
+        {
+          "query_index": 24,
+          "query_type": "reversed_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card reversed meaning divinatory reversed",
+          "similarity": 0.672509909721002,
+          "source": "pkt.txt"
+        }
+      ],
+      "78degrees-section-0223#1": [
+        {
+          "query_index": 10,
+          "query_type": "reversed_meaning",
+          "card_name": "Four of Cups",
+          "query": "Four of Cups tarot card reversed meaning divinatory reversed",
+          "similarity": 0.671120245189608,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 17,
+          "query_type": "reversed_meaning",
+          "card_name": "Five of Swords",
+          "query": "Five of Swords tarot card reversed meaning divinatory reversed",
+          "similarity": 0.616198062896746,
+          "source": "78_degrees_of_wisdom.txt"
+        },
+        {
+          "query_index": 24,
+          "query_type": "reversed_meaning",
+          "card_name": "King of Pentacles",
+          "query": "King of Pentacles tarot card reversed meaning divinatory reversed",
+          "similarity": 0.647853514680067,
+          "source": "78_degrees_of_wisdom.txt"
+        }
+      ]
+    }
+  },
+  "quality_analysis": {
+    "queries_with_no_results": [
+      {
+        "index": 22,
+        "type": "visual_description",
+        "card_name": "King of Pentacles",
+        "query": "King of Pentacles tarot card description image visual appearance",
+        "num_results": 0
+      }
+    ],
+    "queries_with_low_similarity": [],
+    "queries_with_high_similarity": [
+      {
+        "index": 4,
+        "type": "number_patterns",
+        "card_name": "N/A",
+        "query": "tarot card number patterns same numbers sequences in spread Four of Cups, Five of Swords, King of Pentacles",
+        "num_results": 5,
+        "max_similarity": 0.608946655047737
+      },
+      {
+        "index": 5,
+        "type": "suit_distribution",
+        "card_name": "N/A",
+        "query": "tarot card suit distribution element balance pentacles, swords, cups in spread",
+        "num_results": 5,
+        "max_similarity": 0.668380637861453
+      },
+      {
+        "index": 8,
+        "type": "visual_description",
+        "card_name": "Four of Cups",
+        "query": "Four of Cups tarot card description image visual appearance",
+        "num_results": 5,
+        "max_similarity": 0.641503887355792
+      },
+      {
+        "index": 9,
+        "type": "upright_meaning",
+        "card_name": "Four of Cups",
+        "query": "Four of Cups tarot card upright meaning divinatory upright",
+        "num_results": 5,
+        "max_similarity": 0.680527648988683
+      },
+      {
+        "index": 10,
+        "type": "reversed_meaning",
+        "card_name": "Four of Cups",
+        "query": "Four of Cups tarot card reversed meaning divinatory reversed",
+        "num_results": 5,
+        "max_similarity": 0.703193545341512
+      },
+      {
+        "index": 11,
+        "type": "position_meaning",
+        "card_name": "Four of Cups",
+        "query": "Four of Cups tarot card past position meaning interpretation",
+        "num_results": 5,
+        "max_similarity": 0.636724789045007
+      },
+      {
+        "index": 12,
+        "type": "psychological_meaning",
+        "card_name": "Four of Cups",
+        "query": "Four of Cups tarot card psychological meaning psychological interpretation",
+        "num_results": 5,
+        "max_similarity": 0.624609213334061
+      },
+      {
+        "index": 14,
+        "type": "basic_meaning",
+        "card_name": "Five of Swords",
+        "query": "Five of Swords tarot card meaning divinatory meaning",
+        "num_results": 5,
+        "max_similarity": 0.603743135929112
+      },
+      {
+        "index": 17,
+        "type": "reversed_meaning",
+        "card_name": "Five of Swords",
+        "query": "Five of Swords tarot card reversed meaning divinatory reversed",
+        "num_results": 5,
+        "max_similarity": 0.678768615649271
+      },
+      {
+        "index": 23,
+        "type": "upright_meaning",
+        "card_name": "King of Pentacles",
+        "query": "King of Pentacles tarot card upright meaning divinatory upright",
+        "num_results": 5,
+        "max_similarity": 0.677470983040719
+      }
+    ],
+    "quality_distribution": {
+      "excellent": 12,
+      "good": 15,
+      "fair": 0,
+      "poor": 1
+    }
+  },
+  "detailed_stats": {
+    "num_results_distribution": {
+      "1": 3,
+      "5": 23,
+      "0": 1,
+      "2": 1
+    },
+    "queries_by_card": {
+      "Four of Cups": 7,
+      "Five of Swords": 7,
+      "King of Pentacles": 7
+    },
+    "top_10_most_used_chunks": [
+      [
+        "pkt-section-0087#1",
+        8
+      ],
+      [
+        "pkt-section-0079#1",
+        7
+      ],
+      [
+        "78degrees-section-0262#1",
+        7
+      ],
+      [
+        "78degrees-section-0315#1",
+        7
+      ],
+      [
+        "pkt-section-0077#1",
+        5
+      ],
+      [
+        "pkt-section-0076#1",
+        5
+      ],
+      [
+        "pkt-section-0078#1",
+        5
+      ],
+      [
+        "78degrees-section-0266#1",
+        5
+      ],
+      [
+        "78degrees-section-0255#1",
+        4
+      ],
+      [
+        "78degrees-section-0305#2",
+        3
+      ]
+    ]
+  }
+}

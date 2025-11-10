@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-06T07:11:09.412286",
+  "steps": [
+    {
+      "step": "输入问题",
+      "timestamp": "2025-11-06T07:11:09.422196",
+      "data": {
+        "question": "我这次比赛的结果会好吗",
+        "note": "用户询问比赛结果"
+      }
+    },
+    {
+      "step": "用户信息",
+      "timestamp": "2025-11-06T07:11:09.422224",
+      "data": {
+        "age": 25,
+        "gender": "male",
+        "zodiac_sign": "Sagittarius",
+        "appearance_type": "wands",
+        "personality_type": "wands",
+        "preferred_source": "pkt"
+      }
+    },
+    {
+      "step": "错误",
+      "timestamp": "2025-11-06T07:11:09.531937",
+      "data": {
+        "error_type": "APIError",
+        "error_message": "{'message': \"Could not find the 'current_step' column of 'readings' in the schema cache\", 'code': 'PGRST204', 'hint': None, 'details': None}"
+      }
+    },
+    {
+      "step": "错误堆栈",
+      "timestamp": "2025-11-06T07:11:09.532668",
+      "data": {
+        "traceback": "Traceback (most recent call last):\n  File \"/Users/lexuanzhang/code/tarot_agent/backend/test_detailed_reading.py\", line 307, in test_detailed_reading\n    result = await service.create_reading(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/lexuanzhang/code/tarot_agent/backend/app/services/tarot/reading_service.py\", line 89, in create_reading\n    self.supabase.table('readings').insert(reading_data).execute()\n  File \"/Users/lexuanzhang/code/tarot_agent/backend/venv/lib/python3.12/site-packages/postgrest/_sync/request_builder.py\", line 53, in execute\n    raise APIError(dict(json_obj))\npostgrest.exceptions.APIError: {'message': \"Could not find the 'current_step' column of 'readings' in the schema cache\", 'code': 'PGRST204', 'hint': None, 'details': None}\n"
+      }
+    }
+  ],
+  "prompts": {},
+  "rag_queries": [],
+  "final_result": null
+}

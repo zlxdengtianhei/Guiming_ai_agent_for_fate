@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- 权杖 - 简约木杖 -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" stroke-opacity="0.7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 直立木杖 -->
+    <line x1="50" y1="20" x2="50" y2="80" />
+
+    <!-- 上端芽 -->
+    <path d="M 48 20 Q 50 16 52 20" />
+
+    <!-- 简单枝杈 -->
+    <path d="M 50 35 L 44 38" />
+    <path d="M 50 45 L 56 42" />
+    <path d="M 50 60 L 44 63" />
+  </g>
+</svg>
+

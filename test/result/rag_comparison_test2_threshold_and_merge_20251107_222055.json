@@ -1,0 +1,334 @@
+{
+  "test_name": "test2_threshold_and_merge",
+  "use_query_merge": true,
+  "question": "我下个月运势如何",
+  "user_profile": {
+    "age": 30,
+    "gender": "male",
+    "zodiac_sign": "Scorpio",
+    "appearance_type": "swords",
+    "personality_type": "cups",
+    "preferred_source": "pkt",
+    "preferred_spread": null
+  },
+  "total_time_ms": 96951,
+  "total_time_seconds": 96.951,
+  "rag_analysis": {
+    "total_queries": 20,
+    "total_unique_chunks": 56,
+    "total_chunk_uses": 94,
+    "duplicate_chunks": {
+      "pkt-section-0104#1": 4,
+      "pkt-section-0101#1": 3,
+      "pkt-section-0103#2": 2,
+      "78degrees-section-0309#1": 2,
+      "pkt-section-0095#1": 2,
+      "78degrees-section-0282#1": 3,
+      "78degrees-section-0218#1": 6,
+      "78degrees-section-0180#1": 2,
+      "pkt-section-0079#1": 4,
+      "pkt-section-0078#1": 3,
+      "78degrees-section-0259#1": 2,
+      "pkt-section-0016#1": 4,
+      "78degrees-section-0119#1": 4,
+      "78degrees-section-0118#1": 4,
+      "78degrees-section-0116#1": 4,
+      "pkt-section-0014#1": 2,
+      "78degrees-section-0103#1": 2,
+      "78degrees-section-0102#2": 2,
+      "78degrees-section-0108#1": 2
+    },
+    "duplicate_count": 19,
+    "duplicate_uses": 57,
+    "duplicate_rate": 40.42553191489361,
+    "query_to_chunks": {
+      "three_card spread tarot divination method how to use steps": {
+        "type": "method_steps",
+        "chunk_ids": [
+          "78degrees-section-0284#1",
+          "pkt-section-0104#1",
+          "pkt-section-0101#1",
+          "pkt-section-0103#2",
+          "78degrees-section-0309#1"
+        ],
+        "chunk_count": 5
+      },
+      "three_card spread tarot card positions meaning interpretation": {
+        "type": "position_interpretation",
+        "chunk_ids": [
+          "pkt-section-0099#1",
+          "pkt-section-0104#1",
+          "pkt-section-0095#1",
+          "78degrees-section-0282#1",
+          "78degrees-section-0310#1"
+        ],
+        "chunk_count": 5
+      },
+      "three_card spread tarot psychological approach interpretation": {
+        "type": "psychological_background",
+        "chunk_ids": [
+          "78degrees-section-0269#1",
+          "78degrees-section-0282#1",
+          "pkt-section-0104#1",
+          "pkt-section-0095#1",
+          "pkt-section-0103#2"
+        ],
+        "chunk_count": 5
+      },
+      "three_card spread tarot traditional divination method ancient celtic": {
+        "type": "traditional_method",
+        "chunk_ids": [
+          "pkt-section-0097#1",
+          "pkt-section-0101#1",
+          "78degrees-section-0309#1",
+          "78degrees-section-0285#2",
+          "pkt-section-0104#1"
+        ],
+        "chunk_count": 5
+      },
+      "tarot card number patterns same numbers sequences in spread Six of Cups, The Hanged Man, Wheel of Fortune": {
+        "type": "number_patterns",
+        "chunk_ids": [
+          "78degrees-section-0365#1",
+          "pkt-section-0096#1",
+          "78degrees-section-0218#1",
+          "78degrees-section-0353#1",
+          "pkt-section-0045#2"
+        ],
+        "chunk_count": 5
+      },
+      "tarot card suit distribution element balance cups in spread": {
+        "type": "suit_distribution",
+        "chunk_ids": [
+          "78degrees-section-0182#1",
+          "78degrees-section-0180#1",
+          "pkt-section-0069#3",
+          "78degrees-section-0181#1",
+          "pkt-section-0101#1"
+        ],
+        "chunk_count": 5
+      },
+      "tarot major arcana pattern meaning 2 major arcana cards in spread interpretation": {
+        "type": "major_arcana_pattern",
+        "chunk_ids": [
+          "78degrees-section-0186#2",
+          "pkt-section-0091#1",
+          "pkt-section-0069#1",
+          "78degrees-section-0282#1",
+          "78degrees-section-0170#1"
+        ],
+        "chunk_count": 5
+      },
+      "tarot card relationships sequence meaning Six of Cups (past), The Hanged Man (present), Wheel of Fortune (future)": {
+        "type": "card_relationships",
+        "chunk_ids": [
+          "78degrees-section-0218#1",
+          "78degrees-section-0351#1",
+          "78degrees-section-0317#1",
+          "78degrees-section-0315#1",
+          "pkt-section-0079#1"
+        ],
+        "chunk_count": 5
+      },
+      "Six of Cups tarot card meaning description visual appearance divinatory meaning": {
+        "type": "basic_meaning_and_visual",
+        "chunk_ids": [
+          "pkt-section-0079#1",
+          "78degrees-section-0218#1",
+          "pkt-section-0078#1",
+          "pkt-section-0077#1"
+        ],
+        "chunk_count": 4
+      },
+      "Six of Cups tarot card upright meaning reversed meaning divinatory interpretation": {
+        "type": "upright_and_reversed_meaning",
+        "chunk_ids": [
+          "pkt-section-0078#1",
+          "pkt-section-0079#1",
+          "78degrees-section-0223#1",
+          "78degrees-section-0218#1",
+          "78degrees-section-0259#1"
+        ],
+        "chunk_count": 5
+      },
+      "Six of Cups tarot card past position meaning psychological interpretation": {
+        "type": "position_and_psychological",
+        "chunk_ids": [
+          "78degrees-section-0218#1",
+          "pkt-section-0079#1",
+          "78degrees-section-0304#1",
+          "78degrees-section-0259#1",
+          "78degrees-section-0295#1"
+        ],
+        "chunk_count": 5
+      },
+      "Six of Cups tarot card water element emotion suit meaning": {
+        "type": "suit_element_meaning",
+        "chunk_ids": [
+          "78degrees-section-0218#1",
+          "78degrees-section-0180#1",
+          "78degrees-section-0221#1",
+          "78degrees-section-0208#1",
+          "78degrees-section-0215#1"
+        ],
+        "chunk_count": 5
+      },
+      "The Hanged Man tarot card meaning description visual appearance divinatory meaning": {
+        "type": "basic_meaning_and_visual",
+        "chunk_ids": [
+          "pkt-section-0016#1",
+          "78degrees-section-0119#1",
+          "78degrees-section-0118#1",
+          "78degrees-section-0116#1"
+        ],
+        "chunk_count": 4
+      },
+      "The Hanged Man tarot card upright meaning reversed meaning divinatory interpretation": {
+        "type": "upright_and_reversed_meaning",
+        "chunk_ids": [
+          "pkt-section-0016#1",
+          "78degrees-section-0119#1",
+          "78degrees-section-0116#1",
+          "pkt-section-0082#1",
+          "78degrees-section-0118#1"
+        ],
+        "chunk_count": 5
+      },
+      "The Hanged Man tarot card present position meaning psychological interpretation": {
+        "type": "position_and_psychological",
+        "chunk_ids": [
+          "pkt-section-0016#1",
+          "78degrees-section-0119#1",
+          "78degrees-section-0116#1",
+          "78degrees-section-0118#1",
+          "78degrees-section-0119#2"
+        ],
+        "chunk_count": 5
+      },
+      "The Hanged Man tarot card symbolic meaning symbolism archetype": {
+        "type": "symbolic_meaning",
+        "chunk_ids": [
+          "pkt-section-0016#1",
+          "78degrees-section-0119#1",
+          "78degrees-section-0118#1",
+          "78degrees-section-0116#1",
+          "pkt-section-0058#1"
+        ],
+        "chunk_count": 5
+      },
+      "Wheel of Fortune tarot card meaning description visual appearance divinatory meaning": {
+        "type": "basic_meaning_and_visual",
+        "chunk_ids": [
+          "pkt-section-0014#1",
+          "pkt-section-0085#1",
+          "pkt-section-0086#1",
+          "78degrees-section-0103#1",
+          "78degrees-section-0102#2"
+        ],
+        "chunk_count": 5
+      },
+      "Wheel of Fortune tarot card upright meaning reversed meaning divinatory interpretation": {
+        "type": "upright_and_reversed_meaning",
+        "chunk_ids": [
+          "78degrees-section-0108#1",
+          "78degrees-section-0191#1",
+          "pkt-section-0084#1",
+          "pkt-section-0078#1",
+          "78degrees-section-0031#2"
+        ],
+        "chunk_count": 5
+      },
+      "Wheel of Fortune tarot card future position meaning psychological interpretation": {
+        "type": "position_and_psychological",
+        "chunk_ids": [
+          "78degrees-section-0108#1"
+        ],
+        "chunk_count": 1
+      },
+      "Wheel of Fortune tarot card symbolic meaning symbolism archetype": {
+        "type": "symbolic_meaning",
+        "chunk_ids": [
+          "78degrees-section-0103#1",
+          "78degrees-section-0102#2",
+          "pkt-section-0014#1",
+          "78degrees-section-0101#1",
+          "pkt-section-0056#1"
+        ],
+        "chunk_count": 5
+      }
+    },
+    "chunk_usage": {
+      "78degrees-section-0284#1": 1,
+      "pkt-section-0104#1": 4,
+      "pkt-section-0101#1": 3,
+      "pkt-section-0103#2": 2,
+      "78degrees-section-0309#1": 2,
+      "pkt-section-0099#1": 1,
+      "pkt-section-0095#1": 2,
+      "78degrees-section-0282#1": 3,
+      "78degrees-section-0310#1": 1,
+      "78degrees-section-0269#1": 1,
+      "pkt-section-0097#1": 1,
+      "78degrees-section-0285#2": 1,
+      "78degrees-section-0365#1": 1,
+      "pkt-section-0096#1": 1,
+      "78degrees-section-0218#1": 6,
+      "78degrees-section-0353#1": 1,
+      "pkt-section-0045#2": 1,
+      "78degrees-section-0182#1": 1,
+      "78degrees-section-0180#1": 2,
+      "pkt-section-0069#3": 1,
+      "78degrees-section-0181#1": 1,
+      "78degrees-section-0186#2": 1,
+      "pkt-section-0091#1": 1,
+      "pkt-section-0069#1": 1,
+      "78degrees-section-0170#1": 1,
+      "78degrees-section-0351#1": 1,
+      "78degrees-section-0317#1": 1,
+      "78degrees-section-0315#1": 1,
+      "pkt-section-0079#1": 4,
+      "pkt-section-0078#1": 3,
+      "pkt-section-0077#1": 1,
+      "78degrees-section-0223#1": 1,
+      "78degrees-section-0259#1": 2,
+      "78degrees-section-0304#1": 1,
+      "78degrees-section-0295#1": 1,
+      "78degrees-section-0221#1": 1,
+      "78degrees-section-0208#1": 1,
+      "78degrees-section-0215#1": 1,
+      "pkt-section-0016#1": 4,
+      "78degrees-section-0119#1": 4,
+      "78degrees-section-0118#1": 4,
+      "78degrees-section-0116#1": 4,
+      "pkt-section-0082#1": 1,
+      "78degrees-section-0119#2": 1,
+      "pkt-section-0058#1": 1,
+      "pkt-section-0014#1": 2,
+      "pkt-section-0085#1": 1,
+      "pkt-section-0086#1": 1,
+      "78degrees-section-0103#1": 2,
+      "78degrees-section-0102#2": 2,
+      "78degrees-section-0108#1": 2,
+      "78degrees-section-0191#1": 1,
+      "pkt-section-0084#1": 1,
+      "78degrees-section-0031#2": 1,
+      "78degrees-section-0101#1": 1,
+      "pkt-section-0056#1": 1
+    }
+  },
+  "reading_result": {
+    "reading_id": "046a04f5-ff2b-472f-b695-6d03b72dfd1b",
+    "spread_type": "three_card",
+    "question_analysis": {
+      "question_domain": "general",
+      "complexity": "moderate",
+      "question_type": "general",
+      "recommended_spread": "three_card",
+      "reasoning": "这是一个关于整体运势的问题，三牌占卜可以提供关于过去、现在和未来的综合视角。",
+      "question_summary": "用户询问下个月的整体运势，涉及多个方面的综合分析。",
+      "auto_selected_spread": true
+    },
+    "cards_count": 3,
+    "pattern_analysis_method": "direct_llm"
+  }
+}

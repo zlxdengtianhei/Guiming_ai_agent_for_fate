@@ -1,0 +1,525 @@
+{
+  "timestamp": "2025-11-06T07:12:46.710092",
+  "steps": [
+    {
+      "step": "输入问题",
+      "timestamp": "2025-11-06T07:12:46.719404",
+      "data": {
+        "question": "我这次比赛的结果会好吗",
+        "note": "用户询问比赛结果"
+      }
+    },
+    {
+      "step": "用户信息",
+      "timestamp": "2025-11-06T07:12:46.719428",
+      "data": {
+        "age": 25,
+        "gender": "male",
+        "zodiac_sign": "Sagittarius",
+        "appearance_type": "wands",
+        "personality_type": "wands",
+        "preferred_source": "pkt"
+      }
+    },
+    {
+      "step": "问题分析结果",
+      "timestamp": "2025-11-06T07:14:00.857393",
+      "data": {
+        "question_domain": "career",
+        "complexity": "simple",
+        "question_type": "specific_event",
+        "recommended_spread": "three_card",
+        "reasoning": "这是一个关于比赛结果的具体事件问题，三牌占卜可以有效地揭示过去的准备、现在的状态和未来的结果。",
+        "question_summary": "用户询问比赛结果的好坏",
+        "auto_selected_spread": true
+      }
+    },
+    {
+      "step": "占卜方式",
+      "timestamp": "2025-11-06T07:14:00.857497",
+      "data": {
+        "spread_type": "three_card",
+        "spread_reason": "这是一个关于比赛结果的具体事件问题，三牌占卜可以有效地揭示过去的准备、现在的状态和未来的结果。"
+      }
+    },
+    {
+      "step": "代表牌选择",
+      "timestamp": "2025-11-06T07:14:00.857507",
+      "data": {
+        "card_name_en": "King of Wands",
+        "card_name_cn": "国王 权杖",
+        "selection_reason": "根据年龄(25岁)和性别(male)选择King；性格类型(wands)决定花色"
+      }
+    },
+    {
+      "step": "抽取的牌",
+      "timestamp": "2025-11-06T07:14:00.857529",
+      "data": {
+        "total_cards": 3,
+        "cards": [
+          {
+            "position_order": 1,
+            "position": "past",
+            "position_description": "过去的影响",
+            "card_name_en": "Two of Cups",
+            "card_name_cn": "二 圣杯",
+            "suit": "cups",
+            "card_number": 2,
+            "arcana": "minor",
+            "is_reversed": false
+          },
+          {
+            "position_order": 2,
+            "position": "present",
+            "position_description": "当前状况",
+            "card_name_en": "Ten of Cups",
+            "card_name_cn": "十 圣杯",
+            "suit": "cups",
+            "card_number": 10,
+            "arcana": "minor",
+            "is_reversed": false
+          },
+          {
+            "position_order": 3,
+            "position": "future",
+            "position_description": "未来趋势",
+            "card_name_en": "The Devil",
+            "card_name_cn": "恶魔",
+            "suit": "major",
+            "card_number": 15,
+            "arcana": "major",
+            "is_reversed": false
+          }
+        ]
+      }
+    },
+    {
+      "step": "牌型分析结果",
+      "timestamp": "2025-11-06T07:14:00.857618",
+      "data": {
+        "analysis_method": "rag_enhanced",
+        "position_relationships": {
+          "time_flow": "过去的影响（Two of Cups）为当前的幸福感（Ten of Cups）奠定了基础，未来可能面临的诱惑或束缚（The Devil）是对当前状态的挑战。",
+          "causal_relationships": [
+            "Two of Cups → Ten of Cups",
+            "Ten of Cups → The Devil"
+          ],
+          "support_conflict": "Two of Cups和Ten of Cups之间存在支持关系，表明良好的合作和情感连接是当前幸福的基础，而The Devil可能与当前的幸福形成对抗，暗示潜在的诱惑或依赖。"
+        },
+        "number_patterns": {
+          "same_numbers": [],
+          "number_sequences": [],
+          "number_jumps": [
+            "2到10的跳跃，表示从情感的初步连接到全面的幸福状态的演变。"
+          ]
+        },
+        "suit_distribution": {
+          "wands_count": 0,
+          "cups_count": 3,
+          "swords_count": 0,
+          "pentacles_count": 0,
+          "major_count": 1,
+          "interpretation": "所有牌均为圣杯，显示情感和人际关系在职业领域的重要性。大阿卡纳牌（The Devil）表明未来可能面临更深层次的挑战。"
+        },
+        "major_arcana_patterns": {
+          "count": 1,
+          "positions": [
+            "未来趋势"
+          ],
+          "meaning": "The Devil作为大阿卡纳牌，代表潜在的束缚和诱惑，提示在未来的职业发展中可能会面临道德或情感上的挑战。"
+        },
+        "reversed_patterns": {
+          "count": 0,
+          "positions": [],
+          "interpretation": "无逆位牌，表明当前状况较为正面，没有明显的阻碍或负面影响。"
+        },
+        "special_combinations": []
+      }
+    },
+    {
+      "step": "最终解读",
+      "timestamp": "2025-11-06T07:14:00.857727",
+      "data": {
+        "overall_summary": "## 塔罗牌解读\n\n### 整体解读\n你目前在比赛中的结果看起来非常积极，过去的良好关系和合作为你当前的状态奠定了坚实的基础。然而，未来可能会出现一些挑战，尤其是在道德或情感方面，需要小心应对，以保持当前的良好状态。\n\n### 位置解读\n\n1. **过去（Two of Cups）**  \n   在过去，你经历了一段重要的合作或关系，这为你目前的比赛准备打下了良好的基础。这张牌象征着和谐的关系、互相理解和共赢的局面，可能意味着你与队友或合作伙伴之间的良好互动和信任。\n\n2. **现在（Ten of Cups）**  \n   目前的你正处于一个情感满足和和谐的阶段。Ten of Cups代表着幸福和满足，尤其是在团队和群体活动中。这表明你现在在比赛中可能感受到一种整体的和谐和愉悦，团队合作良好，达到了一个令人满意的阶段。\n\n3. **未来（The Devil）**  \n   在未来，你可能会面临一些诱惑或束缚，The Devil牌往往提醒我们注意潜在的陷阱和不健康的习惯。这可能意味着你在比赛过程中可能会被外部的压力或者内心的欲望所困扰，需要特别警惕不利的因素。\n\n### 关系分析\n过去的T",
+        "position_interpretations": [
+          {
+            "position": "past",
+            "position_order": 1,
+            "card_name_en": "Two of Cups",
+            "card_name_cn": "二 圣杯",
+            "interpretation": "In the past position, the Two of Cups typically signifies a harmonious partnership or a deep emotional connection that was significant in the person's life. It often represents a time of mutual respect, love, and balance in relationships, suggesting that the individual experienced a meaningful bond, possibly a romantic relationship or a strong friendship that contributed positively to their emotional well-being. This card indicates that the foundation of their past was built on cooperation and shared feelings, which may still influence their current situation."
+          },
+          {
+            "position": "present",
+            "position_order": 2,
+            "card_name_en": "Ten of Cups",
+            "card_name_cn": "十 圣杯",
+            "interpretation": "The Ten of Cups in the present position signifies emotional fulfillment, harmony, and happiness in relationships. It represents a sense of completion and contentment, often associated with family, love, and lasting connections. This card suggests that you are experiencing or are close to achieving a state of joy and satisfaction in your personal life, reflecting a deep sense of belonging and emotional security."
+          },
+          {
+            "position": "future",
+            "position_order": 3,
+            "card_name_en": "The Devil",
+            "card_name_cn": "恶魔",
+            "interpretation": "In the future position, the Devil tarot card suggests a potential struggle with temptation, addiction, or materialism. It may indicate that you could find yourself feeling trapped by external influences or unhealthy attachments. This card serves as a warning to be mindful of the choices you make and to seek liberation from any constraints that hinder your personal growth. It encourages self-reflection and the need to confront any inner demons that may be holding you back from true fulfillment."
+          }
+        ],
+        "relationship_analysis": "过去的影响（Two of Cups）为当前的幸福感（Ten of Cups）奠定了基础，未来可能面临的诱惑或束缚（The Devil）是对当前状态的挑战。",
+        "pattern_explanation": "所有牌均为圣杯，显示情感和人际关系在职业领域的重要性。大阿卡纳牌（The Devil）表明未来可能面临更深层次的挑战。",
+        "advice": null,
+        "references": [
+          {
+            "type": "card",
+            "card_name": "Two of Cups",
+            "method": null,
+            "source": "78_degrees_of_wisdom.txt"
+          },
+          {
+            "type": "card",
+            "card_name": "Two of Cups",
+            "method": null,
+            "source": "78_degrees_of_wisdom.txt"
+          },
+          {
+            "type": "card",
+            "card_name": "Two of Cups",
+            "method": null,
+            "source": "78_degrees_of_wisdom.txt"
+          },
+          {
+            "type": "card",
+            "card_name": "Ten of Cups",
+            "method": null,
+            "source": "pkt.txt"
+          },
+          {
+            "type": "card",
+            "card_name": "Ten of Cups",
+            "method": null,
+            "source": "78_degrees_of_wisdom.txt"
+          },
+          {
+            "type": "card",
+            "card_name": "Ten of Cups",
+            "method": null,
+            "source": "pkt.txt"
+          },
+          {
+            "type": "card",
+            "card_name": "The Devil",
+            "method": null,
+            "source": "pkt.txt"
+          },
+          {
+            "type": "card",
+            "card_name": "The Devil",
+            "method": null,
+            "source": "78_degrees_of_wisdom.txt"
+          },
+          {
+            "type": "card",
+            "card_name": "The Devil",
+            "method": null,
+            "source": "pkt.txt"
+          },
+          {
+            "type": "method",
+            "card_name": null,
+            "method": "three_card",
+            "source": "78_degrees_of_wisdom.txt"
+          }
+        ]
+      }
+    },
+    {
+      "step": "处理元数据",
+      "timestamp": "2025-11-06T07:14:00.857803",
+      "data": {
+        "processing_time_ms": 74129,
+        "actual_elapsed_ms": 74137,
+        "pattern_analysis_method": "rag_enhanced",
+        "reading_id": "30720b83-84f5-4deb-9062-b55457c636f0"
+      }
+    }
+  ],
+  "prompts": {
+    "question_analysis": {
+      "prompt": "你是一位经验丰富的塔罗占卜师。请分析以下问题，并返回JSON格式的分析结果。\n\n## 问题：\n我这次比赛的结果会好吗\n\n## 用户信息（可选）：\n年龄: 25\n性别: male\n星座: Sagittarius\n性格类型: wands\n外貌类型: wands\n\n## 分析要求：\n1. **问题领域**：识别问题所属领域，从以下选项中选择其一：\n   - 'love': 爱情、关系、情感\n   - 'career': 职业、工作、事业\n   - 'health': 健康、身体、康复\n   - 'finance': 财务、金钱、物质\n   - 'personal_growth': 个人成长、精神、自我探索\n   - 'general': 一般生活、综合问题\n\n2. **问题复杂度**（如果用户未指定占卜方式）：\n   - 'simple': 简单问题，可以用三牌占卜回答\n   - 'moderate': 中等复杂度，推荐三牌或凯尔特十字\n   - 'complex': 复杂问题，需要凯尔特十字深入分析\n\n3. **提问类型**：\n   - 'specific_event': 具体事件（如：会得到这份工作吗？）\n   - 'relationship': 关系问题（如：我们的关系会如何发展？）\n   - 'choice': 选择问题（如：应该选择哪个方向？）\n   - 'general': 一般性问题（如：我的未来会怎样？）\n\n4. **推荐占卜方式**（如果用户未指定）：\n   - 'three_card': 三牌占卜\n   - 'celtic_cross': 凯尔特十字\n   - 'work_cycle': 工作循环（如果需要持续建议）\n   - 'other': 其他（说明原因）\n\n## 输出格式（JSON）：\n{\n    \"question_domain\": \"love\",\n    \"complexity\": \"simple\",\n    \"question_type\": \"relationship\",\n    \"recommended_spread\": \"three_card\",\n    \"reasoning\": \"这是一个关于关系的简单问题，三牌占卜可以清晰回答过去-现在-未来的发展\",\n    \"question_summary\": \"简要总结问题核心\"\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "context": {
+        "question": "我这次比赛的结果会好吗",
+        "user_profile": {
+          "age": 25,
+          "gender": "male",
+          "zodiac_sign": "Sagittarius",
+          "appearance_type": "wands",
+          "personality_type": "wands",
+          "preferred_source": "pkt",
+          "preferred_spread": null
+        },
+        "user_selected_spread": null,
+        "analyze_complexity": true
+      },
+      "timestamp": "2025-11-06T07:12:46.869129"
+    },
+    "pattern_analysis_rag": {
+      "prompt": "你是一位经验丰富的塔罗占卜师，精通PKT和78 Degrees of Wisdom的传统解读方法。请分析以下牌阵的模式和关系。\n\n## 占卜方式：three_card\n## 问题领域：career\n\n## 牌阵信息：\n1. past (过去的影响): Two of Cups (二 圣杯) - cups 2\n2. present (当前状况): Ten of Cups (十 圣杯) - cups 10\n3. future (未来趋势): The Devil (恶魔) - major (major)\n\n## 传统占卜方法指导：\n[RAG context will be retrieved for: three_card spread tarot divination method pattern analysis]\n\n## 分析要求：\n请结合传统占卜方法指导，分析以下内容：\n1. **位置关系**：根据传统方法，分析各位置之间的关系（时间线、因果、支持/对抗）\n2. **数字模式**：识别相同数字、数字序列、数字跳跃，并结合传统解读方法\n3. **花色分布**：分析各花色的分布和平衡，参考传统元素理论\n4. **大阿卡纳模式**：分析大阿卡纳的位置和意义，参考传统大阿卡纳解读\n5. **逆位模式**：分析逆位牌的模式和含义，参考传统逆位解读方法\n6. **特殊组合**：识别宫廷牌组合、相同牌等特殊模式，参考传统组合解读\n\n## 输出格式（JSON）：\n{\n    \"position_relationships\": {\n        \"time_flow\": \"描述时间线关系（如果有）\",\n        \"causal_relationships\": [\"原因→结果的关系列表\"],\n        \"support_conflict\": \"支持或对抗关系描述\"\n    },\n    \"number_patterns\": {\n        \"same_numbers\": [\"相同数字和含义说明\"],\n        \"number_sequences\": [\"数字序列和含义说明\"],\n        \"number_jumps\": [\"数字跳跃和含义说明\"]\n    },\n    \"suit_distribution\": {\n        \"wands_count\": 0,\n        \"cups_count\": 0,\n        \"swords_count\": 0,\n        \"pentacles_count\": 0,\n        \"major_count\": 0,\n        \"interpretation\": \"花色分布的含义解释\"\n    },\n    \"major_arcana_patterns\": {\n        \"count\": 0,\n        \"positions\": [\"大阿卡纳的位置列表\"],\n        \"meaning\": \"大阿卡纳模式的含义\"\n    },\n    \"reversed_patterns\": {\n        \"count\": 0,\n        \"positions\": [\"逆位牌的位置列表\"],\n        \"interpretation\": \"逆位模式的含义解释\"\n    },\n    \"special_combinations\": [\"特殊组合的描述列表\"]\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "context": {
+        "spread_type": "three_card",
+        "question_domain": "career",
+        "cards_count": 3,
+        "rag_query": "three_card spread tarot divination method pattern analysis"
+      },
+      "timestamp": "2025-11-06T07:12:50.816039"
+    },
+    "final_interpretation": {
+      "prompt": "你是一位经验丰富的塔罗占卜师，精通PKT和78 Degrees of Wisdom的传统解读方法。\n\n## 用户问题：\n我这次比赛的结果会好吗\n\n## 问题分析：\n- 领域：career\n- 复杂度：simple\n- 问题类型：specific_event\n\n## 用户信息：\n年龄: 25\n性别: male\n星座: Sagittarius\n\n## 占卜方式：\nthree_card - In a three-card spread for tarot divination, each card represents a specific aspect of the inquiry:\n\n1. **First Card**: This card typically represents the past influences or the background of the situation.\n2. **Second Card**: This card reflects the present circumstances or the current state of affa\n\n## 牌阵信息：\n1. past: Two of Cups\n   含义: In the past position, the Two of Cups typically signifies a harmonious partnership or a deep emotional connection that was significant in the person's life. It often represents a time of mutual respec...\n2. present: Ten of Cups\n   含义: The Ten of Cups in the present position signifies emotional fulfillment, harmony, and happiness in relationships. It represents a sense of completion and contentment, often associated with family, lov...\n3. future: The Devil\n   含义: In the future position, the Devil tarot card suggests a potential struggle with temptation, addiction, or materialism. It may indicate that you could find yourself feeling trapped by external influenc...\n\n## 牌型分析结果：\n位置关系：过去的影响（Two of Cups）为当前的幸福感（Ten of Cups）奠定了基础，未来可能面临的诱惑或束缚（The Devil）是对当前状态的挑战。\n花色分布：所有牌均为圣杯，显示情感和人际关系在职业领域的重要性。大阿卡纳牌（The Devil）表明未来可能面临更深层次的挑战。\n大阿卡纳模式：The Devil作为大阿卡纳牌，代表潜在的束缚和诱惑，提示在未来的职业发展中可能会面临道德或情感上的挑战。\n逆位模式：无逆位牌，表明当前状况较为正面，没有明显的阻碍或负面影响。\n\n## 解读要求：\n请提供一个全面的塔罗占卜解读，包含：\n1. **整体解读**：2-3句话的整体摘要\n2. **位置解读**：对每个位置进行详细解读，结合卡牌的基本含义和位置的含义\n3. **关系分析**：分析牌之间的关系（时间线、因果、支持/对抗）\n4. **模式解释**：解释数字模式、花色分布、特殊组合的含义\n5. **个性化建议**：基于用户信息和问题，提供具体建议\n\n请用中文输出，使用Markdown格式。",
+      "context": {
+        "question": "我这次比赛的结果会好吗",
+        "spread_type": "three_card",
+        "cards_count": 3,
+        "pattern_analysis_method": "rag_enhanced"
+      },
+      "timestamp": "2025-11-06T07:13:45.904379"
+    }
+  },
+  "rag_queries": [
+    {
+      "query": "three_card spread interpretation method",
+      "result": {
+        "text": "In a three-card spread, each card represents a distinct aspect of the situation or question at hand. The first card typically signifies the past influences or background, the second card reflects the present circumstances or challenges, and the third card indicates potential future outcomes or advice. \n\nTo interpret the spread effectively, consider how the cards interact with one another, as their combined meanings can provide deeper insights. Look for connections, contrasts, and themes that emerge from the cards, as this holistic view enhances understanding beyond individual interpretations.",
+        "citations": [
+          {
+            "source": "78_degrees_of_wisdom.txt",
+            "chunk_id": "78degrees-section-0181#2",
+            "similarity": 0.460082054138184
+          },
+          {
+            "source": "78_degrees_of_wisdom.txt",
+            "chunk_id": "78degrees-section-0365#1",
+            "similarity": 0.448282152414322
+          },
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0020#1",
+            "similarity": 0.407555257823751
+          }
+        ],
+        "debug": {
+          "top_doc_ids": [
+            "78degrees-section-0181#2",
+            "78degrees-section-0365#1",
+            "pkt-section-0020#1"
+          ],
+          "latency_ms": 3788,
+          "num_results": 3
+        }
+      },
+      "timestamp": "2025-11-06T07:12:54.604537"
+    },
+    {
+      "query": "how to interpret tarot card patterns in three_card",
+      "result": {
+        "text": "To interpret three-card Tarot spreads, consider the following approach:\n\n1. **Position Meaning**: Assign meanings to each position in the spread. Common interpretations are:\n   - **Card 1**: Past influences or background.\n   - **Card 2**: Present situation or current challenges.\n   - **Card 3**: Future outcome or potential developments.\n\n2. **Card Analysis**: Analyze each card individually, considering its symbolism, imagery, and traditional meanings. Reflect on how these meanings relate to the positions.\n\n3. **Interconnections**: Look for connections between the cards. Consider how the themes of each card interact and what story they tell together. This can reveal deeper insights into the situation at hand.\n\n4. **Intuition**: Trust your intuition. Personal insights and feelings about the cards can provide valuable context that may not be found in traditional interpretations.\n\n5. **Contextual Relevance**: Always relate the cards back to the specific question or situation being addressed, ensuring that the interpretation is relevant and focused.\n\nBy combining these elements, you can derive a comprehensive understanding of the three-card spread.",
+        "citations": [
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0025#1",
+            "similarity": 0.524520202740436
+          },
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0009#1",
+            "similarity": 0.504185020923629
+          },
+          {
+            "source": "78_degrees_of_wisdom.txt",
+            "chunk_id": "78degrees-section-0048#1",
+            "similarity": 0.489422262975903
+          }
+        ],
+        "debug": {
+          "top_doc_ids": [
+            "pkt-section-0025#1",
+            "pkt-section-0009#1",
+            "78degrees-section-0048#1"
+          ],
+          "latency_ms": 7838,
+          "num_results": 3
+        }
+      },
+      "timestamp": "2025-11-06T07:13:02.442842"
+    },
+    {
+      "query": "traditional tarot reading patterns for three_card",
+      "result": {
+        "text": "In a traditional three-card Tarot reading, the cards are typically interpreted as follows:\n\n1. **Past**: The first card represents past influences or events that have shaped the current situation.\n2. **Present**: The second card reflects the current circumstances or challenges the querent is facing.\n3. **Future**: The third card indicates potential outcomes or future developments based on the current path.\n\nThis pattern allows for a concise overview of the querent's journey, providing insights into how past experiences influence the present and what may lie ahead.",
+        "citations": [
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0042#2",
+            "similarity": 0.455826645394967
+          },
+          {
+            "source": "78_degrees_of_wisdom.txt",
+            "chunk_id": "78degrees-section-0261#1",
+            "similarity": 0.431782824078294
+          },
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0005#3",
+            "similarity": 0.323675831446779
+          }
+        ],
+        "debug": {
+          "top_doc_ids": [
+            "pkt-section-0042#2",
+            "78degrees-section-0261#1",
+            "pkt-section-0005#3"
+          ],
+          "latency_ms": 3914,
+          "num_results": 3
+        }
+      },
+      "timestamp": "2025-11-06T07:13:06.357095"
+    },
+    {
+      "query": "Two of Cups tarot card meaning past position",
+      "result": {
+        "text": "In the past position, the Two of Cups typically signifies a harmonious partnership or a deep emotional connection that was significant in the person's life. It often represents a time of mutual respect, love, and balance in relationships, suggesting that the individual experienced a meaningful bond, possibly a romantic relationship or a strong friendship that contributed positively to their emotional well-being. This card indicates that the foundation of their past was built on cooperation and shared feelings, which may still influence their current situation.",
+        "citations": [
+          {
+            "source": "78_degrees_of_wisdom.txt",
+            "chunk_id": "78degrees-section-0290#1",
+            "similarity": 0.611181726070952
+          },
+          {
+            "source": "78_degrees_of_wisdom.txt",
+            "chunk_id": "78degrees-section-0312#1",
+            "similarity": 0.605066931549733
+          },
+          {
+            "source": "78_degrees_of_wisdom.txt",
+            "chunk_id": "78degrees-section-0313#1",
+            "similarity": 0.594286654336452
+          }
+        ],
+        "debug": {
+          "top_doc_ids": [
+            "78degrees-section-0290#1",
+            "78degrees-section-0312#1",
+            "78degrees-section-0313#1"
+          ],
+          "latency_ms": 8160,
+          "num_results": 3
+        }
+      },
+      "timestamp": "2025-11-06T07:13:27.102132"
+    },
+    {
+      "query": "Ten of Cups tarot card meaning present position",
+      "result": {
+        "text": "The Ten of Cups in the present position signifies emotional fulfillment, harmony, and happiness in relationships. It represents a sense of completion and contentment, often associated with family, love, and lasting connections. This card suggests that you are experiencing or are close to achieving a state of joy and satisfaction in your personal life, reflecting a deep sense of belonging and emotional security.",
+        "citations": [
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0079#1",
+            "similarity": 0.639661705443517
+          },
+          {
+            "source": "78_degrees_of_wisdom.txt",
+            "chunk_id": "78degrees-section-0315#1",
+            "similarity": 0.603376782141733
+          },
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0077#1",
+            "similarity": 0.59121314234812
+          }
+        ],
+        "debug": {
+          "top_doc_ids": [
+            "pkt-section-0079#1",
+            "78degrees-section-0315#1",
+            "pkt-section-0077#1"
+          ],
+          "latency_ms": 6688,
+          "num_results": 3
+        }
+      },
+      "timestamp": "2025-11-06T07:13:33.790746"
+    },
+    {
+      "query": "The Devil tarot card meaning future position",
+      "result": {
+        "text": "In the future position, the Devil tarot card suggests a potential struggle with temptation, addiction, or materialism. It may indicate that you could find yourself feeling trapped by external influences or unhealthy attachments. This card serves as a warning to be mindful of the choices you make and to seek liberation from any constraints that hinder your personal growth. It encourages self-reflection and the need to confront any inner demons that may be holding you back from true fulfillment.",
+        "citations": [
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0066#1",
+            "similarity": 0.513719173738831
+          },
+          {
+            "source": "78_degrees_of_wisdom.txt",
+            "chunk_id": "78degrees-section-0120#1",
+            "similarity": 0.508834479133018
+          },
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0017#2",
+            "similarity": 0.492753059967806
+          }
+        ],
+        "debug": {
+          "top_doc_ids": [
+            "pkt-section-0066#1",
+            "78degrees-section-0120#1",
+            "pkt-section-0017#2"
+          ],
+          "latency_ms": 8223,
+          "num_results": 3
+        }
+      },
+      "timestamp": "2025-11-06T07:13:42.014720"
+    },
+    {
+      "query": "three_card spread tarot divination method interpretation",
+      "result": {
+        "text": "In a three-card spread for tarot divination, each card represents a specific aspect of the inquiry:\n\n1. **First Card**: This card typically represents the past influences or the background of the situation.\n2. **Second Card**: This card reflects the present circumstances or the current state of affairs regarding the question.\n3. **Third Card**: This card indicates the future outcome or the potential culmination of the situation based on the influences of the previous cards.\n\nWhen interpreting the spread, it's essential to consider the meanings of each card in relation to their positions and how they interact with one another, as well as the overall context of the reading.",
+        "citations": [
+          {
+            "source": "78_degrees_of_wisdom.txt",
+            "chunk_id": "78degrees-section-0284#1",
+            "similarity": 0.618653196652329
+          },
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0095#1",
+            "similarity": 0.588817196751154
+          },
+          {
+            "source": "pkt.txt",
+            "chunk_id": "pkt-section-0100#1",
+            "similarity": 0.586879607792004
+          }
+        ],
+        "debug": {
+          "top_doc_ids": [
+            "78degrees-section-0284#1",
+            "pkt-section-0095#1",
+            "pkt-section-0100#1"
+          ],
+          "latency_ms": 3883,
+          "num_results": 3
+        }
+      },
+      "timestamp": "2025-11-06T07:13:45.904105"
+    }
+  ],
+  "final_result": {
+    "reading_id": "30720b83-84f5-4deb-9062-b55457c636f0",
+    "question": "我这次比赛的结果会好吗",
+    "spread_type": "three_card",
+    "total_processing_time_ms": 74137,
+    "steps_completed": 9
+  }
+}

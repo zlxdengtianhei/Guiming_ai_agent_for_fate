@@ -1,0 +1,341 @@
+{
+  "test_name": "test1_threshold_and_merge",
+  "use_query_merge": true,
+  "question": "我下个月运势如何",
+  "user_profile": {
+    "age": 30,
+    "gender": "male",
+    "zodiac_sign": "Scorpio",
+    "appearance_type": "swords",
+    "personality_type": "cups",
+    "preferred_source": "pkt",
+    "preferred_spread": null
+  },
+  "total_time_ms": 99751,
+  "total_time_seconds": 99.751,
+  "rag_analysis": {
+    "total_queries": 20,
+    "total_unique_chunks": 55,
+    "total_chunk_uses": 96,
+    "duplicate_chunks": {
+      "pkt-section-0104#1": 4,
+      "pkt-section-0101#1": 3,
+      "pkt-section-0103#2": 2,
+      "78degrees-section-0309#1": 2,
+      "pkt-section-0095#1": 3,
+      "78degrees-section-0282#1": 2,
+      "78degrees-section-0351#1": 2,
+      "78degrees-section-0180#1": 4,
+      "78degrees-section-0223#1": 2,
+      "78degrees-section-0220#1": 3,
+      "78degrees-section-0350#1": 2,
+      "pkt-section-0079#1": 5,
+      "pkt-section-0084#1": 3,
+      "78degrees-section-0315#1": 2,
+      "pkt-section-0087#1": 5,
+      "pkt-section-0088#1": 2,
+      "78degrees-section-0264#1": 2,
+      "78degrees-section-0263#1": 2,
+      "78degrees-section-0259#1": 2,
+      "pkt-section-0077#1": 2,
+      "pkt-section-0078#1": 2,
+      "78degrees-section-0191#1": 2,
+      "78degrees-section-0182#1": 2,
+      "78degrees-section-0228#1": 4,
+      "pkt-section-0082#1": 2
+    },
+    "duplicate_count": 25,
+    "duplicate_uses": 66,
+    "duplicate_rate": 42.70833333333333,
+    "query_to_chunks": {
+      "three_card spread tarot divination method how to use steps": {
+        "type": "method_steps",
+        "chunk_ids": [
+          "78degrees-section-0284#1",
+          "pkt-section-0104#1",
+          "pkt-section-0101#1",
+          "pkt-section-0103#2",
+          "78degrees-section-0309#1"
+        ],
+        "chunk_count": 5
+      },
+      "three_card spread tarot card positions meaning interpretation": {
+        "type": "position_interpretation",
+        "chunk_ids": [
+          "pkt-section-0099#1",
+          "pkt-section-0104#1",
+          "pkt-section-0095#1",
+          "78degrees-section-0282#1",
+          "78degrees-section-0310#1"
+        ],
+        "chunk_count": 5
+      },
+      "three_card spread tarot psychological approach interpretation": {
+        "type": "psychological_background",
+        "chunk_ids": [
+          "78degrees-section-0269#1",
+          "78degrees-section-0282#1",
+          "pkt-section-0104#1",
+          "pkt-section-0095#1",
+          "pkt-section-0103#2"
+        ],
+        "chunk_count": 5
+      },
+      "three_card spread tarot traditional divination method ancient celtic": {
+        "type": "traditional_method",
+        "chunk_ids": [
+          "pkt-section-0097#1",
+          "pkt-section-0101#1",
+          "78degrees-section-0309#1",
+          "78degrees-section-0285#2",
+          "pkt-section-0104#1"
+        ],
+        "chunk_count": 5
+      },
+      "tarot card number patterns same numbers sequences in spread Three of Pentacles, Ace of Cups, King of Swords": {
+        "type": "number_patterns",
+        "chunk_ids": [
+          "pkt-section-0096#1",
+          "78degrees-section-0365#1",
+          "pkt-section-0045#2",
+          "78degrees-section-0351#1",
+          "78degrees-section-0353#1"
+        ],
+        "chunk_count": 5
+      },
+      "tarot card suit distribution element balance swords, pentacles, cups in spread": {
+        "type": "suit_distribution",
+        "chunk_ids": [
+          "78degrees-section-0181#1",
+          "78degrees-section-0180#1",
+          "78degrees-section-0179#1",
+          "pkt-section-0022#1",
+          "pkt-section-0101#1"
+        ],
+        "chunk_count": 5
+      },
+      "tarot reversed cards pattern meaning 2 reversed cards in spread interpretation": {
+        "type": "reversed_pattern",
+        "chunk_ids": [
+          "78degrees-section-0223#1",
+          "78degrees-section-0220#1",
+          "78degrees-section-0350#1",
+          "pkt-section-0079#1",
+          "pkt-section-0084#1"
+        ],
+        "chunk_count": 5
+      },
+      "tarot card relationships sequence meaning Three of Pentacles (past), Ace of Cups (present), King of Swords (future)": {
+        "type": "card_relationships",
+        "chunk_ids": [
+          "78degrees-section-0315#1",
+          "78degrees-section-0351#1",
+          "78degrees-section-0202#1",
+          "pkt-section-0087#1",
+          "pkt-section-0095#1"
+        ],
+        "chunk_count": 5
+      },
+      "Three of Pentacles tarot card meaning description visual appearance divinatory meaning": {
+        "type": "basic_meaning_and_visual",
+        "chunk_ids": [
+          "pkt-section-0087#1",
+          "pkt-section-0088#1",
+          "78degrees-section-0264#1",
+          "pkt-section-0087#2",
+          "78degrees-section-0263#1"
+        ],
+        "chunk_count": 5
+      },
+      "Three of Pentacles tarot card upright meaning reversed meaning divinatory interpretation": {
+        "type": "upright_and_reversed_meaning",
+        "chunk_ids": [
+          "pkt-section-0087#1",
+          "78degrees-section-0266#1",
+          "pkt-section-0088#1",
+          "78degrees-section-0259#1",
+          "pkt-section-0079#1"
+        ],
+        "chunk_count": 5
+      },
+      "Three of Pentacles tarot card past position meaning psychological interpretation": {
+        "type": "position_and_psychological",
+        "chunk_ids": [
+          "pkt-section-0087#1",
+          "78degrees-section-0256#2",
+          "78degrees-section-0350#1",
+          "78degrees-section-0259#1"
+        ],
+        "chunk_count": 4
+      },
+      "Three of Pentacles tarot card earth element material suit meaning": {
+        "type": "suit_element_meaning",
+        "chunk_ids": [
+          "78degrees-section-0264#1",
+          "78degrees-section-0244#1",
+          "78degrees-section-0263#1",
+          "78degrees-section-0180#1",
+          "pkt-section-0087#1"
+        ],
+        "chunk_count": 5
+      },
+      "Ace of Cups tarot card meaning description visual appearance divinatory meaning": {
+        "type": "basic_meaning_and_visual",
+        "chunk_ids": [
+          "pkt-section-0079#1",
+          "pkt-section-0077#1",
+          "pkt-section-0078#1",
+          "78degrees-section-0244#2",
+          "pkt-section-0076#1"
+        ],
+        "chunk_count": 5
+      },
+      "Ace of Cups tarot card upright meaning reversed meaning divinatory interpretation": {
+        "type": "upright_and_reversed_meaning",
+        "chunk_ids": [
+          "78degrees-section-0223#1",
+          "pkt-section-0078#1",
+          "pkt-section-0079#1",
+          "78degrees-section-0220#1",
+          "78degrees-section-0191#1"
+        ],
+        "chunk_count": 5
+      },
+      "Ace of Cups tarot card present position meaning psychological interpretation": {
+        "type": "position_and_psychological",
+        "chunk_ids": [
+          "pkt-section-0079#1",
+          "78degrees-section-0315#1",
+          "78degrees-section-0220#1",
+          "78degrees-section-0295#1",
+          "pkt-section-0077#1"
+        ],
+        "chunk_count": 5
+      },
+      "Ace of Cups tarot card water element emotion suit meaning": {
+        "type": "suit_element_meaning",
+        "chunk_ids": [
+          "78degrees-section-0208#1",
+          "78degrees-section-0182#1",
+          "78degrees-section-0180#1",
+          "78degrees-section-0203#1",
+          "78degrees-section-0207#1"
+        ],
+        "chunk_count": 5
+      },
+      "King of Swords tarot card meaning description visual appearance divinatory meaning": {
+        "type": "basic_meaning_and_visual",
+        "chunk_ids": [
+          "78degrees-section-0228#1",
+          "pkt-section-0081#1",
+          "pkt-section-0084#1",
+          "pkt-section-0071#1",
+          "pkt-section-0082#1"
+        ],
+        "chunk_count": 5
+      },
+      "King of Swords tarot card upright meaning reversed meaning divinatory interpretation": {
+        "type": "upright_and_reversed_meaning",
+        "chunk_ids": [
+          "78degrees-section-0191#1",
+          "78degrees-section-0228#1",
+          "pkt-section-0084#1",
+          "78degrees-section-0209#1",
+          "pkt-section-0082#1"
+        ],
+        "chunk_count": 5
+      },
+      "King of Swords tarot card future position meaning psychological interpretation": {
+        "type": "position_and_psychological",
+        "chunk_ids": [
+          "78degrees-section-0228#1",
+          "78degrees-section-0305#2"
+        ],
+        "chunk_count": 2
+      },
+      "King of Swords tarot card air element thought suit meaning": {
+        "type": "suit_element_meaning",
+        "chunk_ids": [
+          "78degrees-section-0180#1",
+          "78degrees-section-0228#1",
+          "78degrees-section-0225#1",
+          "78degrees-section-0227#1",
+          "78degrees-section-0182#1"
+        ],
+        "chunk_count": 5
+      }
+    },
+    "chunk_usage": {
+      "78degrees-section-0284#1": 1,
+      "pkt-section-0104#1": 4,
+      "pkt-section-0101#1": 3,
+      "pkt-section-0103#2": 2,
+      "78degrees-section-0309#1": 2,
+      "pkt-section-0099#1": 1,
+      "pkt-section-0095#1": 3,
+      "78degrees-section-0282#1": 2,
+      "78degrees-section-0310#1": 1,
+      "78degrees-section-0269#1": 1,
+      "pkt-section-0097#1": 1,
+      "78degrees-section-0285#2": 1,
+      "pkt-section-0096#1": 1,
+      "78degrees-section-0365#1": 1,
+      "pkt-section-0045#2": 1,
+      "78degrees-section-0351#1": 2,
+      "78degrees-section-0353#1": 1,
+      "78degrees-section-0181#1": 1,
+      "78degrees-section-0180#1": 4,
+      "78degrees-section-0179#1": 1,
+      "pkt-section-0022#1": 1,
+      "78degrees-section-0223#1": 2,
+      "78degrees-section-0220#1": 3,
+      "78degrees-section-0350#1": 2,
+      "pkt-section-0079#1": 5,
+      "pkt-section-0084#1": 3,
+      "78degrees-section-0315#1": 2,
+      "78degrees-section-0202#1": 1,
+      "pkt-section-0087#1": 5,
+      "pkt-section-0088#1": 2,
+      "78degrees-section-0264#1": 2,
+      "pkt-section-0087#2": 1,
+      "78degrees-section-0263#1": 2,
+      "78degrees-section-0266#1": 1,
+      "78degrees-section-0259#1": 2,
+      "78degrees-section-0256#2": 1,
+      "78degrees-section-0244#1": 1,
+      "pkt-section-0077#1": 2,
+      "pkt-section-0078#1": 2,
+      "78degrees-section-0244#2": 1,
+      "pkt-section-0076#1": 1,
+      "78degrees-section-0191#1": 2,
+      "78degrees-section-0295#1": 1,
+      "78degrees-section-0208#1": 1,
+      "78degrees-section-0182#1": 2,
+      "78degrees-section-0203#1": 1,
+      "78degrees-section-0207#1": 1,
+      "78degrees-section-0228#1": 4,
+      "pkt-section-0081#1": 1,
+      "pkt-section-0071#1": 1,
+      "pkt-section-0082#1": 2,
+      "78degrees-section-0209#1": 1,
+      "78degrees-section-0305#2": 1,
+      "78degrees-section-0225#1": 1,
+      "78degrees-section-0227#1": 1
+    }
+  },
+  "reading_result": {
+    "reading_id": "da305fcc-dbbd-44fc-951d-90b75977f3aa",
+    "spread_type": "three_card",
+    "question_analysis": {
+      "question_domain": "general",
+      "complexity": "moderate",
+      "question_type": "general",
+      "recommended_spread": "three_card",
+      "reasoning": "这是一个关于下个月运势的一般性问题，三牌占卜可以有效地提供对未来的简要洞察。",
+      "question_summary": "分析下个月的整体运势",
+      "auto_selected_spread": true
+    },
+    "cards_count": 3,
+    "pattern_analysis_method": "direct_llm"
+  }
+}

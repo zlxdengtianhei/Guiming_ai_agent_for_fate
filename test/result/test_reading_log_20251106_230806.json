@@ -1,0 +1,2493 @@
+{
+  "test_timestamp": "2025-11-06T23:05:46.601348",
+  "question": "我的父亲11月运势如何",
+  "user_profile": {
+    "age": 28,
+    "gender": "female",
+    "zodiac_sign": "Leo",
+    "appearance_type": "wands",
+    "personality_type": "wands",
+    "preferred_source": "pkt",
+    "preferred_spread": null
+  },
+  "steps": [
+    {
+      "step_name": "question_analysis",
+      "step_order": 2,
+      "input_data": {
+        "question": "我的父亲11月运势如何",
+        "user_profile": {
+          "age": 28,
+          "gender": "female",
+          "zodiac_sign": "Leo",
+          "appearance_type": "wands",
+          "personality_type": "wands",
+          "preferred_source": "pkt",
+          "preferred_spread": null
+        },
+        "user_selected_spread": null
+      },
+      "output_data": {
+        "analysis": {
+          "reasoning": "这是一个关于父亲运势的中等复杂度问题，三牌占卜可以提供对他11月运势的清晰洞察。",
+          "complexity": "moderate",
+          "question_type": "general",
+          "question_domain": "general",
+          "question_summary": "分析父亲在11月的整体运势",
+          "recommended_spread": "three_card",
+          "auto_selected_spread": true
+        },
+        "llm_response": "{\n    \"question_domain\": \"general\",\n    \"complexity\": \"moderate\",\n    \"question_type\": \"general\",\n    \"recommended_spread\": \"three_card\",\n    \"reasoning\": \"这是一个关于父亲运势的中等复杂度问题，三牌占卜可以提供对他11月运势的清晰洞察。\",\n    \"question_summary\": \"分析父亲在11月的整体运势\"\n}"
+      },
+      "prompt_type": "question_analysis",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师。请分析以下问题，并返回JSON格式的分析结果。\n\n## 问题：\n我的父亲11月运势如何\n\n## 用户信息（可选）：\n年龄: 28\n性别: female\n星座: Leo\n性格类型: wands\n外貌类型: wands\n\n## 分析要求：\n1. **问题领域**：识别问题所属领域，从以下选项中选择其一：\n   - 'love': 爱情、关系、情感\n   - 'career': 职业、工作、事业\n   - 'health': 健康、身体、康复\n   - 'finance': 财务、金钱、物质\n   - 'personal_growth': 个人成长、精神、自我探索\n   - 'general': 一般生活、综合问题\n\n2. **问题复杂度**（如果用户未指定占卜方式）：\n   - 'simple': 简单问题，可以用三牌占卜回答\n   - 'moderate': 中等复杂度，默认推荐三牌占卜\n   - 'complex': 复杂问题，需要凯尔特十字深入分析\n\n3. **提问类型**：\n   - 'specific_event': 具体事件（如：会得到这份工作吗？）\n   - 'relationship': 关系问题（如：我们的关系会如何发展？）\n   - 'choice': 选择问题（如：应该选择哪个方向？）\n   - 'general': 一般性问题（如：我的未来会怎样？）\n\n4. **推荐占卜方式**（如果用户未指定）：\n   - 'three_card': 三牌占卜\n   - 'celtic_cross': 凯尔特十字\n   - 'work_cycle': 工作循环（如果需要持续建议）\n   - 'other': 其他（说明原因）\n\n## 输出格式（JSON）：\n{\n    \"question_domain\": \"love\",\n    \"complexity\": \"simple\",\n    \"question_type\": \"relationship\",\n    \"recommended_spread\": \"three_card\",\n    \"reasoning\": \"这是一个关于关系的简单问题，三牌占卜可以清晰回答过去-现在-未来的发展\",\n    \"question_summary\": \"简要总结问题核心\"\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "rag_queries": null,
+      "model_used": "gpt-4o-mini",
+      "temperature": 0.3,
+      "processing_time_ms": 3055,
+      "tokens_used": null,
+      "created_at": "2025-11-06T22:05:50.764651+00:00"
+    },
+    {
+      "step_name": "pattern_analysis",
+      "step_order": 6,
+      "input_data": {
+        "use_rag": false,
+        "spread_type": "three_card",
+        "selected_cards": [
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+            "position": "past",
+            "card_number": 4,
+            "is_reversed": false,
+            "card_name_cn": "四 圣杯",
+            "card_name_en": "Four of Cups",
+            "position_order": 1,
+            "position_description": "过去的影响"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+            "position": "present",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords",
+            "position_order": 2,
+            "position_description": "当前状况"
+          },
+          {
+            "suit": "pentacles",
+            "arcana": "minor",
+            "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+            "position": "future",
+            "card_number": 14,
+            "is_reversed": false,
+            "card_name_cn": "国王 星币",
+            "card_name_en": "King of Pentacles",
+            "position_order": 3,
+            "position_description": "未来趋势"
+          }
+        ],
+        "question_domain": "general"
+      },
+      "output_data": {
+        "analysis": {
+          "model_used": "gpt-4o-mini",
+          "analysis_method": "direct_llm",
+          "number_patterns": {
+            "number_jumps": [
+              "4到5的跳跃，表明从内心的情感状态到外部的冲突变化。"
+            ],
+            "same_numbers": [],
+            "number_sequences": []
+          },
+          "reversed_patterns": {
+            "count": 0,
+            "positions": [],
+            "interpretation": "没有逆位牌，表示当前状况较为正面，未出现明显的阻碍或负面影响。"
+          },
+          "suit_distribution": {
+            "cups_count": 1,
+            "major_count": 0,
+            "wands_count": 0,
+            "swords_count": 1,
+            "interpretation": "当前牌阵中三种花色均有出现，显示出情感、冲突和物质的平衡，暗示需要在这几个方面找到协调。",
+            "pentacles_count": 1
+          },
+          "special_combinations": [],
+          "major_arcana_patterns": {
+            "count": 0,
+            "meaning": "没有大阿卡纳牌，表明当前的情况主要受小阿卡纳的影响，强调日常生活中的实际问题。",
+            "positions": []
+          },
+          "position_relationships": {
+            "time_flow": "过去的四圣杯代表了对情感的沉思和不满，影响了当前的五宝剑局面，表明了一种内心的冲突和争斗，而未来的国王星币则暗示着通过努力和稳重的态度，能够实现物质上的成功和稳定。",
+            "support_conflict": "四圣杯的内心反思与五宝剑的外部冲突形成对抗，而国王星币则提供了支持，通过稳重和成熟的管理来解决当前的纷争。",
+            "causal_relationships": [
+              "四圣杯→五宝剑: 过去的情感不满导致了当前的冲突和竞争。",
+              "五宝剑→国王星币: 当前的冲突如果妥善处理，将为未来的成功奠定基础。"
+            ]
+          }
+        },
+        "llm_response": "{\n    \"position_relationships\": {\n        \"time_flow\": \"过去的四圣杯代表了对情感的沉思和不满，影响了当前的五宝剑局面，表明了一种内心的冲突和争斗，而未来的国王星币则暗示着通过努力和稳重的态度，能够实现物质上的成功和稳定。\",\n        \"causal_relationships\": [\n            \"四圣杯→五宝剑: 过去的情感不满导致了当前的冲突和竞争。\",\n            \"五宝剑→国王星币: 当前的冲突如果妥善处理，将为未来的成功奠定基础。\"\n        ],\n        \"support_conflict\": \"四圣杯的内心反思与五宝剑的外部冲突形成对抗，而国王星币则提供了支持，通过稳重和成熟的管理来解决当前的纷争。\"\n    },\n    \"number_patterns\": {\n        \"same_numbers\": [],\n        \"number_sequences\": [],\n        \"number_jumps\": [\"4到5的跳跃，表明从内心的情感状态到外部的冲突变化。\"]\n    },\n    \"suit_distribution\": {\n        \"wands_count\": 0,\n        \"cups_count\": 1,\n        \"swords_count\": 1,\n        \"pentacles_count\": 1,\n        \"major_count\": 0,\n        \"interpretation\": \"当前牌阵中三种花色均有出现，显示出情感、冲突和物质的平衡，暗示需要在这几个方面找到协调。\"\n    },\n    \"major_arcana_patterns\": {\n        \"count\": 0,\n        \"positions\": [],\n        \"meaning\": \"没有大阿卡纳牌，表明当前的情况主要受小阿卡纳的影响，强调日常生活中的实际问题。\"\n    },\n    \"reversed_patterns\": {\n        \"count\": 0,\n        \"positions\": [],\n        \"interpretation\": \"没有逆位牌，表示当前状况较为正面，未出现明显的阻碍或负面影响。\"\n    },\n    \"special_combinations\": []\n}"
+      },
+      "prompt_type": "pattern_analysis",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师。请分析以下牌阵的模式和关系。\n\n## 占卜方式：three_card\n## 问题领域：general\n\n## 牌阵信息：\n1. past (过去的影响): Four of Cups (四 圣杯) - cups 4\n2. present (当前状况): Five of Swords (五 宝剑) - swords 5\n3. future (未来趋势): King of Pentacles (国王 星币) - pentacles 14\n\n## 分析要求：\n1. **位置关系**：分析各位置之间的关系（时间线、因果、支持/对抗）\n2. **数字模式**：识别相同数字、数字序列、数字跳跃\n3. **花色分布**：分析各花色的分布和平衡\n4. **大阿卡纳模式**：分析大阿卡纳的位置和意义\n5. **逆位模式**：分析逆位牌的模式和含义\n6. **特殊组合**：识别宫廷牌组合、相同牌等特殊模式\n\n## 输出格式（JSON）：\n{\n    \"position_relationships\": {\n        \"time_flow\": \"描述时间线关系（如果有）\",\n        \"causal_relationships\": [\"原因→结果的关系列表\"],\n        \"support_conflict\": \"支持或对抗关系描述\"\n    },\n    \"number_patterns\": {\n        \"same_numbers\": [\"相同数字和含义说明\"],\n        \"number_sequences\": [\"数字序列和含义说明\"],\n        \"number_jumps\": [\"数字跳跃和含义说明\"]\n    },\n    \"suit_distribution\": {\n        \"wands_count\": 0,\n        \"cups_count\": 0,\n        \"swords_count\": 0,\n        \"pentacles_count\": 0,\n        \"major_count\": 0,\n        \"interpretation\": \"花色分布的含义解释\"\n    },\n    \"major_arcana_patterns\": {\n        \"count\": 0,\n        \"positions\": [\"大阿卡纳的位置列表\"],\n        \"meaning\": \"大阿卡纳模式的含义\"\n    },\n    \"reversed_patterns\": {\n        \"count\": 0,\n        \"positions\": [\"逆位牌的位置列表\"],\n        \"interpretation\": \"逆位模式的含义解释\"\n    },\n    \"special_combinations\": [\"特殊组合的描述列表\"]\n}\n\n请确保返回有效的JSON格式，不要包含任何其他文本。",
+      "rag_queries": null,
+      "model_used": "gpt-4o-mini",
+      "temperature": 0.5,
+      "processing_time_ms": 15543,
+      "tokens_used": null,
+      "created_at": "2025-11-06T22:06:06.947828+00:00"
+    },
+    {
+      "step_name": "rag_retrieval",
+      "step_order": 7,
+      "input_data": {
+        "spread_type": "three_card",
+        "selected_cards": [
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+            "position": "past",
+            "card_number": 4,
+            "is_reversed": false,
+            "card_name_cn": "四 圣杯",
+            "card_name_en": "Four of Cups",
+            "position_order": 1,
+            "position_description": "过去的影响"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+            "position": "present",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords",
+            "position_order": 2,
+            "position_description": "当前状况"
+          },
+          {
+            "suit": "pentacles",
+            "arcana": "minor",
+            "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+            "position": "future",
+            "card_number": 14,
+            "is_reversed": false,
+            "card_name_cn": "国王 星币",
+            "card_name_en": "King of Pentacles",
+            "position_order": 3,
+            "position_description": "未来趋势"
+          }
+        ]
+      },
+      "output_data": {
+        "spread_method": {
+          "rag_text": "[method_steps] To perform a three-card spread Tarot divination, follow these steps:\n\n1. **Set Your Intention**: Focus on a specific question or situation you want insight into.\n\n2. **Shuffle the Deck**: While concentrating on your question, shuffle the Tarot deck thoroughly.\n\n3. **Draw Three Cards**: After shuffling, draw three cards from the deck and lay them out in a row.\n\n4. **Assign Meanings**: Typically, the positions are interpreted as follows:\n   - **Card 1**: Past influences or the background of the situation.\n   - **Card 2**: Present circumstances or the current state of affairs.\n   - **Card 3**: Future outcome or potential developments.\n\n5. **Interpret the Cards**: Analyze each card's meaning in relation to your question, considering both the individual card meanings and their positions.\n\n6. **Reflect on the Reading**: Take time to contemplate how the insights from the cards apply to your situation and what actions you might take moving forward. \n\nRemember, the interpretation can vary based on the context and your intuition.\n\n[position_interpretation] In a three-card spread, the positions typically represent the following:\n\n1. **Past**: This card reflects past influences or events that have shaped the current situation.\n2. **Present**: This card indicates the current state or situation, highlighting what is happening now.\n3. **Future**: This card suggests potential outcomes or future developments based on the current trajectory.\n\nEach card's meaning can be further nuanced by its orientation (upright or reversed) and its relationship to the other cards in the spread.\n\n[psychological_background] In a three-card spread using a psychological approach, each card can represent different aspects of the querent's psyche or emotional state. \n\n1. **First Card (Past Influences)**: This card reflects past experiences or influences that have shaped the querent's current mindset. It may reveal underlying issues or traumas that need addressing.\n\n2. **Second Card (Present Situation)**: This card represents the querent's current emotional or psychological state. It can highlight feelings, thoughts, or conflicts that are presently affecting their well-being.\n\n3. **Third Card (Future Guidance)**: This card offers insight into potential outcomes or advice for moving forward. It may suggest actions to take or attitudes to adopt for better mental and emotional health.\n\nBy analyzing how these cards interact and relate to one another, you can gain a deeper understanding of the querent's psychological landscape and provide meaningful guidance.\n\n[traditional_method] In a traditional three-card spread, particularly in the context of ancient Celtic divination, each card represents a different aspect of the inquiry:\n\n1. **Past**: This card reflects influences or events that have shaped the current situation.\n2. **Present**: This card indicates the current state or circumstances surrounding the question.\n3. **Future**: This card offers insight into potential outcomes or directions based on the current trajectory.\n\nThis method emphasizes the interconnectedness of time and the cyclical nature of experiences, aligning with the principles of balance and unity found in Tarot readings, as noted in the context.",
+          "citations": [
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0305#2",
+              "similarity": 0.496708959537211
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0191#1",
+              "similarity": 0.539576530456543
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0327#1",
+              "similarity": 0.534003679037537
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0125#2",
+              "similarity": 0.516719100866429
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0359#2",
+              "similarity": 0.515454173088074
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0020#1",
+              "similarity": 0.452980044306515
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0181#2",
+              "similarity": 0.512090563774109
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0365#1",
+              "similarity": 0.511627793312073
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0122#2",
+              "similarity": 0.584076861363206
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0056#2",
+              "similarity": 0.575727845685024
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.559315869869369
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0015#1",
+              "similarity": 0.516090212334373
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0066#1",
+              "similarity": 0.515619189478134
+            }
+          ],
+          "query_count": 4,
+          "query_types": [
+            "method_steps",
+            "position_interpretation",
+            "psychological_background",
+            "traditional_method"
+          ],
+          "spread_type": "three_card"
+        },
+        "card_information": {
+          "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b": {
+            "position": "future",
+            "rag_text": "[basic_meaning] The King of Pentacles represents stability, security, and financial success. In a divinatory context, this card signifies a person who is reliable, practical, and grounded, often embodying traits of leadership in business and material matters. It suggests a focus on wealth, abundance, and the importance of hard work and discipline. This card may also indicate the need to nurture and protect one's resources, as well as the potential for achieving long-term goals through perseverance and wise investments.\n\n[visual_description] I don't have enough information to answer your question. Could you please rephrase or provide more context?\n\n[upright_meaning] The King of Pentacles upright signifies financial stability, security, and success. It represents a person who is reliable, practical, and grounded, often associated with wealth and material abundance. This card embodies the qualities of leadership in business, wise investment, and the ability to provide for oneself and others. It also suggests a strong connection to the material world, emphasizing the importance of hard work, discipline, and the enjoyment of life's comforts.\n\n[reversed_meaning] The King of Pentacles reversed typically signifies a loss of control over finances, materialism, and a lack of stability. It can indicate greed, corruption, or a focus on wealth at the expense of relationships and values. This card may also suggest a person who is overly dependent on security and comfort, leading to selfishness and mistrust. In a broader sense, it can reflect a failure to manage resources wisely or a warning against becoming too entrenched in material pursuits.\n\n[position_meaning] The King of Pentacles in the future position suggests a time of stability, security, and material success. It indicates that you may achieve financial prosperity and establish a solid foundation in your endeavors. This card also emphasizes the importance of practicality, responsibility, and wise management of resources. You may find yourself embodying qualities of leadership and reliability, guiding others with your experience and grounded approach. Overall, it points to a future where you can enjoy the fruits of your labor and create a lasting legacy.\n\n[psychological_meaning] The King of Pentacles represents stability, security, and a strong sense of responsibility. Psychologically, this card embodies traits such as practicality, discipline, and a focus on material success. It suggests a person who is grounded, reliable, and capable of managing resources effectively. This card can also indicate a desire for control and a tendency to prioritize financial security over emotional or spiritual pursuits. In a psychological context, it may reflect a need to balance ambition with personal relationships and emotional well-being.\n\n[suit_element_meaning] The King of Pentacles represents stability, security, and success in the material realm. As a figure embodying the earth element, he signifies practicality, financial acumen, and a strong connection to the physical world. This card often indicates a person who is reliable, disciplined, and capable of creating wealth and abundance through hard work and wise investments. It encourages a grounded approach to achieving goals, emphasizing the importance of nurturing both material and emotional well-being.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.477003513396003
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.677470983040719
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.620413377334282
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.588102207440534
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.579327404499058
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0082#1",
+                "similarity": 0.571247628778518
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.647853514680067
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0242#1",
+                "similarity": 0.544451594352726
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.544063660148601
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0226#1",
+                "similarity": 0.4246764779091
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0072#2",
+                "similarity": 0.317390872862131
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 7,
+            "query_types": [
+              "basic_meaning",
+              "visual_description",
+              "upright_meaning",
+              "reversed_meaning",
+              "position_meaning",
+              "psychological_meaning",
+              "suit_element_meaning"
+            ],
+            "card_name_cn": "国王 星币",
+            "card_name_en": "King of Pentacles"
+          },
+          "867222bd-c3da-4bf9-adaf-786c60ef8601": {
+            "position": "past",
+            "rag_text": "[basic_meaning] The Four of Cups in a divinatory context often signifies contemplation, apathy, or reevaluation. It suggests a period of introspection where one may feel discontent or disconnected from their current situation. This card can indicate a need to reassess what truly brings fulfillment and joy, as opportunities may be overlooked due to a focus on dissatisfaction or emotional withdrawal. It encourages the seeker to open their eyes to new possibilities and to consider what they truly desire.\n\n[visual_description] The Four of Cups typically depicts a figure sitting under a tree, appearing discontent or contemplative. Three cups are positioned in front of him, while a fourth cup is being offered by a hand emerging from a cloud. The imagery suggests introspection, apathy, or a sense of dissatisfaction with current offerings, emphasizing a need for emotional reevaluation or a deeper connection.\n\n[upright_meaning] The Four of Cups upright signifies contemplation, apathy, and reevaluation. It often represents a period of introspection where one may feel disconnected or dissatisfied with current circumstances. This card suggests a need to reflect on emotional needs and desires, as well as the potential for new opportunities that may be overlooked. It encourages the querent to consider what truly brings them fulfillment and to be open to new possibilities.\n\n[reversed_meaning] The Four of Cups reversed signifies a shift towards acceptance and renewal after a period of discontent. It can indicate support from friends, new interests, and the realization of what truly matters in life, moving away from past disappointments. It may also suggest overcoming feelings of apathy and embracing opportunities for joy and connection. In relationships, it can point to healing and the potential for rekindled trust or affection.\n\n[position_meaning] The Four of Cups in the past position typically signifies a period of emotional withdrawal or contemplation. It suggests that the Querent may have experienced feelings of dissatisfaction or apathy regarding their emotional or relational circumstances. This card indicates a time when they were focused on what was lacking or unfulfilled, possibly ignoring opportunities for joy or connection that were available to them. It reflects a phase of introspection, where the Querent may have been seeking deeper meaning or fulfillment but felt disconnected from their surroundings.\n\n[psychological_meaning] The Four of Cups often represents feelings of apathy, contemplation, and introspection. Psychologically, it can indicate a state of emotional withdrawal or dissatisfaction with current circumstances. The figure in the card may be reflecting on what is missing in their life, leading to a sense of disconnection from opportunities or relationships. This card suggests a need to reassess one's desires and motivations, as well as the importance of being open to new experiences and emotional connections. It can also signify a protective stance against emotional vulnerability, stemming from past disappointments.\n\n[suit_element_meaning] The Four of Cups represents introspection and contemplation regarding emotional fulfillment. It often signifies a period of reevaluation, where one may feel discontent or disconnected from their current emotional situation. This card suggests a need to look inward and consider what truly brings happiness, as opportunities for emotional growth may be overlooked. It can also indicate a sense of apathy or boredom with existing relationships or situations, urging the querent to seek deeper emotional connections or new experiences.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#2",
+                "similarity": 0.529175074647372
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.504699498695106
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0125#2",
+                "similarity": 0.502999990999707
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0158#1",
+                "similarity": 0.491279571728682
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0020#1",
+                "similarity": 0.401105105876925
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.641503887355792
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.615431446296914
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.592373680159293
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.591299961960312
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.535344139794831
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0086#1",
+                "similarity": 0.572643126941195
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.703193545341512
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0220#1",
+                "similarity": 0.676877537145913
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.671120245189608
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.642392060614116
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.616699640449921
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 7,
+            "query_types": [
+              "basic_meaning",
+              "visual_description",
+              "upright_meaning",
+              "reversed_meaning",
+              "position_meaning",
+              "psychological_meaning",
+              "suit_element_meaning"
+            ],
+            "card_name_cn": "四 圣杯",
+            "card_name_en": "Four of Cups"
+          },
+          "d148cb52-6b57-4d68-8d19-80c1e2b80142": {
+            "position": "present",
+            "rag_text": "[basic_meaning] The Five of Swords typically represents conflict, defeat, and loss. It signifies a situation where one may experience betrayal or a hollow victory, often at the expense of others. This card highlights the emotional toll of conflict and the potential for feelings of isolation or regret. It serves as a reminder that winning may not always bring satisfaction and can lead to deeper issues if not addressed.\n\n[visual_description] The Five of Swords typically depicts a scene of conflict and defeat. In the image, you might see a figure standing triumphantly over two defeated opponents, who are walking away in sorrow. The victorious figure often holds three swords, while the others have dropped their swords, symbolizing loss and struggle. The background may be stormy or desolate, reflecting the emotional turmoil and the aftermath of conflict. The overall tone of the card conveys a sense of hollow victory and the consequences of strife.\n\n[upright_meaning] The Five of Swords upright typically signifies conflict, tension, and defeat. It often represents a situation where one person may win at the expense of others, leading to feelings of betrayal or loss. This card can indicate a struggle where the victor may feel hollow or regretful, as the victory comes with emotional costs. It serves as a reminder to consider the consequences of one's actions and the importance of integrity in relationships.\n\n[reversed_meaning] The Five of Swords reversed indicates a potential for healing and communication after conflict. It suggests that while past disputes may have caused pain, there is an opportunity to address these issues and move towards resolution. This card can also reflect a desire to let go of defeat and find a way to reconcile differences, emphasizing the importance of open dialogue to mend relationships.\n\n[position_meaning] The Five of Swords typically represents conflict, tension, and defeat. In its present position, it suggests a situation where there may be a sense of betrayal or loss, often indicating that a victory has come at a high cost. It can signify arguments or disputes where one party feels they have won, but the emotional fallout leaves a bitter taste. This card encourages reflection on the consequences of one's actions and the importance of considering the feelings of others involved. It may also indicate a need to let go of the desire to \"win\" at all costs and to seek resolution instead.\n\n[psychological_meaning] The Five of Swords often represents conflict, defeat, and the psychological toll of competition or betrayal. It can indicate feelings of isolation and the aftermath of a struggle where one may feel victorious but at a significant emotional cost. This card suggests a mindset focused on winning at all costs, leading to guilt, regret, or a sense of hollow victory. It may also reflect a need to reassess one's approach to conflict, highlighting the importance of collaboration over competition to avoid further emotional turmoil.\n\n[suit_element_meaning] The Five of Swords represents conflict, defeat, and the harsh realities of competition. In the context of the air element, which governs thoughts and communication, this card signifies mental strife and the potential for misunderstandings. It often indicates a situation where one may win at a cost, leading to feelings of isolation or regret. The card highlights the importance of clear communication and the dangers of allowing negative emotions to cloud judgment. It serves as a reminder that while intellect can cut through illusions, it can also lead to painful truths if not handled with care.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.603743135929112
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.602691108228962
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.581957980744479
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0100#1",
+                "similarity": 0.532085085138389
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0241#1",
+                "similarity": 0.53027143894009
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.545804858207703
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0218#2",
+                "similarity": 0.542358425715064
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0219#1",
+                "similarity": 0.510433256626129
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0311#1",
+                "similarity": 0.494316994466427
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0110#1",
+                "similarity": 0.369205482649477
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.622991077242687
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.616198062896746
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.584557515843001
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.543812377935291
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.532973404768303
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0086#1",
+                "similarity": 0.528869986534134
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0088#1",
+                "similarity": 0.521584329416239
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.498210981328279
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#2",
+                "similarity": 0.494037330150604
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0242#1",
+                "similarity": 0.575004985927941
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.453968021037101
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 7,
+            "query_types": [
+              "basic_meaning",
+              "visual_description",
+              "upright_meaning",
+              "reversed_meaning",
+              "position_meaning",
+              "psychological_meaning",
+              "suit_element_meaning"
+            ],
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords"
+          }
+        },
+        "card_relationships": {
+          "rag_text": "[number_patterns] In the spread featuring the Four of Cups, Five of Swords, and King of Pentacles, we can observe a numerical pattern based on the sequence of the cards:\n\n- **Four of Cups (4)**: Represents contemplation, apathy, or reevaluation of emotional situations.\n- **Five of Swords (5)**: Indicates conflict, tension, or a sense of defeat, often related to interpersonal struggles.\n- **King of Pentacles (King = 10)**: Symbolizes stability, financial security, and mastery over material aspects.\n\nThe sequence shows a progression from the emotional realm (Cups) to conflict (Swords) and culminates in material success and stability (Pentacles). The numbers suggest a journey from introspection (4) to conflict (5) and finally to mastery and security (10). This pattern reflects a narrative of growth and the challenges faced along the way.\n\n[suit_distribution] In a Tarot spread, the distribution of suits can indicate the balance of elements in a reading. \n\n- **Wands (Fire)** and **Swords (Air)** represent active, 'yang' energies, suggesting action, conflict, or mental challenges.\n- **Cups (Water)** and **Pentacles (Earth)** represent passive, 'yin' energies, indicating emotions, intuition, and material aspects.\n\nA balanced spread would ideally have a mix of these suits, reflecting a harmony between action and receptivity, will and openness. For example, an equal number of cards from each suit can signify a well-rounded situation, while an overrepresentation of one suit may indicate an imbalance that needs addressing.\n\n[card_relationships] In this sequence, the Four of Cups in the past suggests a period of contemplation or dissatisfaction, where emotional opportunities may have been overlooked. The Five of Swords in the present indicates conflict or tension, possibly stemming from a sense of defeat or betrayal. This card often reflects a struggle for power or a win-at-all-costs mentality. Looking to the future, the King of Pentacles signifies stability, security, and success in material matters. This suggests that overcoming current conflicts will lead to a more grounded and prosperous phase, where practical achievements and financial security are prioritized. Overall, the sequence reflects a journey from emotional introspection and conflict to eventual stability and success.",
+          "citations": [
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0045#2",
+              "similarity": 0.608946655047737
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0095#1",
+              "similarity": 0.605185675002856
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0218#1",
+              "similarity": 0.577893451828936
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0255#1",
+              "similarity": 0.571601646256154
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0087#1",
+              "similarity": 0.571112939317864
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0181#1",
+              "similarity": 0.668380637861453
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.651834566945868
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0170#1",
+              "similarity": 0.59091180562973
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0015#1",
+              "similarity": 0.583902359008789
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0056#2",
+              "similarity": 0.555159303853471
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0228#1",
+              "similarity": 0.56551887413522
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0289#1",
+              "similarity": 0.519200678062277
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0286#1",
+              "similarity": 0.513652159543148
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0208#2",
+              "similarity": 0.478749828450402
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0356#1",
+              "similarity": 0.472748342424832
+            }
+          ],
+          "query_count": 3,
+          "query_types": [
+            "number_patterns",
+            "suit_distribution",
+            "card_relationships"
+          ]
+        }
+      },
+      "prompt_type": null,
+      "prompt_content": null,
+      "rag_queries": [
+        {
+          "type": "method_steps",
+          "query": "three_card spread tarot divination method how to use steps",
+          "result": {
+            "text": "To perform a three-card spread Tarot divination, follow these steps:\n\n1. **Set Your Intention**: Focus on a specific question or situation you want insight into.\n\n2. **Shuffle the Deck**: While concentrating on your question, shuffle the Tarot deck thoroughly.\n\n3. **Draw Three Cards**: After shuffling, draw three cards from the deck and lay them out in a row.\n\n4. **Assign Meanings**: Typically, the positions are interpreted as follows:\n   - **Card 1**: Past influences or the background of the situation.\n   - **Card 2**: Present circumstances or the current state of affairs.\n   - **Card 3**: Future outcome or potential developments.\n\n5. **Interpret the Cards**: Analyze each card's meaning in relation to your question, considering both the individual card meanings and their positions.\n\n6. **Reflect on the Reading**: Take time to contemplate how the insights from the cards apply to your situation and what actions you might take moving forward. \n\nRemember, the interpretation can vary based on the context and your intuition.",
+            "debug": {
+              "latency_ms": 6503,
+              "num_results": 1,
+              "top_doc_ids": [
+                "78degrees-section-0305#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.496708959537211
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "position_interpretation",
+          "query": "three_card spread tarot card positions meaning interpretation",
+          "result": {
+            "text": "In a three-card spread, the positions typically represent the following:\n\n1. **Past**: This card reflects past influences or events that have shaped the current situation.\n2. **Present**: This card indicates the current state or situation, highlighting what is happening now.\n3. **Future**: This card suggests potential outcomes or future developments based on the current trajectory.\n\nEach card's meaning can be further nuanced by its orientation (upright or reversed) and its relationship to the other cards in the spread.",
+            "debug": {
+              "latency_ms": 3584,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0191#1",
+                "78degrees-section-0327#1",
+                "78degrees-section-0125#2",
+                "78degrees-section-0359#2",
+                "pkt-section-0020#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.539576530456543
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0327#1",
+                "similarity": 0.534003679037537
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0125#2",
+                "similarity": 0.516719100866429
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#2",
+                "similarity": 0.515454173088074
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0020#1",
+                "similarity": 0.452980044306515
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "psychological_background",
+          "query": "three_card spread tarot psychological approach interpretation",
+          "result": {
+            "text": "In a three-card spread using a psychological approach, each card can represent different aspects of the querent's psyche or emotional state. \n\n1. **First Card (Past Influences)**: This card reflects past experiences or influences that have shaped the querent's current mindset. It may reveal underlying issues or traumas that need addressing.\n\n2. **Second Card (Present Situation)**: This card represents the querent's current emotional or psychological state. It can highlight feelings, thoughts, or conflicts that are presently affecting their well-being.\n\n3. **Third Card (Future Guidance)**: This card offers insight into potential outcomes or advice for moving forward. It may suggest actions to take or attitudes to adopt for better mental and emotional health.\n\nBy analyzing how these cards interact and relate to one another, you can gain a deeper understanding of the querent's psychological landscape and provide meaningful guidance.",
+            "debug": {
+              "latency_ms": 5834,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0327#1",
+                "78degrees-section-0359#2",
+                "78degrees-section-0181#2",
+                "78degrees-section-0365#1",
+                "pkt-section-0020#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0327#1",
+                "similarity": 0.567135401622705
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#2",
+                "similarity": 0.521165728569031
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0181#2",
+                "similarity": 0.512090563774109
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0365#1",
+                "similarity": 0.511627793312073
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0020#1",
+                "similarity": 0.416577373947062
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "traditional_method",
+          "query": "three_card spread tarot traditional divination method ancient celtic",
+          "result": {
+            "text": "In a traditional three-card spread, particularly in the context of ancient Celtic divination, each card represents a different aspect of the inquiry:\n\n1. **Past**: This card reflects influences or events that have shaped the current situation.\n2. **Present**: This card indicates the current state or circumstances surrounding the question.\n3. **Future**: This card offers insight into potential outcomes or directions based on the current trajectory.\n\nThis method emphasizes the interconnectedness of time and the cyclical nature of experiences, aligning with the principles of balance and unity found in Tarot readings, as noted in the context.",
+            "debug": {
+              "latency_ms": 3506,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0122#2",
+                "pkt-section-0056#2",
+                "78degrees-section-0282#1",
+                "pkt-section-0015#1",
+                "78degrees-section-0066#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0122#2",
+                "similarity": 0.584076861363206
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0056#2",
+                "similarity": 0.575727845685024
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0282#1",
+                "similarity": 0.559315869869369
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0015#1",
+                "similarity": 0.516090212334373
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0066#1",
+                "similarity": 0.515619189478134
+              }
+            ]
+          },
+          "spread_type": "three_card"
+        },
+        {
+          "type": "number_patterns",
+          "query": "tarot card number patterns same numbers sequences in spread Four of Cups, Five of Swords, King of Pentacles",
+          "result": {
+            "text": "In the spread featuring the Four of Cups, Five of Swords, and King of Pentacles, we can observe a numerical pattern based on the sequence of the cards:\n\n- **Four of Cups (4)**: Represents contemplation, apathy, or reevaluation of emotional situations.\n- **Five of Swords (5)**: Indicates conflict, tension, or a sense of defeat, often related to interpersonal struggles.\n- **King of Pentacles (King = 10)**: Symbolizes stability, financial security, and mastery over material aspects.\n\nThe sequence shows a progression from the emotional realm (Cups) to conflict (Swords) and culminates in material success and stability (Pentacles). The numbers suggest a journey from introspection (4) to conflict (5) and finally to mastery and security (10). This pattern reflects a narrative of growth and the challenges faced along the way.",
+            "debug": {
+              "latency_ms": 4416,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0045#2",
+                "pkt-section-0095#1",
+                "78degrees-section-0218#1",
+                "78degrees-section-0255#1",
+                "pkt-section-0087#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0045#2",
+                "similarity": 0.608946655047737
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.605185675002856
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0218#1",
+                "similarity": 0.577893451828936
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.571601646256154
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.571112939317864
+              }
+            ]
+          }
+        },
+        {
+          "type": "suit_distribution",
+          "query": "tarot card suit distribution element balance pentacles, swords, cups in spread",
+          "result": {
+            "text": "In a Tarot spread, the distribution of suits can indicate the balance of elements in a reading. \n\n- **Wands (Fire)** and **Swords (Air)** represent active, 'yang' energies, suggesting action, conflict, or mental challenges.\n- **Cups (Water)** and **Pentacles (Earth)** represent passive, 'yin' energies, indicating emotions, intuition, and material aspects.\n\nA balanced spread would ideally have a mix of these suits, reflecting a harmony between action and receptivity, will and openness. For example, an equal number of cards from each suit can signify a well-rounded situation, while an overrepresentation of one suit may indicate an imbalance that needs addressing.",
+            "debug": {
+              "latency_ms": 6137,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0181#1",
+                "78degrees-section-0282#1",
+                "78degrees-section-0170#1",
+                "pkt-section-0015#1",
+                "pkt-section-0056#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0181#1",
+                "similarity": 0.668380637861453
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0282#1",
+                "similarity": 0.651834566945868
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0170#1",
+                "similarity": 0.59091180562973
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0015#1",
+                "similarity": 0.583902359008789
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0056#2",
+                "similarity": 0.555159303853471
+              }
+            ]
+          }
+        },
+        {
+          "type": "card_relationships",
+          "query": "tarot card relationships sequence meaning Four of Cups (past), Five of Swords (present), King of Pentacles (future)",
+          "result": {
+            "text": "In this sequence, the Four of Cups in the past suggests a period of contemplation or dissatisfaction, where emotional opportunities may have been overlooked. The Five of Swords in the present indicates conflict or tension, possibly stemming from a sense of defeat or betrayal. This card often reflects a struggle for power or a win-at-all-costs mentality. Looking to the future, the King of Pentacles signifies stability, security, and success in material matters. This suggests that overcoming current conflicts will lead to a more grounded and prosperous phase, where practical achievements and financial security are prioritized. Overall, the sequence reflects a journey from emotional introspection and conflict to eventual stability and success.",
+            "debug": {
+              "latency_ms": 4493,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0228#1",
+                "78degrees-section-0289#1",
+                "78degrees-section-0286#1",
+                "78degrees-section-0208#2",
+                "78degrees-section-0356#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0228#1",
+                "similarity": 0.56551887413522
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0289#1",
+                "similarity": 0.519200678062277
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0286#1",
+                "similarity": 0.513652159543148
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0208#2",
+                "similarity": 0.478749828450402
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0356#1",
+                "similarity": 0.472748342424832
+              }
+            ]
+          }
+        },
+        {
+          "type": "basic_meaning",
+          "query": "Four of Cups tarot card meaning divinatory meaning",
+          "result": {
+            "text": "The Four of Cups in a divinatory context often signifies contemplation, apathy, or reevaluation. It suggests a period of introspection where one may feel discontent or disconnected from their current situation. This card can indicate a need to reassess what truly brings fulfillment and joy, as opportunities may be overlooked due to a focus on dissatisfaction or emotional withdrawal. It encourages the seeker to open their eyes to new possibilities and to consider what they truly desire.",
+            "debug": {
+              "latency_ms": 2922,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0359#2",
+                "78degrees-section-0191#1",
+                "78degrees-section-0125#2",
+                "78degrees-section-0158#1",
+                "pkt-section-0020#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#2",
+                "similarity": 0.529175074647372
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.504699498695106
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0125#2",
+                "similarity": 0.502999990999707
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0158#1",
+                "similarity": 0.491279571728682
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0020#1",
+                "similarity": 0.401105105876925
+              }
+            ]
+          },
+          "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+          "card_name_en": "Four of Cups"
+        },
+        {
+          "type": "visual_description",
+          "query": "Four of Cups tarot card description image visual appearance",
+          "result": {
+            "text": "The Four of Cups typically depicts a figure sitting under a tree, appearing discontent or contemplative. Three cups are positioned in front of him, while a fourth cup is being offered by a hand emerging from a cloud. The imagery suggests introspection, apathy, or a sense of dissatisfaction with current offerings, emphasizing a need for emotional reevaluation or a deeper connection.",
+            "debug": {
+              "latency_ms": 2562,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0079#1",
+                "pkt-section-0077#1",
+                "78degrees-section-0262#1",
+                "pkt-section-0076#1",
+                "78degrees-section-0315#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.641503887355792
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.615431446296914
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.592373680159293
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.591299961960312
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.535344139794831
+              }
+            ]
+          },
+          "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+          "card_name_en": "Four of Cups"
+        },
+        {
+          "type": "upright_meaning",
+          "query": "Four of Cups tarot card upright meaning divinatory upright",
+          "result": {
+            "text": "The Four of Cups upright signifies contemplation, apathy, and reevaluation. It often represents a period of introspection where one may feel disconnected or dissatisfied with current circumstances. This card suggests a need to reflect on emotional needs and desires, as well as the potential for new opportunities that may be overlooked. It encourages the querent to consider what truly brings them fulfillment and to be open to new possibilities.",
+            "debug": {
+              "latency_ms": 3595,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0079#1",
+                "pkt-section-0077#1",
+                "78degrees-section-0315#1",
+                "pkt-section-0086#1",
+                "78degrees-section-0262#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.680527648988683
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.60824682141086
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.590529936269818
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0086#1",
+                "similarity": 0.572643126941195
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.561297066366324
+              }
+            ]
+          },
+          "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+          "card_name_en": "Four of Cups"
+        },
+        {
+          "type": "reversed_meaning",
+          "query": "Four of Cups tarot card reversed meaning divinatory reversed",
+          "result": {
+            "text": "The Four of Cups reversed signifies a shift towards acceptance and renewal after a period of discontent. It can indicate support from friends, new interests, and the realization of what truly matters in life, moving away from past disappointments. It may also suggest overcoming feelings of apathy and embracing opportunities for joy and connection. In relationships, it can point to healing and the potential for rekindled trust or affection.",
+            "debug": {
+              "latency_ms": 3015,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0078#1",
+                "78degrees-section-0220#1",
+                "78degrees-section-0223#1",
+                "78degrees-section-0266#1",
+                "pkt-section-0087#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.703193545341512
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0220#1",
+                "similarity": 0.676877537145913
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.671120245189608
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.642392060614116
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.616699640449921
+              }
+            ]
+          },
+          "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+          "card_name_en": "Four of Cups"
+        },
+        {
+          "type": "position_meaning",
+          "query": "Four of Cups tarot card past position meaning interpretation",
+          "result": {
+            "text": "The Four of Cups in the past position typically signifies a period of emotional withdrawal or contemplation. It suggests that the Querent may have experienced feelings of dissatisfaction or apathy regarding their emotional or relational circumstances. This card indicates a time when they were focused on what was lacking or unfulfilled, possibly ignoring opportunities for joy or connection that were available to them. It reflects a phase of introspection, where the Querent may have been seeking deeper meaning or fulfillment but felt disconnected from their surroundings.",
+            "debug": {
+              "latency_ms": 3174,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0079#1",
+                "78degrees-section-0315#1",
+                "pkt-section-0077#1",
+                "78degrees-section-0262#1",
+                "pkt-section-0076#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.636724789045007
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.592709923225051
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.565926577691641
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.560726122877787
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.520869330193684
+              }
+            ]
+          },
+          "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+          "card_name_en": "Four of Cups"
+        },
+        {
+          "type": "psychological_meaning",
+          "query": "Four of Cups tarot card psychological meaning psychological interpretation",
+          "result": {
+            "text": "The Four of Cups often represents feelings of apathy, contemplation, and introspection. Psychologically, it can indicate a state of emotional withdrawal or dissatisfaction with current circumstances. The figure in the card may be reflecting on what is missing in their life, leading to a sense of disconnection from opportunities or relationships. This card suggests a need to reassess one's desires and motivations, as well as the importance of being open to new experiences and emotional connections. It can also signify a protective stance against emotional vulnerability, stemming from past disappointments.",
+            "debug": {
+              "latency_ms": 3604,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0079#1",
+                "pkt-section-0077#1",
+                "78degrees-section-0262#1",
+                "78degrees-section-0315#1",
+                "pkt-section-0076#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.624609213334061
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.586608816789534
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.582330805589843
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.577520063219067
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.542826636349373
+              }
+            ]
+          },
+          "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+          "card_name_en": "Four of Cups"
+        },
+        {
+          "type": "suit_element_meaning",
+          "query": "Four of Cups tarot card water element emotion suit meaning",
+          "result": {
+            "text": "The Four of Cups represents introspection and contemplation regarding emotional fulfillment. It often signifies a period of reevaluation, where one may feel discontent or disconnected from their current emotional situation. This card suggests a need to look inward and consider what truly brings happiness, as opportunities for emotional growth may be overlooked. It can also indicate a sense of apathy or boredom with existing relationships or situations, urging the querent to seek deeper emotional connections or new experiences.",
+            "debug": {
+              "latency_ms": 3508,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0079#1",
+                "78degrees-section-0315#1",
+                "78degrees-section-0262#1",
+                "pkt-section-0077#1",
+                "pkt-section-0076#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.588674433051867
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.560886401971635
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.558376083519233
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.552933474850638
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.528989327342291
+              }
+            ]
+          },
+          "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+          "card_name_en": "Four of Cups"
+        },
+        {
+          "type": "basic_meaning",
+          "query": "Five of Swords tarot card meaning divinatory meaning",
+          "result": {
+            "text": "The Five of Swords typically represents conflict, defeat, and loss. It signifies a situation where one may experience betrayal or a hollow victory, often at the expense of others. This card highlights the emotional toll of conflict and the potential for feelings of isolation or regret. It serves as a reminder that winning may not always bring satisfaction and can lead to deeper issues if not addressed.",
+            "debug": {
+              "latency_ms": 3075,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0237#1",
+                "pkt-section-0087#1",
+                "pkt-section-0078#1",
+                "pkt-section-0100#1",
+                "78degrees-section-0241#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.603743135929112
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.602691108228962
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.581957980744479
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0100#1",
+                "similarity": 0.532085085138389
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0241#1",
+                "similarity": 0.53027143894009
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "type": "visual_description",
+          "query": "Five of Swords tarot card description image visual appearance",
+          "result": {
+            "text": "The Five of Swords typically depicts a scene of conflict and defeat. In the image, you might see a figure standing triumphantly over two defeated opponents, who are walking away in sorrow. The victorious figure often holds three swords, while the others have dropped their swords, symbolizing loss and struggle. The background may be stormy or desolate, reflecting the emotional turmoil and the aftermath of conflict. The overall tone of the card conveys a sense of hollow victory and the consequences of strife.",
+            "debug": {
+              "latency_ms": 2970,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0302#1",
+                "78degrees-section-0218#2",
+                "78degrees-section-0219#1",
+                "78degrees-section-0311#1",
+                "pkt-section-0110#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.545804858207703
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0218#2",
+                "similarity": 0.542358425715064
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0219#1",
+                "similarity": 0.510433256626129
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0311#1",
+                "similarity": 0.494316994466427
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0110#1",
+                "similarity": 0.369205482649477
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "type": "upright_meaning",
+          "query": "Five of Swords tarot card upright meaning divinatory upright",
+          "result": {
+            "text": "The Five of Swords upright typically signifies conflict, tension, and defeat. It often represents a situation where one person may win at the expense of others, leading to feelings of betrayal or loss. This card can indicate a struggle where the victor may feel hollow or regretful, as the victory comes with emotional costs. It serves as a reminder to consider the consequences of one's actions and the importance of integrity in relationships.",
+            "debug": {
+              "latency_ms": 3148,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0302#1",
+                "78degrees-section-0218#2",
+                "78degrees-section-0311#1",
+                "78degrees-section-0219#1",
+                "pkt-section-0110#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.549559810678934
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0218#2",
+                "similarity": 0.507639826254838
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0311#1",
+                "similarity": 0.504797489880768
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0219#1",
+                "similarity": 0.498822420624935
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0110#1",
+                "similarity": 0.367151065725226
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "type": "reversed_meaning",
+          "query": "Five of Swords tarot card reversed meaning divinatory reversed",
+          "result": {
+            "text": "The Five of Swords reversed indicates a potential for healing and communication after conflict. It suggests that while past disputes may have caused pain, there is an opportunity to address these issues and move towards resolution. This card can also reflect a desire to let go of defeat and find a way to reconcile differences, emphasizing the importance of open dialogue to mend relationships.",
+            "debug": {
+              "latency_ms": 2481,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0237#1",
+                "pkt-section-0078#1",
+                "78degrees-section-0266#1",
+                "pkt-section-0087#1",
+                "78degrees-section-0223#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.678768615649271
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.646189426467282
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.622991077242687
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.619300517335614
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.616198062896746
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "type": "position_meaning",
+          "query": "Five of Swords tarot card present position meaning interpretation",
+          "result": {
+            "text": "The Five of Swords typically represents conflict, tension, and defeat. In its present position, it suggests a situation where there may be a sense of betrayal or loss, often indicating that a victory has come at a high cost. It can signify arguments or disputes where one party feels they have won, but the emotional fallout leaves a bitter taste. This card encourages reflection on the consequences of one's actions and the importance of considering the feelings of others involved. It may also indicate a need to let go of the desire to \"win\" at all costs and to seek resolution instead.",
+            "debug": {
+              "latency_ms": 4542,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0079#1",
+                "78degrees-section-0262#1",
+                "78degrees-section-0315#1",
+                "pkt-section-0086#1",
+                "pkt-section-0088#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.584557515843001
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.543812377935291
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.532973404768303
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0086#1",
+                "similarity": 0.528869986534134
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0088#1",
+                "similarity": 0.521584329416239
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "type": "psychological_meaning",
+          "query": "Five of Swords tarot card psychological meaning psychological interpretation",
+          "result": {
+            "text": "The Five of Swords often represents conflict, defeat, and the psychological toll of competition or betrayal. It can indicate feelings of isolation and the aftermath of a struggle where one may feel victorious but at a significant emotional cost. This card suggests a mindset focused on winning at all costs, leading to guilt, regret, or a sense of hollow victory. It may also reflect a need to reassess one's approach to conflict, highlighting the importance of collaboration over competition to avoid further emotional turmoil.",
+            "debug": {
+              "latency_ms": 4336,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0079#1",
+                "78degrees-section-0262#1",
+                "pkt-section-0076#1",
+                "78degrees-section-0315#1",
+                "78degrees-section-0236#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.536631393727489
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.527270483428583
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.498210981328279
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.495431542396545
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#2",
+                "similarity": 0.494037330150604
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "type": "suit_element_meaning",
+          "query": "Five of Swords tarot card air element thought suit meaning",
+          "result": {
+            "text": "The Five of Swords represents conflict, defeat, and the harsh realities of competition. In the context of the air element, which governs thoughts and communication, this card signifies mental strife and the potential for misunderstandings. It often indicates a situation where one may win at a cost, leading to feelings of isolation or regret. The card highlights the importance of clear communication and the dangers of allowing negative emotions to cloud judgment. It serves as a reminder that while intellect can cut through illusions, it can also lead to painful truths if not handled with care.",
+            "debug": {
+              "latency_ms": 3506,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0241#1",
+                "78degrees-section-0242#1",
+                "78degrees-section-0237#1",
+                "pkt-section-0087#1",
+                "pkt-section-0095#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0241#1",
+                "similarity": 0.584093287451277
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0242#1",
+                "similarity": 0.575004985927941
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.57226913305889
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.501467987851264
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.453968021037101
+              }
+            ]
+          },
+          "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+          "card_name_en": "Five of Swords"
+        },
+        {
+          "type": "basic_meaning",
+          "query": "King of Pentacles tarot card meaning divinatory meaning",
+          "result": {
+            "text": "The King of Pentacles represents stability, security, and financial success. In a divinatory context, this card signifies a person who is reliable, practical, and grounded, often embodying traits of leadership in business and material matters. It suggests a focus on wealth, abundance, and the importance of hard work and discipline. This card may also indicate the need to nurture and protect one's resources, as well as the potential for achieving long-term goals through perseverance and wise investments.",
+            "debug": {
+              "latency_ms": 2905,
+              "num_results": 1,
+              "top_doc_ids": [
+                "78degrees-section-0305#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.477003513396003
+              }
+            ]
+          },
+          "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+          "card_name_en": "King of Pentacles"
+        },
+        {
+          "type": "visual_description",
+          "query": "King of Pentacles tarot card description image visual appearance",
+          "result": {
+            "text": "I don't have enough information to answer your question. Could you please rephrase or provide more context?",
+            "debug": {
+              "latency_ms": 525,
+              "top_doc_ids": []
+            },
+            "citations": []
+          },
+          "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+          "card_name_en": "King of Pentacles"
+        },
+        {
+          "type": "upright_meaning",
+          "query": "King of Pentacles tarot card upright meaning divinatory upright",
+          "result": {
+            "text": "The King of Pentacles upright signifies financial stability, security, and success. It represents a person who is reliable, practical, and grounded, often associated with wealth and material abundance. This card embodies the qualities of leadership in business, wise investment, and the ability to provide for oneself and others. It also suggests a strong connection to the material world, emphasizing the importance of hard work, discipline, and the enjoyment of life's comforts.",
+            "debug": {
+              "latency_ms": 3209,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0087#1",
+                "78degrees-section-0266#1",
+                "pkt-section-0078#1",
+                "78degrees-section-0255#1",
+                "78degrees-section-0082#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.677470983040719
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.620413377334282
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.588102207440534
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.579327404499058
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0082#1",
+                "similarity": 0.571247628778518
+              }
+            ]
+          },
+          "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+          "card_name_en": "King of Pentacles"
+        },
+        {
+          "type": "reversed_meaning",
+          "query": "King of Pentacles tarot card reversed meaning divinatory reversed",
+          "result": {
+            "text": "The King of Pentacles reversed typically signifies a loss of control over finances, materialism, and a lack of stability. It can indicate greed, corruption, or a focus on wealth at the expense of relationships and values. This card may also suggest a person who is overly dependent on security and comfort, leading to selfishness and mistrust. In a broader sense, it can reflect a failure to manage resources wisely or a warning against becoming too entrenched in material pursuits.",
+            "debug": {
+              "latency_ms": 4618,
+              "num_results": 5,
+              "top_doc_ids": [
+                "78degrees-section-0266#1",
+                "pkt-section-0087#1",
+                "pkt-section-0078#1",
+                "78degrees-section-0223#1",
+                "78degrees-section-0255#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.698865377767727
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.688396157776966
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.672509909721002
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.647853514680067
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.623320221900944
+              }
+            ]
+          },
+          "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+          "card_name_en": "King of Pentacles"
+        },
+        {
+          "type": "position_meaning",
+          "query": "King of Pentacles tarot card future position meaning interpretation",
+          "result": {
+            "text": "The King of Pentacles in the future position suggests a time of stability, security, and material success. It indicates that you may achieve financial prosperity and establish a solid foundation in your endeavors. This card also emphasizes the importance of practicality, responsibility, and wise management of resources. You may find yourself embodying qualities of leadership and reliability, guiding others with your experience and grounded approach. Overall, it points to a future where you can enjoy the fruits of your labor and create a lasting legacy.",
+            "debug": {
+              "latency_ms": 6007,
+              "num_results": 1,
+              "top_doc_ids": [
+                "78degrees-section-0305#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.533358248076343
+              }
+            ]
+          },
+          "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+          "card_name_en": "King of Pentacles"
+        },
+        {
+          "type": "psychological_meaning",
+          "query": "King of Pentacles tarot card psychological meaning psychological interpretation",
+          "result": {
+            "text": "The King of Pentacles represents stability, security, and a strong sense of responsibility. Psychologically, this card embodies traits such as practicality, discipline, and a focus on material success. It suggests a person who is grounded, reliable, and capable of managing resources effectively. This card can also indicate a desire for control and a tendency to prioritize financial security over emotional or spiritual pursuits. In a psychological context, it may reflect a need to balance ambition with personal relationships and emotional well-being.",
+            "debug": {
+              "latency_ms": 3672,
+              "num_results": 5,
+              "top_doc_ids": [
+                "pkt-section-0087#1",
+                "78degrees-section-0255#1",
+                "78degrees-section-0266#1",
+                "78degrees-section-0242#1",
+                "pkt-section-0095#1"
+              ]
+            },
+            "citations": [
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.638107774088482
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.609731972217564
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.597385716126646
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0242#1",
+                "similarity": 0.544451594352726
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.544063660148601
+              }
+            ]
+          },
+          "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+          "card_name_en": "King of Pentacles"
+        },
+        {
+          "type": "suit_element_meaning",
+          "query": "King of Pentacles tarot card earth element material suit meaning",
+          "result": {
+            "text": "The King of Pentacles represents stability, security, and success in the material realm. As a figure embodying the earth element, he signifies practicality, financial acumen, and a strong connection to the physical world. This card often indicates a person who is reliable, disciplined, and capable of creating wealth and abundance through hard work and wise investments. It encourages a grounded approach to achieving goals, emphasizing the importance of nurturing both material and emotional well-being.",
+            "debug": {
+              "latency_ms": 5359,
+              "num_results": 2,
+              "top_doc_ids": [
+                "78degrees-section-0226#1",
+                "78degrees-section-0072#2"
+              ]
+            },
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0226#1",
+                "similarity": 0.4246764779091
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0072#2",
+                "similarity": 0.317390872862131
+              }
+            ]
+          },
+          "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+          "card_name_en": "King of Pentacles"
+        }
+      ],
+      "model_used": null,
+      "temperature": null,
+      "processing_time_ms": 107225,
+      "tokens_used": null,
+      "created_at": "2025-11-06T22:07:54.373541+00:00"
+    },
+    {
+      "step_name": "final_interpretation",
+      "step_order": 8,
+      "input_data": {
+        "question": "我的父亲11月运势如何",
+        "spread_method": {
+          "rag_text": "[method_steps] To perform a three-card spread Tarot divination, follow these steps:\n\n1. **Set Your Intention**: Focus on a specific question or situation you want insight into.\n\n2. **Shuffle the Deck**: While concentrating on your question, shuffle the Tarot deck thoroughly.\n\n3. **Draw Three Cards**: After shuffling, draw three cards from the deck and lay them out in a row.\n\n4. **Assign Meanings**: Typically, the positions are interpreted as follows:\n   - **Card 1**: Past influences or the background of the situation.\n   - **Card 2**: Present circumstances or the current state of affairs.\n   - **Card 3**: Future outcome or potential developments.\n\n5. **Interpret the Cards**: Analyze each card's meaning in relation to your question, considering both the individual card meanings and their positions.\n\n6. **Reflect on the Reading**: Take time to contemplate how the insights from the cards apply to your situation and what actions you might take moving forward. \n\nRemember, the interpretation can vary based on the context and your intuition.\n\n[position_interpretation] In a three-card spread, the positions typically represent the following:\n\n1. **Past**: This card reflects past influences or events that have shaped the current situation.\n2. **Present**: This card indicates the current state or situation, highlighting what is happening now.\n3. **Future**: This card suggests potential outcomes or future developments based on the current trajectory.\n\nEach card's meaning can be further nuanced by its orientation (upright or reversed) and its relationship to the other cards in the spread.\n\n[psychological_background] In a three-card spread using a psychological approach, each card can represent different aspects of the querent's psyche or emotional state. \n\n1. **First Card (Past Influences)**: This card reflects past experiences or influences that have shaped the querent's current mindset. It may reveal underlying issues or traumas that need addressing.\n\n2. **Second Card (Present Situation)**: This card represents the querent's current emotional or psychological state. It can highlight feelings, thoughts, or conflicts that are presently affecting their well-being.\n\n3. **Third Card (Future Guidance)**: This card offers insight into potential outcomes or advice for moving forward. It may suggest actions to take or attitudes to adopt for better mental and emotional health.\n\nBy analyzing how these cards interact and relate to one another, you can gain a deeper understanding of the querent's psychological landscape and provide meaningful guidance.\n\n[traditional_method] In a traditional three-card spread, particularly in the context of ancient Celtic divination, each card represents a different aspect of the inquiry:\n\n1. **Past**: This card reflects influences or events that have shaped the current situation.\n2. **Present**: This card indicates the current state or circumstances surrounding the question.\n3. **Future**: This card offers insight into potential outcomes or directions based on the current trajectory.\n\nThis method emphasizes the interconnectedness of time and the cyclical nature of experiences, aligning with the principles of balance and unity found in Tarot readings, as noted in the context.",
+          "citations": [
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0305#2",
+              "similarity": 0.496708959537211
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0191#1",
+              "similarity": 0.539576530456543
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0327#1",
+              "similarity": 0.534003679037537
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0125#2",
+              "similarity": 0.516719100866429
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0359#2",
+              "similarity": 0.515454173088074
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0020#1",
+              "similarity": 0.452980044306515
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0181#2",
+              "similarity": 0.512090563774109
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0365#1",
+              "similarity": 0.511627793312073
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0122#2",
+              "similarity": 0.584076861363206
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0056#2",
+              "similarity": 0.575727845685024
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0282#1",
+              "similarity": 0.559315869869369
+            },
+            {
+              "source": "pkt.txt",
+              "chunk_id": "pkt-section-0015#1",
+              "similarity": 0.516090212334373
+            },
+            {
+              "source": "78_degrees_of_wisdom.txt",
+              "chunk_id": "78degrees-section-0066#1",
+              "similarity": 0.515619189478134
+            }
+          ],
+          "query_count": 4,
+          "query_types": [
+            "method_steps",
+            "position_interpretation",
+            "psychological_background",
+            "traditional_method"
+          ],
+          "spread_type": "three_card"
+        },
+        "selected_cards": [
+          {
+            "suit": "cups",
+            "arcana": "minor",
+            "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+            "position": "past",
+            "card_number": 4,
+            "is_reversed": false,
+            "card_name_cn": "四 圣杯",
+            "card_name_en": "Four of Cups",
+            "position_order": 1,
+            "position_description": "过去的影响"
+          },
+          {
+            "suit": "swords",
+            "arcana": "minor",
+            "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+            "position": "present",
+            "card_number": 5,
+            "is_reversed": false,
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords",
+            "position_order": 2,
+            "position_description": "当前状况"
+          },
+          {
+            "suit": "pentacles",
+            "arcana": "minor",
+            "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+            "position": "future",
+            "card_number": 14,
+            "is_reversed": false,
+            "card_name_cn": "国王 星币",
+            "card_name_en": "King of Pentacles",
+            "position_order": 3,
+            "position_description": "未来趋势"
+          }
+        ],
+        "card_information": {
+          "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b": {
+            "position": "future",
+            "rag_text": "[basic_meaning] The King of Pentacles represents stability, security, and financial success. In a divinatory context, this card signifies a person who is reliable, practical, and grounded, often embodying traits of leadership in business and material matters. It suggests a focus on wealth, abundance, and the importance of hard work and discipline. This card may also indicate the need to nurture and protect one's resources, as well as the potential for achieving long-term goals through perseverance and wise investments.\n\n[visual_description] I don't have enough information to answer your question. Could you please rephrase or provide more context?\n\n[upright_meaning] The King of Pentacles upright signifies financial stability, security, and success. It represents a person who is reliable, practical, and grounded, often associated with wealth and material abundance. This card embodies the qualities of leadership in business, wise investment, and the ability to provide for oneself and others. It also suggests a strong connection to the material world, emphasizing the importance of hard work, discipline, and the enjoyment of life's comforts.\n\n[reversed_meaning] The King of Pentacles reversed typically signifies a loss of control over finances, materialism, and a lack of stability. It can indicate greed, corruption, or a focus on wealth at the expense of relationships and values. This card may also suggest a person who is overly dependent on security and comfort, leading to selfishness and mistrust. In a broader sense, it can reflect a failure to manage resources wisely or a warning against becoming too entrenched in material pursuits.\n\n[position_meaning] The King of Pentacles in the future position suggests a time of stability, security, and material success. It indicates that you may achieve financial prosperity and establish a solid foundation in your endeavors. This card also emphasizes the importance of practicality, responsibility, and wise management of resources. You may find yourself embodying qualities of leadership and reliability, guiding others with your experience and grounded approach. Overall, it points to a future where you can enjoy the fruits of your labor and create a lasting legacy.\n\n[psychological_meaning] The King of Pentacles represents stability, security, and a strong sense of responsibility. Psychologically, this card embodies traits such as practicality, discipline, and a focus on material success. It suggests a person who is grounded, reliable, and capable of managing resources effectively. This card can also indicate a desire for control and a tendency to prioritize financial security over emotional or spiritual pursuits. In a psychological context, it may reflect a need to balance ambition with personal relationships and emotional well-being.\n\n[suit_element_meaning] The King of Pentacles represents stability, security, and success in the material realm. As a figure embodying the earth element, he signifies practicality, financial acumen, and a strong connection to the physical world. This card often indicates a person who is reliable, disciplined, and capable of creating wealth and abundance through hard work and wise investments. It encourages a grounded approach to achieving goals, emphasizing the importance of nurturing both material and emotional well-being.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0305#2",
+                "similarity": 0.477003513396003
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.677470983040719
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.620413377334282
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.588102207440534
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0255#1",
+                "similarity": 0.579327404499058
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0082#1",
+                "similarity": 0.571247628778518
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.647853514680067
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0242#1",
+                "similarity": 0.544451594352726
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.544063660148601
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0226#1",
+                "similarity": 0.4246764779091
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0072#2",
+                "similarity": 0.317390872862131
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 7,
+            "query_types": [
+              "basic_meaning",
+              "visual_description",
+              "upright_meaning",
+              "reversed_meaning",
+              "position_meaning",
+              "psychological_meaning",
+              "suit_element_meaning"
+            ],
+            "card_name_cn": "国王 星币",
+            "card_name_en": "King of Pentacles"
+          },
+          "867222bd-c3da-4bf9-adaf-786c60ef8601": {
+            "position": "past",
+            "rag_text": "[basic_meaning] The Four of Cups in a divinatory context often signifies contemplation, apathy, or reevaluation. It suggests a period of introspection where one may feel discontent or disconnected from their current situation. This card can indicate a need to reassess what truly brings fulfillment and joy, as opportunities may be overlooked due to a focus on dissatisfaction or emotional withdrawal. It encourages the seeker to open their eyes to new possibilities and to consider what they truly desire.\n\n[visual_description] The Four of Cups typically depicts a figure sitting under a tree, appearing discontent or contemplative. Three cups are positioned in front of him, while a fourth cup is being offered by a hand emerging from a cloud. The imagery suggests introspection, apathy, or a sense of dissatisfaction with current offerings, emphasizing a need for emotional reevaluation or a deeper connection.\n\n[upright_meaning] The Four of Cups upright signifies contemplation, apathy, and reevaluation. It often represents a period of introspection where one may feel disconnected or dissatisfied with current circumstances. This card suggests a need to reflect on emotional needs and desires, as well as the potential for new opportunities that may be overlooked. It encourages the querent to consider what truly brings them fulfillment and to be open to new possibilities.\n\n[reversed_meaning] The Four of Cups reversed signifies a shift towards acceptance and renewal after a period of discontent. It can indicate support from friends, new interests, and the realization of what truly matters in life, moving away from past disappointments. It may also suggest overcoming feelings of apathy and embracing opportunities for joy and connection. In relationships, it can point to healing and the potential for rekindled trust or affection.\n\n[position_meaning] The Four of Cups in the past position typically signifies a period of emotional withdrawal or contemplation. It suggests that the Querent may have experienced feelings of dissatisfaction or apathy regarding their emotional or relational circumstances. This card indicates a time when they were focused on what was lacking or unfulfilled, possibly ignoring opportunities for joy or connection that were available to them. It reflects a phase of introspection, where the Querent may have been seeking deeper meaning or fulfillment but felt disconnected from their surroundings.\n\n[psychological_meaning] The Four of Cups often represents feelings of apathy, contemplation, and introspection. Psychologically, it can indicate a state of emotional withdrawal or dissatisfaction with current circumstances. The figure in the card may be reflecting on what is missing in their life, leading to a sense of disconnection from opportunities or relationships. This card suggests a need to reassess one's desires and motivations, as well as the importance of being open to new experiences and emotional connections. It can also signify a protective stance against emotional vulnerability, stemming from past disappointments.\n\n[suit_element_meaning] The Four of Cups represents introspection and contemplation regarding emotional fulfillment. It often signifies a period of reevaluation, where one may feel discontent or disconnected from their current emotional situation. This card suggests a need to look inward and consider what truly brings happiness, as opportunities for emotional growth may be overlooked. It can also indicate a sense of apathy or boredom with existing relationships or situations, urging the querent to seek deeper emotional connections or new experiences.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0359#2",
+                "similarity": 0.529175074647372
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0191#1",
+                "similarity": 0.504699498695106
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0125#2",
+                "similarity": 0.502999990999707
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0158#1",
+                "similarity": 0.491279571728682
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0020#1",
+                "similarity": 0.401105105876925
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.641503887355792
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0077#1",
+                "similarity": 0.615431446296914
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.592373680159293
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.591299961960312
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.535344139794831
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0086#1",
+                "similarity": 0.572643126941195
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.703193545341512
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0220#1",
+                "similarity": 0.676877537145913
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.671120245189608
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.642392060614116
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.616699640449921
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 7,
+            "query_types": [
+              "basic_meaning",
+              "visual_description",
+              "upright_meaning",
+              "reversed_meaning",
+              "position_meaning",
+              "psychological_meaning",
+              "suit_element_meaning"
+            ],
+            "card_name_cn": "四 圣杯",
+            "card_name_en": "Four of Cups"
+          },
+          "d148cb52-6b57-4d68-8d19-80c1e2b80142": {
+            "position": "present",
+            "rag_text": "[basic_meaning] The Five of Swords typically represents conflict, defeat, and loss. It signifies a situation where one may experience betrayal or a hollow victory, often at the expense of others. This card highlights the emotional toll of conflict and the potential for feelings of isolation or regret. It serves as a reminder that winning may not always bring satisfaction and can lead to deeper issues if not addressed.\n\n[visual_description] The Five of Swords typically depicts a scene of conflict and defeat. In the image, you might see a figure standing triumphantly over two defeated opponents, who are walking away in sorrow. The victorious figure often holds three swords, while the others have dropped their swords, symbolizing loss and struggle. The background may be stormy or desolate, reflecting the emotional turmoil and the aftermath of conflict. The overall tone of the card conveys a sense of hollow victory and the consequences of strife.\n\n[upright_meaning] The Five of Swords upright typically signifies conflict, tension, and defeat. It often represents a situation where one person may win at the expense of others, leading to feelings of betrayal or loss. This card can indicate a struggle where the victor may feel hollow or regretful, as the victory comes with emotional costs. It serves as a reminder to consider the consequences of one's actions and the importance of integrity in relationships.\n\n[reversed_meaning] The Five of Swords reversed indicates a potential for healing and communication after conflict. It suggests that while past disputes may have caused pain, there is an opportunity to address these issues and move towards resolution. This card can also reflect a desire to let go of defeat and find a way to reconcile differences, emphasizing the importance of open dialogue to mend relationships.\n\n[position_meaning] The Five of Swords typically represents conflict, tension, and defeat. In its present position, it suggests a situation where there may be a sense of betrayal or loss, often indicating that a victory has come at a high cost. It can signify arguments or disputes where one party feels they have won, but the emotional fallout leaves a bitter taste. This card encourages reflection on the consequences of one's actions and the importance of considering the feelings of others involved. It may also indicate a need to let go of the desire to \"win\" at all costs and to seek resolution instead.\n\n[psychological_meaning] The Five of Swords often represents conflict, defeat, and the psychological toll of competition or betrayal. It can indicate feelings of isolation and the aftermath of a struggle where one may feel victorious but at a significant emotional cost. This card suggests a mindset focused on winning at all costs, leading to guilt, regret, or a sense of hollow victory. It may also reflect a need to reassess one's approach to conflict, highlighting the importance of collaboration over competition to avoid further emotional turmoil.\n\n[suit_element_meaning] The Five of Swords represents conflict, defeat, and the harsh realities of competition. In the context of the air element, which governs thoughts and communication, this card signifies mental strife and the potential for misunderstandings. It often indicates a situation where one may win at a cost, leading to feelings of isolation or regret. The card highlights the importance of clear communication and the dangers of allowing negative emotions to cloud judgment. It serves as a reminder that while intellect can cut through illusions, it can also lead to painful truths if not handled with care.",
+            "citations": [
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0237#1",
+                "similarity": 0.603743135929112
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0087#1",
+                "similarity": 0.602691108228962
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0078#1",
+                "similarity": 0.581957980744479
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0100#1",
+                "similarity": 0.532085085138389
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0241#1",
+                "similarity": 0.53027143894009
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0302#1",
+                "similarity": 0.545804858207703
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0218#2",
+                "similarity": 0.542358425715064
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0219#1",
+                "similarity": 0.510433256626129
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0311#1",
+                "similarity": 0.494316994466427
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0110#1",
+                "similarity": 0.369205482649477
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0266#1",
+                "similarity": 0.622991077242687
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0223#1",
+                "similarity": 0.616198062896746
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0079#1",
+                "similarity": 0.584557515843001
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0262#1",
+                "similarity": 0.543812377935291
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0315#1",
+                "similarity": 0.532973404768303
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0086#1",
+                "similarity": 0.528869986534134
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0088#1",
+                "similarity": 0.521584329416239
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0076#1",
+                "similarity": 0.498210981328279
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0236#2",
+                "similarity": 0.494037330150604
+              },
+              {
+                "source": "78_degrees_of_wisdom.txt",
+                "chunk_id": "78degrees-section-0242#1",
+                "similarity": 0.575004985927941
+              },
+              {
+                "source": "pkt.txt",
+                "chunk_id": "pkt-section-0095#1",
+                "similarity": 0.453968021037101
+              }
+            ],
+            "is_reversed": false,
+            "query_count": 7,
+            "query_types": [
+              "basic_meaning",
+              "visual_description",
+              "upright_meaning",
+              "reversed_meaning",
+              "position_meaning",
+              "psychological_meaning",
+              "suit_element_meaning"
+            ],
+            "card_name_cn": "五 宝剑",
+            "card_name_en": "Five of Swords"
+          }
+        },
+        "pattern_analysis": {
+          "model_used": "gpt-4o-mini",
+          "analysis_method": "direct_llm",
+          "number_patterns": {
+            "number_jumps": [
+              "4到5的跳跃，表明从内心的情感状态到外部的冲突变化。"
+            ],
+            "same_numbers": [],
+            "number_sequences": []
+          },
+          "reversed_patterns": {
+            "count": 0,
+            "positions": [],
+            "interpretation": "没有逆位牌，表示当前状况较为正面，未出现明显的阻碍或负面影响。"
+          },
+          "suit_distribution": {
+            "cups_count": 1,
+            "major_count": 0,
+            "wands_count": 0,
+            "swords_count": 1,
+            "interpretation": "当前牌阵中三种花色均有出现，显示出情感、冲突和物质的平衡，暗示需要在这几个方面找到协调。",
+            "pentacles_count": 1
+          },
+          "special_combinations": [],
+          "major_arcana_patterns": {
+            "count": 0,
+            "meaning": "没有大阿卡纳牌，表明当前的情况主要受小阿卡纳的影响，强调日常生活中的实际问题。",
+            "positions": []
+          },
+          "position_relationships": {
+            "time_flow": "过去的四圣杯代表了对情感的沉思和不满，影响了当前的五宝剑局面，表明了一种内心的冲突和争斗，而未来的国王星币则暗示着通过努力和稳重的态度，能够实现物质上的成功和稳定。",
+            "support_conflict": "四圣杯的内心反思与五宝剑的外部冲突形成对抗，而国王星币则提供了支持，通过稳重和成熟的管理来解决当前的纷争。",
+            "causal_relationships": [
+              "四圣杯→五宝剑: 过去的情感不满导致了当前的冲突和竞争。",
+              "五宝剑→国王星币: 当前的冲突如果妥善处理，将为未来的成功奠定基础。"
+            ]
+          }
+        },
+        "question_analysis": {
+          "reasoning": "这是一个关于父亲运势的中等复杂度问题，三牌占卜可以提供对他11月运势的清晰洞察。",
+          "complexity": "moderate",
+          "question_type": "general",
+          "question_domain": "general",
+          "question_summary": "分析父亲在11月的整体运势",
+          "recommended_spread": "three_card",
+          "auto_selected_spread": true
+        }
+      },
+      "output_data": {
+        "llm_response": "## 塔罗占卜解读\n\n### 整体解读\n在11月，你父亲的运势将经历一个从情感反思到内心冲突，再到最终实现物质稳定和成功的过程。尽管中间可能会遭遇一些挑战和争执，但这些都将是通往更加稳定和富足生活的必经之路。\n\n### 位置解读\n\n1. **过去 - 四圣杯**\n   - 四圣杯代表了一段情感上的沉思和不满，可能是你父亲在过去一段时间对现状的不满或是对某些情感机会的忽视。这一时期的反思为当前的局势设下了基调，促使他重新评估自己的内心需求和对外界的态度。\n\n2. **现在 - 五宝剑**\n   - 五宝剑通常象征冲突、失败和失落。当前，你父亲可能正面临一些人际关系上的摩擦或内心的斗争。这张牌提示他需要小心处理与他人的关系，避免因短视而导致的长久损害，尤其是在面对可能的背叛或权力斗争时。\n\n3. **未来 - 国王星币**\n   - 国王星币预示着未来的稳定、财务上的成功以及物质方面的满足。通过理智和务实的态度，你父亲有望在不久的将来实现他所追求的安全感和成就。这张牌鼓励他保持冷静和耐心，以确保长远的成功。\n\n### 关系分析\n这三张牌的关系反映了一段从内省到冲突，再到最终稳定的旅程。过去的情感反思（四圣杯）为当前的内心斗争（五宝剑）奠定了基础，而解决当前的冲突则是通往未来稳定和成功（国王星币）的关键。每一次挑战都是通向成熟和成长的机会。\n\n### 模式解释\n- **数字模式**：从四到五再到国王（十），显示了一个从情感 introspection（4）到内心冲突（5），再到物质掌控（10）的过程。这种逐步上升的数字模式预示着一个成长和进步的旅程。\n- **花色分布**：水（杯）和土（星币）代表情感和物质，而风（剑）代表思维和冲突。整体花色的平衡显示出需要在情感、思维和物质之间找到协调。\n\n### 个性化建议\n对于你父亲来说，11月是一个重要的调整期。建议他在面对当前的冲突时，尽量保持冷静和理智，避免不必要的争执，以长远的眼光看待问题。同时，他需要继续保持对物质和财务的关注，努力实现稳定和安全。在这个过程中，家人的支持和理解将是他坚定前行的重要力量。",
+        "interpretation": {
+          "advice": null,
+          "references": [
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Four of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Four of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Four of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Four of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Four of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Four of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Four of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Four of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "pkt.txt",
+              "card_name": "Four of Cups"
+            },
+            {
+              "type": "card",
+              "method": null,
+              "source": "78_degrees_of_wisdom.txt",
+              "card_name": "Four of Cups"
+            }
+          ],
+          "overall_summary": "## 塔罗占卜解读\n\n### 整体解读\n在11月，你父亲的运势将经历一个从情感反思到内心冲突，再到最终实现物质稳定和成功的过程。尽管中间可能会遭遇一些挑战和争执，但这些都将是通往更加稳定和富足生活的必经之路。\n\n### 位置解读\n\n1. **过去 - 四圣杯**\n   - 四圣杯代表了一段情感上的沉思和不满，可能是你父亲在过去一段时间对现状的不满或是对某些情感机会的忽视。这一时期的反思为当前的局势设下了基调，促使他重新评估自己的内心需求和对外界的态度。\n\n2. **现在 - 五宝剑**\n   - 五宝剑通常象征冲突、失败和失落。当前，你父亲可能正面临一些人际关系上的摩擦或内心的斗争。这张牌提示他需要小心处理与他人的关系，避免因短视而导致的长久损害，尤其是在面对可能的背叛或权力斗争时。\n\n3. **未来 - 国王星币**\n   - 国王星币预示着未来的稳定、财务上的成功以及物质方面的满足。通过理智和务实的态度，你父亲有望在不久的将来实现他所追求的安全感和成就。这张牌鼓励他保持冷静和耐心，以确保长远的成功。\n\n### 关系分析\n这三张牌的关系反映了一段从内省到冲突，再到最终稳定的旅程。过去",
+          "pattern_explanation": "当前牌阵中三种花色均有出现，显示出情感、冲突和物质的平衡，暗示需要在这几个方面找到协调。",
+          "relationship_analysis": "过去的四圣杯代表了对情感的沉思和不满，影响了当前的五宝剑局面，表明了一种内心的冲突和争斗，而未来的国王星币则暗示着通过努力和稳重的态度，能够实现物质上的成功和稳定。",
+          "interpretation_metadata": null,
+          "position_interpretations": [
+            {
+              "position": "past",
+              "card_name_cn": "四 圣杯",
+              "card_name_en": "Four of Cups",
+              "relationships": null,
+              "interpretation": "[basic_meaning] The Four of Cups in a divinatory context often signifies contemplation, apathy, or reevaluation. It suggests a period of introspection where one may feel discontent or disconnected from their current situation. This card can indicate a need to reassess what truly brings fulfillment and joy, as opportunities may be overlooked due to a focus on dissatisfaction or emotional withdrawal. It encourages the seeker to open their eyes to new possibilities and to consider what they truly desire.\n\n[visual_description] The Four of Cups typically depicts a figure sitting under a tree, appearing discontent or contemplative. Three cups are positioned in front of him, while a fourth cup is being offered by a hand emerging from a cloud. The imagery suggests introspection, apathy, or a sense of dissatisfaction with current offerings, emphasizing a need for emotional reevaluation or a deeper connection.\n\n[upright_meaning] The Four of Cups upright signifies contemplation, apathy, and reevaluation. It often represents a period of introspection where one may feel disconnected or dissatisfied with current circumstances. This card suggests a need to reflect on emotional needs and desires, as well as the potential for new opportunities that may be overlooked. It encourages the querent to consider what truly brings them fulfillment and to be open to new possibilities.\n\n[reversed_meaning] The Four of Cups reversed signifies a shift towards acceptance and renewal after a period of discontent. It can indicate support from friends, new interests, and the realization of what truly matters in life, moving away from past disappointments. It may also suggest overcoming feelings of apathy and embracing opportunities for joy and connection. In relationships, it can point to healing and the potential for rekindled trust or affection.\n\n[position_meaning] The Four of Cups in the past position typically signifies a period of emotional withdrawal or contemplation. It suggests that the Querent may have experienced feelings of dissatisfaction or apathy regarding their emotional or relational circumstances. This card indicates a time when they were focused on what was lacking or unfulfilled, possibly ignoring opportunities for joy or connection that were available to them. It reflects a phase of introspection, where the Querent may have been seeking deeper meaning or fulfillment but felt disconnected from their surroundings.\n\n[psychological_meaning] The Four of Cups often represents feelings of apathy, contemplation, and introspection. Psychologically, it can indicate a state of emotional withdrawal or dissatisfaction with current circumstances. The figure in the card may be reflecting on what is missing in their life, leading to a sense of disconnection from opportunities or relationships. This card suggests a need to reassess one's desires and motivations, as well as the importance of being open to new experiences and emotional connections. It can also signify a protective stance against emotional vulnerability, stemming from past disappointments.\n\n[suit_element_meaning] The Four of Cups represents introspection and contemplation regarding emotional fulfillment. It often signifies a period of reevaluation, where one may feel discontent or disconnected from their current emotional situation. This card suggests a need to look inward and consider what truly brings happiness, as opportunities for emotional growth may be overlooked. It can also indicate a sense of apathy or boredom with existing relationships or situations, urging the querent to seek deeper emotional connections or new experiences.",
+              "position_order": 1
+            },
+            {
+              "position": "present",
+              "card_name_cn": "五 宝剑",
+              "card_name_en": "Five of Swords",
+              "relationships": null,
+              "interpretation": "[basic_meaning] The Five of Swords typically represents conflict, defeat, and loss. It signifies a situation where one may experience betrayal or a hollow victory, often at the expense of others. This card highlights the emotional toll of conflict and the potential for feelings of isolation or regret. It serves as a reminder that winning may not always bring satisfaction and can lead to deeper issues if not addressed.\n\n[visual_description] The Five of Swords typically depicts a scene of conflict and defeat. In the image, you might see a figure standing triumphantly over two defeated opponents, who are walking away in sorrow. The victorious figure often holds three swords, while the others have dropped their swords, symbolizing loss and struggle. The background may be stormy or desolate, reflecting the emotional turmoil and the aftermath of conflict. The overall tone of the card conveys a sense of hollow victory and the consequences of strife.\n\n[upright_meaning] The Five of Swords upright typically signifies conflict, tension, and defeat. It often represents a situation where one person may win at the expense of others, leading to feelings of betrayal or loss. This card can indicate a struggle where the victor may feel hollow or regretful, as the victory comes with emotional costs. It serves as a reminder to consider the consequences of one's actions and the importance of integrity in relationships.\n\n[reversed_meaning] The Five of Swords reversed indicates a potential for healing and communication after conflict. It suggests that while past disputes may have caused pain, there is an opportunity to address these issues and move towards resolution. This card can also reflect a desire to let go of defeat and find a way to reconcile differences, emphasizing the importance of open dialogue to mend relationships.\n\n[position_meaning] The Five of Swords typically represents conflict, tension, and defeat. In its present position, it suggests a situation where there may be a sense of betrayal or loss, often indicating that a victory has come at a high cost. It can signify arguments or disputes where one party feels they have won, but the emotional fallout leaves a bitter taste. This card encourages reflection on the consequences of one's actions and the importance of considering the feelings of others involved. It may also indicate a need to let go of the desire to \"win\" at all costs and to seek resolution instead.\n\n[psychological_meaning] The Five of Swords often represents conflict, defeat, and the psychological toll of competition or betrayal. It can indicate feelings of isolation and the aftermath of a struggle where one may feel victorious but at a significant emotional cost. This card suggests a mindset focused on winning at all costs, leading to guilt, regret, or a sense of hollow victory. It may also reflect a need to reassess one's approach to conflict, highlighting the importance of collaboration over competition to avoid further emotional turmoil.\n\n[suit_element_meaning] The Five of Swords represents conflict, defeat, and the harsh realities of competition. In the context of the air element, which governs thoughts and communication, this card signifies mental strife and the potential for misunderstandings. It often indicates a situation where one may win at a cost, leading to feelings of isolation or regret. The card highlights the importance of clear communication and the dangers of allowing negative emotions to cloud judgment. It serves as a reminder that while intellect can cut through illusions, it can also lead to painful truths if not handled with care.",
+              "position_order": 2
+            },
+            {
+              "position": "future",
+              "card_name_cn": "国王 星币",
+              "card_name_en": "King of Pentacles",
+              "relationships": null,
+              "interpretation": "[basic_meaning] The King of Pentacles represents stability, security, and financial success. In a divinatory context, this card signifies a person who is reliable, practical, and grounded, often embodying traits of leadership in business and material matters. It suggests a focus on wealth, abundance, and the importance of hard work and discipline. This card may also indicate the need to nurture and protect one's resources, as well as the potential for achieving long-term goals through perseverance and wise investments.\n\n[visual_description] I don't have enough information to answer your question. Could you please rephrase or provide more context?\n\n[upright_meaning] The King of Pentacles upright signifies financial stability, security, and success. It represents a person who is reliable, practical, and grounded, often associated with wealth and material abundance. This card embodies the qualities of leadership in business, wise investment, and the ability to provide for oneself and others. It also suggests a strong connection to the material world, emphasizing the importance of hard work, discipline, and the enjoyment of life's comforts.\n\n[reversed_meaning] The King of Pentacles reversed typically signifies a loss of control over finances, materialism, and a lack of stability. It can indicate greed, corruption, or a focus on wealth at the expense of relationships and values. This card may also suggest a person who is overly dependent on security and comfort, leading to selfishness and mistrust. In a broader sense, it can reflect a failure to manage resources wisely or a warning against becoming too entrenched in material pursuits.\n\n[position_meaning] The King of Pentacles in the future position suggests a time of stability, security, and material success. It indicates that you may achieve financial prosperity and establish a solid foundation in your endeavors. This card also emphasizes the importance of practicality, responsibility, and wise management of resources. You may find yourself embodying qualities of leadership and reliability, guiding others with your experience and grounded approach. Overall, it points to a future where you can enjoy the fruits of your labor and create a lasting legacy.\n\n[psychological_meaning] The King of Pentacles represents stability, security, and a strong sense of responsibility. Psychologically, this card embodies traits such as practicality, discipline, and a focus on material success. It suggests a person who is grounded, reliable, and capable of managing resources effectively. This card can also indicate a desire for control and a tendency to prioritize financial security over emotional or spiritual pursuits. In a psychological context, it may reflect a need to balance ambition with personal relationships and emotional well-being.\n\n[suit_element_meaning] The King of Pentacles represents stability, security, and success in the material realm. As a figure embodying the earth element, he signifies practicality, financial acumen, and a strong connection to the physical world. This card often indicates a person who is reliable, disciplined, and capable of creating wealth and abundance through hard work and wise investments. It encourages a grounded approach to achieving goals, emphasizing the importance of nurturing both material and emotional well-being.",
+              "position_order": 3
+            }
+          ]
+        }
+      },
+      "prompt_type": "final_interpretation",
+      "prompt_content": "你是一位经验丰富的塔罗占卜师，精通PKT和78 Degrees of Wisdom的传统解读方法。\n\n## 用户问题：\n我的父亲11月运势如何\n\n## 问题分析：\n- 领域：general\n- 复杂度：moderate\n- 问题类型：general\n\n## 用户信息：\n年龄: 28\n性别: female\n星座: Leo\n\n## 占卜方式：\nthree_card - [method_steps] To perform a three-card spread Tarot divination, follow these steps:\n\n1. **Set Your Intention**: Focus on a specific question or situation you want insight into.\n\n2. **Shuffle the Deck**: While concentrating on your question, shuffle the Tarot deck thoroughly.\n\n3. **Draw Three Cards**\n\n## 牌阵信息：\n1. past: Four of Cups\n   含义: [basic_meaning] The Four of Cups in a divinatory context often signifies contemplation, apathy, or reevaluation. It suggests a period of introspection where one may feel discontent or disconnected fro...\n2. present: Five of Swords\n   含义: [basic_meaning] The Five of Swords typically represents conflict, defeat, and loss. It signifies a situation where one may experience betrayal or a hollow victory, often at the expense of others. This...\n3. future: King of Pentacles\n   含义: [basic_meaning] The King of Pentacles represents stability, security, and financial success. In a divinatory context, this card signifies a person who is reliable, practical, and grounded, often embod...\n\n## 牌型分析结果：\n位置关系：过去的四圣杯代表了对情感的沉思和不满，影响了当前的五宝剑局面，表明了一种内心的冲突和争斗，而未来的国王星币则暗示着通过努力和稳重的态度，能够实现物质上的成功和稳定。\n花色分布：当前牌阵中三种花色均有出现，显示出情感、冲突和物质的平衡，暗示需要在这几个方面找到协调。\n大阿卡纳模式：没有大阿卡纳牌，表明当前的情况主要受小阿卡纳的影响，强调日常生活中的实际问题。\n逆位模式：没有逆位牌，表示当前状况较为正面，未出现明显的阻碍或负面影响。\n\n## 牌之间的关系和模式（RAG检索）：\n[number_patterns] In the spread featuring the Four of Cups, Five of Swords, and King of Pentacles, we can observe a numerical pattern based on the sequence of the cards:\n\n- **Four of Cups (4)**: Represents contemplation, apathy, or reevaluation of emotional situations.\n- **Five of Swords (5)**: Indicates conflict, tension, or a sense of defeat, often related to interpersonal struggles.\n- **King of Pentacles (King = 10)**: Symbolizes stability, financial security, and mastery over material aspects.\n\nThe sequence shows a progression from the emotional realm (Cups) to conflict (Swords) and culminates in material success and stability (Pentacles). The numbers suggest a journey from introspection (4) to conflict (5) and finally to mastery and security (10). This pattern reflects a narrative of growth and the challenges faced along the way.\n\n[suit_distribution] In a Tarot spread, the distribution of suits can indicate the balance of elements in a reading. \n\n- **Wands (Fire)** and **Swords (Air)** represent active, 'yang' energies, suggesting action, conflict, or mental challenges.\n- **Cups (Water)** and **Pentacles (Earth)** represent passive, 'yin' energies, indicating emotions, intuition, and material aspects.\n\nA balanced spread would ideally have a mix of these suits, reflecting a harmony between action and receptivity, will and openness. For example, an equal number of cards from each suit can signify a well-rounded situation, while an overrepresentation of one suit may indicate an imbalance that needs addressing.\n\n[card_relationships] In this sequence, the Four of Cups in the past suggests a period of contemplation or dissatisfaction, where emotional opportunities may have been overlooked. The Five of Swords in the present indicates conflict or tension, possibly stemming from a sense of defeat or betrayal. This card often reflects a struggle for power or a win-at-all-costs mentality. Looking to the future, the King of Pentacles signifies stability, security, and success in material matters. This suggests that overcoming current conflicts will lead to a more grounded and prosperous phase, where practical achievements and financial security are prioritized. Overall, the sequence reflects a journey from emotional introspection and conflict to eventual stability and success.\n\n## 解读要求：\n请提供一个全面的塔罗占卜解读，包含：\n1. **整体解读**：2-3句话的整体摘要\n2. **位置解读**：对每个位置进行详细解读，结合卡牌的基本含义和位置的含义\n3. **关系分析**：分析牌之间的关系（时间线、因果、支持/对抗）\n4. **模式解释**：解释数字模式、花色分布、特殊组合的含义\n5. **个性化建议**：基于用户信息和问题，提供具体建议\n\n请用中文输出，使用Markdown格式。",
+      "rag_queries": null,
+      "model_used": "gpt-4o",
+      "temperature": 0.7,
+      "processing_time_ms": 11928,
+      "tokens_used": null,
+      "created_at": "2025-11-06T22:08:06.453155+00:00"
+    }
+  ],
+  "reading_id": "737c5cbc-7dab-4937-8d6b-5953303f1896",
+  "final_result": {
+    "reading_id": "737c5cbc-7dab-4937-8d6b-5953303f1896",
+    "question": "我的父亲11月运势如何",
+    "spread_type": "three_card",
+    "significator": null,
+    "cards_count": 3,
+    "pattern_analysis_method": "direct_llm",
+    "interpretation_summary": "## 塔罗占卜解读\n\n### 整体解读\n在11月，你父亲的运势将经历一个从情感反思到内心冲突，再到最终实现物质稳定和成功的过程。尽管中间可能会遭遇一些挑战和争执，但这些都将是通往更加稳定和富足生活的必经之路。\n\n### 位置解读\n\n1. **过去 - 四圣杯**\n   - 四圣杯代表了一段情感上的沉思和不满，可能是你父亲在过去一段时间对现状的不满或是对某些情感机会的忽视。这一时期的反思为当前的局势",
+    "metadata": {
+      "created_at": "2025-11-06T22:08:06.536553",
+      "processing_time_ms": 139935,
+      "pattern_analysis_method": "direct_llm"
+    }
+  },
+  "total_time_ms": 140185,
+  "errors": [],
+  "reading_record": {
+    "id": "737c5cbc-7dab-4937-8d6b-5953303f1896",
+    "question": "我的父亲11月运势如何",
+    "status": "completed",
+    "current_step": "interpretation",
+    "question_domain": "general",
+    "question_complexity": "moderate",
+    "spread_type": "three_card",
+    "significator_card_id": null,
+    "has_pattern_analysis": true,
+    "has_interpretation": true,
+    "created_at": "2025-11-06T22:05:46.60145+00:00"
+  },
+  "cards": [
+    {
+      "id": "8467abad-129c-452d-a3fd-01bed1f58646",
+      "reading_id": "737c5cbc-7dab-4937-8d6b-5953303f1896",
+      "card_id": "867222bd-c3da-4bf9-adaf-786c60ef8601",
+      "position": "past",
+      "is_reversed": false,
+      "position_order": 1,
+      "created_at": "2025-11-06T22:05:51.243143+00:00",
+      "position_description": "过去的影响",
+      "card_selected_at": "2025-11-06T22:05:51.202755+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "197cee0c-88a3-48ba-8af6-4fc8c9edaac3",
+      "reading_id": "737c5cbc-7dab-4937-8d6b-5953303f1896",
+      "card_id": "d148cb52-6b57-4d68-8d19-80c1e2b80142",
+      "position": "present",
+      "is_reversed": false,
+      "position_order": 2,
+      "created_at": "2025-11-06T22:05:51.243143+00:00",
+      "position_description": "当前状况",
+      "card_selected_at": "2025-11-06T22:05:51.202764+00:00",
+      "related_positions": null
+    },
+    {
+      "id": "46726b37-9878-413b-aef6-d178a9f94a42",
+      "reading_id": "737c5cbc-7dab-4937-8d6b-5953303f1896",
+      "card_id": "06c2d91a-8696-4f75-81f9-c0a5e9fa0e3b",
+      "position": "future",
+      "is_reversed": false,
+      "position_order": 3,
+      "created_at": "2025-11-06T22:05:51.243143+00:00",
+      "position_description": "未来趋势",
+      "card_selected_at": "2025-11-06T22:05:51.202766+00:00",
+      "related_positions": null
+    }
+  ]
+}
