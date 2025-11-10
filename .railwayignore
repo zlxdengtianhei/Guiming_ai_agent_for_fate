@@ -1,0 +1,76 @@
+# Railway ignore file - exclude large directories not needed for deployment
+
+# Database images and large files
+database/images/
+database/data/
+database/svg/
+
+# Frontend (deploy separately if needed)
+frontend/
+frontend/node_modules/
+frontend/.next/
+
+# Test files
+test/
+test/result/
+
+# Profile images
+profile/
+
+# Documentation
+docs/
+*.md
+
+# Logs
+*.log
+*.out
+
+# Functions (if not needed)
+functions/
+
+# External dependencies
+external/
+
+# Scripts (not needed for runtime)
+scripts/
+
+# SQL files (already in database)
+sql/
+
+# RAG files (if large)
+rag/
+
+# Git
+.git/
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+
+# Node modules
+node_modules/
+
+# Build artifacts
+.next/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+
