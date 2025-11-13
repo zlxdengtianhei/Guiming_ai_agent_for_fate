@@ -5,7 +5,30 @@
 import axios from 'axios'
 
 // API URL from environment variable, fallback to localhost for development
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+const rawApiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+const API_URL = rawApiUrl.replace(/\/+$/, '') // Remove trailing slashes
+
+// Debug logging (outputs to browser console)
+if (typeof window !== 'undefined') {
+  console.log('='.repeat(60))
+  console.log('[API Client] API Configuration:')
+  console.log('[API Client] NEXT_PUBLIC_API_URL:', process.env.NEXT_PUBLIC_API_URL || '(undefined)')
+  console.log('[API Client] API_URL:', API_URL)
+  console.log('[API Client] NODE_ENV:', process.env.NODE_ENV)
+  console.log('='.repeat(60))
+  
+  if (process.env.NODE_ENV === 'production' && !process.env.NEXT_PUBLIC_API_URL) {
+    console.error('[API Client] WARNING: NEXT_PUBLIC_API_URL not set! Using fallback:', API_URL)
+  }
+  
+  if (process.env.NODE_ENV === 'production' && API_URL.includes('localhost')) {
+    console.error('[API Client] ERROR: API_URL points to localhost in production!')
+  }
+  
+  if (API_URL.includes('guimingaiagentforfate-production')) {
+    console.error('[API Client] ERROR: API_URL contains old domain!')
+  }
+}
 
 export const apiClient = axios.create({
   baseURL: API_URL,
@@ -121,7 +144,9 @@ apiClient.interceptors.response.use(
 
         // 尝试刷新token（使用axios直接调用，避免触发拦截器）
         console.log('[API Interceptor] Calling refresh endpoint...')
-        const refreshResponse = await axios.post(`${API_URL}/api/auth/refresh`, { refresh_token: refreshToken }, {
+        const refreshUrl = `${API_URL}/api/auth/refresh`
+        console.log('[API Interceptor] Refresh URL:', refreshUrl)
+        const refreshResponse = await axios.post(refreshUrl, { refresh_token: refreshToken }, {
           headers: {
             'Content-Type': 'application/json',
           }
@@ -315,7 +340,8 @@ export const authAPI = {
 
   refreshToken: async (refreshToken: string): Promise<SignInResponse> => {
     // 直接使用axios调用，避免触发拦截器
-    const response = await axios.post(`${API_URL}/api/auth/refresh`, { refresh_token: refreshToken }, {
+    const refreshUrl = `${API_URL}/api/auth/refresh`
+    const response = await axios.post(refreshUrl, { refresh_token: refreshToken }, {
       headers: {
         'Content-Type': 'application/json',
       }
@@ -378,14 +404,32 @@ export const tarotAPI = {
       headers['Authorization'] = `Bearer ${token}`
     }
 
-    const response = await fetch(`${API_URL}/api/tarot/reading/stream`, {
+    // Ensure proper URL concatenation (avoid double slashes)
+    const baseUrl = API_URL.replace(/\/+$/, '')
+    const path = '/api/tarot/reading/stream'
+    const streamUrl = `${baseUrl}${path}`
+    
+    // Debug logging (outputs to browser console)
+    if (typeof window !== 'undefined') {
+      console.log('[Tarot API] createReadingStream URL:', streamUrl)
+    }
+
+    const response = await fetch(streamUrl, {
       method: 'POST',
       headers,
       body: JSON.stringify(data),
     })
 
     if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`)
+      const errorText = await response.text().catch(() => 'Unable to read error response')
+      console.error('[Tarot API] createReadingStream failed:', {
+        status: response.status,
+        statusText: response.statusText,
+        url: streamUrl,
+        error: errorText,
+        apiUrl: API_URL
+      })
+      throw new Error(`HTTP error! status: ${response.status}, message: ${errorText}`)
     }
 
     const reader = response.body?.getReader()
