@@ -62,6 +62,18 @@ class Settings(BaseSettings):
         env="CORS_ORIGINS",
         exclude=True  # Don't include in model output
     )
+    
+    def __init__(self, **kwargs):
+        """Initialize settings with debug logging for CORS_ORIGINS"""
+        super().__init__(**kwargs)
+        # Debug: Log environment variable reading
+        import os
+        cors_env = os.getenv("CORS_ORIGINS")
+        if cors_env:
+            print(f"[DEBUG] CORS_ORIGINS from environment: {cors_env}")
+        else:
+            print(f"[DEBUG] CORS_ORIGINS not found in environment, using default")
+        print(f"[DEBUG] Final cors_origins_str value: {self.cors_origins_str}")
     # Frontend URL for email verification links (used in auth routes)
     frontend_url: str = Field(
         default="http://localhost:3000",

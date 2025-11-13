@@ -22,11 +22,14 @@ app = FastAPI(
 )
 
 # Log CORS configuration on startup
+import os
 logger.info("=" * 50)
 logger.info("CORS Configuration:")
-logger.info(f"  CORS_ORIGINS env var: {settings.cors_origins_str}")
+logger.info(f"  CORS_ORIGINS from os.getenv: {os.getenv('CORS_ORIGINS', 'NOT FOUND')}")
+logger.info(f"  CORS_ORIGINS from settings: {settings.cors_origins_str}")
 logger.info(f"  Parsed CORS origins: {settings.cors_origins}")
 logger.info(f"  Frontend URL: {settings.frontend_url}")
+logger.info(f"  All env vars with 'CORS': {[k for k in os.environ.keys() if 'CORS' in k.upper()]}")
 logger.info("=" * 50)
 
 # Configure CORS
