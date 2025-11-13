@@ -4,10 +4,8 @@
 
 import axios from 'axios'
 
-// 临时硬编码用于修复 CORS 和 405 错误
-// 直接硬编码，忽略环境变量（因为 Vercel 环境变量可能还是旧值）
-const API_URL = 'https://guimingaiagentforfate-production.up.railway.app'
-// TODO: 修复 Vercel 环境变量后，恢复为: const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+// API URL from environment variable, fallback to localhost for development
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
 
 export const apiClient = axios.create({
   baseURL: API_URL,
