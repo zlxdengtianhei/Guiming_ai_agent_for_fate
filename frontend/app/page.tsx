@@ -104,6 +104,21 @@ function HomePageContent() {
     }
   }, [])
 
+  // 追踪状态变化和渲染条件
+  useEffect(() => {
+    const timestamp = new Date().toISOString()
+    const shouldShowStatusCard = currentStep === 'question_analysis' && displayedCards.length === 0
+    const shouldShowCardsComponent = currentStep === 'cards_selected' || currentStep === 'pattern_analyzed' || currentStep === 'rag_retrieved' || displayedCards.length > 0
+    
+    console.log('🎨 [渲染检查]', timestamp, {
+      currentStep,
+      displayedCardsLength: displayedCards.length,
+      cardsLength: cards.length,
+      shouldShowStatusCard,
+      shouldShowCardsComponent,
+    })
+  }, [currentStep, displayedCards.length, cards.length])
+
   // 检测用户是否手动滚动了解读文本框
   const handleInterpretationScroll = (e: React.UIEvent<HTMLDivElement>) => {
     const target = e.currentTarget
@@ -207,7 +222,12 @@ function HomePageContent() {
     const trimmedQuestion = question.trim()
     if (!trimmedQuestion) return
 
+    const submitStartTime = new Date().toISOString()
+    console.log('🚀 [开始占卜]', submitStartTime, { question: trimmedQuestion })
+
     // 重置状态
+    const beforeReset = new Date().toISOString()
+    console.log('🔄 [重置状态]', beforeReset)
     setCurrentStep('question_analysis')
     setError(null)
     setCards([])
@@ -255,6 +275,13 @@ function HomePageContent() {
       // 根据URL参数或默认值确定占卜方式
       const finalSpread = selectedSpread || 'auto'
       
+      // 如果用户从URL参数选择了占卜方式（selectedSpread不为null），则不传递preferred_spread
+      // 这样可以避免污染用户的偏好设置
+      const shouldUseUserPreference = !selectedSpread
+      
+      const beforeStreamCall = new Date().toISOString()
+      console.log('📡 [调用流式API]', beforeStreamCall, { finalSpread, shouldUseUserPreference })
+      
       await tarotAPI.createReadingStream(
         {
           question: trimmedQuestion,
@@ -266,14 +293,17 @@ function HomePageContent() {
             zodiac_sign: profile.zodiac_sign,
             personality_type: profile.personality_type,
             preferred_source: profile.preferred_source,
-            preferred_spread: profile.preferred_spread,
+            // 只有当用户没有从URL参数选择占卜方式时，才传递preferred_spread
+            // 这样可以避免临时选择污染用户的偏好设置
+            preferred_spread: shouldUseUserPreference ? profile.preferred_spread : undefined,
             language: profile.language,
             significator_priority: profile.significator_priority,
           } : undefined,
         },
         (step, data) => {
           // 处理进度更新
-          console.log('📊 [进度更新]', new Date().toISOString(), step, data)
+          const timestamp = new Date().toISOString()
+          console.log('📊 [进度更新]', timestamp, step, data)
           
           // 处理流式意象描述（不更新currentStep）
           if (step === 'imagery_chunk' && data.text) {
@@ -288,9 +318,21 @@ function HomePageContent() {
             return
           }
           
+          // 忽略 started 事件，不更新 currentStep（保持 question_analysis 状态）
+          if (step === 'started') {
+            console.log('⏭️ [忽略事件] started - 保持当前状态', timestamp)
+            return
+          }
+          
+          // 记录状态变化
+          const prevStep = currentStep
+          console.log(`🔄 [状态变化] ${prevStep} -> ${step}`, timestamp)
           setCurrentStep(step as ReadingStep)
           
           if (step === 'cards_selected' && (data.selected_cards || data.cards)) {
+            const cardsSelectedTime = new Date().toISOString()
+            console.log('🎴 [cards_selected] 开始处理', cardsSelectedTime)
+            
             // 更新卡牌数据
             const cardList = data.selected_cards || data.cards || []
             console.log('🎴 [cards_selected] 收到卡牌数据:', cardList.length, '张')
@@ -304,6 +346,9 @@ function HomePageContent() {
               image_url: card.image_url,
             }))
             console.log('🎴 [cards_selected] 处理后的卡牌数据:', cardData.map(c => `${c.card_name_cn || c.card_name_en}(${c.position_order})`))
+            
+            const beforeSetCards = new Date().toISOString()
+            console.log('🎴 [cards_selected] 准备设置cards状态', beforeSetCards)
             setCards(cardData)
             
             // 确定占卜方式
@@ -317,9 +362,15 @@ function HomePageContent() {
             
             // 立即显示第一张牌
             if (cardData.length > 0) {
-              console.log('🎴 [cards_selected] 立即显示第一张牌')
+              const beforeSetDisplayed = new Date().toISOString()
+              console.log('🎴 [cards_selected] 准备设置displayedCards状态（第一张牌）', beforeSetDisplayed)
               setDisplayedCards([cardData[0]])
+              const afterSetDisplayed = new Date().toISOString()
+              console.log('🎴 [cards_selected] 已调用setDisplayedCards', afterSetDisplayed)
             }
+            
+            const cardsSelectedEndTime = new Date().toISOString()
+            console.log('🎴 [cards_selected] 处理完成', cardsSelectedEndTime)
           } else if (step === 'rag_retrieved') {
             // RAG检索完成，准备开始生成意象描述
             console.log('📊 [rag_retrieved] RAG检索完成，准备生成意象描述')
@@ -523,14 +574,17 @@ function HomePageContent() {
                         className="ml-2 text-sm text-amber-300/70 hover:text-amber-300"
                         onClick={() => setShowTarotExplanation(!showTarotExplanation)}
                       >
-                        {showTarotExplanation ? '收起说明' : '查看说明'}
+                        {showTarotExplanation ? t('hideExplanation') : t('viewExplanation')}
                       </Button>
                     </CardDescription>
                     {showTarotExplanation && (
                       <Alert variant="info" className="text-left mt-4 animate-fadeIn">
-                        <p className="font-bold">塔罗占卜可以做什么？</p>
+                        <p className="font-bold">{t('tarotExplanationTitle')}</p>
                         <p className="text-sm">
-                          塔罗占卜可以帮助你探索生活中的各种问题，比如爱情、事业、学业、人际关系等。它通过牌面的象征意义，为你提供一个全新的视角来审视现状，并揭示未来发展的可能性。塔罗并非预测绝对的未来，而是为你提供指引和启发，帮助你更好地了解自己，从而做出更明智的决定。
+                          {t('tarotExplanationContent')}
+                        </p>
+                        <p className="text-sm mt-3 text-purple-300">
+                          {t('tarotExplanationProfileTip')}
                         </p>
                       </Alert>
                     )}
@@ -588,10 +642,14 @@ function HomePageContent() {
                 </Alert>
               )}
 
-              {/* 状态显示 - 只在没有卡牌时显示 */}
-              {(currentStep === 'question_analysis' || 
-                (currentStep === 'cards_selected' && displayedCards.length === 0) ||
-                (currentStep === 'pattern_analyzed' && displayedCards.length === 0)) && (
+              {/* 状态显示 - 只在分析问题阶段且没有卡牌组件时显示 */}
+              {(() => {
+                const shouldShow = currentStep === 'question_analysis' && displayedCards.length === 0
+                if (shouldShow) {
+                  console.log('🎨 [渲染] 状态显示卡片 - 显示', new Date().toISOString(), { currentStep, displayedCardsLength: displayedCards.length })
+                }
+                return shouldShow
+              })() && (
                 <Card variant="glow" glowColor="purple" className="w-full">
                   <CardContent className="p-6 text-center">
                     <div className="flex flex-col items-center justify-center gap-4">
@@ -602,25 +660,37 @@ function HomePageContent() {
                 </Card>
               )}
 
-              {/* 卡牌展示 */}
-              {(displayedCards.length > 0 || currentStep === 'cards_selected' || currentStep === 'pattern_analyzed' || currentStep === 'rag_retrieved') && (
+              {/* 卡牌展示 - 一旦达到cards_selected就立即显示 */}
+              {(() => {
+                const shouldShow = currentStep === 'cards_selected' || currentStep === 'pattern_analyzed' || currentStep === 'rag_retrieved' || displayedCards.length > 0
+                if (shouldShow) {
+                  console.log('🎨 [渲染] 卡牌组件 - 显示', new Date().toISOString(), { 
+                    currentStep, 
+                    displayedCardsLength: displayedCards.length,
+                    cardsLength: cards.length,
+                    condition: currentStep === 'cards_selected' ? 'cards_selected' : 
+                               currentStep === 'pattern_analyzed' ? 'pattern_analyzed' :
+                               currentStep === 'rag_retrieved' ? 'rag_retrieved' : 'displayedCards > 0'
+                  })
+                }
+                return shouldShow
+              })() && (
                 <Card variant="glow" glowColor="purple" className="w-full relative overflow-hidden hover:shadow-[0_0_20px_rgba(124,58,237,0.3),0_0_20px_rgba(34,197,94,0.2)]" style={{
                   backgroundImage: 'url(/database/images/background/backgroud3.png)',
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundRepeat: 'no-repeat',
+                  // 从一开始就确定容器高度，根据占卜类型
+                  // 优先使用已确定的spreadType，否则使用URL参数selectedSpread，最后默认三牌占卜
+                  // 组件内部会根据实际布局计算精确高度，这里设置一个合理的最小值
+                  minHeight: (spreadType === 'celtic_cross' || selectedSpread === 'celtic_cross') ? '400px' : '250px',
                 }}>
                   <div className="absolute inset-0 bg-[var(--bg-secondary)]/60 backdrop-blur-[1px]"></div>
                   <div className="relative z-10">
                     <CardHeader className="text-center">
-                      <CardTitle className="text-2xl flex items-center justify-center gap-2">
+                      <CardTitle className="text-2xl">
                         {t('selectedCards') || '抽取的卡牌'}
-                      {/* 在抽取/分析卡牌时显示加载动画 - 即使有部分卡牌显示，如果还在处理中也要显示 */}
-                      {((currentStep === 'cards_selected' || currentStep === 'pattern_analyzed' || currentStep === 'rag_retrieved') && 
-                        (displayedCards.length === 0 || (cards.length > 0 && displayedCards.length < cards.length))) && (
-                        <TarotLoader size="sm" />
-                      )}
-                    </CardTitle>
+                      </CardTitle>
                   </CardHeader>
                   <CardContent className="flex justify-center relative pb-4">
                     {displayedCards.length > 0 ? (

@@ -20,13 +20,14 @@ export default function ProfilePage() {
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState('')
   const [success, setSuccess] = useState('')
+  const [showGuide, setShowGuide] = useState(false)
 
   const [formData, setFormData] = useState<UserProfileCreate>({
     age: undefined,
     gender: '',
     zodiac_sign: '',
     personality_type: '',
-    preferred_source: 'pkt',
+    preferred_source: 'both',
     preferred_spread: '',
     language: 'zh',
     significator_priority: 'question_first',
@@ -40,7 +41,7 @@ export default function ProfilePage() {
         gender: profile.gender || '',
         zodiac_sign: profile.zodiac_sign || '',
         personality_type: profile.personality_type || '',
-        preferred_source: profile.preferred_source || 'pkt',
+        preferred_source: 'both',
         preferred_spread: profile.preferred_spread || '',
         language: profile.language || 'zh',
         significator_priority: profile.significator_priority || 'question_first',
@@ -94,6 +95,17 @@ export default function ProfilePage() {
               <CardTitle className="text-3xl font-bold bg-gradient-to-r from-purple-300 via-amber-300 to-purple-300 bg-clip-text text-transparent">
                 {t('profilePage')}
               </CardTitle>
+              <div className="mt-4">
+                <Button
+                  type="button"
+                  variant="mystical"
+                  size="sm"
+                  onClick={() => setShowGuide(true)}
+                  className="mx-auto"
+                >
+                  {t('viewGuide')}
+                </Button>
+              </div>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-8">
@@ -184,6 +196,7 @@ export default function ProfilePage() {
                       </select>
                     </div>
 
+                    {/* 
                     <div>
                       <label className="block text-sm font-medium mb-2 text-[var(--text-secondary)]">
                         {t('preferredSource')}
@@ -197,7 +210,7 @@ export default function ProfilePage() {
                         <option value="78degrees">{t('degrees78')}</option>
                         <option value="both">{t('both')}</option>
                       </select>
-                    </div>
+                    </div> */}
 
                     <div>
                       <label className="block text-sm font-medium mb-2 text-[var(--text-secondary)]">
@@ -275,6 +288,129 @@ export default function ProfilePage() {
           </Card>
         </Container>
       </div>
+
+      {/* Profile Guide Modal */}
+      {showGuide && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
+          <div className="relative w-full max-w-3xl max-h-[90vh] overflow-y-auto bg-[var(--bg-primary)] rounded-2xl border border-purple-500/30 shadow-2xl">
+            {/* Close button */}
+            <button
+              onClick={() => setShowGuide(false)}
+              className="sticky top-4 right-4 float-right z-10 p-2 rounded-full bg-purple-500/20 hover:bg-purple-500/30 transition-colors"
+              aria-label="Close"
+            >
+              <svg className="w-6 h-6 text-purple-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+
+            <div className="p-8 space-y-6">
+              {/* Title */}
+              <div className="text-center mb-8">
+                <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-300 via-amber-300 to-purple-300 bg-clip-text text-transparent mb-2">
+                  {t('guideTitle')}
+                </h2>
+                <p className="text-purple-200/80 text-lg">
+                  {t('guideIntro')}
+                </p>
+              </div>
+
+              {/* Section 1: Significator */}
+              <div className="space-y-3">
+                <h3 className="text-xl font-semibold text-amber-300 flex items-center gap-2">
+                  <span className="text-2xl">🎴</span>
+                  {t('guideSignificatorTitle')}
+                </h3>
+                <p className="text-purple-100/90 leading-relaxed pl-8">
+                  {t('guideSignificatorDesc')}
+                </p>
+                <ul className="list-disc list-inside space-y-2 pl-8 text-purple-100/80">
+                  <li>{t('guideSignificatorMale')}</li>
+                  <li>{t('guideSignificatorFemale')}</li>
+                </ul>
+                <p className="text-purple-100/70 italic pl-8">
+                  {t('guideSignificatorPurpose')}
+                </p>
+              </div>
+
+              {/* Section 2: Zodiac */}
+              <div className="space-y-3">
+                <h3 className="text-xl font-semibold text-amber-300 flex items-center gap-2">
+                  <span className="text-2xl">⭐</span>
+                  {t('guideZodiacTitle')}
+                </h3>
+                <p className="text-purple-100/90 leading-relaxed pl-8">
+                  {t('guideZodiacDesc')}
+                </p>
+              </div>
+
+              {/* Section 3: Spread Methods */}
+              <div className="space-y-3">
+                <h3 className="text-xl font-semibold text-amber-300 flex items-center gap-2">
+                  <span className="text-2xl">🔮</span>
+                  {t('guideSpreadTitle')}
+                </h3>
+                <ul className="list-disc list-inside space-y-2 pl-8 text-purple-100/80">
+                  <li>{t('guideSpreadThree')}</li>
+                  <li>{t('guideSpreadCeltic')}</li>
+                </ul>
+                <p className="text-purple-100/70 italic pl-8">
+                  {t('guideSpreadChoice')}
+                </p>
+              </div>
+
+              {/* Section 4: Personality Types */}
+              <div className="space-y-3">
+                <h3 className="text-xl font-semibold text-amber-300 flex items-center gap-2">
+                  <span className="text-2xl">👤</span>
+                  {t('guidePersonalityTitle')}
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4 pl-8">
+                  <div className="space-y-1">
+                    <p className="font-semibold text-purple-200">{t('guideWandsTitle')}</p>
+                    <p className="text-purple-100/80 text-sm">{t('guideWandsDesc')}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="font-semibold text-purple-200">{t('guideCupsTitle')}</p>
+                    <p className="text-purple-100/80 text-sm">{t('guideCupsDesc')}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="font-semibold text-purple-200">{t('guideSwordsTitle')}</p>
+                    <p className="text-purple-100/80 text-sm">{t('guideSwordsDesc')}</p>
+                  </div>
+                  <div className="space-y-1">
+                    <p className="font-semibold text-purple-200">{t('guidePentaclesTitle')}</p>
+                    <p className="text-purple-100/80 text-sm">{t('guidePentaclesDesc')}</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Conclusion */}
+              <div className="space-y-3 pt-4 border-t border-purple-500/30">
+                <h3 className="text-xl font-semibold text-amber-300 flex items-center gap-2">
+                  <span className="text-2xl">✨</span>
+                  {t('guideConclusionTitle')}
+                </h3>
+                <p className="text-purple-100/90 leading-relaxed pl-8">
+                  {t('guideConclusionDesc')}
+                </p>
+              </div>
+
+              {/* Close button at bottom */}
+              <div className="flex justify-center pt-6">
+                <Button
+                  type="button"
+                  variant="mystical"
+                  onClick={() => setShowGuide(false)}
+                  className="px-8"
+                >
+                  {t('closeGuide')}
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </Sidebar>
     </ProtectedRoute>
   )
